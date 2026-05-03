@@ -1,0 +1,415 @@
+{
+  "page": {
+    "eyebrow": "PROFESSIONS AND PRODUCTION",
+    "title": "The Backbone of Quinfall's Economy",
+    "description": "Professions are the second half of Quinfall. Between the player swinging a pickaxe and the one baking bread there's only a workbench — but the right chain of professions is what climbs you up the wealth ladder."
+  },
+  "stats": {
+    "professions": "Professions",
+    "recipes": "Recipes",
+    "workbench": "Workbench Tier"
+  },
+  "hero": {
+    "title": "Quinfall's Production Heart",
+    "subtitle": "5 gathering trades, 5 processing benches, 7 crafting professions — 836 verified recipes total. Which bench builds what, when each profession unlocks T2/T3, and which tool tier opens which node — all here."
+  },
+  "tools": {
+    "kicker": "GATHERING TOOLS",
+    "title":  "5 Tool Families · 3 Quality Tiers",
+    "subtitle": "Every gathering profession has its own tool. Higher tier tools harvest higher-grade nodes and improve rare-drop chance.",
+    "tiers":  { "basic": "Basic", "sturdy": "Sturdy", "advanced": "Advanced" },
+    "families": {
+      "axe":          { "name": "Axe",          "feeds": "Logging",   "body": "Felling logs from trees. Sturdy axe reaches mid-tier hardwoods, advanced axe unlocks rare species (elm, ebony)." },
+      "pickaxe":      { "name": "Pickaxe",      "feeds": "Mining",    "body": "Strikes ore veins. Copper/iron with basic, silver/gold with sturdy, mithril veins need the advanced pickaxe." },
+      "sickle":       { "name": "Sickle",       "feeds": "Harvesting","body": "Harvests hemp, herbs and wild plants. Top-tier sickle reaches rare alchemy reagents and magic herbs." },
+      "fishingRod":   { "name": "Fishing Rod",  "feeds": "Fishing",   "body": "River, lake and sea catches plus rare relics. Sturdy rod hits sea fish, advanced rod opens underwater relics." },
+      "huntingKnife": { "name": "Hunting Knife","feeds": "Hunting",   "body": "Skins game — fur, raw hide, meat and bone. Advanced knife pushes rare-fur drop chance much higher." }
+    }
+  },
+  "flow": {
+    "kicker": "PRODUCTION CHAINS",
+    "title":  "From Raw to Finished — 7 Chains",
+    "subtitle": "Three links each: Gather → Process → Craft. Run the whole chain solo or buy/sell links from other players.",
+    "family": { "gather": "Gather", "process": "Process", "craft": "Craft" },
+    "chains": {
+      "metal":   { "name": "Metal Chain",   "body": "Mine the ore, smelt it into ingots, forge weapons or armour at the smithy." },
+      "wood":    { "name": "Wood Chain",    "body": "Fell logs in the forest, mill them into planks at the sawmill, make furniture or hafts at the carpenter." },
+      "leather": { "name": "Leather Chain", "body": "Skin a hunt, tan the hide into leather, cut light armour or harnesses at the tailor." },
+      "fabric":  { "name": "Fabric Chain",  "body": "Pick wild hemp fibre, spin it into thread on a wheel, sew robes or mage outfits at the tailor." },
+      "food":    { "name": "Food Chain",    "body": "Catch fish or prep game, take it to the cook's bench, bake group buff feasts." },
+      "gem":     { "name": "Gem Chain",     "body": "Mine rough gems, polish them at the cutting bench, set them into rings/earrings/necklaces at the jeweller." },
+      "essence": { "name": "Essence Chain", "body": "Gather raw essence in the wild, distill into element essence at the refiner, brew potions or spells at the alchemist." }
+    }
+  },
+  "milestones": {
+    "kicker":   "PROFESSION MILESTONES",
+    "title":    "What Unlocks at Which Level",
+    "subtitle": "Threshold levels you should mark across all professions — miss one and your production chain stalls.",
+    "list": {
+      "t1Open":     { "tag": "START",      "body": "Every profession reaches its T1 bench the moment your character spawns. Spam cheap recipes for fast XP." },
+      "t2Combat":   { "tag": "T2 COMBAT",  "body": "Smithing / Tailoring T2 unlocks — stronger weapons and armour sets." },
+      "t2Alchemy":  { "tag": "T2 ALCHEMY", "body": "Alchemy T2: buff potions and elemental potions hit the market." },
+      "t2Smelt":    { "tag": "T2 SMELT",   "body": "Smelting + Carpentry T2 furnace opens — work silver/gold and build heavy furniture." },
+      "t3Smith":    { "tag": "T3 SMITHY",  "body": "Smithing / Tailoring T3 — endgame recipes, the season meta gear is forged here." },
+      "t2Gem":      { "tag": "T2 JEWELRY", "body": "Jewelry / Gem Cutting T2 — socketed jewelry recipes; the real market starts here." },
+      "t3Cook":     { "tag": "T3 COOKING", "body": "Cooking / Carpentry / Smelting T3 — group raid feasts and mithril gear." },
+      "sturdyTool": { "tag": "ADVANCED TOOL", "body": "Lvl 50 advanced tool tier — top rare-drop chance from any node." },
+      "t3Cap":      { "tag": "T3 CAP",     "body": "Cooking and Jewelry T3 final recipes unlock." },
+      "t3Jewel":    { "tag": "T3 JEWELRY", "body": "Jewelry top tier — endgame talismans and set jewelry are crafted." }
+    }
+  },
+  "workbench": {
+    "kicker": "WORKBENCH TIERS",
+    "title": "T1, T2, T3 — The Three Workbench Grades",
+    "subtitle": "As you level a profession, higher-tier workbenches unlock with new recipes, better outputs and longer craft times.",
+    "tiers": {
+      "t1": {
+        "label": "STARTER",
+        "headline": "Basic Bench — Open at Lvl 1",
+        "body": "Available the moment your character spawns. Use the city's shared bench for free or place your own on personal land.",
+        "bullets": [
+          "Works with copper, iron, hemp, raw meat — every starter material",
+          "Short craft times (3–24 s) and low XP — ideal for fast leveling",
+          "Every profession starts at T1; the prerequisite for higher tiers"
+        ]
+      },
+      "t2": {
+        "label": "MID-TIER",
+        "headline": "Improved Bench — Profession Lvl 9–20",
+        "body": "Unlocks between profession levels 9 and 20 depending on the trade. Better gear, stronger potions, higher market prices.",
+        "bullets": [
+          "Smithing / Tailoring at 9, Carpentry / Smelting at 20, Alchemy at 15",
+          "Craft time 2–3× longer, but XP scales with it",
+          "Building a T2 bench needs T1 outputs + the profession-level gate"
+        ]
+      },
+      "t3": {
+        "label": "MASTER",
+        "headline": "Master Bench — Endgame Production",
+        "body": "Where the season meta is built. Recipes drop from rare books, materials travel by caravan, prices top the market.",
+        "bullets": [
+          "Smithing 21, Carpentry / Smelting 40, Cooking 60, Jewelry 60",
+          "80–180 s per craft, but max stats and seasonal meta gear",
+          "Master benches need a large estate — guild membership recommended"
+        ]
+      }
+    }
+  },
+  "matrix": {
+    "kicker":   "PROFESSION MATRIX",
+    "title":    "15 Professions, T1·T2·T3 Thresholds",
+    "subtitle": "Recipe count, level range and tier-unlock level per profession — computed straight from items.json",
+    "familyAll": "All",
+    "family": {
+      "gathering":  "Gathering",
+      "processing": "Processing",
+      "crafting":   "Crafting",
+      "workbench":  "Workbench"
+    },
+    "stats": {
+      "recipes":      "Recipes",
+      "recipesShort": "recipes",
+      "levelRange":   "Level",
+      "tiers":        "Tiers"
+    },
+    "unlock": "Unlocks at Lvl {{level}}"
+  },
+  "professionsList": {
+    "fishing":      { "name": "Fishing",        "tagline": "Freshwater · Saltwater · Rare relics",  "body": "Rod + river/sea coordinates + patience. Cooking's raw feeder; rare relics are the market goldmine." },
+    "mining":       { "name": "Mining",         "tagline": "Pickaxe + ore vein",                    "body": "Pulls ore from deposits — copper, iron, silver, gold, mithril. The starting link for smelting and jewelry chains." },
+    "harvesting":   { "name": "Harvesting",     "tagline": "Sickle + wild flora",                   "body": "Hemp fibre, herbs and alchemy reagents. Shared feeder for spinning, alchemy and cooking." },
+    "hunting":      { "name": "Hunting",        "tagline": "Knife + raw hide",                      "body": "Skins game for hide, fur, meat and bone. Raw input for tanning and a meat source for cooking." },
+    "logging":      { "name": "Logging",         "tagline": "Logs into planks",                       "body": "Turns gathered logs into planks, hafts, grips and arrow shafts. Foundation feed for blacksmithing and carpentry." },
+    "smelting":     { "name": "Smelting",        "tagline": "Ore into ingots",                        "body": "Refines raw ore into usable ingots at high heat. Core supply for blacksmithing and jewelry." },
+    "tanning":      { "name": "Tanning",         "tagline": "Hide into leather",                      "body": "Converts a hunter's raw hide into usable leather. Essential for tailoring and carpentry." },
+    "spinning":     { "name": "Spinning",        "tagline": "Hemp fibre → thread",                    "body": "Spins wild-grown hemp fibre into thread. The raw material for tailoring; uses the spinning wheel." },
+    "gemcutting":   { "name": "Gem Cutting",     "tagline": "Rough gem → socketable jewel",           "body": "Cuts and polishes raw gems from mining. Provides socket material for jewelry and engineering." },
+    "essence-refining": { "name": "Essence Refining", "tagline": "Raw essence → element essence",     "body": "Distills raw essences from gathering. The quiet partner of alchemy and engineering." },
+    "cooking":      { "name": "Cooking",         "tagline": "The buffed player wins",                 "body": "Turns meat, fish, vegetables and spices into group feasts. Temporary stat buffs are critical in PvE/PvP." },
+    "alchemy":      { "name": "Alchemy",         "tagline": "Power from a vial",                      "body": "Plant + essence + rare components → potions, elixirs and magic reagents. Demand peaks on PvP days." },
+    "blacksmithing":{ "name": "Blacksmithing",   "tagline": "231 weapon/armor recipes",               "body": "Ingot + haft makes a weapon. The studio's most visible profession; the season meta blacksmith dominates the market." },
+    "tailoring":    { "name": "Tailoring",       "tagline": "Thread + leather → robe & light armor",  "body": "Makes mage and ranger armor. Fed by spinning and tanning; high sale margins." },
+    "carpentry":    { "name": "Carpentry",       "tagline": "Furniture + plank work",                 "body": "Home furniture, storage chests, workbench frames. The backbone of the housing system." },
+    "engineering":  { "name": "Engineering",     "tagline": "Traps · Catapults · Siege weapons",      "body": "Builds siege gear for guild war. Survives off trap sales between siege seasons." },
+    "jewelcrafting":{ "name": "Jewelry",         "tagline": "Rings · Necklaces · Bracelets · Earrings","body": "Small slots, big effects. Pairs with gem cutting; top tier opens at lvl 60–70." }
+  },
+  "families": {
+    "all": "All",
+    "crafting": "Crafting",
+    "gathering": "Gathering",
+    "land": "Land & Husbandry",
+    "caravan": "Trade & Caravans",
+    "other": "Other"
+  },
+  "labels": {
+    "feedsInto": "Feeds into",
+    "needs": "Needs",
+    "needsNothing": "Doesn't depend on raw materials",
+    "feedsNothing": "Sell the output directly",
+    "bestPair": "Best pair",
+    "income": "Income",
+    "pace": "Pace",
+    "difficulty": "Difficulty",
+    "startup": "Startup cost"
+  },
+  "details": {
+    "openLabel": "Open Details",
+    "outputs": "Outputs",
+    "leveling": "How to level",
+    "moneyTip": "Money tip"
+  },
+  "income": {
+    "low": "Low",
+    "mid": "Mid",
+    "high": "High",
+    "top": "Top tier"
+  },
+  "pace": {
+    "slow": "Slow",
+    "steady": "Steady",
+    "fast": "Fast"
+  },
+  "professions": {
+    "alchemy": {
+      "name": "Alchemy",
+      "tagline": "Power straight from the bottle",
+      "summary": "Combine herbs, essences and rare reagents into potions, elixirs and arcane tinctures. Healing and buff potions are mandatory in PvE; in PvP, you're the one running the market.",
+      "outputs": "Health potions, mana potions, temporary stat-buff elixirs, revive draughts, antitoxins.",
+      "leveling": "At low level batch-craft cheap heals — they pay your tuition. At mid-tier shift to buff elixirs for margin. For top recipes walk hand-in-hand with essence-refining.",
+      "moneyTip": "On heavy PvP days buff demand spikes. Measure your hourly output and ride the demand curve."
+    },
+    "cooking": {
+      "name": "Cooking",
+      "tagline": "Players who eat buffs are happy players",
+      "summary": "Meat, fish, vegetables, spice — turn it all into a banquet. Food gives temporary stat boosts; you're the most-wanted bench at the raid door.",
+      "outputs": "Single-stat meals, multi-buff banquets, fast-bite snacks, caravan rations.",
+      "leveling": "Spam single-stat meals like meat-and-bread early. At 30+ shift to banquets that feed half a party at once. Pair with a farmer to halve your gathering load.",
+      "moneyTip": "Demand explodes the day a boss raid is announced. Schedule production around the raid calendar."
+    },
+    "smelting": {
+      "name": "Smelting",
+      "tagline": "Ore into ingots, dreams into weapons",
+      "summary": "Take raw ore from the mine and pour it into ingots at heat. The base feed for blacksmithing and jewelcrafting; thin margin solo, but you sit at the start of the chain.",
+      "outputs": "Iron, steel, silver, gold and mithril ingots.",
+      "leveling": "Level mining first — supplying your own ore doubles your real margin. Smelt one ore type at a time in big batches for steady XP flow.",
+      "moneyTip": "Per-ingot profit is small but throughput is high. Sell in bulk; this is volume work, not boutique."
+    },
+    "woodcrafting": {
+      "name": "Woodcrafting",
+      "tagline": "From log to component",
+      "summary": "Refine raw logs into planks, hafts, grips and arrow shafts. Non-negotiable feed for blacksmithing and carpentry.",
+      "outputs": "Planks, weapon hafts, arrow shafts, furniture frames.",
+      "leveling": "Crafting hafts is the cheapest XP early. At top tier head deep into the woods for rare species — elm, ebony — and run a caravan back.",
+      "moneyTip": "Sell direct to a smith in bulk. Market prices wobble; a smith partnership locks in steady income."
+    },
+    "engineering": {
+      "name": "Engineering",
+      "tagline": "Machines for the siege, traps for the war",
+      "summary": "Design mechanisms, traps, siege engines and caravan defense. Not a solo craft — leans on smelting, woodcrafting and gemcutting. But in a castle siege, the catapult crew gets paid.",
+      "outputs": "Traps, ballistas, siege engines, automated rigs, gate-breakers.",
+      "leveling": "Start with simple traps. As you approach top tier, guild and seasonal sieges put catapult demand at the very top of the market.",
+      "moneyTip": "One catapult during a siege season can pay for a year. In off-season, run trap orders to keep the lights on."
+    },
+    "blacksmithing": {
+      "name": "Blacksmithing",
+      "tagline": "The bench every weapon hand passes",
+      "summary": "Ingots and hafts become weapons. The most visible profession in the game — the sword on someone's back is your signature. A top-tier smith makes the season's meta weapon.",
+      "outputs": "One-handed and two-handed weapons, heavy armor sets, shields, war hammers.",
+      "leveling": "Grind cheap starter weapons for XP, then move to commissioned orders at 30+. Owning the mining + smelting chain end-to-end multiplies your margin.",
+      "moneyTip": "Patches shift the meta. The smith who stocks the new meta weapon at season open eats orders for days."
+    },
+    "jewelcrafting": {
+      "name": "Jewelcrafting",
+      "tagline": "Small slot, large bonus",
+      "summary": "Rings, necklaces, earrings, bracelets — small slots, large effects. Walks side by side with gemcutting; every piece comes with one or two sockets.",
+      "outputs": "Rings, necklaces, earrings, bracelets, talismans.",
+      "leveling": "Single-stat trinkets early. Double-socket recipes open at 50+ — the real market starts there.",
+      "moneyTip": "Partner with a gemcutter; together you reach the top margin tier."
+    },
+    "gemcutting": {
+      "name": "Gemcutting",
+      "tagline": "Light captured in a socket",
+      "summary": "Cut and polish raw gems from the mine into socket-ready stones. The quiet partner of jewelcrafting and engineering.",
+      "outputs": "Socket-ready ruby, sapphire, emerald, opal, diamond — each tuned to a different stat.",
+      "leveling": "Batch one gem type, keep the bench warm. At top tier, special cuts (oval, marquise) push extra stats.",
+      "moneyTip": "Top-tier cuts run the meta in PvP builds. Right gem + right cut is the final stamp on every endgame piece."
+    },
+    "essence-refining": {
+      "name": "Essence Refining",
+      "tagline": "Where the unseen gets purified",
+      "summary": "Distill raw essences from gathering professions into the bedrock feed for alchemy and engineering. Quiet, but a critical link in the chain.",
+      "outputs": "Magic dust, mana essence, elemental essences, upgrade reagents.",
+      "leveling": "Spam basic essence recipes early. At mid-tier shift to elemental essences (fire, frost, storm) — that's where alchemists start lining up.",
+      "moneyTip": "Elemental essence depends on recipe books. Whoever guards recipe access can monopolize the market."
+    },
+    "leatherworking": {
+      "name": "Leatherworking",
+      "tagline": "The hunter's bag fills here",
+      "summary": "Take hunter's hides, tan and stitch them into light armor, bags, sheaths and belts. Your signature is on every survivor's back.",
+      "outputs": "Light armor sets, bags, weapon sheaths, belts, gloves.",
+      "leveling": "Bag size is what every player buys in their first 50 hours — spam starter bags, XP and income flow side by side.",
+      "moneyTip": "Two or three bags per new player is guaranteed. On a fresh server, leatherworking is the fastest profession to break even."
+    },
+    "thread-weaving": {
+      "name": "Thread Weaving",
+      "tagline": "The first stop on the way to cloth",
+      "summary": "Spin fibers from harvesters into thread. Non-negotiable feed for tailoring; you don't get rich on direct sales — you get rich in partnership with a tailor.",
+      "outputs": "Cotton thread, linen thread, silk, arcane-laced thread.",
+      "leveling": "Batch one fiber at a time. Arcane-laced thread unlocks at 50+ and prices multiply there.",
+      "moneyTip": "Sign a long-term swap deal with a tailor — locks in your day's output and shields you from market noise."
+    },
+    "tailoring": {
+      "name": "Tailoring",
+      "tagline": "The power behind the robe",
+      "summary": "Thread to cloth, cloth to robes, cloaks and caster armor. The non-negotiable supplier for staff and life-staff players.",
+      "outputs": "Robes, cloaks, cloth armor, caster hats, mage hoods.",
+      "leveling": "Spam basic robes at low tier. At 40+ elemental-resist cloth opens — mandatory for any raid healer.",
+      "moneyTip": "Lifestaff numbers spike in raid season. Tailoring carries gravity in those weeks."
+    },
+    "carpentry": {
+      "name": "Carpentry",
+      "tagline": "A house with character is worth more",
+      "summary": "Furniture, structural pieces, decorative builds. Player housing demand is steady; a good carpenter is the soft, reliable winner of the market.",
+      "outputs": "Chairs, tables, cupboards, shelves, decor pieces, guild-hall components.",
+      "leveling": "Start with chair-and-table sets. At 30+ rare wood species unlock signature recipes.",
+      "moneyTip": "Guild halls and player housing are the steady demand. Carpenters always have buyers."
+    },
+    "logging": {
+      "name": "Logging",
+      "tagline": "The axe-fall sound at the heart of the economy",
+      "summary": "Walk into the forest, fell the tree, drag the log. Low startup, high demand — the textbook gathering loop. Start of the wood chain.",
+      "outputs": "Pine, oak, maple, ebony logs.",
+      "leveling": "Don't park in one zone — logs are respawn-bound. Rotate between forests for steady throughput.",
+      "moneyTip": "Level a logger pet — up to +50% rate, real impact on hourly income."
+    },
+    "mining": {
+      "name": "Mining",
+      "tagline": "The start of every ore river",
+      "summary": "Swing the pickaxe, pull ore from rock. The raw input for smelting, gemcutting and essence refining. Low startup, durable income.",
+      "outputs": "Copper, iron, silver, gold, mithril, raw gemstones.",
+      "leveling": "Run heavy nodes in respawn rotation. Map markers reveal cycle patterns — exploit them.",
+      "moneyTip": "Run your own smelter — every ingot's margin stays with you. Otherwise lock in a smith partnership."
+    },
+    "harvesting": {
+      "name": "Harvesting",
+      "tagline": "Herbs, flowers, crops — the green is yours",
+      "summary": "Gather wild plants, mushrooms, herbs and crops. Base feed for alchemy, cooking and thread-weaving.",
+      "outputs": "Healing herbs, mushrooms, flowers, crops, mulberry leaf.",
+      "leveling": "Level a harvest pet — double-drop chance flips your hourly. Pairs with farming naturally.",
+      "moneyTip": "Supply an alchemist directly — over-market deals at +20% are common."
+    },
+    "fishing": {
+      "name": "Fishing",
+      "tagline": "The patient player's passive income",
+      "summary": "Freshwater, sea, sunken-ship spots — fishing scales over time. Slow pace, but a top-tier catch is a windfall.",
+      "outputs": "Freshwater fish, sea fish, rare ocean species, treasure-chest fragments.",
+      "leveling": "Buy the best rod first — bite speed is the bottleneck. Level a fishing pet on top.",
+      "moneyTip": "Rare catch + sea trading is the high horizontal market — one ocean run can open the door to a year of income."
+    },
+    "hunting": {
+      "name": "Hunting",
+      "tagline": "Track, skin, sell",
+      "summary": "Hunt wild beasts for hide, meat and rare trophies. The single supplier for cook + leatherworker; a profitable bridge.",
+      "outputs": "Deer hide, bear pelt, wolf coat, meat, rare trophies.",
+      "leveling": "Match prey level to yours. Top-tier hunts are boss-class — bring a hunting partner.",
+      "moneyTip": "Hunt season makes waves. Selling hide and meat as a bundle doubles your run profit."
+    },
+    "farming": {
+      "name": "Farming",
+      "tagline": "Plant, harvest, sell — sleep",
+      "summary": "Buy land, plant seeds, harvest crops. Slow, but the artery of passive income. Direct feed for cooking and thread-weaving.",
+      "outputs": "Grain, vegetables, fruit, spice, mulberry leaf.",
+      "leveling": "Single-crop rotation in your first 20 levels. Then expand to multi-plot management; land ownership compounds.",
+      "moneyTip": "Sign a direct supply contract with a cook. Farming market noise is loud; lock in via contract."
+    },
+    "breeding": {
+      "name": "Breeding",
+      "tagline": "Strengthen the line, set the price ceiling",
+      "summary": "Raise mounts and pets. Top-tier rare bloodlines are the highest-priced single items on the market. Long-term investment, top-tier return.",
+      "outputs": "Mount lineages, pet lineages, advanced bloodlines, seasonal animals.",
+      "leveling": "Balance breeding for the first 30 levels. Then invest in rare traits — one legendary mount can pay back a year of effort.",
+      "moneyTip": "The seasonal meta mount usually peaks in launch month. Dedicate your first 2 weeks of production to it."
+    },
+    "caravan-trading": {
+      "name": "Caravan Trade",
+      "tagline": "Move goods between cities — let the road price the risk",
+      "summary": "Move goods between cities. Bandit ambush, weather, blocked roads — risk every step. But on the right route, hourly income breaks the chart.",
+      "outputs": "Inter-city price gap is your profit. Top-tier crafted goods + rare spice = best margin.",
+      "leveling": "Try short routes first. Run with a guild on long routes — protection plus shared reward.",
+      "moneyTip": "Caravan events during seasons cap profit. The golden ticket for hybrid PvE/PvP players."
+    },
+    "sea-trading": {
+      "name": "Sea Trade",
+      "tagline": "Helm, wind and harbour ledger",
+      "summary": "Run cargo between ports. Riskier than caravans, more profitable. Pirates and storms — escort or guild support is mandatory.",
+      "outputs": "Inter-port price gaps, rare ocean goods, seasonal sea-quest rewards.",
+      "leveling": "Small boat → mid-tonnage cargo → large merchantman. Each step is a big buy and a big payoff.",
+      "moneyTip": "Memorize the sea map; track wind and storm charts. The captain who knows them owns the market."
+    },
+    "treasure-hunting": {
+      "name": "Treasure Hunting",
+      "tagline": "Map, shovel, luck",
+      "summary": "Old maps, scattered clues, hidden chests. A hobby for casual players; a high-variance season for professionals.",
+      "outputs": "Rare costumes, unique trinkets, old-school recipe books, treasure-cache parts.",
+      "leveling": "Early maps come for free; later ones are traded. Loot is uneven — some weeks dry, some weeks loaded.",
+      "moneyTip": "If a single map drops top-tier, that one week beats a mid-tier player's three."
+    }
+  },
+  "chain": {
+    "heading": "PRODUCTION CHAIN",
+    "title": "Who Feeds Whom",
+    "subtitle": "Quinfall professions don't run alone. Gather → refine → assemble → sell. The most common flows below.",
+    "groups": {
+      "metal": {
+        "name": "The Iron Lane",
+        "description": "From mine to catapult — the classic metal chain."
+      },
+      "wood": {
+        "name": "The Wood Lane",
+        "description": "Logs to furniture — hafts, chairs and siege towers all start here."
+      },
+      "fabric": {
+        "name": "The Cloth Lane",
+        "description": "Harvest → thread → cloth → robe. The healer's and the mage's footsteps walk this lane."
+      },
+      "leather": {
+        "name": "The Leather Lane",
+        "description": "The lone path that turns the hunter's pelt into light armor and bags."
+      },
+      "consumable": {
+        "name": "The Consumable Lane",
+        "description": "Where the kitchen and alchemy meet — the buffed player's name is on every chart."
+      }
+    }
+  },
+  "tips": {
+    "heading": "PRO TIPS",
+    "title": "Win Your Profession's Top Slot",
+    "items": {
+      "1": {
+        "title": "Run a paired profession",
+        "body": "One gathering + one crafting doubles your margin because you're not buying raw materials. Mining + Smelting, Logging + Woodcrafting, Harvesting + Alchemy."
+      },
+      "2": {
+        "title": "Match your pet to your profession",
+        "body": "If you're gathering, your pet is an enhancer — +50% rate and +5% double drops compound your hourly income."
+      },
+      "3": {
+        "title": "Read the season calendar",
+        "body": "Guild war, siege season, raid announcement — each spikes a different profession's demand. Catch the wave; ride it."
+      },
+      "4": {
+        "title": "Lock in bulk supply contracts",
+        "body": "Beat one-off sales by signing a regular buyer. Steady supply beats piecemeal flipping every time."
+      },
+      "5": {
+        "title": "Hunt recipe books",
+        "body": "Most top-tier recipes live in hidden books. A single recipe can hand you a market monopoly."
+      },
+      "6": {
+        "title": "Move your bench out of town",
+        "body": "City benches are slow at peak times. The guild hall or your own land is where real production happens."
+      }
+    }
+  }
+}

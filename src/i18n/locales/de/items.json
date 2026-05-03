@@ -1,0 +1,154 @@
+{
+  "page": {
+    "eyebrow": "GEGENSTANDS-CODEX",
+    "title": "Quinfall Gegenstandskatalog",
+    "description": "Waffen, Rüstungen, Schmuck und Sammelwerkzeuge — jedes Ausrüstungsteil im Spiel auf einer Seite, mit nativen Namen und echten Werten."
+  },
+  "explainer": {
+    "kicker": "AUSRÜSTUNGS-ANATOMIE",
+    "title": "So baust du deinen Charakter",
+    "subtitle": "Quinfall setzt auf Non-Target-Kampf — deine Waffe formt den Spielstil, das Rüstungsgewicht entscheidet zwischen Mobilität und Überlebenskraft.",
+    "weapons": {
+      "kicker": "10 WAFFENFAMILIEN",
+      "title": "Waffenfamilien",
+      "subtitle": "Jede Familie steht für einen eigenen Spielstil; mitten im Kampf zwischen zwei Waffen wechseln ist möglich."
+    },
+    "armor": {
+      "kicker": "3 RÜSTUNGSGEWICHTE",
+      "title": "Rüstungsgewichte",
+      "subtitle": "Schwere Rüstung macht dich zur Wand, kostet aber Tempo; Roben füttern den Mana-Pool deines Magiers."
+    }
+  },
+  "explorer": {
+    "kicker": "{{total}} EINTRÄGE",
+    "title": "Gegenstands-Browser",
+    "subtitle": "Filtern, suchen und Werte vergleichen",
+    "search": "Nach Namen suchen…",
+    "noResults": "Keine Gegenstände entsprechen den Filtern.",
+    "showing": "{{shown}} von {{total}} Gegenständen",
+    "loadMore": "Mehr laden",
+    "level": "Stufe",
+    "grade": "Wert",
+    "all": "Alle",
+    "loading": "Datenbank wird geladen…",
+    "error": "Gegenstands-Datenbank konnte nicht geladen werden."
+  },
+  "groups": {
+    "gear":        "Ausrüstung",
+    "consumables": "Drops & Handwerk",
+    "world":       "Welt & Wohnen",
+    "shop":        "Shop"
+  },
+  "slots": {
+    "weapon":      "Waffe",
+    "armor":       "Rüstung",
+    "accessory":   "Schmuck",
+    "bag":         "Tasche",
+    "tool":        "Sammelwerkzeug",
+    "costume":     "Kostüm",
+    "material":    "Material",
+    "foodPotion":  "Essen & Trank",
+    "enhancement": "Verstärkung",
+    "talisman":    "Talisman",
+    "ammo":        "Munition",
+    "skillBook":   "Fertigkeitsbuch",
+    "quest":       "Quest-Gegenstand",
+    "furniture":   "Möbel",
+    "workbench":   "Werkbank",
+    "farm":        "Farm",
+    "siege":       "Belagerungsgerät",
+    "shop":        "Shop-Artikel"
+  },
+  "materialKinds": {
+    "crafting":    "Material",
+    "usable":      "Verwendbar",
+    "food":        "Essen",
+    "potion":      "Trank",
+    "supplement":  "Stärkungstrank",
+    "upgrade":     "Aufwertungsmaterial",
+    "powerStone":  "Kraftstein",
+    "puzzleStone": "Rätselstein",
+    "powerCard":   "Kraftkarte",
+    "skillStone":  "Fertigkeitsstein",
+    "bow":         "Bogenpfeil",
+    "crossbow":    "Armbrustbolzen",
+    "animal":      "Tier",
+    "seed":        "Saatgut"
+  },
+  "detail": {
+    "description": "BESCHREIBUNG",
+    "recipe": "REZEPT",
+    "materials": "MATERIALIEN",
+    "gotoProfession": "Beruf öffnen",
+    "minLevel": "Stufe",
+    "back": "Zurück",
+    "unknownProfession": "Unbekannter Beruf"
+  },
+  "weapons": {
+    "sword":        { "name": "Einhandschwert", "tagline": "Klassischer Tank/Duellant mit Schild",   "body": "Schnelle Schläge, kombiniert mit Schild für Blöcke und Konter. Frontlinie pur." },
+    "shield":       { "name": "Schild",          "tagline": "Schadensreduktion und aktives Blocken", "body": "Paart sich mit Einhandwaffen; fängt physischen Schaden ab und hält Aggro für die Gruppe." },
+    "twoHandSword": { "name": "Zweihandschwert", "tagline": "Langsam aber verheerend in der Fläche", "body": "Weite Schwünge zerlegen Gegnergruppen; Einzelziel-Burst bleibt stark." },
+    "spear":        { "name": "Speer",            "tagline": "Lange Reichweite, Frontlinien-Druck",   "body": "Überlegt jedem Nahkämpfer; Stoßketten und Rückstöße geben kontrollierte CC." },
+    "dualAxe":      { "name": "Doppelaxt",        "tagline": "Berserker im Nahkampf",                 "body": "Doppelwaffen-Tempo plus hoher physischer Schaden; Defensive bezahlt den Preis." },
+    "dualDagger":   { "name": "Doppeldolch",      "tagline": "Assassine — Krit und Blutung",          "body": "Hohes Angriffstempo, Krit-Chance und Bluteffekte schmelzen Einzelziele." },
+    "bow":           { "name": "Bogen",             "tagline": "Lange Reichweite, Einzelziel",          "body": "Verlässlichste Fernoption für Kiten und Präzision; belohnt Positionierung." },
+    "dualCrossbow": { "name": "Doppelarmbrust",   "tagline": "Mittlere Reichweite, Dauer-DPS",        "body": "Kurze Cast-Fenster für schnelle Folgeschüsse — perfekt für mobilen Druck." },
+    "arcaneStaff":  { "name": "Arkanstab",        "tagline": "Elementarer DPS-Magier",                "body": "Feuer-, Eis- und Blitzzauber liefern Flächenschaden und Burst-Potenzial." },
+    "lifeStaff":    { "name": "Lebensstab",       "tagline": "Heiler-Support",                        "body": "Gruppenheilungen, Schilde und Buffs — der Überlebensanker jeder Gruppe." },
+    "warHammer":    { "name": "Kriegshammer",     "tagline": "Betäubungs-Brecher",                    "body": "Schwere Schläge und Stun-Ketten halten hochwertige Ziele unter Kontrolle." }
+  },
+  "armorWeights": {
+    "heavy": { "name": "Schwere Rüstung", "tagline": "Maximale Verteidigung, minimale Geschwindigkeit", "body": "Für Tanks und Frontliner: hohe physische und magische Verteidigung, dafür weniger Tempo." },
+    "light": { "name": "Leichte Rüstung", "tagline": "Balance — Defensive und Mobilität",              "body": "Ideal für Assassinen, Bogenschützen und Speerträger: Ausweich-Boni und Bewegungsfreiheit." },
+    "robe":  { "name": "Robe",            "tagline": "Wenig Defensive, viel Arkan",                    "body": "Für Magier und Heiler: maximaler Mana-Pool und Zauberkraft-Skalierung." }
+  },
+  "armorPieces": {
+    "chest": "Brust", "helmet": "Helm", "gauntlet": "Handschuhe", "boots": "Stiefel"
+  },
+  "accessories": {
+    "necklace": { "name": "Halskette", "body": "Trägt meist Verteidigungs- oder HP/MP-Boni." },
+    "bracelet": { "name": "Armreif",   "body": "Bietet Angriffskraft und Krit-Boni." },
+    "earring":  { "name": "Ohrring",   "body": "Steigert Zaubertempo oder Magie-Stärke." },
+    "ring":     { "name": "Ring",      "body": "Breite Palette passiver Boni; ideal für Set-Boni." }
+  },
+  "tools": {
+    "axe":          { "name": "Axt",         "body": "Holzfällen — das Standardwerkzeug der Holzfäller." },
+    "pickaxe":      { "name": "Spitzhacke",  "body": "Bergbau — für Erzadern und Steinvorkommen." },
+    "sickle":       { "name": "Sichel",      "body": "Pflanzensammeln — Hanf, Kräuter und Feldfrüchte." },
+    "fishingRod":   { "name": "Angelrute",   "body": "Angeln — Süß- und Salzwasserfänge plus seltene Relikte." },
+    "huntingKnife": { "name": "Jagdmesser",  "body": "Häuten — für Fell, Leder und Fleisch." }
+  },
+  "bag": {
+    "name": "Rucksack",
+    "body": "Erweitert die Tragekapazität; entscheidend für Karawanen und lange Farm-Sessions."
+  },
+  "stats": {
+    "physical_ap":    "Physischer Angriff",
+    "physical_dp":    "Physische Verteidigung",
+    "magic_ap":       "Magie-Angriff",
+    "magic_dp":       "Magie-Verteidigung",
+    "hp":             "Leben",
+    "mp":             "Mana",
+    "hp_regen":       "LP-Regeneration",
+    "mp_regen":       "MP-Regeneration",
+    "accuracy":       "Genauigkeit",
+    "evasion":        "Ausweichen",
+    "speed":          "Geschwindigkeit",
+    "atk_speed":      "Angriffstempo",
+    "casting_speed":  "Zaubertempo",
+    "extra_damage_mob":  "Schaden gg. Monster +",
+    "extra_damage_boss": "Schaden gg. Bosse +",
+    "armor_weight":   "Rüstungsgewicht",
+    "weight":         "Gewicht",
+    "repair_price":   "Reparaturkosten",
+    "sale_price":     "Verkaufspreis",
+    "purchase_price": "Kaufpreis"
+  },
+  "tiers": {
+    "common":    "Gewöhnlich",
+    "uncommon":  "Ungewöhnlich",
+    "rare":      "Selten",
+    "epic":      "Episch",
+    "legendary": "Legendär"
+  }
+}

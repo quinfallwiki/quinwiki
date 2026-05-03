@@ -1,0 +1,423 @@
+{
+  "page": {
+    "eyebrow": "TOPLAMA & İŞLEME",
+    "title": "Toplama / İşleme",
+    "description": "Hammadde toplamaktan üretim tezgâhında bitmiş ürün çıkarmaya kadar 15 meslek dalı, 836 tarif ve 3 tezgâh kademesi (T1·T2·T3). Her seviyede hangi malzemenin açıldığını, hangi tezgâha geçtiğini ve hangi mesleğin nasıl beslediğini tek sayfada bul."
+  },
+  "stats": {
+    "professions": "Meslek",
+    "recipes": "Tarif",
+    "workbench": "Tezgâh Kademesi"
+  },
+  "hero": {
+    "title": "Quinfall'un Üretim Kalbi",
+    "subtitle": "5 toplama dalı, 5 işleme tezgâhı, 7 üretim mesleği — toplam 836 doğrulanmış tarif. Hangi tezgâhta neyi yaparsın, hangi seviyede T2'ye geçersin, hangi alet seni hangi cevhere açar — hepsi bu sayfada."
+  },
+  "tools": {
+    "kicker":   "TOPLAMA ALETLERİ",
+    "title":    "5 Alet Ailesi · 3 Kalite Kademesi",
+    "subtitle": "Her toplama mesleğinin kendi aleti var; daha üst kalite alet daha yüksek dereceli kaynağı hasat eder ve nadir drop ihtimalini artırır.",
+    "tiers": {
+      "basic":    "Basit",
+      "sturdy":   "Sağlam",
+      "advanced": "Gelişmiş"
+    },
+    "families": {
+      "axe":          { "name": "Balta",         "feeds": "Odunculuk", "body": "Ağaç gövdesinden kütük çıkarır. Sağlam balta orta seviye sert ağaçlara, gelişmiş balta nadir ağaç türlerine (karaağaç, abanoz) erişim sağlar." },
+      "pickaxe":      { "name": "Kazma",         "feeds": "Madencilik","body": "Cevher damarlarına vurur. Bakır ve demir basit kazma ile, gümüş/altın sağlam ile, mithril damarları gelişmiş kazma ile çıkarılır." },
+      "sickle":       { "name": "Orak",          "feeds": "Toplayıcılık","body": "Kenevir, otlar ve doğa bitkilerini hasat eder. Üst tier orak nadir simya bileşenlerine ve büyü otlarına ulaşmanı sağlar." },
+      "fishingRod":   { "name": "Olta",          "feeds": "Balıkçılık","body": "Nehir, göl ve denizden balık + nadir kalıntı çıkarır. Sağlam olta deniz balıklarına, gelişmiş olta su altı kalıntılarına denk gelir." },
+      "huntingKnife": { "name": "Avcı Bıçağı",   "feeds": "Avcılık",   "body": "Avlanan hayvanı işler — kürk, ham deri, et ve kemik çıkarır. Gelişmiş bıçak nadir kürk düşüş şansını ciddi artırır." }
+    }
+  },
+  "flow": {
+    "kicker":   "ÜRETİM ZİNCİRLERİ",
+    "title":    "Hammaddeden Bitmiş Ürüne — 7 Zincir",
+    "subtitle": "Her zincir 3 halka: Topla → İşle → Üret. Hangi mesleği almışsan zinciri tek başına bitirebilir veya başka oyunculardan alıp satarsın.",
+    "family": {
+      "gather":  "Topla",
+      "process": "İşle",
+      "craft":   "Üret"
+    },
+    "chains": {
+      "metal":   { "name": "Metal Zinciri",   "body": "Cevheri madenden çıkar, fırında külçeye dönüştür, demirhanede silah/zırh haline getir." },
+      "wood":    { "name": "Ahşap Zinciri",   "body": "Kütüğü ormandan kes, kereste tezgâhında kalas çıkar, marangozda mobilya ya da silah sapı yap." },
+      "leather": { "name": "Deri Zinciri",    "body": "Hayvan avından gelen ham postu tabaklama tezgâhında deriye çevir, terzilikle hafif zırh ya da koşum dik." },
+      "fabric":  { "name": "Kumaş Zinciri",   "body": "Doğadan kenevir lifi topla, çıkrıkta iplik haline getir, terzide cüppe ya da büyücü kıyafeti üret." },
+      "food":    { "name": "Yemek Zinciri",   "body": "Balık tut veya av etini hazırla, malzemeyi mutfak tezgâhına taşı, grup buff yemekleri pişir." },
+      "gem":     { "name": "Mücevher Zinciri","body": "Ham mücevheri madenden çıkar, kesim tezgâhında parlat, mücevhercide yüzük/küpe/kolyeye işle." },
+      "essence": { "name": "Öz Zinciri",      "body": "Doğadan ham öz topla, saflaştırma tezgâhında element özüne damıt, simyada iksir/büyü maddesi üret." }
+    }
+  },
+  "milestones": {
+    "kicker":   "MESLEK KİLOMETRE TAŞLARI",
+    "title":    "Hangi Levelde Ne Açılır?",
+    "subtitle": "Tüm meslekler boyunca dikkat etmen gereken seviye eşikleri — birini kaçırırsan üretim zinciri durur.",
+    "list": {
+      "t1Open":     { "tag": "BAŞLANGIÇ",  "body": "Karakter doğar doğmaz tüm meslekler T1 tezgâhına erişir. Hızlı XP için ucuz tarif spam." },
+      "t2Combat":   { "tag": "T2 SAVAŞ",   "body": "Demircilik / Terzilik T2 tezgâhı açılır — daha güçlü silah ve zırh setleri." },
+      "t2Alchemy":  { "tag": "T2 SİMYA",   "body": "Simya T2 tezgâhı: buff iksirleri ve element bazlı iksirler pazara girer." },
+      "t2Smelt":    { "tag": "T2 ERİTME",  "body": "Eritme + Marangoz T2 fırını açılır; gümüş/altın işleyebilir, ağır mobilya yapabilirsin." },
+      "t3Smith":    { "tag": "T3 DEMİRCİ", "body": "Demircilik / Terzilik T3 — endgame tarifleri, sezon meta ekipmanı buradan basılır." },
+      "t2Gem":      { "tag": "T2 MÜCEVHER","body": "Mücevhercilik / Taş Kesme T2 — soketli takı tarifleri açılır, gerçek pazar burada başlar." },
+      "t3Cook":     { "tag": "T3 AŞÇILIK","body": "Aşçılık / Marangoz / Eritme T3 — boss raid için grup ziyafetleri ve mithril ekipman." },
+      "sturdyTool": { "tag": "GELİŞMİŞ ALET", "body": "Lvl 50 alet kademesi — sağlam alet ile nadir kaynak hasat şansı tavanda." },
+      "t3Cap":      { "tag": "T3 TAVAN",  "body": "Aşçılık ve Mücevher dalları T3 final tarifleri açılır." },
+      "t3Jewel":    { "tag": "T3 MÜCEVHER","body": "Mücevhercilik tavan — endgame talisman ve set takıları yapılır." }
+    }
+  },
+  "workbench": {
+    "kicker": "TEZGÂH KADEMELERİ",
+    "title": "T1, T2, T3 — Üretim Tezgâhları",
+    "subtitle": "Mesleğini ilerlettikçe daha üst kademeli tezgâhlar açılır. Her kademe yeni tarifler, daha kaliteli ürünler ve daha uzun üretim süresi getirir.",
+    "tiers": {
+      "t1": {
+        "label": "BAŞLANGIÇ",
+        "headline": "Temel Tezgâh — Lvl 1'de Açık",
+        "body": "Karakterin oyuna başladığı andan itibaren ulaşabileceği tezgâh. Şehir merkezindeki ortak tezgâhları ücretsiz kullanabilir veya kendi araziyne kurabilirsin.",
+        "bullets": [
+          "Bakır, demir, hemp, ham et — tüm temel hammaddelerle çalışır",
+          "Kısa üretim süresi (3–24 sn) ve düşük XP — hızla level atmak için ideal",
+          "Tüm meslek dalları T1 ile başlar; ileri tezgâhların ön koşuludur"
+        ]
+      },
+      "t2": {
+        "label": "ORTA KADEME",
+        "headline": "Geliştirilmiş Tezgâh — Meslek Lvl 9–20'de",
+        "body": "Mesleğine göre 9–20 arası açılan ikinci kademe. Daha kaliteli ekipman, daha güçlü iksir ve daha pahalı satılan ürünler bu kademede üretilir.",
+        "bullets": [
+          "Demircilik / Terzilik 9, Marangoz / Eritme 20, Simya 15'te kilit açılır",
+          "Üretim süresi 2–3 katına çıkar ama XP de aynı oranda artar",
+          "T2 tezgâh kurmak için T1 üretim malzemesi + meslek seviye şartı"
+        ]
+      },
+      "t3": {
+        "label": "USTALIK",
+        "headline": "Usta Tezgâhı — Endgame Üretim",
+        "body": "Sezon meta'sını üreten tezgâh. Tarifler özel kitap drop'larından açılır, malzeme kervanlarla taşınır, ürünler pazarın üstündedir.",
+        "bullets": [
+          "Demircilik 21, Marangoz / Eritme 40, Aşçılık 60, Mücevher 60'da açılır",
+          "Tek tarif 80–180 sn; ama ürün maxiumum stat ve sezon meta'sını basar",
+          "Usta tezgâhları büyük arazi gerektirir — klan/lonca üyeliği şart"
+        ]
+      }
+    }
+  },
+  "matrix": {
+    "kicker":   "MESLEK TABLOSU",
+    "title":    "15 Meslek, T1·T2·T3 Eşiklerine Göre",
+    "subtitle": "Her meslek için tarif sayısı, level aralığı ve tezgâh kademelerine geçiş seviyesi — items.json'dan birebir hesaplandı",
+    "familyAll": "Tümü",
+    "family": {
+      "gathering":  "Toplama",
+      "processing": "İşleme",
+      "crafting":   "Bitmiş Ürün",
+      "workbench":  "Tezgâh"
+    },
+    "stats": {
+      "recipes":      "Tarif",
+      "recipesShort": "tarif",
+      "levelRange":   "Level",
+      "tiers":        "Kademe"
+    },
+    "unlock": "Lvl {{level}} açılır"
+  },
+  "professionsList": {
+    "fishing":      { "name": "Balıkçılık",     "tagline": "Tatlı su · Tuzlu su · Nadir kalıntı", "body": "Olta + nehir/deniz koordinatı + sabır. Aşçılığın ham besleyicisi; nadir kalıntılar pazarın altın madeni." },
+    "mining":       { "name": "Madencilik",     "tagline": "Kazma + cevher damarı",               "body": "Cevher noktalarını çıkarır — bakır/demir/gümüş/altın/mithril. Eritme ve mücevhercilik zincirinin başlangıcı." },
+    "harvesting":   { "name": "Toplayıcılık",   "tagline": "Orak + doğa bitkisi",                 "body": "Kenevir lifi, otlar ve simya bileşenleri toplar. İplikçilik, simya ve aşçılığın ortak besleyicisi." },
+    "hunting":      { "name": "Avcılık",        "tagline": "Bıçak + ham post",                    "body": "Hayvan kesimi: ham deri, kürk, et ve kemik çıkarır. Tabaklamanın ham maddesi, aşçılık için et kaynağı." },
+    "logging":      { "name": "Odunculuk",       "tagline": "Kütükten kalasa",                     "body": "Toplanan kütükleri kalas, sap, kabza, ok mili gibi bileşenlere işler. Demircilik ve marangozluğun temel besleyicisi." },
+    "smelting":     { "name": "Eritme",          "tagline": "Cevheri külçeye",                     "body": "Madenden çıkan ham cevheri yüksek ısıda eritip kullanılabilir külçe yapar. Demircilik ve mücevherciliğin temel beslemesidir." },
+    "tanning":      { "name": "Tabaklama",       "tagline": "Postu deriye",                        "body": "Avcının getirdiği ham postu kullanılabilir deriye dönüştürür. Terzilik ve marangozluk için olmazsa olmaz." },
+    "spinning":     { "name": "İplikçilik",      "tagline": "Kenevir lifi → iplik",                "body": "Doğadan toplanan kenevir lifini iğde, iplik haline getirir. Terziliğin ham maddesi; çıkrık tezgâhı kullanır." },
+    "gemcutting":   { "name": "Taş Kesme",       "tagline": "Ham taş → soketlenebilir mücevher",   "body": "Madenden gelen ham mücevher taşlarını kesip parlatır. Mücevher ve mühendislik için soket malzemesi." },
+    "essence-refining": { "name": "Öz Saflaştırma", "tagline": "Ham öz → element özü",            "body": "Toplama mesleklerinden gelen ham özleri damıtır. Simya ve mühendisliğin sessiz ortağı." },
+    "cooking":      { "name": "Aşçılık",         "tagline": "Buff yiyen oyuncu kazanır",           "body": "Et, balık, sebze ve baharatları grup ziyafetlerine dönüştürür. Geçici stat artışları PvE/PvP'de kritik." },
+    "alchemy":      { "name": "Simya",           "tagline": "Şişeden gelen güç",                   "body": "Bitki + öz + nadir bileşenlerle iksir, eliksir ve büyü maddesi üretir. PvP yoğun günlerde talep tavanda." },
+    "blacksmithing":{ "name": "Demircilik",      "tagline": "231 silah/zırh tarifi",               "body": "Külçe + sap birleşince silah doğar. Stüdyonun en görünür mesleği; sezon meta silahını yapan oyuncu burada." },
+    "tailoring":    { "name": "Terzilik",        "tagline": "İplik + deri → cüppe & hafif zırh",   "body": "Büyücü ve okçunun zırhı buradan çıkar. İplikçilik ve tabaklamayla beslenir, satış marjı yüksektir." },
+    "carpentry":    { "name": "Marangoz",        "tagline": "Mobilya + kalas işleri",              "body": "Ev eşyaları, depo, tezgâh iskeletleri. Yerleşim sisteminin temel besleyicisi." },
+    "engineering":  { "name": "Mühendislik",     "tagline": "Tuzak · Mancınık · Kuşatma silahı",   "body": "Lonca savaşları için kuşatma araçları üretir. Sezon dışında tuzak satışıyla ayakta kalır." },
+    "jewelcrafting":{ "name": "Mücevhercilik",   "tagline": "Yüzük · Kolye · Bilezik · Küpe",     "body": "Küçük slotların büyük etkisi. Taş kesimle birlikte yürüyen, en yüksek kademe lvl 60-70'te açılan meslek." }
+  },
+  "families": {
+    "all": "Tümü",
+    "crafting": "Üretim",
+    "gathering": "Toplama",
+    "land": "Tarım ve Yetiştirme",
+    "caravan": "Kervan ve Ticaret",
+    "other": "Diğer"
+  },
+  "labels": {
+    "feedsInto": "Beslediği meslekler",
+    "needs": "Gerekli kaynaklar",
+    "needsNothing": "Hammaddeye bağımlı değil",
+    "feedsNothing": "Çıktıyı doğrudan satarsın",
+    "bestPair": "En iyi ikili",
+    "income": "Gelir",
+    "pace": "Tempo",
+    "difficulty": "Zorluk",
+    "startup": "Başlangıç maliyeti"
+  },
+  "details": {
+    "openLabel": "Detayları Aç",
+    "outputs": "Üretim",
+    "leveling": "Level kasma",
+    "moneyTip": "Para ipucu"
+  },
+  "income": {
+    "low": "Düşük",
+    "mid": "Orta",
+    "high": "Yüksek",
+    "top": "Üst sınıf"
+  },
+  "pace": {
+    "slow": "Yavaş",
+    "steady": "Düzenli",
+    "fast": "Hızlı"
+  },
+  "professions": {
+    "alchemy": {
+      "name": "Simya",
+      "tagline": "Şişeden gelen güç",
+      "summary": "Bitki, öz ve nadir bileşenleri birleştirip iksir, eliksir ve büyü maddesi üretirsin. PvE'de iyileştirme ve buff iksirleri her grup için zorunlu; PvP'de pazarın koşturanı sensin.",
+      "outputs": "Sağlık iksirleri, mana iksirleri, geçici stat buff iksirleri, dirim potionları, zehir karşıtı serumlar.",
+      "leveling": "Düşük seviyede ucuz şifa iksirleri toplu üret; deneyim verir, satarken aldığın bedeli karşılar. Orta seviyede buff iksirleriyle marja geç. Üst seviye tarif kitapları için essence-refining ile el ele git.",
+      "moneyTip": "PvP yoğun günlerde buff iksiri talebi tavanda. Saatlik üretim sayını ölçüp talep eğrisine göre üret."
+    },
+    "cooking": {
+      "name": "Aşçılık",
+      "tagline": "Buff yiyen mutlu oyuncudur",
+      "summary": "Et, balık, sebze, baharat — hepsini grup ziyafetine dönüştürürsün. Yemek geçici stat artışı verir; raid kapısının önündeki en aranan tezgâhsın.",
+      "outputs": "Tek-stat artıran yemekler, çoklu-buff ziyafetler, hızlı tüketim atıştırmalıklar, kervan rasyonları.",
+      "leveling": "Erken seviyede et+ekmek tarifi gibi tek-stat yemekleri spam et. 30+ seviyede grup ziyafetlerine geç; tek lokmada 4-5 oyuncuyu beslersin. Tarımcı bir arkadaşla anlaşmak gathering yükünü yarıya indirir.",
+      "moneyTip": "Boss raid duyuruları öncesi pazarda yemek talebi patlar. Üretimi raid takvimine göre planla."
+    },
+    "smelting": {
+      "name": "Eritme",
+      "tagline": "Cevheri külçeye, hayalini silaha çevir",
+      "summary": "Madenden çıkan ham cevheri yüksek ısıda eritip kullanılabilir külçe yaparsın. Demirciliğin ve mücevherciliğin temel beslemesidir; tek başına satışı düşük marja, ama zincir başlangıcı sensin.",
+      "outputs": "Demir, çelik, gümüş, altın, mithril külçeleri.",
+      "leveling": "Maden seviyesini önce yükselt — kendi cevherini kendin üreten oyuncu kar marjını ikiye katlar. Aynı tip cevheri yığın halinde eritip XP düz akışı kur.",
+      "moneyTip": "Külçe pazarında kâr ince ama hız yüksek. Toplu satış stratejisi yap — sandık başına kazanç düşük, ama mesai uzun."
+    },
+    "woodcrafting": {
+      "name": "Ahşap İşleme",
+      "tagline": "Kütükten yapı bileşeni çıkarır",
+      "summary": "Oduncunun getirdiği kütüğü kalas, sap, kabza, ok mili gibi bileşenlere dönüştürürsün. Demircilik ve marangozluk için olmazsa olmaz.",
+      "outputs": "Kalaslar, silah sapları, ok milleri, mobilya iskeleti.",
+      "leveling": "Sap üretimi düşük seviyede en hızlı XP. Üst seviyede özel ağaç türleri (karaağaç, abanoz) için orman içlerine kervan kur.",
+      "moneyTip": "Demirciye doğrudan toptan sat. Pazar fiyatı dalgalı, demirciyle anlaşan oyuncu sürekli geliri kilitler."
+    },
+    "engineering": {
+      "name": "Mühendislik",
+      "tagline": "Kuşatma için makine, savaş için tuzak",
+      "summary": "Mekanizma, tuzak, mancınık ve kervan koruma sistemleri tasarlarsın. Tek kişilik üretim olmaz — eritme, ahşap işleme ve mücevher kesime bağımlısın. Ama bir kale kuşatmasında tek mancınıkçı seven kazanır.",
+      "outputs": "Tuzaklar, mancınıklar, kuşatma silahları, otomatik makaralar, kapı kırıcılar.",
+      "leveling": "Erken seviyede basit tuzak ve mekanizma tarifleriyle ilerle; üst seviyeye yaklaştıkça lonca/sezon savaşlarında mancınık talebi ekonomik olarak en yüksek noktaya çıkar.",
+      "moneyTip": "Kuşatma sezonlarında tek bir mancınık yıllık geliri çıkarabilir. Sezon dışında tuzak ticaretiyle ayakta kal."
+    },
+    "blacksmithing": {
+      "name": "Demircilik",
+      "tagline": "Kılıç tutan elin geçtiği tezgâh",
+      "summary": "Külçe ve sap birleşince silah doğar. Demirci, oyunun en görünür mesleğidir — kuşandığın silah onun imzasıdır. Üst seviye demirci, sezon meta silahını yapan oyuncudur.",
+      "outputs": "Tek elli ve çift elli silahlar, ağır zırh setleri, kalkan, savaş çekiçleri.",
+      "leveling": "Ucuz başlangıç silahlarıyla XP topla, 30+ seviyede özel siparişlere geç. Maden + eritme zincirini tek başına yönetiyorsan kâr katsayın yüksek.",
+      "moneyTip": "Yamasa silah meta'sı değişir; sezon başlangıcında metaya uyan silahı stoklayan demirci günlerce kuyruk yer."
+    },
+    "jewelcrafting": {
+      "name": "Mücevhercilik",
+      "tagline": "Yüzükten gelen güç bonusu",
+      "summary": "Yüzük, kolye, küpe, bilezik — küçük slotların büyük etkisi. Mücevher kesimle birlikte yürüyen meslek; her takı bir veya iki soketle gelir.",
+      "outputs": "Yüzükler, kolyeler, küpeler, bilezikler, talismanlar.",
+      "leveling": "Düşük seviyede tek-stat takı üret; 50+ seviyede çift-soketli takı tarifleri açılır, gerçek pazar burada başlar.",
+      "moneyTip": "Mücevher kesim yapan bir ortakla anlaş; iki meslek birlikte tavan kâr marjına ulaşır."
+    },
+    "gemcutting": {
+      "name": "Taş Kesme",
+      "tagline": "Soketin içine inen ışık",
+      "summary": "Madenden gelen ham mücevheri kesip parlatır, soketlenebilir hale getirirsin. Mücevhercilik ve mühendisliğin sessiz ortağı.",
+      "outputs": "Soketlenebilir yakut, safir, zümrüt, opal, elmas — her biri farklı stat geliştirmesi.",
+      "leveling": "Tek tip taşı yığın işle, atölyeyi soğutmadan akıt. Üst seviyede özel desenli kesimler (oval, marquise) ekstra stat verir.",
+      "moneyTip": "Üst tier kesimler PvP build'lerinde meta. Doğru taş + doğru kesim, son onay damgası gibi pazara giriyor."
+    },
+    "essence-refining": {
+      "name": "Öz Saflaştırma",
+      "tagline": "Görünmeyenin saflaştığı yer",
+      "summary": "Toplama mesleklerinden gelen ham özleri damıtıp simya ve mühendisliğin temel besleyicisi olursun. Sessiz ama kritik bir halka.",
+      "outputs": "Magic dust, mana özü, element özleri, geliştirme reaktifleri.",
+      "leveling": "Erken seviyede temel öz tariflerini spamla. Orta seviyede element-spesifik özlere geç (ateş, buz, yıldırım); simyacı talebi burada başlar.",
+      "moneyTip": "Element özleri tarif kitabı bağımlısı. Tarif erişimini koruyan oyuncu pazarda monopol kurar."
+    },
+    "leatherworking": {
+      "name": "Dericilik",
+      "tagline": "Avcının çantası buradan dolar",
+      "summary": "Avcının getirdiği derileri tabaklayıp dericilik tezgâhında işlersin. Hafif zırh, çantalar, kılıf ve kemerler senin imzandır.",
+      "outputs": "Hafif zırh setleri, çantalar, kılıçlar için kılıf, kemerler, eldiven.",
+      "leveling": "Çanta kapasitesi her oyuncunun ilk 50 saatte aldığı şey — başlangıç çantalarını spam üret, XP+gelir paralel akar.",
+      "moneyTip": "Yeni oyuncu başına 2-3 çanta satışı garantilidir. Yeni server açıldığında dericilik en hızlı kâr açan meslek."
+    },
+    "thread-weaving": {
+      "name": "İplik Eğirme",
+      "tagline": "Kumaşa giden yolun ilk hali",
+      "summary": "Hasattan gelen lif ve elyafı eğirip iplik haline getirirsin. Terzilik için olmazsa olmaz; tek başına satıştan değil, terziyle ortaklıktan kazanırsın.",
+      "outputs": "Pamuk ipi, keten ipi, ipek, sihirli iplik.",
+      "leveling": "Aynı tip lifle yığın çalış. Sihirli iplik üretimi 50+ seviyede açılır ve fiyat orada katlanır.",
+      "moneyTip": "Bir terziyle uzun vadeli takas anlaşması yap — günlük üretimini kilitle, pazar dalgalanmasından etkilenme."
+    },
+    "tailoring": {
+      "name": "Terzilik",
+      "tagline": "Cüppenin ardındaki güç",
+      "summary": "İplikten kumaşa, kumaştan cüppe, pelerin ve şifacı/büyücü zırhlarına. Asa ve hayat asası kullanıcılarının olmazsa olmaz tedarikçisi.",
+      "outputs": "Cüppeler, pelerinler, kumaş zırh, şapkalar, mage başlıkları.",
+      "leveling": "Düşük seviyede sıradan cüppe spamı. 40+ seviyede element-direnci kumaşları açılır; raid healer'ı için zorunludur.",
+      "moneyTip": "Lifestaff kullanıcı sayısı raid sezonunda patlar. Terzilik o günlerde gelir gravitesi yaratır."
+    },
+    "carpentry": {
+      "name": "Marangozluk",
+      "tagline": "Eve dokunan oyunun değeri farklı",
+      "summary": "Mobilya, ev parçaları, dekoratif yapılar. Quinfall'da ev sahibi oyuncular dekoratif arz arar; iyi marangoz pazarın yumuşak ama istikrarlı kazananıdır.",
+      "outputs": "Sandalye, masa, dolap, raf, dekor öğeleri, lonca evi parçaları.",
+      "leveling": "Basit sandalye/masa setleriyle başla. 30+ seviyede özel ağaç türleriyle özel set tariflerine geç.",
+      "moneyTip": "Topluluğa lonca evleri ve dekorla servet yatırır; karpent her zaman alıcısı olan üretici."
+    },
+    "logging": {
+      "name": "Oduncu",
+      "tagline": "Ekonominin kalbinde balta sesi",
+      "summary": "Ormana gir, ağaç kes, kütük taşı. Düşük başlangıç maliyetli, yüksek talepli klasik gathering. Ahşap işleme zincirinin başlangıç noktası.",
+      "outputs": "Çam, meşe, akçaağaç, abanoz kütükleri.",
+      "leveling": "Aynı bölgede dakikalar geçirme — kütükler respawn süresine bağlı. Birden fazla orman arasında rotasyon kur.",
+      "moneyTip": "Pet 'oduncu' veya 'toplayıcı' tier yükselt; saatlik gelirini %50'ye kadar artırır."
+    },
+    "mining": {
+      "name": "Madencilik",
+      "tagline": "Cevher akışının başlangıç noktası",
+      "summary": "Kazma sallar, kayadan cevher çıkarırsın. Eritme, mücevher kesim ve öz saflaştırmanın hammaddesi. Düşük başlangıç maliyeti, kalıcı gelir.",
+      "outputs": "Bakır, demir, gümüş, altın, mithril, ham mücevher taşları.",
+      "leveling": "Madenleri tıka basa olan bölgelerde tur at; haritada işaretli kaynaklar respawn rotasyon mantığıyla çalışır.",
+      "moneyTip": "Smelter'ı kendin yönet — her külçenin marjı sende kalır. Yoksa bir demirciyle anlaşmalı sat."
+    },
+    "harvesting": {
+      "name": "Hasat",
+      "tagline": "Ot, çiçek, mahsul — dünyanın yeşili sende",
+      "summary": "Yabani bitki, mantar, ot, mahsul toplarsın. Simya, aşçılık ve iplik eğirme için temel kaynak.",
+      "outputs": "Şifa otları, mantarlar, çiçekler, mahsul ürünleri, ipek tırtılı yaprak.",
+      "leveling": "Pet 'hasat' yükselt; çift drop şansı saatlik geliri ikiye katlar. Tarımla birlikte yürüyebilirsin.",
+      "moneyTip": "Simyacıya doğrudan tedarik et; pazar fiyatından %20 üzerinde anlaşma yapan oyuncular yaygın."
+    },
+    "fishing": {
+      "name": "Balıkçılık",
+      "tagline": "Sabırlı oyuncunun pasif geliri",
+      "summary": "Tatlı su, deniz, batık nokta — balıkçılık birden fazla seviyede iş çıkarır. Yavaş tempo ama yüksek tier yakalandığında patlama.",
+      "outputs": "Tatlı su balıkları, deniz balıkları, nadir okyanus türleri, hazine sandığı parçaları.",
+      "leveling": "Yüksek tier oltayı önce al — XP'nin önündeki en büyük engel olta hızı. Pet 'balıkçı' yükselt.",
+      "moneyTip": "Nadir balık + denizcilikle pazarın yatay ucu; bir okyanus seferi yıllık gelir kapısı açabilir."
+    },
+    "hunting": {
+      "name": "Avcılık",
+      "tagline": "İz sürer, postu alır, eti satarsın",
+      "summary": "Yabani hayvan avlayıp deri, et, nadir parça topluyorsun. Aşçı + dericinin tek tedarikçisi olarak kazançlı bir köprü.",
+      "outputs": "Geyik derisi, ayı kürkü, kurt postu, et, nadir trofeler.",
+      "leveling": "Avlandığın bölgenin level'ı seninkiyle eşleşmeli. Üst tier avlar boss kategorisine girer; bir avcı arkadaşla iki kişi gitmek hayatını kurtarır.",
+      "moneyTip": "Av sezonu pazar dalgaları yaratır; et + post ikilisini birlikte satan avcı tek sefere iki kâr katar."
+    },
+    "farming": {
+      "name": "Tarım",
+      "tagline": "Tarlanı ek, biç, sat — uyu",
+      "summary": "Arazi al, tohum ek, mahsul biç. Yavaş ama pasif gelirin ana arteri. Aşçılık ve iplik eğirme için doğrudan kaynak.",
+      "outputs": "Tahıl, sebze, meyve, baharatlık, ipek tırtılı yaprağı.",
+      "leveling": "İlk 20 seviyede tek mahsul tipi rotasyonu. Daha sonra çoklu tarla yönetimine geç; arazi sahipliği avantaj.",
+      "moneyTip": "Aşçıyla doğrudan satış sözleşmesi yap. Pazardaki tarım dalgalanması büyüktür; sözleşme ile kilitle."
+    },
+    "breeding": {
+      "name": "Hayvancılık",
+      "tagline": "Soyu güçlendir, fiyat tavanı kıralı sen ol",
+      "summary": "Binek ve evcil hayvan üretirsin. Üst seviye nadir soylar pazarın en yüksek fiyatlı tek-tek mallarıdır. Uzun vadeli yatırım, yüksek getiri.",
+      "outputs": "Binek soyları, pet soyları, gelişmiş soyaç, sezonluk özel hayvanlar.",
+      "leveling": "İlk 30 seviye dengeli soyaç. Sonra nadir özelliklere yatırım yap; tek bir efsanevi binek bir yıllık emeği amorti eder.",
+      "moneyTip": "Sezon meta bineği genelde lansman ayında tavan fiyatla satılır. İlk 2 hafta üretimini buna ayır."
+    },
+    "caravan-trading": {
+      "name": "Kervan Ticareti",
+      "tagline": "Yolda mal taşı, riski parayla ödet",
+      "summary": "Şehirler arası mal taşırsın. Eşkıya saldırısı, hava koşulları, yol kapanışı — risk her adımda. Ama doğru rotada saatlik kazanç tavan.",
+      "outputs": "İki şehir fiyat farkı = senin kârın. Üst tier yapımcı malları + nadir baharat = en yüksek marj.",
+      "leveling": "İlk seferleri kısa rotalarda dene. Lonca ile birlikte uzun rotalara çık — koruma + paylaşılan ödül.",
+      "moneyTip": "Sezon kervan etkinliklerinde tavan kâr. PvE/PvP karışımı oyun isteyenler için altın bilet."
+    },
+    "sea-trading": {
+      "name": "Deniz Ticareti",
+      "tagline": "Dümen, rüzgâr ve liman defteri",
+      "summary": "Liman arası gemi seyahati. Deniz ticareti kervana göre daha riskli, daha kazançlı. Korsan saldırısı veya fırtına riskine karşı eskort/lonca işbirliği şart.",
+      "outputs": "Liman arası fiyat farkı, nadir okyanus malları, sezonluk deniz görevleri ödülü.",
+      "leveling": "Küçük gemi → orta tonajlı kargo → büyük tüccar gemisi geçişi yap. Her atlama büyük yatırım, ama her atlama gelir tavanını kırar.",
+      "moneyTip": "Deniz haritasını ezberle; rüzgâr ve fırtına haritalarını takip et. Bilen tek kaptan, pazarın tek kaptanı."
+    },
+    "treasure-hunting": {
+      "name": "Hazine Avcılığı",
+      "tagline": "Harita, kazma, şans",
+      "summary": "Eski haritalar, ipuçları, gizli sandıklar. Sıradan bir oyuncu için hobi; profesyonel için sezonluk yüksek-varyans bir tempo.",
+      "outputs": "Nadir kostümler, eşsiz takılar, eski-okul tarif kitapları, hazine kalıntıları.",
+      "leveling": "İlk haritalar hediye gelir; sonrası harita ticareti. Hazine eşitsiz dağılır — bazı haftalar boş, bazı haftalar dolu.",
+      "moneyTip": "Tek bir harita üst tier ödül çıkarırsa, haftalık kâr orta gelirli oyuncuyu üç katı geçer. Sabırlı ol."
+    }
+  },
+  "chain": {
+    "heading": "ÜRETİM ZİNCİRİ",
+    "title": "Hangi Meslek Hangisini Besler?",
+    "subtitle": "Quinfall ekonomisinde meslekler tek başına çalışmaz. Topla → işle → birleştir → sat. Aşağıda en yaygın akışlar.",
+    "groups": {
+      "metal": {
+        "name": "Demir Yolu",
+        "description": "Madenden mancınığa kadar uzanan klasik metal hattı."
+      },
+      "wood": {
+        "name": "Ahşap Yolu",
+        "description": "Kütükten mobilyaya — sap, sandalye, kuşatma kulesi hep buradan."
+      },
+      "fabric": {
+        "name": "Kumaş Yolu",
+        "description": "Hasat → iplik → kumaş → cüppe. Şifacı ve büyücünün adımları bu hattan geçer."
+      },
+      "leather": {
+        "name": "Deri Yolu",
+        "description": "Avcının postunu işleyip hafif zırh ve aksesuara çeviren tek hat."
+      },
+      "consumable": {
+        "name": "Tüketilebilir Yolu",
+        "description": "Mutfak ve simyanın birleştiği — buff yiyen oyuncunun adı sıkça anılır."
+      }
+    }
+  },
+  "tips": {
+    "heading": "PRO İPUÇLARI",
+    "title": "Mesleğinde Ön Sıraya Çıkmak",
+    "items": {
+      "1": {
+        "title": "Çift mesleğe yatır",
+        "body": "Bir gathering + bir crafting kombosu, hammaddeyi başkasından almadığın için kâr marjını ikiye katlar. Mining + Smelting, Logging + Woodcrafting, Harvesting + Alchemy."
+      },
+      "2": {
+        "title": "Pet seviyeni mesleğine eşle",
+        "body": "Toplama mesleğine girdiysen pet'in 'enhancer' olmalı. %50 hız ve %5 çift drop, saatlik gelirini doğrudan büyütür."
+      },
+      "3": {
+        "title": "Sezon takvimini takip et",
+        "body": "Lonca savaşı, kuşatma sezonu, raid duyurusu — her biri farklı meslek talebini patlatır. Talep dalgasını yakalayan, dalgayla birlikte yükselir."
+      },
+      "4": {
+        "title": "Pazarda toptan tedarik kontratı",
+        "body": "Tek seferlik satış yerine düzenli alıcıyla anlaş. Hammaddeyi sürekli tedarik etmek, parça parça satmaktan değerlidir."
+      },
+      "5": {
+        "title": "Tarif kitaplarına yatırım yap",
+        "body": "Üst seviye tariflerin çoğu gizli kitaplarda. Tek bir tarif erişimi pazarda monopol yaratabilir."
+      },
+      "6": {
+        "title": "Atölyeni şehrin dışına taşı",
+        "body": "Kalabalık şehir tezgâhları yavaş çalışır; loncanın evi veya kişisel arazidir hızlı üretim noktası."
+      }
+    }
+  }
+}

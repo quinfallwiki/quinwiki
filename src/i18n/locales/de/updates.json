@@ -1,0 +1,27 @@
+{
+  "page": {
+    "eyebrow": "SPIEL-UPDATES",
+    "title": "Patch Notes",
+    "description": "Quinfall-Patches, Hotfixes und große Updates direkt aus Steam. Jeder Eintrag verlinkt auf die originale Steam-Ankündigung."
+  },
+  "hero": {
+    "kicker": "AUTO-SYNCHRONISIERT",
+    "title": "Der Quinfall Patch-Stream",
+    "subtitle": "Diese Seite wird vom Steam-News-Feed gespeist — sobald der Publisher eine offizielle Ankündigung postet, erscheint sie hier spätestens beim nächsten Deployment."
+  },
+  "stats": {
+    "total":   "Ankündigungen gesamt",
+    "latest":  "Neueste",
+    "fetched": "Abgerufen"
+  },
+  "actions": {
+    "openOnSteam": "Auf Steam öffnen",
+    "expand":      "Details anzeigen",
+    "collapse":    "Schließen"
+  },
+  "states": {
+    "loading":  "Patch Notes werden geladen…",
+    "error":    "Patch Notes konnten nicht geladen werden.",
+    "empty":    "Noch keine Ankündigungen."
+  }
+}

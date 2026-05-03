@@ -1,0 +1,157 @@
+{
+  "page": {
+    "eyebrow": "KARAWANEN-SYSTEM",
+    "title": "Karawanen & Handel",
+    "description": "In Quinfall ist die Karawane nicht nur Transport — sie ist das Rückgrat der Wirtschaft und ein PvP-Schlachtfeld. Beim Caravan Vendor mietest du ein Tier, kaufst ein Paket, wählst die richtige Route. PvE-Kanal sicher, PvP-Kanal +20%."
+  },
+  "hero": {
+    "badge": "Systemüberblick",
+    "title": "12 Städte, 7 Häfen, +20% PvP-Bonus.",
+    "body": "Beim Caravan-Vendor-NPC mietest du Esel, Ochse, Kamel oder Elefant, kaufst ein Paket und bringst es zur nächsten Stadt oder zum nächsten Hafen. Im PvE-Kanal sicher, kein Bonus; im PvP-Kanal Angriffe erlaubt, +20% Belohnung. Seit Patch v1.0.0.6 bleibt eine unbeaufsichtigte Karawane 1 Stunde an Ort und Stelle — dein Paket ist nicht verloren.",
+    "stats": {
+      "cities": "Große Städte",
+      "harbors": "Häfen",
+      "pvpBonus": "PvP-Bonus"
+    }
+  },
+  "flow": {
+    "kicker": "ABLAUF",
+    "title": "So läuft eine Karawane",
+    "subtitle": "Der fünfstufige Standardablauf — gleich an jedem Caravan Vendor in jeder Stadt.",
+    "steps": {
+      "rent":    { "title": "Tier mieten",    "body": "Wähle Esel, Ochse, Kamel oder Elefant beim Caravan Vendor. Das Reittier wird beschworen, die Mietzeit startet." },
+      "package": { "title": "Paket kaufen",   "body": "Beim selben NPC kaufst du das Paket der Stadt. Paketgröße skaliert mit der Fracht des gemieteten Tieres." },
+      "route":   { "title": "Route festlegen","body": "Zielstadt oder -hafen wählen. Distanz + Kanaltyp (PvE/PvP) bestimmen die Auszahlung." },
+      "travel":  { "title": "Reise",          "body": "Aktiv bleiben: im PvP-Kanal können Spieler angreifen. Beim Logout bleibt das Tier 1 Stunde stehen." },
+      "deliver": { "title": "Abgabe",         "body": "Übergib das Paket dem Ziel-NPC; Auszahlung kommt sofort. Tier kann innerhalb der Mietzeit zurückgegeben werden." }
+    }
+  },
+  "animals": {
+    "kicker": "KARAWANEN-TIERE",
+    "title": "Miet-Typen",
+    "subtitle": "Standard-Inventar des Caravan Vendor: 4 Tiere, mit steigendem Tier wachsen Fracht und Miete. Premium-Reittiere via V-Coin / Events.",
+    "tiers": { "starter": "Einsteiger", "mid": "Mittel", "top": "Top" },
+    "standard": {
+      "title": "Standard-Mieten",
+      "unit": "Tiere",
+      "body": "Die vier Basisoptionen bei jedem Caravan Vendor. Die ersten drei sind günstig; der Elefant ist eine echte Investition."
+    },
+    "premium": {
+      "title": "Premium-Karawanen-Skins",
+      "unit": "Sets",
+      "body": "Top-Tier-Looks aus Shop oder Events. Kein Stat-Vorteil, rein kosmetisch."
+    },
+    "list": {
+      "donkey":   { "name": "Esel",     "tag": "Einsteiger-Miete",     "body": "Günstigste Option. Langsam, aber trägt Fracht; ideal für Einsteiger-Routen." },
+      "ox":       { "name": "Ochse",    "tag": "Schwerlast-Starter",   "body": "Langsamer als der Esel, aber unter den Top-Frachtklassen. Konstantes Tempo, lange Routen." },
+      "camel":    { "name": "Kamel",    "tag": "Wüstenspezialist",     "body": "In der Wüste immun gegen Hitze-Debuff. Für Horus-Routen unverzichtbar." },
+      "elephant": { "name": "Elefant",  "tag": "Top-Tier · teuer",     "body": "Spitzenwerte HP und Fracht. Vom Howdah aus kämpfen; ideal für Gilden-Karawanen." }
+    },
+    "premiums": {
+      "goldenMerchant":  { "name": "Goldener Händler",   "body": "Shop-Pferd in Händler-Optik." },
+      "desertCaravan":   { "name": "Wüsten-Karawane",    "body": "Premium-Look für die Horus-Route." },
+      "sultansGuardian": { "name": "Sultans Wächter",    "body": "Top-Tier-Karawane in Sultan-Optik." },
+      "warBehemoth":     { "name": "Kriegs-Behemoth",    "body": "Kampfgerüstetes Karawanen-/Kriegstier." }
+    }
+  },
+  "channels": {
+    "kicker": "KANAL-REGELN",
+    "title": "PvE sicher, PvP +20%",
+    "subtitle": "Die kritische Mechanik aus Patch v1.0.0.6 (14. Februar 2026). Die Bonus-Frage entscheidet sich vollständig über die Kanalwahl.",
+    "pve": {
+      "tag": "Sicher",
+      "title": "PvE-Kanal",
+      "body": "Andere Spieler können deine Karawane nicht angreifen. Kein Risiko, kein Verlust — der frühere 5%-Bonus wurde komplett gestrichen.",
+      "bonusLabel": "Bonus-Auszahlung"
+    },
+    "pvp": {
+      "tag": "Offenes Feld",
+      "title": "PvP-Kanal",
+      "body": "Angriffe erlaubt. Erwischt? Paket fällt ab oder geht verloren. Hier verdienen echte Händler — Bonus auf +20% angehoben.",
+      "bonusLabel": "Bonus-Auszahlung"
+    },
+    "unattended": {
+      "title": "v1.0.0.6: Unbeaufsichtigt-Schutz",
+      "body": "Bei Logout oder Server-Restart bleibt das Karawanen-Tier 1 Stunde stehen. In dieser Zeit geht das Paket nicht verloren.",
+      "source": "Offizielle Patch Notes · 14. Februar 2026"
+    }
+  },
+  "cities": {
+    "kicker": "12 GROSSE STÄDTE",
+    "title": "Knotenpunkte der Karawanenrouten",
+    "subtitle": "Die 12 großen Städte der Weltkarte — nach Region gruppiert. Jede beherbergt einen Caravan Vendor; Routen verlaufen zwischen ihnen.",
+    "regions": {
+      "west":    "Westen",
+      "central": "Zentrum",
+      "east":    "Osten",
+      "south":   "Süden",
+      "desert":  "Wüste"
+    },
+    "note": {
+      "title": "Distanz = Auszahlung",
+      "body": "Kurze Routen zwischen Nachbarstädten zahlen wenig, sind aber schnell; lange Routen (Wüste ↔ Westen) zahlen mehr. Distanz mit Kanalwahl kombinieren — eine lange PvP-Kanal-Route stapelt den +20%-Bonus, das Risiko skaliert mit."
+    }
+  },
+  "sea": {
+    "kicker": "SEE-KARAWANE",
+    "title": "Häfen und der Harbor Master",
+    "subtitle": "Das parallele System zur Land-Karawane. Beim Harbor Master Paket holen, per Schiff zum nächsten Hafen. Schlüsselregel: Auszahlung hängt am Abfahrtshafen, nicht am Ziel.",
+    "harborTable": {
+      "label": "AUSZAHLUNGSTABELLE",
+      "title": "Geschätzte Auszahlung pro Hafen",
+      "harbor": "Hafen",
+      "payout": "Geschätzte Auszahlung",
+      "note": "Aus Community-Beobachtung, nach Abfahrtshafen. Traystable zahlt am meisten; Edgeshore und Silvercrest am wenigsten."
+    },
+    "facts": {
+      "harborMaster":     { "title": "Harbor Master in jedem Hafen",     "body": "Ein NPC für Schiffsverwaltung, Karawanen-Pakete und Fischerei." },
+      "departurePayout":  { "title": "Abfahrtshafen bestimmt die Zahlung","body": "Die Auszahlung hängt davon ab, wo du das Paket abholst, nicht wo du es abgibst." },
+      "destroyOnDock":    { "title": "Pakete beim Anlegen zerstört",     "body": "Beim Anlegen kann das Paket an Bord zerstört werden — bis zum Ziel-NPC vorsichtig sein." },
+      "pirate":           { "title": "Piratengefahr im PvP-Kanal",       "body": "Im PvP-Kanal können andere Spieler dein Schiff angreifen. Logik wie an Land: Risiko × Belohnung." },
+      "channelSwitch":    { "title": "Kanalwechsel",                     "body": "Für einen Kanalwechsel muss das Schiff erst in einen Hafen gerufen werden; kein Wechsel auf hoher See." }
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGIE",
+    "title": "Welcher Weg für welches Profil?",
+    "subtitle": "Sicheres Einkommen für Neue, Skalierung im Midgame, Risiko/Belohnung für PvPer, Ops für die Gilde.",
+    "list": {
+      "starter": {
+        "title": "🌱 Neuer Spieler",
+        "bullets": [
+          "Erste Route: Kurzstrecke zwischen zwei Nachbarstädten, Esel, PvE-Kanal — null Risiko, Mechanik lernen.",
+          "Caravan Vendor in jeder großen Stadt finden.",
+          "Bei Logout-Zwang keine Panik — 1 Stunde unbeaufsichtigt-Schutz greift.",
+          "Vom Einsteiger-Loop zu langen Routen wie Horus / Pabas wechseln."
+        ]
+      },
+      "midGame": {
+        "title": "💰 Midgame-Ertrag",
+        "bullets": [
+          "Kamel mieten — kein Wasser-Debuff, ändert alles rund um Horus.",
+          "Zirkuläre Multi-Stadt-Schleife (Pabas → Reasya → Horus → Pabas).",
+          "Auch im PvE-Kanal liefert Distanz × Paketgröße ernstes Gold.",
+          "Wenn ein Hafen auf der Route liegt: Land + See verketten."
+        ]
+      },
+      "pvpHigh": {
+        "title": "⚔ PvP-Risiko-Stacking",
+        "bullets": [
+          "PvP-Kanal: +20% Bonus skaliert auf langen Routen.",
+          "Nicht solo: mind. 1 Wachen-Spieler mitnehmen.",
+          "Elefant + gepanzerter Eskort kauft dem Paket Zeit.",
+          "Logout unter Angriff = Tier bleibt 1h, Paket bleibt im Risiko."
+        ]
+      },
+      "guildOps": {
+        "title": "🏰 Gilden-Operation",
+        "bullets": [
+          "Elefant + Premium-Skins (Wüsten-Karawane, Sultans Wächter) sind Gilden-Invest.",
+          "Mehrere Karawanen auf einer Route: 1 Wache für 4 Karawanen — Skaleneffekt.",
+          "See-Karawanen parallel: Traystable-Abfahrten (~1.500g) sind die höchste Auszahlung.",
+          "Kanalwahl mit dem Gildenkalender abstimmen — Primetime-PvP-Kanäle sind voll."
+        ]
+      }
+    }
+  }
+}

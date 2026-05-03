@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-ink-950 text-steel-100 font-sans antialiased;
+    background-image:
+      radial-gradient(1200px 600px at 50% -10%, rgba(51, 166, 255, 0.12), transparent 60%),
+      radial-gradient(900px 500px at 80% 110%, rgba(247, 185, 85, 0.06), transparent 60%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-frost-500/40 text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-wide;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-frost-400/70 ring-offset-2 ring-offset-ink-950 rounded-sm;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .panel {
+    @apply relative rounded-2xl border border-steel-700/60 bg-panel-grad shadow-panel backdrop-blur-sm;
+  }
+
+  .panel-hover {
+    @apply transition duration-300 hover:border-frost-400/60 hover:shadow-glow;
+  }
+
+  .heading-gradient {
+    background: linear-gradient(180deg, #ffffff 0%, #a4d8ff 50%, #6cc1ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .divider-rune {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(51, 166, 255, 0.6) 50%,
+      transparent 100%
+    );
+    height: 1px;
+  }
+
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.06) 40%,
+      rgba(255, 255, 255, 0.12) 50%,
+      rgba(255, 255, 255, 0.06) 60%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    @apply animate-shimmer;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition;
+  }
+
+  .btn-primary {
+    @apply btn bg-frost-500 text-white hover:bg-frost-400 hover:shadow-glow active:translate-y-px;
+  }
+
+  .btn-ghost {
+    @apply btn border border-steel-700 text-steel-100 hover:border-frost-400/70 hover:text-white;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #2d3650 transparent;
+  }
+}

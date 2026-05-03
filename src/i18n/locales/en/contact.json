@@ -1,0 +1,32 @@
+{
+  "page": {
+    "eyebrow": "CONTACT",
+    "title": "Reach Out",
+    "description": "Join the community, talk to the dev team, follow announcements on every official channel — all in one place."
+  },
+  "hero": {
+    "kicker": "FASTEST PATH",
+    "title": "See You on Discord",
+    "subtitle": "Discord is the quickest way to ask questions, find events and team up with guildmates. You'll meet players from every region within minutes.",
+    "primaryCta": "Join Discord",
+    "secondaryCta": "See Other Channels"
+  },
+  "groups": {
+    "community": { "title": "Community Channels",   "subtitle": "Live chat, announcements and events" },
+    "platform":  { "title": "Official Platforms",   "subtitle": "Download the game, hit the store, browse the site" },
+    "studio":    { "title": "Studio Contacts",      "subtitle": "Vawraek Technology's corporate channels" }
+  },
+  "channels": {
+    "discord":      { "name": "Discord",       "description": "International + regional channels, guild finder, event posts, developer Q&A." },
+    "twitter":      { "name": "X (Twitter)",   "description": "Patch notes, screenshots and quick announcements." },
+    "youtube":      { "name": "YouTube",       "description": "Official trailers, dev blogs and event recaps." },
+    "steam":        { "name": "Steam",         "description": "Buy the game, read reviews, track achievements." },
+    "officialSite": { "name": "quinfall.com",  "description": "Official site — trailer, game info and Steam shortcut." },
+    "studioSite":   { "name": "vawraek.com",   "description": "Vawraek Technology's corporate site." },
+    "linkedin":     { "name": "LinkedIn",      "description": "Studio jobs, corporate updates and partnership news." },
+    "instagram":    { "name": "Instagram",     "description": "Behind-the-scenes shots, team posts and visual teasers." }
+  },
+  "actions": {
+    "openLink": "Open"
+  }
+}

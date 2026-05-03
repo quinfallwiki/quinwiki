@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "title": "The Quinfall Wiki",
+    "tagline": "Step into the world of Quinfall"
+  },
+  "nav": {
+    "home": "Home",
+    "guide": "Guide",
+    "classes": "Classes",
+    "crafting": "Crafting / Gathering",
+    "dungeons": "Dungeons / Bosses",
+    "items": "Items",
+    "craftCalc": "Craft Calculator",
+    "mounts": "Mounts / Pets",
+    "sailing": "Sailing",
+    "caravan": "Caravan System",
+    "leveling": "Leveling Guide",
+    "gallery": "Gallery",
+    "system": "System & Performance",
+    "updates": "Updates",
+    "studio": "Vawraek Technology",
+    "contact": "Contact"
+  },
+  "search": {
+    "open": "Search",
+    "placeholder": "Search pages, items, bosses, dungeons, zones…",
+    "loading": "Building index…",
+    "noResults": "No matches.",
+    "hintsTitle": "Tips",
+    "hint1": "Type a page, item, boss, dungeon or zone name",
+    "hint2": "↑ ↓ to navigate, Enter to open, Esc to close",
+    "hint3": "Diacritics ignored: \"demir cevheri\" matches \"Demir Cevheri\"",
+    "kbdNav": "navigate", "kbdOpen": "open", "kbdClose": "close",
+    "kinds": {
+      "page": "Page", "profession": "Profession", "boss": "Boss",
+      "dungeon": "Dungeon", "zone": "Hunting Zone", "item": "Item",
+      "material": "Material", "prop": "Prop"
+    },
+    "kindShort": {
+      "page": "page", "profession": "prof", "boss": "boss",
+      "dungeon": "dungeon", "zone": "zone", "item": "item",
+      "material": "mat", "prop": "prop"
+    }
+  },
+  "actions": {
+    "search": "Search",
+    "explore": "Explore",
+    "readMore": "Read more",
+    "back": "Back",
+    "language": "Language",
+    "theme": "Theme",
+    "menu": "Menu",
+    "close": "Close",
+    "more": "More"
+  },
+  "navGroups": {
+    "world": "World",
+    "tools": "Tools",
+    "about": "About"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "communityNote": "This wiki is community-maintained.",
+    "language": "Language"
+  },
+  "states": {
+    "loading": "Loading",
+    "empty": "Nothing here yet",
+    "error": "Something went wrong"
+  },
+  "pages": {
+    "guide":     { "summary": "Step-by-step roadmap from zero to Lvl 100 — tutorial, build choice, guild entry, post-50 grind." },
+    "classes":   { "summary": "10 weapon families and 20 sub-classes — no class lock, swap weapons to swap classes." },
+    "crafting":  { "summary": "Harvester, miner, lumberjack, cook, blacksmith, tailor, alchemist — 13 professions, 700+ recipes." },
+    "dungeons":  { "summary": "4 active dungeons, 8 world bosses, 4 difficulty tiers — from Foaming Catacombs to the Kraken." },
+    "items":     { "summary": "Ores, plants, essences, gear sets — 1900+ entry searchable database." },
+    "craftCalc": { "summary": "Cost / profit calc, material chains and farming plans — the endgame economy tool." },
+    "mounts":    { "summary": "Horses are tamed (green/blue) and bred (purple/orange); donkey, ox, camel, elephant rented for caravans." },
+    "sailing":   { "summary": "4 ship classes × 2 factions, 7 harbours, naval combat and the Kraken three times a day." },
+    "caravan":   { "summary": "Trade between 12 major cities — Caravan Vendor rentals, packages, +20% PvP-channel bonus." },
+    "leveling":  { "summary": "Town Board ×2 XP, statue +40% buff, Lvl 75-90 group zone — the endgame progression route." },
+    "gallery":   { "summary": "Screenshots, scenes, kraken fights and city skylines." },
+    "system":    { "summary": "System requirements, performance settings and low-PC optimisation." },
+    "updates":   { "summary": "Game patches, hotfixes and major updates pulled live from Steam." },
+    "studio":    { "summary": "Vawraek Technology — developer, patch notes, roadmap and company history." },
+    "contact":   { "summary": "Community links, Discord, feedback and contribution channels." }
+  }
+}

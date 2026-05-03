@@ -1,0 +1,154 @@
+{
+  "page": {
+    "eyebrow": "EŞYA KÜTÜPHANESİ",
+    "title": "Quinfall Eşya Kataloğu",
+    "description": "Silahlardan zırhlara, aksesuarlardan toplama aletlerine — oyundaki bütün ekipmanlar tek sayfada, yerli isimleriyle ve gerçek statlarıyla."
+  },
+  "explainer": {
+    "kicker": "EKİPMAN ANATOMİSİ",
+    "title": "Karakterini Nasıl Donatırsın?",
+    "subtitle": "Quinfall hedefsiz savaş sistemine sahip — silah seçimin oynayış stilini, zırh ağırlığın ise mobiliteni ve dayanıklılığını belirler.",
+    "weapons": {
+      "kicker": "10 SİLAH AİLESİ",
+      "title": "Silah Aileleri",
+      "subtitle": "Her aile farklı bir oyun stiline yön verir; aynı anda iki silahı kuşanıp savaş ortasında geçiş yapabilirsin."
+    },
+    "armor": {
+      "kicker": "3 ZIRH AĞIRLIĞI",
+      "title": "Zırh Ağırlıkları",
+      "subtitle": "Ağır zırh sınıf farkı yaratır ama hız bedeli ödetir; cüppe büyücülere can verir."
+    }
+  },
+  "explorer": {
+    "kicker": "{{total}} KAYIT",
+    "title": "Eşya Tarayıcı",
+    "subtitle": "Filtrele, ara, statları karşılaştır",
+    "search": "Ara: eşya adı…",
+    "noResults": "Filtreyle eşleşen eşya yok.",
+    "showing": "{{shown}} / {{total}} eşya gösteriliyor",
+    "loadMore": "Daha fazla göster",
+    "level": "Seviye",
+    "grade": "Skor",
+    "all": "Tümü",
+    "loading": "Veritabanı yükleniyor…",
+    "error": "Eşya veritabanı yüklenemedi."
+  },
+  "groups": {
+    "gear":        "Ekipman",
+    "consumables": "Düşen & Üretim",
+    "world":       "Dünya & Yerleşim",
+    "shop":        "Mağaza"
+  },
+  "slots": {
+    "weapon":      "Silah",
+    "armor":       "Zırh",
+    "accessory":   "Aksesuar",
+    "bag":         "Çanta",
+    "tool":        "Toplama Aleti",
+    "costume":     "Kostüm",
+    "material":    "Hammadde",
+    "foodPotion":  "Yemek & İksir",
+    "enhancement": "Güçlendirme",
+    "talisman":    "Tılsım",
+    "ammo":        "Cephane",
+    "skillBook":   "Yetenek Kitabı",
+    "quest":       "Görev Eşyası",
+    "furniture":   "Mobilya",
+    "workbench":   "Üretim Tezgâhı",
+    "farm":        "Çiftlik",
+    "siege":       "Kuşatma Aracı",
+    "shop":        "Mağaza Eşyası"
+  },
+  "materialKinds": {
+    "crafting":    "Hammadde",
+    "usable":      "Kullanılabilir",
+    "food":        "Yemek",
+    "potion":      "İksir",
+    "supplement":  "Takviye İksiri",
+    "upgrade":     "Yükseltme Materyali",
+    "powerStone":  "Güç Taşı",
+    "puzzleStone": "Yapboz Taşı",
+    "powerCard":   "Güç Kartı",
+    "skillStone":  "Beceri Taşı",
+    "bow":         "Yay Oku",
+    "crossbow":    "Tatar Yayı Oku",
+    "animal":      "Hayvan",
+    "seed":        "Tohum"
+  },
+  "detail": {
+    "description": "OYUN İÇİ AÇIKLAMA",
+    "recipe": "TARİF",
+    "materials": "MALZEMELER",
+    "gotoProfession": "Mesleği Aç",
+    "minLevel": "Lvl",
+    "back": "Geri",
+    "unknownProfession": "Bilinmeyen Meslek"
+  },
+  "weapons": {
+    "sword":        { "name": "Tek El Kılıç",     "tagline": "Kalkanla eşleşen klasik tank-duelist",  "body": "Hızlı vuruş, kalkanla birlikte blok ve karşı saldırı kombinasyonu. Frontline savunması için ideal." },
+    "shield":       { "name": "Kalkan",            "tagline": "Vuruş azaltma ve blok",                  "body": "Tek el silahlarla eşleşir; gelen fiziksel hasarı emer ve grup için aggro tutar." },
+    "twoHandSword": { "name": "İki El Kılıç",      "tagline": "Yavaş ama yıkıcı AoE",                   "body": "Geniş süpürme vuruşları kalabalık düşmanlara karşı etkili; tek hedef burst de oldukça yüksek." },
+    "spear":        { "name": "Mızrak",            "tagline": "Uzun erim, ön cephe baskısı",            "body": "Mesafe avantajıyla düşmanı uzakta tutar; itme ve dürtme zincirleriyle sıralı kontrol sağlar." },
+    "dualAxe":      { "name": "Çift Balta",        "tagline": "Berserker — yakın mesafe yıkım",         "body": "Çift el saldırı hızı ve yüksek fiziksel hasarla rakibin üstüne biner; savunma düşüktür." },
+    "dualDagger":   { "name": "Çift Hançer",       "tagline": "Suikastçı — kritik & kanama",            "body": "Yüksek atak hızı, kritik şansı ve kanama efektleriyle tek hedefi hızla eritir." },
+    "bow":           { "name": "Yay",               "tagline": "Uzun menzil, tek hedef",                 "body": "Yüksek menzilli isabetli atış; kontrol ve kiting için en güvenilir uzak silah." },
+    "dualCrossbow": { "name": "Çift Tatar Yayı",   "tagline": "Orta menzil sürekli DPS",                "body": "Kısa kurulumla art arda atış; mobilite ve sürekli baskı isteyen oyuncular için." },
+    "arcaneStaff":  { "name": "Büyü Asası",        "tagline": "Elemental DPS büyücü",                   "body": "Ateş, buz ve yıldırım büyüleriyle alan hasarı ve burst potansiyeli sunar." },
+    "lifeStaff":    { "name": "Yaşam Asası",       "tagline": "İyileştirici destek",                    "body": "Grup iyileştirme, kalkan ve buff'larla bir takımın hayatta kalma çapasıdır." },
+    "warHammer":    { "name": "Savaş Çekici",      "tagline": "Sersemleten ezici",                      "body": "Ağır vuruşlar ve çoklu sersemletme efektleriyle hedefleri kontrol altında tutar." }
+  },
+  "armorWeights": {
+    "heavy": { "name": "Ağır Zırh", "tagline": "Maksimum savunma, minimum hız", "body": "Tank ve frontline savaşçıları için: yüksek fiziksel/büyü savunması ama hareket hızı düşer." },
+    "light": { "name": "Hafif Zırh", "tagline": "Denge — savunma ve mobilite",  "body": "Suikastçı, okçu ve mızrakçılar için ideal: kaçınma şansı ve hareket özgürlüğü." },
+    "robe":  { "name": "Cüppe",      "tagline": "Düşük savunma, büyü kapasitesi", "body": "Büyücü ve şifacılar için: maksimum mana havuzu ve büyü gücü artışları." }
+  },
+  "armorPieces": {
+    "chest": "Göğüs", "helmet": "Başlık", "gauntlet": "Eldiven", "boots": "Çizme"
+  },
+  "accessories": {
+    "necklace": { "name": "Kolye", "body": "Genellikle savunma veya HP/MP buff'ı taşır." },
+    "bracelet": { "name": "Bilezik", "body": "Saldırı gücü ve kritik bonusları sunar." },
+    "earring":  { "name": "Küpe", "body": "Cast hızı veya büyü gücü artırır." },
+    "ring":     { "name": "Yüzük", "body": "Geniş yelpazede pasif bonuslar; setlerle birleştirilebilir." }
+  },
+  "tools": {
+    "axe":          { "name": "Balta",         "body": "Ağaç kesimi — odunculuk için temel araç." },
+    "pickaxe":      { "name": "Kazma",         "body": "Cevher madenciliği — taş ve metal damarları için." },
+    "sickle":       { "name": "Orak",          "body": "Bitki toplama — kenevir, otlar ve mahsuller." },
+    "fishingRod":   { "name": "Olta",          "body": "Balıkçılık — nehir ve deniz balıkları, nadir kalıntılar." },
+    "huntingKnife": { "name": "Avcı Bıçağı",   "body": "Hayvan kesimi — kürk, deri ve et için." }
+  },
+  "bag": {
+    "name": "Sırt Çantası",
+    "body": "Taşıma kapasitesini büyütür; kervan ve uzun farm seansları için kritik."
+  },
+  "stats": {
+    "physical_ap":    "Fiziksel Saldırı",
+    "physical_dp":    "Fiziksel Savunma",
+    "magic_ap":       "Büyü Saldırısı",
+    "magic_dp":       "Büyü Savunması",
+    "hp":             "Can",
+    "mp":             "Mana",
+    "hp_regen":       "Can Yenileme",
+    "mp_regen":       "Mana Yenileme",
+    "accuracy":       "İsabet",
+    "evasion":        "Kaçınma",
+    "speed":          "Hareket Hızı",
+    "atk_speed":      "Saldırı Hızı",
+    "casting_speed":  "Büyü Hızı",
+    "extra_damage_mob":  "Yaratık Hasarı +",
+    "extra_damage_boss": "Boss Hasarı +",
+    "armor_weight":   "Zırh Ağırlığı",
+    "weight":         "Ağırlık",
+    "repair_price":   "Tamir Bedeli",
+    "sale_price":     "Satış Fiyatı",
+    "purchase_price": "Alış Fiyatı"
+  },
+  "tiers": {
+    "common":    "Sıradan",
+    "uncommon":  "Nadir",
+    "rare":      "Üstün",
+    "epic":      "Efsane",
+    "legendary": "Mitik"
+  }
+}

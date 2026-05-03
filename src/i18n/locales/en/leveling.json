@@ -1,0 +1,86 @@
+{
+  "page": {
+    "eyebrow": "LEVELING GUIDE",
+    "title": "From 1 to 100 in Quinfall",
+    "description": "Quests run out at 50 — past that you live on town board dailies and party grinds. The right activity, zone and multiplier for every level bracket on a single page."
+  },
+  "hero": {
+    "kicker": "THE BASICS",
+    "title": "Character Cap 100, Quests Up To 50",
+    "subtitle": "Maximum character level in Quinfall is 100. Quests dry up at level 50; after that the town board (×2 XP) and party-based elite mob hunts form the core progression loop.",
+    "stats": {
+      "maxLevel":     "Max Character Level",
+      "questCap":     "Quest Cap",
+      "huntingZones": "Hunting Zones (1–100)",
+      "endgameZones": "Endgame (Lvl 100) Zones"
+    }
+  },
+  "phases": {
+    "kicker": "5 PHASES",
+    "title": "The Level Journey",
+    "subtitle": "Each phase is a different gameplay loop — match the phase to the right activity",
+    "list": {
+      "tutorial":  { "name": "Tutorial & Start",   "headline": "Main story + pick your first weapon", "body": "Clear the opening quest chain in the starter region. Try both weapon slots and lock in the family that suits you. Early gear comes from quest rewards — don't worry about the shop or crafting yet." },
+      "questCore": { "name": "Core Quests",        "headline": "Sweep side quests to keep the bar moving", "body": "Story + side combo levels you fast. Pick a first profession (gathering or mining) and farm passively while you travel. Your first dungeon runs land in this phase." },
+      "questLate": { "name": "Late Quests",        "headline": "Region change and dungeon focus", "body": "New regions of the map open up and quests start pointing at elite party targets. This is the first time you really upgrade your gear — collect Champion-mob enhancement materials." },
+      "townBoard": { "name": "Town Board",         "headline": "×2 XP loop — run it daily",       "body": "Quests are over, the board is open. Daily repeatable jobs at the town board grant ×2 XP. Party is mandatory: clear level-60 zones with a 3-person group while you cycle the board." },
+      "endgame":   { "name": "Endgame",            "headline": "Elite mobs & world bosses",        "body": "After 75 you need a full party. The 75 and 100 zones are the heart of the endgame loop: 26 distinct level-100 hunting fields, world boss rotations, open dungeons and set-piece farming." }
+    }
+  },
+  "xpSources": {
+    "kicker": "XP SOURCES",
+    "title": "Where Does XP Come From?",
+    "subtitle": "Each activity has its own window and multiplier",
+    "list": {
+      "storyQuest":   { "name": "Story Quest",    "body": "The main chain is the most stable XP source through 1–50. The backbone of leveling." },
+      "sideQuest":    { "name": "Side Quest",     "body": "Regional side quests fill story gaps and add gold and gear." },
+      "townBoard":    { "name": "Town Board",     "body": "Repeatable dailies at the town centre. The main XP faucet past 50 — ×2 multiplier active." },
+      "mobKill":      { "name": "Mob Kill",       "body": "Off-quest solo XP. Decent filler while you travel between quest hubs." },
+      "partyKill":    { "name": "Party Kill",     "body": "Elite mobs can't be soloed. Party play is mandatory past 50; per-player XP is +50% inside a group." },
+      "dungeonClear": { "name": "Dungeon Clear",  "body": "A full dungeon clear is roughly an hour of solo grind worth of XP. Cycle daily once 25 unlocks instances." },
+      "worldBoss":    { "name": "World Boss",     "body": "Daily spawn rotation. High participation XP and big drops. Ideal from 60+." },
+      "profession":   { "name": "Profession XP",  "body": "Each of the 13 professions has its own bar — independent of character level, but crafted gear speeds up your character climb." }
+    }
+  },
+  "zones": {
+    "kicker": "HUNTING ZONES",
+    "title": "Where to Hunt at Each Level",
+    "subtitle": "All 54 zones with their real in-game names, party requirement and level bracket",
+    "level":      "Lvl",
+    "zones":      "Zones",
+    "partySolo":  "Solo",
+    "partySmall": "Small Party",
+    "partyFull":  "Full Party",
+    "partyFlag":  "Party"
+  },
+  "mastery": {
+    "kicker": "MASTERY SYSTEMS",
+    "title": "Character Level + Weapon + Profession",
+    "subtitle": "Quinfall has three independent progress bars — all running in parallel",
+    "weapon": {
+      "name": "Weapon Mastery",
+      "body": "Every weapon family has its own skill tree and mastery level. Hitting with a weapon levels its mastery. You can keep two weapons equipped and feed both at once."
+    },
+    "profession": {
+      "name": "Profession Level",
+      "body": "13 professions: mining, gathering, fishing, hunting, lumber, smithing, tailoring, alchemy, cooking, carpentry, jewelry, mechanics, farming. Each is independent of character level."
+    },
+    "character": {
+      "name": "Character Level",
+      "body": "Max 100. Stat points, HP, MP, skill slots and gear-level gating all hang off this bar."
+    }
+  },
+  "mistakes": {
+    "kicker": "COMMON MISTAKES",
+    "title": "6 Traps to Avoid",
+    "subtitle": "Classic leveling pitfalls collected from community guides",
+    "list": {
+      "soloPast50":         { "name": "Going solo past 50",          "body": "Solo XP curve nearly stalls once quests dry up. Plug into a guild or party network early." },
+      "ignoringTownBoard":  { "name": "Ignoring the town board",     "body": "Daily repeatables grant ×2 XP — even 30 minutes a day makes a huge difference." },
+      "wrongWeaponMastery": { "name": "Levelling with the wrong weapon", "body": "If you grind char-level with a weapon you won't main, your endgame mastery bar lags. Pick your main weapon early." },
+      "noProfessions":      { "name": "Skipping professions",        "body": "Without 1-2 professions opened by level 20, you can't craft your own gear and you fall behind in the economy." },
+      "overgearing":        { "name": "Over-gearing trap",           "body": "Chasing level-50 gear at level 30 burns gold and slows you down. Stay inside your level band." },
+      "skipDungeons":       { "name": "Skipping dungeons",           "body": "Dungeon rewards offer daily XP quotas and rare gear pieces. Run the level-appropriate dungeon every day." }
+    }
+  }
+}

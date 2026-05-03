@@ -1,0 +1,47 @@
+{
+  "page": {
+    "eyebrow": "SYSTEM & LEISTUNG",
+    "title": "Quinfall flüssig spielen",
+    "description": "Geprüfte Mindest- und empfohlene Anforderungen aus dem Steam-Store, direkt verglichen, plus Performance-Tipps aus der Community."
+  },
+  "hero": {
+    "kicker": "AUF EINEN BLICK",
+    "title": "Ist dein Rechner bereit?",
+    "subtitle": "Quinfall läuft mit 55 GB Plattenplatz, DirectX 12 und einer modernen Mittelklasse-GPU flüssig. Vergleich deine Konfiguration mit der Tabelle unten."
+  },
+  "highlights": {
+    "storage": "Speicherplatz",
+    "dx":      "DirectX",
+    "os":      "Betriebssystem",
+    "engine":  "Spiel-Engine"
+  },
+  "specs": {
+    "kicker":      "OFFIZIELLE ANFORDERUNGEN",
+    "title":       "Minimum & Empfohlen",
+    "subtitle":    "Direkt von der Steam-Store-Seite übernommen",
+    "minHeader":   "MINIMUM",
+    "recHeader":   "EMPFOHLEN",
+    "rows": {
+      "os":      "Betriebssystem",
+      "cpu":     "Prozessor",
+      "ram":     "Arbeitsspeicher",
+      "gpu":     "Grafikkarte",
+      "dx":      "DirectX",
+      "storage": "Speicher",
+      "network": "Netzwerk"
+    }
+  },
+  "tips": {
+    "kicker":   "PERFORMANCE-TIPPS",
+    "title":    "6 Wege für mehr FPS",
+    "subtitle": "Einstellungen aus Community-Tests",
+    "list": {
+      "ssd":        { "name": "Auf SSD installieren",      "body": "55 GB lieber auf eine SSD statt auf eine HDD — Ladezeiten der Karte fallen 3–5×, Stotterer beim Reisen verschwinden weitgehend." },
+      "shadows":    { "name": "Schatten reduzieren",        "body": "Ultra → Hoch hat kaum Bildverlust und bringt 15–20% FPS. Mittel ist für Mittelklasse-GPUs ideal." },
+      "foliage":    { "name": "Vegetationsdichte",          "body": "Open-World-Pflanzen sind die teuerste Einstellung. Auf Mittel deutlich mehr FPS in Waldgebieten." },
+      "resolution": { "name": "Auflösungsskalierung",       "body": "Statt nativem 1080p/1440p mit 85% Skalierung spielen — Schärfeverlust gering, GPU-Last −15%." },
+      "vram":       { "name": "VRAM-Management",            "body": "GPUs mit 6 GB+ werden empfohlen; Texturen auf Hoch lassen, Discord/Chrome im Hintergrund schließen." },
+      "background": { "name": "Hintergrund-Apps",           "body": "Browser-Tabs, Riot Vanguard, OBS klauen RAM und GPU. Game Mode beim Start eingeschaltet lassen." }
+    }
+  }
+}

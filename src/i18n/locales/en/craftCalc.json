@@ -1,0 +1,195 @@
+{
+  "page": {
+    "eyebrow": "CRAFT CALCULATOR",
+    "title": "Production Cost, Instantly",
+    "description": "Pick your profession, find your recipe. Required materials, craft time, XP gained and total weight — all in one view."
+  },
+  "search": {
+    "placeholder": "Search recipe or product name",
+    "resultEmpty": "No matches — shorten the term or pick another profession.",
+    "loading": "Loading recipes",
+    "results": "recipes"
+  },
+  "filters": {
+    "all": "All Professions",
+    "cooking": "Cooking",
+    "alchemy": "Alchemy",
+    "blacksmithing": "Blacksmithing",
+    "tailoring": "Tailoring",
+    "carpentry": "Carpentry",
+    "engineering": "Engineering",
+    "jewelcrafting": "Jewelcrafting",
+    "lumber": "Woodcrafting",
+    "smelting": "Smelting",
+    "tanning": "Tanning",
+    "spinning": "Spinning",
+    "gemcutting": "Gemcutting",
+    "essence": "Essence Refining",
+    "fishing": "Fishing",
+    "stonecutting": "Stonecutting",
+    "workbench": "Workbench Building"
+  },
+  "calc": {
+    "title": "Recipe Details",
+    "subtitle": "Pick a recipe; ingredients, sub-recipes and totals open here.",
+    "quantity": "Craft count",
+    "selectItem": "No recipe selected",
+    "pickAnItem": "Click a recipe in the list",
+    "ingredients": "Required Materials",
+    "totalIngredients": "Total parts",
+    "totalCost": "Estimated material cost",
+    "outputValue": "Total sale value",
+    "profit": "Estimated profit",
+    "profitPerHour": "Profit per hour",
+    "margin": "Profit margin",
+    "exp": "Total XP",
+    "expPerHour": "XP per hour",
+    "time": "Craft time",
+    "minLevel": "Min profession level",
+    "tier": "Tier",
+    "perCraft": "Per craft",
+    "reset": "Reset",
+    "noRecipe": "No recipe found in the database for this product.",
+    "seconds": "s",
+    "minutes": "m",
+    "hours": "h",
+    "expandSubrecipe": "Show sub-recipe",
+    "collapseSubrecipe": "Close",
+    "subRecipeNote": "This material has its own recipe",
+    "subRecipeChain": "Raw material chain",
+    "rawIngredients": "Total raw ingredients",
+    "buyFromMarket": "Buy from market",
+    "yieldPerCraft": "Yield per craft",
+    "details": "Details"
+  },
+  "tabs": {
+    "calculator": "Recipe Calculator",
+    "xp": "XP Planner",
+    "character": "Character Boosters"
+  },
+  "rawChain": {
+    "title": "Raw Material Totals",
+    "subtitle": "Drilling through every sub-recipe, here's how many raw materials you actually need.",
+    "empty": "No sub-recipes here — the list above is already raw."
+  },
+  "xp": {
+    "title": "XP Planner",
+    "subtitle": "Pick a profession, set current/target level, toggle your buffs, list your inventory — we'll show the fastest path.",
+    "profession": "Profession",
+    "currentLevel": "Current level",
+    "targetLevel": "Target level",
+    "totalCrafts": "Crafts required",
+    "totalXp": "Total XP needed",
+    "estimatedTime": "Estimated time",
+    "fastest": "Most efficient recipe",
+    "fastestNote": "Highest XP-per-second recipe — buffs and workbench count factored in.",
+    "selectProfession": "Pick a profession first.",
+    "noRecipes": "No recipes available in this level range.",
+    "modelNote": "* Approximate. The XP curve may change between seasons.",
+    "settings": "Settings",
+    "workbenches": "Workbench count",
+    "workbenchHint": "How many workbenches you can run in parallel (multiplies throughput).",
+    "buffs": "XP Buffs",
+    "totalBuff": "Total XP bonus",
+    "buffCategories": {
+      "altar": "Altars",
+      "character": "Character",
+      "premium": "Premium",
+      "consumable": "Consumable"
+    },
+    "buffNames": {
+      "homeAltar": "Personal Altar",
+      "clanAltar": "Clan Altar",
+      "clanBuff": "Clan Buff",
+      "statueBuff": "Statue Buff",
+      "characterBuff": "Character Buff",
+      "anostiasBlessing": "Anostia's Blessing",
+      "ordenusSecretArts": "Ordenus' Secret Arts",
+      "valuablePackage": "Valuable Package",
+      "mastersElixir": "Master's Elixir",
+      "professionScroll": "Profession XP Scroll"
+    },
+    "region": {
+      "label": "Altar region",
+      "blue": "Blue Zone",
+      "red": "Red Zone",
+      "hint": "In red zones altars grant +50% each; in blue zones home altar +40% and clan altar +60%."
+    },
+    "buffCategoriesV2": {
+      "altar": "Altars",
+      "character": "Character",
+      "premium": "Premium Pass",
+      "potion": "Potions",
+      "scroll": "Scrolls"
+    },
+    "tier": "Tier",
+    "off": "Off",
+    "scopes": {
+      "profession": "Profession XP",
+      "weapon": "Weapon XP",
+      "gather": "Gathering speed",
+      "drop": "Drop chance",
+      "level": "Character XP"
+    },
+    "workbenchTier": "Workbench tier",
+    "workbenchTierHint": "Higher-tier workbenches speed up crafting.",
+    "searchAllProfessions": "Search all professions",
+    "searchAllHint": "When on, the optimizer scans every profession for the best fit to your inventory.",
+    "professionLocked": "All-profession scan on"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "subtitle": "What raw materials do you have? List them here — the optimizer ranks recipes around them.",
+    "addMaterial": "Add material",
+    "search": "Search material",
+    "remove": "Remove",
+    "clear": "Clear all",
+    "empty": "No materials added yet. Add some and the optimizer kicks in.",
+    "saved": "Saved to your browser",
+    "items": "items"
+  },
+  "optimizer": {
+    "title": "Suggested Recipes",
+    "subtitle": "Recipes you can craft right now with what you have — sorted by XP per hour.",
+    "noResults": "Nothing in this profession can be made with your current materials. Add more or change profession.",
+    "addInventoryFirst": "Add materials to your inventory to enable the optimizer.",
+    "possible": "possible",
+    "totalXp": "XP earned",
+    "totalTime": "time",
+    "uses": "uses",
+    "rank": "Rank",
+    "xpPerHour": "XP/h",
+    "covers": "progress",
+    "ofTarget": "/ target",
+    "tabReady": "Ready to craft",
+    "tabAlmost": "Almost there",
+    "have": "have",
+    "missing": "missing",
+    "noAlmost": "No nearly-craftable recipes found.",
+    "almostHint": "Gather a bit more and these recipes open up."
+  },
+  "character": {
+    "title": "Power Cards and Skill Stones",
+    "subtitle": "Quinfall powers your character through two systems: permanent power cards lift core stats like HP/MP/attack/defense, while skill stones slot into an active ability and amplify it.",
+    "tabs": {
+      "powerCards": "Power Cards",
+      "skillStones": "Skill Stones"
+    },
+    "powerCards": {
+      "intro": "Power cards slot into character panels. Each card scales from Tier D up to S; high-tier cards unlock stronger passives."
+    },
+    "skillStones": {
+      "intro": "Skill stones slot into active abilities to amplify them. Low quality is for the early game; top quality is the bedrock of every endgame build."
+    },
+    "noDescription": "No description available.",
+    "search": "Search"
+  },
+  "labels": {
+    "level": "Lv",
+    "type": "Type",
+    "price": "Price",
+    "weight": "Weight",
+    "stock": "Stock",
+    "vendor": "Vendor"
+  }
+}

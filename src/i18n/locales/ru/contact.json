@@ -1,0 +1,32 @@
+{
+  "page": {
+    "eyebrow": "КОНТАКТЫ",
+    "title": "Связь с нами",
+    "description": "Присоединяйся к сообществу, обращайся к разработчикам и следи за анонсами на всех официальных каналах — всё на одной странице."
+  },
+  "hero": {
+    "kicker": "САМЫЙ БЫСТРЫЙ ПУТЬ",
+    "title": "Встречаемся в Discord",
+    "subtitle": "Discord — самый быстрый способ задать вопросы, найти события и собрать группу. Уже через минуты встретишь игроков из любого региона.",
+    "primaryCta": "Зайти в Discord",
+    "secondaryCta": "Другие каналы"
+  },
+  "groups": {
+    "community": { "title": "Каналы сообщества",  "subtitle": "Живой чат, анонсы и события" },
+    "platform":  { "title": "Официальные платформы","subtitle": "Скачай игру, открой магазин, посети сайт" },
+    "studio":    { "title": "Контакты студии",     "subtitle": "Корпоративные каналы Vawraek Technology" }
+  },
+  "channels": {
+    "discord":      { "name": "Discord",       "description": "Международные и региональные каналы, поиск гильдии, анонсы событий, Q&A с разработчиками." },
+    "twitter":      { "name": "X (Twitter)",   "description": "Патчноуты, скриншоты и быстрые анонсы." },
+    "youtube":      { "name": "YouTube",       "description": "Официальные трейлеры, дев-блоги и итоги событий." },
+    "steam":        { "name": "Steam",         "description": "Купи игру, читай обзоры, отслеживай достижения." },
+    "officialSite": { "name": "quinfall.com",  "description": "Официальный сайт — трейлер, информация и быстрый переход в Steam." },
+    "studioSite":   { "name": "vawraek.com",   "description": "Корпоративный сайт Vawraek Technology." },
+    "linkedin":     { "name": "LinkedIn",      "description": "Вакансии студии, корпоративные новости и партнёрства." },
+    "instagram":    { "name": "Instagram",     "description": "Закулисье, посты команды и визуальные тизеры." }
+  },
+  "actions": {
+    "openLink": "Открыть"
+  }
+}

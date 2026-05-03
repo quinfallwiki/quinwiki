@@ -1,0 +1,1788 @@
+{
+  "deepest-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2202.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2000.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 2079.4
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2058.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 2743.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2765.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01158",
+      "mse": 2488.0
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "binek_icon1_K015",
+      "mse": 2766.3
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1564.3
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "mse": 1906.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_10920",
+      "mse": 2213.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11807",
+      "mse": 3277.9
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11807",
+      "mse": 3067.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 3202.4
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_10920",
+      "mse": 2254.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 1166.3
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_10942",
+      "mse": 1096.1
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_10942",
+      "mse": 1201.3
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 1644.9
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "mse": 1569.3
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 1696.3
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 1332.5
+    }
+  ],
+  "deepest-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1843.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2128.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1475.1
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1205.7
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2234.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1969.2
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1112.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01124",
+      "mse": 2370.9
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2232.2
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2722.6
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2733.2
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_21012",
+      "mse": 4442.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12226",
+      "mse": 3285.1
+    }
+  ],
+  "deepest-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1628.7
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1898.6
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1641.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1367.1
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2191.2
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2009.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1105.4
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01124",
+      "mse": 2773.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1832.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2128.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2067.8
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_21012",
+      "mse": 4102.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_10948",
+      "mse": 3198.8
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_12226",
+      "mse": 4187.0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_36508",
+      "mse": 3435.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2592.2
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_10931",
+      "mse": 3175.5
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "mse": 2622.8
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 2373.3
+    }
+  ],
+  "deepest-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_10923",
+      "mse": 2425.0
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2104.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "material_icon1_10923",
+      "mse": 2048.8
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1987.5
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2258.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2696.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2061.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01104",
+      "mse": 3208.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_10931",
+      "mse": 1443.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10931",
+      "mse": 1717.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11190",
+      "mse": 2305.9
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_10402",
+      "mse": 3335.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_23166",
+      "mse": 2895.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 3395.0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11807",
+      "mse": 3038.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 1593.1
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 1233.5
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 1345.8
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 1733.6
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 2160.3
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 1899.8
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "iconCode": "item_icon1_0_6002",
+      "mse": 1828.5
+    }
+  ],
+  "deepest-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "guc_karti_icon1_4003",
+      "mse": 1944.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1691.8
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1986.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_36508",
+      "mse": 2839.7
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1359.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1423.7
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11801",
+      "mse": 2137.4
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_10920",
+      "mse": 2018.5
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1582.7
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 1922.4
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1624.0
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1752.8
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "material_icon1_36508",
+      "mse": 1917.8
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "mse": 3339.2
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "iconCode": "material_icon1_36503",
+      "mse": 2166.2
+    }
+  ],
+  "foaming-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2633.5
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1923.0
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2470.8
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01075",
+      "mse": 3235.2
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2741.0
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "mse": 3194.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01076",
+      "mse": 4062.2
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "mse": 2876.4
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01105",
+      "mse": 3733.8
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 1701.3
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1523.7
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 1829.7
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 2820.9
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 3021.7
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2711.4
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 2445.9
+    }
+  ],
+  "foaming-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01077",
+      "mse": 2675.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_10923",
+      "mse": 2330.8
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2555.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 3455.2
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2777.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "mse": 3188.7
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22215",
+      "mse": 3897.2
+    }
+  ],
+  "foaming-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2569.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2301.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2826.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01076",
+      "mse": 3228.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_22215",
+      "mse": 2870.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22009",
+      "mse": 2808.8
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_1K1044",
+      "mse": 3951.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "binek_icon1_K013",
+      "mse": 2007.6
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11901",
+      "mse": 4011.6
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_11901",
+      "mse": 2851.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11901",
+      "mse": 2990.5
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11901",
+      "mse": 2718.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11901",
+      "mse": 1900.5
+    }
+  ],
+  "foaming-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2752.6
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2008.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2519.3
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01075",
+      "mse": 3134.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2767.1
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "mse": 3072.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "binek_icon1_K015",
+      "mse": 4151.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "mse": 3006.4
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 4150.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1892.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1512.0
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 1849.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 2815.8
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 3021.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11901",
+      "mse": 2696.9
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 2294.1
+    }
+  ],
+  "foaming-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_12545",
+      "mse": 1768.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_12545",
+      "mse": 1624.6
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1560.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1604.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 1530.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_14001",
+      "mse": 2942.6
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 1847.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 2856.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "mse": 2772.4
+    }
+  ],
+  "grim-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2091.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2134.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1863.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1780.6
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2183.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "mse": 3368.2
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "mse": 4053.3
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_22008",
+      "mse": 2570.3
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "mse": 2801.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 1238.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 1346.1
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1494.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 2040.7
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 2026.3
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "mse": 1940.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "mse": 1719.3
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_11901",
+      "mse": 685.2
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_11907",
+      "mse": 803.8
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 715.4
+    }
+  ],
+  "grim-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2483.9
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2486.2
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2073.3
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2065.5
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01160",
+      "mse": 2185.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 3129.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22008",
+      "mse": 3686.8
+    }
+  ],
+  "grim-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2126.5
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2048.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1654.5
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1673.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1597.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "mse": 2945.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22215",
+      "mse": 4022.1
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "mse": 2881.9
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11866",
+      "mse": 4462.8
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10923",
+      "mse": 2812.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 3097.2
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "mse": 2835.9
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 2554.4
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_11901",
+      "mse": 688.9
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "iconCode": "material_icon1_11907",
+      "mse": 913.3
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "iconCode": "prop_icon1_01051",
+      "mse": 755.4
+    }
+  ],
+  "grim-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1981.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1993.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1864.7
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1768.3
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2120.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "mse": 3504.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "mse": 4242.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_22008",
+      "mse": 3091.7
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_12218",
+      "mse": 3200.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_12420",
+      "mse": 1272.0
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "mse": 1387.0
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "mse": 1575.3
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "mse": 2105.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "mse": 2147.8
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "mse": 2030.1
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "mse": 1780.7
+    }
+  ],
+  "grim-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1521.2
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "mse": 1169.0
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "mse": 1654.1
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1446.0
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1110.4
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0KJ075",
+      "mse": 2154.2
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "mse": 1319.9
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_2K1082",
+      "mse": 2484.4
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "mse": 2069.4
+    }
+  ],
+  "quiet-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2248.7
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_22008",
+      "mse": 3429.6
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "material_icon1_22008",
+      "mse": 2862.4
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "mse": 3575.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_12406",
+      "mse": 2485.5
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22008",
+      "mse": 3629.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22011",
+      "mse": 3144.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 3065.5
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_5003",
+      "mse": 2925.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10920",
+      "mse": 2245.1
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_10920",
+      "mse": 2404.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 1551.6
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 1636.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 1659.8
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 2737.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "mse": 2309.5
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "mse": 1958.0
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "mse": 1609.4
+    }
+  ],
+  "quiet-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1911.2
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 3445.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2485.5
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "mse": 4234.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01140",
+      "mse": 3496.0
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01076",
+      "mse": 3284.1
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_10918",
+      "mse": 3397.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "mse": 3211.5
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11749",
+      "mse": 2443.6
+    }
+  ],
+  "quiet-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2047.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 3023.8
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1926.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01104",
+      "mse": 4116.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01077",
+      "mse": 2957.5
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01104",
+      "mse": 2508.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01093",
+      "mse": 3050.4
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01076",
+      "mse": 2630.8
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_12226",
+      "mse": 3687.5
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_21012",
+      "mse": 3540.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11866",
+      "mse": 3851.7
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 2621.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11866",
+      "mse": 3028.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4004",
+      "mse": 2999.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 2700.5
+    }
+  ],
+  "quiet-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_10923",
+      "mse": 2296.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "mse": 3518.7
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "mse": 2491.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "mse": 4116.1
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01140",
+      "mse": 3168.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22216",
+      "mse": 3412.1
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_10918",
+      "mse": 3435.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 3389.2
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_36503",
+      "mse": 2379.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10920",
+      "mse": 3088.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_36508",
+      "mse": 2682.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1478.5
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12420",
+      "mse": 1759.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1555.2
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "guc_karti_icon1_4002",
+      "mse": 2601.1
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 2508.9
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "mse": 2099.7
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "mse": 1825.1
+    }
+  ],
+  "quiet-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "mse": 1699.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_11304",
+      "mse": 1489.0
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_10931",
+      "mse": 1200.6
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_36508",
+      "mse": 3196.0
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_36509",
+      "mse": 3933.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_22011",
+      "mse": 2649.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "prop_icon1_5004",
+      "mse": 3944.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12581",
+      "mse": 2707.0
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0KJ074",
+      "mse": 3454.3
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11901",
+      "mse": 2013.0
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "mse": 2569.8
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "iconCode": "material_icon1_36503",
+      "mse": 2565.2
+    }
+  ]
+}

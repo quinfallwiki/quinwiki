@@ -1,0 +1,195 @@
+{
+  "page": {
+    "eyebrow": "CRAFT-RECHNER",
+    "title": "Produktionskosten, sofort",
+    "description": "Beruf wählen, Rezept finden. Benötigte Materialien, Herstellzeit, XP-Gewinn und Gesamtgewicht — alles in einer Ansicht."
+  },
+  "search": {
+    "placeholder": "Rezept oder Produkt suchen",
+    "resultEmpty": "Kein Treffer — Begriff kürzen oder anderen Beruf wählen.",
+    "loading": "Rezepte werden geladen",
+    "results": "Rezepte"
+  },
+  "filters": {
+    "all": "Alle Berufe",
+    "cooking": "Kochkunst",
+    "alchemy": "Alchemie",
+    "blacksmithing": "Schmiedekunst",
+    "tailoring": "Schneiderei",
+    "carpentry": "Tischlerei",
+    "engineering": "Mechanik",
+    "jewelcrafting": "Schmuckkunst",
+    "lumber": "Holzverarbeitung",
+    "smelting": "Verhütten",
+    "tanning": "Lederverarbeitung",
+    "spinning": "Garnspinnerei",
+    "gemcutting": "Edelsteinschliff",
+    "essence": "Essenzraffinerie",
+    "fishing": "Angeln",
+    "stonecutting": "Steinmetzerei",
+    "workbench": "Werkbankbau"
+  },
+  "calc": {
+    "title": "Rezeptdetails",
+    "subtitle": "Wähle ein Rezept; Zutaten, Unterrezepte und Summen erscheinen hier.",
+    "quantity": "Herstellanzahl",
+    "selectItem": "Kein Rezept gewählt",
+    "pickAnItem": "Klicke ein Rezept in der Liste",
+    "ingredients": "Benötigte Materialien",
+    "totalIngredients": "Teile gesamt",
+    "totalCost": "Geschätzte Materialkosten",
+    "outputValue": "Gesamter Verkaufswert",
+    "profit": "Geschätzter Gewinn",
+    "profitPerHour": "Gewinn pro Stunde",
+    "margin": "Gewinnmarge",
+    "exp": "Gesamt-XP",
+    "expPerHour": "XP pro Stunde",
+    "time": "Herstellzeit",
+    "minLevel": "Min. Berufsstufe",
+    "tier": "Tier",
+    "perCraft": "Pro Herstellung",
+    "reset": "Zurücksetzen",
+    "noRecipe": "Für dieses Produkt steht kein Rezept in der Datenbank.",
+    "seconds": "s",
+    "minutes": "min",
+    "hours": "h",
+    "expandSubrecipe": "Unterrezept anzeigen",
+    "collapseSubrecipe": "Schließen",
+    "subRecipeNote": "Dieses Material hat ein eigenes Rezept",
+    "subRecipeChain": "Rohstoffkette",
+    "rawIngredients": "Gesamte Rohstoffe",
+    "buyFromMarket": "Vom Markt kaufen",
+    "yieldPerCraft": "Ausbeute pro Herstellung",
+    "details": "Details"
+  },
+  "tabs": {
+    "calculator": "Rezeptrechner",
+    "xp": "XP-Planer",
+    "character": "Charakter-Boost"
+  },
+  "rawChain": {
+    "title": "Rohstoff-Summe",
+    "subtitle": "Wir gehen durch jedes Unterrezept und zeigen, wie viele Rohstoffe du wirklich brauchst.",
+    "empty": "Keine Unterrezepte — die Liste oben ist bereits roh."
+  },
+  "xp": {
+    "title": "XP-Planer",
+    "subtitle": "Beruf wählen, Stufen setzen, Buffs einschalten, Inventar pflegen — wir zeigen den schnellsten Weg.",
+    "profession": "Beruf",
+    "currentLevel": "Aktuelle Stufe",
+    "targetLevel": "Zielstufe",
+    "totalCrafts": "Benötigte Herstellungen",
+    "totalXp": "Insgesamt benötigte XP",
+    "estimatedTime": "Geschätzte Zeit",
+    "fastest": "Effizientestes Rezept",
+    "fastestNote": "Höchste XP pro Sekunde — Buffs und Werkbänke einberechnet.",
+    "selectProfession": "Wähle zuerst einen Beruf.",
+    "noRecipes": "Keine Rezepte in diesem Stufen-Bereich.",
+    "modelNote": "* Annähernd. Die XP-Kurve kann zwischen Saisons variieren.",
+    "settings": "Einstellungen",
+    "workbenches": "Werkbankanzahl",
+    "workbenchHint": "Wie viele Werkbänke parallel (multipliziert den Durchsatz).",
+    "buffs": "XP-Buffs",
+    "totalBuff": "Gesamt-XP-Bonus",
+    "buffCategories": {
+      "altar": "Altäre",
+      "character": "Charakter",
+      "premium": "Premium",
+      "consumable": "Verbrauch"
+    },
+    "buffNames": {
+      "homeAltar": "Persönlicher Altar",
+      "clanAltar": "Klan-Altar",
+      "clanBuff": "Klan-Buff",
+      "statueBuff": "Statuen-Verstärkung",
+      "characterBuff": "Charakter-Buff",
+      "anostiasBlessing": "Anostias Segen",
+      "ordenusSecretArts": "Ordenus' Geheimkünste",
+      "valuablePackage": "Wertpaket",
+      "mastersElixir": "Meister-Elixier",
+      "professionScroll": "Beruf-XP-Rolle"
+    },
+    "region": {
+      "label": "Altarregion",
+      "blue": "Blaue Zone",
+      "red": "Rote Zone",
+      "hint": "In roten Zonen geben beide Altäre +50%; in blauen Zonen Heimaltar +40%, Klan-Altar +60%."
+    },
+    "buffCategoriesV2": {
+      "altar": "Altäre",
+      "character": "Charakter",
+      "premium": "Premium-Pass",
+      "potion": "Tränke",
+      "scroll": "Schriftrollen"
+    },
+    "tier": "Stufe",
+    "off": "Aus",
+    "scopes": {
+      "profession": "Beruf-XP",
+      "weapon": "Waffen-XP",
+      "gather": "Sammelgeschwindigkeit",
+      "drop": "Drop-Chance",
+      "level": "Charakter-XP"
+    },
+    "workbenchTier": "Werkbankstufe",
+    "workbenchTierHint": "Höhere Werkbankstufen beschleunigen die Herstellung.",
+    "searchAllProfessions": "Alle Berufe scannen",
+    "searchAllHint": "Wenn aktiv, sucht der Optimizer in allen Berufen das beste Match zum Inventar.",
+    "professionLocked": "Alle-Berufe-Scan aktiv"
+  },
+  "inventory": {
+    "title": "Inventar",
+    "subtitle": "Welche Rohstoffe hast du? Trag sie hier ein — der Optimizer richtet die Rezepte danach aus.",
+    "addMaterial": "Material hinzufügen",
+    "search": "Material suchen",
+    "remove": "Entfernen",
+    "clear": "Alles löschen",
+    "empty": "Noch keine Materialien. Füg etwas hinzu, dann startet der Optimizer.",
+    "saved": "Im Browser gespeichert",
+    "items": "Einträge"
+  },
+  "optimizer": {
+    "title": "Empfohlene Rezepte",
+    "subtitle": "Rezepte, die du jetzt mit deinem Inventar bauen kannst — sortiert nach XP pro Stunde.",
+    "noResults": "Mit deinen Materialien lässt sich in diesem Beruf nichts herstellen. Mehr hinzufügen oder Beruf wechseln.",
+    "addInventoryFirst": "Füge Materialien zum Inventar hinzu, um den Optimizer zu starten.",
+    "possible": "möglich",
+    "totalXp": "XP-Gewinn",
+    "totalTime": "Zeit",
+    "uses": "verbraucht",
+    "rank": "Platz",
+    "xpPerHour": "XP/h",
+    "covers": "Fortschritt",
+    "ofTarget": "/ Ziel",
+    "tabReady": "Sofort herstellbar",
+    "tabAlmost": "Fast fertig",
+    "have": "vorhanden",
+    "missing": "fehlt",
+    "noAlmost": "Keine fast fertigen Rezepte gefunden.",
+    "almostHint": "Sammle noch etwas, dann öffnen sich diese Rezepte."
+  },
+  "character": {
+    "title": "Verstärkungskarten und Fertigkeitssteine",
+    "subtitle": "Quinfall stärkt deinen Charakter über zwei Systeme: permanente Verstärkungskarten heben Kern-Werte wie HP/MP/Angriff/Verteidigung; Fertigkeitssteine stecken in einer aktiven Fähigkeit und verstärken sie.",
+    "tabs": {
+      "powerCards": "Verstärkungskarten",
+      "skillStones": "Fertigkeitssteine"
+    },
+    "powerCards": {
+      "intro": "Verstärkungskarten gehen in Charakter-Slots. Jede Karte skaliert von Stufe D bis S; höhere Stufen schalten stärkere Passive frei."
+    },
+    "skillStones": {
+      "intro": "Fertigkeitssteine stecken in aktiven Fähigkeiten, um sie zu verstärken. Niedrige Qualität fürs Frühspiel; Topqualität ist die Basis jedes Endgame-Builds."
+    },
+    "noDescription": "Keine Beschreibung verfügbar.",
+    "search": "Suchen"
+  },
+  "labels": {
+    "level": "St.",
+    "type": "Typ",
+    "price": "Preis",
+    "weight": "Gewicht",
+    "stock": "Bestand",
+    "vendor": "Verkauf"
+  }
+}

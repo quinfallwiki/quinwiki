@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "title": "The Quinfall Wiki",
+    "tagline": "Tritt ein in die Welt von Quinfall"
+  },
+  "nav": {
+    "home": "Startseite",
+    "guide": "Guide",
+    "classes": "Klassen",
+    "crafting": "Herstellung / Sammeln",
+    "dungeons": "Dungeons / Bosse",
+    "items": "Gegenstände",
+    "craftCalc": "Craft-Rechner",
+    "mounts": "Reittiere / Haustiere",
+    "sailing": "Seefahrt",
+    "caravan": "Karawanen-System",
+    "leveling": "Level-Guide",
+    "gallery": "Galerie",
+    "system": "System & Leistung",
+    "updates": "Updates",
+    "studio": "Vawraek Technology",
+    "contact": "Kontakt"
+  },
+  "search": {
+    "open": "Suche",
+    "placeholder": "Seite, Gegenstand, Boss, Dungeon oder Gebiet suchen…",
+    "loading": "Index wird geladen…",
+    "noResults": "Keine Treffer.",
+    "hintsTitle": "Tipps",
+    "hint1": "Seite, Gegenstand, Boss, Dungeon oder Gebietsnamen eingeben",
+    "hint2": "↑ ↓ zum Navigieren, Enter zum Öffnen, Esc zum Schließen",
+    "hint3": "Sonderzeichen werden ignoriert: \"demir cevheri\" trifft \"Demir Cevheri\"",
+    "kbdNav": "navigieren", "kbdOpen": "öffnen", "kbdClose": "schließen",
+    "kinds": {
+      "page": "Seite", "profession": "Beruf", "boss": "Boss",
+      "dungeon": "Dungeon", "zone": "Jagdgebiet", "item": "Gegenstand",
+      "material": "Material", "prop": "Objekt"
+    },
+    "kindShort": {
+      "page": "seite", "profession": "beruf", "boss": "boss",
+      "dungeon": "dungeon", "zone": "gebiet", "item": "item",
+      "material": "mat", "prop": "obj"
+    }
+  },
+  "actions": {
+    "search": "Suchen",
+    "explore": "Erkunden",
+    "readMore": "Mehr",
+    "back": "Zurück",
+    "language": "Sprache",
+    "theme": "Theme",
+    "menu": "Menü",
+    "close": "Schließen",
+    "more": "Mehr"
+  },
+  "navGroups": {
+    "world": "Welt",
+    "tools": "Werkzeuge",
+    "about": "Über"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "communityNote": "Dieses Wiki wird von der Community gepflegt.",
+    "language": "Sprache"
+  },
+  "states": {
+    "loading": "Lädt",
+    "empty": "Hier ist noch nichts",
+    "error": "Etwas ist schiefgelaufen"
+  },
+  "pages": {
+    "guide":     { "summary": "Schritt-für-Schritt-Roadmap von null bis Lvl 100 — Tutorial, Build, Gilde, Post-50-Grind." },
+    "classes":   { "summary": "10 Waffenfamilien und 20 Subklassen — kein Klassen-Lock, Waffe wechseln = Klasse wechseln." },
+    "crafting":  { "summary": "Sammler, Bergmann, Holzfäller, Koch, Schmied, Schneider, Alchemist — 13 Berufe, 700+ Rezepte." },
+    "dungeons":  { "summary": "4 aktive Dungeons, 8 Weltbosse, 4 Schwierigkeiten — von Foaming Catacombs bis Kraken." },
+    "items":     { "summary": "Erze, Pflanzen, Essenzen, Sets — 1900+ Einträge in einer durchsuchbaren Datenbank." },
+    "craftCalc": { "summary": "Kosten/Profit-Rechner, Materialketten und Farm-Pläne — das Endgame-Wirtschaftstool." },
+    "mounts":    { "summary": "Pferde gezähmt (grün/blau) und gezüchtet (lila/orange); Esel, Ochse, Kamel, Elefant als Karawanen-Miete." },
+    "sailing":   { "summary": "4 Schiffsklassen × 2 Fraktionen, 7 Häfen, Naval-Combat und der Kraken dreimal täglich." },
+    "caravan":   { "summary": "Handel zwischen 12 Großstädten — Caravan-Vendor-Mieten, Pakete, +20 % im PvP-Kanal." },
+    "leveling":  { "summary": "Town Board ×2 XP, Statue +40 % Buff, Lvl-75-90-Gruppenzone — die Endgame-Route." },
+    "gallery":   { "summary": "Screenshots, Szenen, Kraken-Kämpfe und Stadtsilhouetten." },
+    "system":    { "summary": "Systemanforderungen, Performance-Einstellungen und Optimierung für schwache PCs." },
+    "updates":   { "summary": "Spiel-Patches, Hotfixes und große Updates direkt aus Steam." },
+    "studio":    { "summary": "Vawraek Technology — Entwickler, Patch Notes, Roadmap und Firmengeschichte." },
+    "contact":   { "summary": "Community-Links, Discord, Feedback und Mitwirkungs-Kanäle." }
+  }
+}

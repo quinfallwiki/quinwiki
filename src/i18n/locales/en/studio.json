@@ -1,0 +1,81 @@
+{
+  "page": {
+    "eyebrow": "STUDIO",
+    "title": "Vawraek Technology",
+    "description": "The independent studio behind Quinfall — founded January 2021 with a mission to build AI-driven, massive-scale MMORPG worlds."
+  },
+  "hero": {
+    "kicker": "WHO ARE WE?",
+    "title": "Architects of Bold Journeys",
+    "subtitle": "Founded in January 2021, Vawraek Technology grew out of the same team that built the Turkish MMORPG Kayra Online — its beta success paved the way for Vawraek's larger ambitions. With advanced technology and AI systems, the studio strives to be one of the pioneers of its field, building revolutionary, reliable and creative ideas for a global audience.",
+    "stats": {
+      "founded": "Founded",
+      "lineage": "Studio Lineage",
+      "scope":   "Vision",
+      "country": "HQ"
+    },
+    "values": {
+      "founded": "January 2021",
+      "lineage": "Kayra Online → The Quinfall",
+      "scope":   "Global MMORPG",
+      "country": "Türkiye"
+    }
+  },
+  "pillars": {
+    "kicker":   "VALUES",
+    "title":    "The 4 Pillars of Vawraek",
+    "subtitle": "Pulled from the official vawraek.com page",
+    "list": {
+      "innovation": { "name": "Innovation",     "body": "Approaches the industry with fresh ideas — designs experiences that step outside the classic MMO mold." },
+      "scale":      { "name": "Massive Scale",  "body": "With its first game The Quinfall the studio aims to build the largest MMORPG universe in the world — and a Sandbox vision that brings real life into the digital one." },
+      "global":     { "name": "Global Audience","body": "Multilingual content and a worldwide community focus from day one." },
+      "ai":         { "name": "AI Systems",     "body": "Going beyond traditional game mechanics with AI-driven systems that build a living world." }
+    }
+  },
+  "projects": {
+    "kicker":   "PROJECTS",
+    "title":    "Vawraek's Production Slate",
+    "subtitle": "Released games + work-in-progress titles",
+    "list": {
+      "kayra": {
+        "name":     "Kayra Online",
+        "tagline":  "The team's first project · Turkish MMORPG",
+        "body":     "A Turkey-focused MMORPG built on Unity by the same team that later founded Vawraek. The beta enjoyed strong reception in the Turkish community and helped The Quinfall secure its initial investor backing. The project was shelved before a full release.",
+        "cta":      "Archived"
+      },
+      "quinfall": {
+        "name":     "The Quinfall",
+        "tagline":  "The studio's second game · Medieval MMORPG",
+        "body":     "Built on the lessons of Kayra Online, this is Vawraek's first global title — a 2016 km² open world with non-target combat, sailing, caravans and massive sieges. Live now.",
+        "cta":      "View on Steam"
+      },
+      "sandbox": {
+        "name":     "Next-gen Sandbox MMORPG",
+        "tagline":  "Third project · In development",
+        "body":     "Vawraek's next big step: a Sandbox MMORPG universe at a scale that brings real life into the digital world. Details coming soon.",
+        "cta":      "Soon"
+      }
+    },
+    "status": {
+      "live":          "LIVE",
+      "inDevelopment": "IN DEVELOPMENT",
+      "archived":      "ARCHIVED"
+    }
+  },
+  "media": {
+    "kicker":   "MEDIA",
+    "title":    "Studio Visuals",
+    "subtitle": "Curated from the official Vawraek media library"
+  },
+  "social": {
+    "kicker":   "CONTACT",
+    "title":    "Follow Vawraek",
+    "subtitle": "Don't miss announcements on the official channels",
+    "labels": {
+      "web":       "vawraek.com",
+      "linkedin":  "LinkedIn",
+      "instagram": "Instagram",
+      "twitter":   "X (Twitter)"
+    }
+  }
+}

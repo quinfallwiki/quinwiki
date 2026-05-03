@@ -1,0 +1,7 @@
+# https://quinwiki.com — The Quinfall Wiki
+User-agent: *
+Allow: /
+Disallow: /assets/icons/
+Disallow: /data/
+
+Sitemap: https://quinwiki.com/sitemap.xml

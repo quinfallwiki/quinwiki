@@ -1,0 +1,195 @@
+{
+  "page": {
+    "eyebrow": "CRAFT HESAPLAMA",
+    "title": "Üretim Maliyeti, Anında",
+    "description": "Mesleğini seç, tarifini bul. Gerekli malzemeler, üretim süresi, deneyim kazancı ve toplam ağırlık tek ekranda."
+  },
+  "search": {
+    "placeholder": "Tarif veya ürün adı ara",
+    "resultEmpty": "Aramaya uyan bir şey bulamadım — daha kısa yaz veya başka meslek seç.",
+    "loading": "Tarifler yükleniyor",
+    "results": "tarif"
+  },
+  "filters": {
+    "all": "Tüm Meslekler",
+    "cooking": "Aşçılık",
+    "alchemy": "Simya",
+    "blacksmithing": "Demircilik",
+    "tailoring": "Terzilik",
+    "carpentry": "Marangozluk",
+    "engineering": "Mühendislik",
+    "jewelcrafting": "Mücevhercilik",
+    "lumber": "Ahşap İşleme",
+    "smelting": "Eritme",
+    "tanning": "Dericilik",
+    "spinning": "İplik Eğirme",
+    "gemcutting": "Taş Kesme",
+    "essence": "Öz Saflaştırma",
+    "fishing": "Balıkçılık",
+    "stonecutting": "Taş Yontma",
+    "workbench": "Tezgâh Yapımı"
+  },
+  "calc": {
+    "title": "Tarif Detayı",
+    "subtitle": "Bir tarif seç; malzemeler, alt-tarifler ve toplamlar burada açılsın.",
+    "quantity": "Üretim adedi",
+    "selectItem": "Tarif seçilmedi",
+    "pickAnItem": "Soldaki listeden bir tarife tıkla",
+    "ingredients": "Gerekli Malzemeler",
+    "totalIngredients": "Toplam parça",
+    "totalCost": "Tahmini hammadde maliyeti",
+    "outputValue": "Toplam satış değeri",
+    "profit": "Tahmini kâr",
+    "profitPerHour": "Saatlik tahmini kâr",
+    "margin": "Kâr marjı",
+    "exp": "Toplam deneyim",
+    "expPerHour": "Saatlik deneyim",
+    "time": "Üretim süresi",
+    "minLevel": "Minimum meslek seviyesi",
+    "tier": "Tier",
+    "perCraft": "Üretim başı",
+    "reset": "Sıfırla",
+    "noRecipe": "Bu ürün için tarif veritabanında kayıt bulunamadı.",
+    "seconds": "sn",
+    "minutes": "dk",
+    "hours": "sa",
+    "expandSubrecipe": "Alt-tarifi göster",
+    "collapseSubrecipe": "Kapat",
+    "subRecipeNote": "Bu malzeme bir alt-tarif gerektiriyor",
+    "subRecipeChain": "Hammadde zinciri",
+    "rawIngredients": "Ham hammadde toplamı",
+    "buyFromMarket": "Pazardan al",
+    "yieldPerCraft": "Üretim başına çıktı",
+    "details": "Detaylar"
+  },
+  "tabs": {
+    "calculator": "Tarif Hesaplama",
+    "xp": "XP Planlayıcı",
+    "character": "Karakter Geliştirme"
+  },
+  "rawChain": {
+    "title": "Ham Hammadde Toplamı",
+    "subtitle": "Alt-tariflere kadar inip en alttaki ham malzemeden kaç tane lazım olduğunu çıkardık.",
+    "empty": "Bu tarifte alt-tarif yok — yukarıdaki liste zaten ham hammadde."
+  },
+  "xp": {
+    "title": "XP Planlayıcı",
+    "subtitle": "Bir meslek seç, mevcut ve hedef seviyeyi gir; bufflarını aç, envanterini yaz, en hızlı yolu gösterelim.",
+    "profession": "Meslek",
+    "currentLevel": "Mevcut seviye",
+    "targetLevel": "Hedef seviye",
+    "totalCrafts": "Yapılması gereken üretim",
+    "totalXp": "Toplam XP gereksinimi",
+    "estimatedTime": "Tahmini süre",
+    "fastest": "En verimli tarif",
+    "fastestNote": "XP/saniye oranı en yüksek tarif. Buff ve tezgâh sayısı dahil edilmiştir.",
+    "selectProfession": "Önce bir meslek seç.",
+    "noRecipes": "Bu seviye aralığında uygun tarif bulunamadı.",
+    "modelNote": "* Yaklaşık değerler. XP eğrisi sezona göre değişebilir.",
+    "settings": "Ayarlar",
+    "workbenches": "Tezgâh sayısı",
+    "workbenchHint": "Aynı anda kaç tezgâhta üretim yapabilirsin (paralel hesaplanır).",
+    "buffs": "XP Buffları",
+    "totalBuff": "Toplam XP bonusu",
+    "buffCategories": {
+      "altar": "Sunaklar",
+      "character": "Karakter",
+      "premium": "Premium",
+      "consumable": "Tüketilebilir"
+    },
+    "buffNames": {
+      "homeAltar": "Bireysel Sunak",
+      "clanAltar": "Klan Sunağı",
+      "clanBuff": "Klan Buffı",
+      "statueBuff": "Heykel Güçlendirmesi",
+      "characterBuff": "Karakter Buffı",
+      "anostiasBlessing": "Anostia Kutsaması",
+      "ordenusSecretArts": "Ordenus'un Gizli Sanatları",
+      "valuablePackage": "Değerli Paket",
+      "mastersElixir": "Usta İksiri",
+      "professionScroll": "Meslek EXP Tomarı"
+    },
+    "region": {
+      "label": "Sunak bölgesi",
+      "blue": "Mavi Bölge",
+      "red": "Kırmızı Bölge",
+      "hint": "Kırmızı bölgede sunaklar +%50 verir; mavi bölgede ev sunağı +%40, klan sunağı +%60."
+    },
+    "buffCategoriesV2": {
+      "altar": "Sunaklar",
+      "character": "Karakter",
+      "premium": "Premium Pas",
+      "potion": "İksirler",
+      "scroll": "Tomarlar"
+    },
+    "tier": "Kademe",
+    "off": "Kapalı",
+    "scopes": {
+      "profession": "Meslek XP",
+      "weapon": "Silah XP",
+      "gather": "Toplama hızı",
+      "drop": "Drop şansı",
+      "level": "Karakter XP"
+    },
+    "workbenchTier": "Tezgâh kademesi",
+    "workbenchTierHint": "Üst kademe tezgâhlar üretim hızını arttırır.",
+    "searchAllProfessions": "Tüm meslekleri tara",
+    "searchAllHint": "Açıkken envantere uyan en iyi tarifi tüm meslekler arasından bulur.",
+    "professionLocked": "Tüm meslekler taraması aktif"
+  },
+  "inventory": {
+    "title": "Envanter",
+    "subtitle": "Elinde ne kadar hammadde var? Burada belirt — optimizer tariflerini buna göre sıralasın.",
+    "addMaterial": "Malzeme ekle",
+    "search": "Hammadde ara",
+    "remove": "Kaldır",
+    "clear": "Hepsini sil",
+    "empty": "Henüz hammadde eklenmedi. Bir şeyler ekleyince optimizer çalışmaya başlar.",
+    "saved": "Tarayıcına kaydedildi",
+    "items": "kalem"
+  },
+  "optimizer": {
+    "title": "Önerilen Tarifler",
+    "subtitle": "Envanterindeki hammaddelerle yapabileceğin tarifler — XP/saatlik orana göre sıralandı.",
+    "noResults": "Envanterindeki hammaddelerle bu meslekte yapılabilecek tarif yok. Daha çok hammadde ekle ya da meslek değiştir.",
+    "addInventoryFirst": "Optimizer'ı çalıştırmak için önce envanterine hammadde ekle.",
+    "possible": "yapılabilir",
+    "totalXp": "kazanılacak XP",
+    "totalTime": "süre",
+    "uses": "kullanır",
+    "rank": "Sıra",
+    "xpPerHour": "XP/sa",
+    "covers": "ilerleme",
+    "ofTarget": "/ hedef",
+    "tabReady": "Hazır tarifler",
+    "tabAlmost": "Eksik var (yakın)",
+    "have": "elinde",
+    "missing": "eksik",
+    "noAlmost": "Az eksikle yapabileceğin tarif bulunamadı.",
+    "almostHint": "Bu tariflerde şu kadar daha hammadde topladığında kapı açılıyor."
+  },
+  "character": {
+    "title": "Güç Kartı ve Beceri Taşı",
+    "subtitle": "Quinfall karakterini iki ayrı sistemle güçlendirir: kalıcı güç kartları HP/MP/saldırı/savunma gibi temel statları yükseltir; beceri taşları ise bir aktif yeteneğe takılır ve onu geliştirir.",
+    "tabs": {
+      "powerCards": "Güç Kartları",
+      "skillStones": "Beceri Taşları"
+    },
+    "powerCards": {
+      "intro": "Güç kartları karakter slotlarına yerleştirilir. Her kart Kademe D'den S'ye kadar yükselir; üst kademe kartlar daha güçlü pasifler açar."
+    },
+    "skillStones": {
+      "intro": "Beceri taşları aktif yeteneklerin içine takılır ve onları büyütür. Düşük kalite başlangıç için, yüksek kalite endgame buildlerin temeli."
+    },
+    "noDescription": "Açıklama bulunamadı.",
+    "search": "Ara"
+  },
+  "labels": {
+    "level": "Sv",
+    "type": "Tip",
+    "price": "Fiyat",
+    "weight": "Ağırlık",
+    "stock": "Stok",
+    "vendor": "Satış"
+  }
+}

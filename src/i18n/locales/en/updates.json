@@ -1,0 +1,27 @@
+{
+  "page": {
+    "eyebrow": "GAME UPDATES",
+    "title": "Patch Notes",
+    "description": "Quinfall patches, hotfixes and major updates fetched live from Steam. Every entry links back to the original Steam announcement."
+  },
+  "hero": {
+    "kicker": "AUTO-SYNCED",
+    "title": "The Quinfall Patch Stream",
+    "subtitle": "This page is fed by the Steam news feed — when the publisher posts an official announcement it lands here on the next deployment at the latest."
+  },
+  "stats": {
+    "total":   "Total Announcements",
+    "latest":  "Latest",
+    "fetched": "Fetched"
+  },
+  "actions": {
+    "openOnSteam": "Open on Steam",
+    "expand":      "Show details",
+    "collapse":    "Hide"
+  },
+  "states": {
+    "loading":  "Loading patch notes…",
+    "error":    "Failed to load patch notes.",
+    "empty":    "No announcements yet."
+  }
+}

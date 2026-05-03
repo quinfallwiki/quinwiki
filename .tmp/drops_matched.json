@@ -1,0 +1,1908 @@
+{
+  "deepest-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 2202.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2000.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 2079.4
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2058.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 2743.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "score": 2765.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01158",
+      "score": 2488.0
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "binek_icon1_K015",
+      "score": 2766.3
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 1564.3
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "score": 1906.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_10920",
+      "score": 2213.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11807",
+      "score": 3277.9
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11807",
+      "score": 3067.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 3202.4
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_10920",
+      "score": 2254.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 1166.3
+    }
+  ],
+  "deepest-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1843.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2128.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1475.1
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1205.7
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2234.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1969.2
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1112.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01124",
+      "score": 2370.9
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 2232.2
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2722.6
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2733.2
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_21012",
+      "score": 4442.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12226",
+      "score": 3285.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "prop_icon1_01051",
+      "score": 571.0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "prop_icon1_01051",
+      "score": 539.4
+    }
+  ],
+  "deepest-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1628.7
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1898.6
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1641.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1367.1
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2191.2
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2009.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1105.4
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01124",
+      "score": 2773.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 1832.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2128.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2067.8
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_21012",
+      "score": 4102.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_10948",
+      "score": 3198.8
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_12226",
+      "score": 4187.0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_36508",
+      "score": 3435.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2592.2
+    }
+  ],
+  "deepest-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_10923",
+      "score": 2425.0
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2104.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "material_icon1_10923",
+      "score": 2048.8
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 1987.5
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2258.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "score": 2696.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01104",
+      "score": 2061.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01104",
+      "score": 3208.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_10931",
+      "score": 1443.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10931",
+      "score": 1717.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11190",
+      "score": 2305.9
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_10402",
+      "score": 3335.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_23166",
+      "score": 2895.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 3395.0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11807",
+      "score": 3038.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 1593.1
+    }
+  ],
+  "deepest-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "guc_karti_icon1_4003",
+      "score": 1944.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1691.8
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 553.8
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 641.6
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 611.6
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 546.2
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01057",
+      "score": 507.2
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 1986.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_36508",
+      "score": 2839.7
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 1359.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 1423.7
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11801",
+      "score": 2137.4
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_10920",
+      "score": 2018.5
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "score": 1582.7
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 1922.4
+    }
+  ],
+  "foaming-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01104",
+      "score": 2633.5
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1923.0
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2470.8
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01075",
+      "score": 3235.2
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2741.0
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "score": 3194.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01076",
+      "score": 4062.2
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "score": 2876.4
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01105",
+      "score": 3733.8
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 1701.3
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1523.7
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 1829.7
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 2820.9
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 3021.7
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2711.4
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 2445.9
+    }
+  ],
+  "foaming-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01077",
+      "score": 2675.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_10923",
+      "score": 2330.8
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2555.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 3455.2
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2777.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "score": 3188.7
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22215",
+      "score": 3897.2
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "item_icon1_1K1023",
+      "score": 515.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "item_icon1_1K1023",
+      "score": 766.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 777.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_1K1023",
+      "score": 852.4
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11494",
+      "score": 729.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "item_icon1_1K1023",
+      "score": 732.9
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "prop_icon1_01050",
+      "score": 779.5
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_1K1023",
+      "score": 793.9
+    }
+  ],
+  "foaming-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01104",
+      "score": 2569.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2301.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01104",
+      "score": 2826.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01076",
+      "score": 3228.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_22215",
+      "score": 2870.9
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22009",
+      "score": 2808.8
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_1K1044",
+      "score": 3951.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "binek_icon1_K013",
+      "score": 2007.6
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11901",
+      "score": 4011.6
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_11901",
+      "score": 2851.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11901",
+      "score": 2990.5
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11901",
+      "score": 2718.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11901",
+      "score": 1900.5
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_1K1023",
+      "score": 674.8
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_1K1023",
+      "score": 653.6
+    }
+  ],
+  "foaming-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2752.6
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2008.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2519.3
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01075",
+      "score": 3134.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2767.1
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "score": 3072.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "binek_icon1_K015",
+      "score": 4151.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "score": 3006.4
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 4150.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 1892.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1512.0
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 1849.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 2815.8
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 3021.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11901",
+      "score": 2696.9
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 2294.1
+    }
+  ],
+  "foaming-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_12545",
+      "score": 1768.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_12545",
+      "score": 1624.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_1K1023",
+      "score": 590.9
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "item_icon1_1K1023",
+      "score": 693.6
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "item_icon1_1K1023",
+      "score": 589.1
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 1560.7
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 1604.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "score": 1530.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_14001",
+      "score": 2942.6
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 1847.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 2856.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "score": 2772.4
+    }
+  ],
+  "grim-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 2091.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2134.3
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 1863.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 1780.6
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2183.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "score": 3368.2
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "score": 4053.3
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_22008",
+      "score": 2570.3
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "score": 2801.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 1238.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "score": 1346.1
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1494.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 2040.7
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 2026.3
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "score": 1940.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "score": 1719.3
+    }
+  ],
+  "grim-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 2483.9
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 2486.2
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2073.3
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 2065.5
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01160",
+      "score": 2185.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 3129.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22008",
+      "score": 3686.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_11907",
+      "score": 752.0
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 560.8
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 566.0
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 564.8
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 589.1
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 578.0
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 570.5
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 544.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "item_icon1_0_6101",
+      "score": 628.7
+    }
+  ],
+  "grim-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2126.5
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01104",
+      "score": 2048.5
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1654.5
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1673.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1597.4
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_21012",
+      "score": 2945.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22215",
+      "score": 4022.1
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "score": 2881.9
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11866",
+      "score": 4462.8
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10923",
+      "score": 2812.9
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "score": 3097.2
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "score": 2835.9
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 2554.4
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 592.4
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 593.1
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "prop_icon1_01051",
+      "score": 550.9
+    }
+  ],
+  "grim-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "prop_icon1_01123",
+      "score": 1981.8
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 1993.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 1864.7
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01123",
+      "score": 1768.3
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 2120.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01123",
+      "score": 3504.4
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01123",
+      "score": 4242.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_22008",
+      "score": 3091.7
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_12218",
+      "score": 3200.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_12420",
+      "score": 1272.0
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11906",
+      "score": 1387.0
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "material_icon1_11906",
+      "score": 1575.3
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11906",
+      "score": 2105.1
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11906",
+      "score": 2147.8
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "score": 2030.1
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "score": 1780.7
+    }
+  ],
+  "grim-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1521.2
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_11906",
+      "score": 1169.0
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 694.1
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1330.7
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 662.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_11494",
+      "score": 611.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_11494",
+      "score": 579.5
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01050",
+      "score": 517.0
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11906",
+      "score": 1654.1
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 1446.0
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 1110.4
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0KJ075",
+      "score": 2154.2
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "prop_icon1_01123",
+      "score": 1319.9
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_2K1082",
+      "score": 2484.4
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11906",
+      "score": 2069.4
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "item_icon1_0_6101",
+      "score": 703.2
+    }
+  ],
+  "quiet-bireysel-cokzor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2248.7
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_22008",
+      "score": 3429.6
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "material_icon1_22008",
+      "score": 2862.4
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "score": 3575.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_12406",
+      "score": 2485.5
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22008",
+      "score": 3629.0
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_22011",
+      "score": 3144.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 3065.5
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "prop_icon1_5003",
+      "score": 2925.4
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10920",
+      "score": 2245.1
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_10920",
+      "score": 2404.3
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 1551.6
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 1636.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 1659.8
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 2737.6
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11906",
+      "score": 2309.5
+    }
+  ],
+  "quiet-bireysel-kolay": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1911.2
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 3445.9
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2485.5
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "score": 4234.8
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01140",
+      "score": 3496.0
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01076",
+      "score": 3284.1
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_10918",
+      "score": 3397.8
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_21012",
+      "score": 3211.5
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_11749",
+      "score": 2443.6
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 438.7
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 454.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 524.7
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "item_icon1_0_6101",
+      "score": 627.3
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "material_icon1_11907",
+      "score": 786.6
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 597.2
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "prop_icon1_01050",
+      "score": 613.7
+    }
+  ],
+  "quiet-bireysel-orta": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2047.4
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "item_icon1_0_6101",
+      "score": 3023.8
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1926.9
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "prop_icon1_01104",
+      "score": 4116.9
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01077",
+      "score": 2957.5
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "prop_icon1_01104",
+      "score": 2508.5
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01093",
+      "score": 3050.4
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "prop_icon1_01076",
+      "score": 2630.8
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_12226",
+      "score": 3687.5
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_21012",
+      "score": 3540.2
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_11866",
+      "score": 3851.7
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 2621.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_11866",
+      "score": 3028.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "guc_karti_icon1_4004",
+      "score": 2999.1
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "item_icon1_0_6101",
+      "score": 2700.5
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "item_icon1_1K1023",
+      "score": 607.2
+    }
+  ],
+  "quiet-bireysel-zor": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "material_icon1_10923",
+      "score": 2296.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "prop_icon1_01123",
+      "score": 3518.7
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "prop_icon1_01123",
+      "score": 2491.6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "material_icon1_22008",
+      "score": 4116.1
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "prop_icon1_01140",
+      "score": 3168.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "material_icon1_22216",
+      "score": 3412.1
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "material_icon1_10918",
+      "score": 3435.9
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 3389.2
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_36503",
+      "score": 2379.9
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_10920",
+      "score": 3088.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_36508",
+      "score": 2682.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1478.5
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12420",
+      "score": 1759.6
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1555.2
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "guc_karti_icon1_4002",
+      "score": 2601.1
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 2508.9
+    }
+  ],
+  "quiet-party": [
+    {
+      "row": 0,
+      "col": 0,
+      "iconCode": "item_icon1_0_6101",
+      "score": 1699.3
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "iconCode": "material_icon1_11304",
+      "score": 1489.0
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "iconCode": "material_icon1_12545",
+      "score": 538.1
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "iconCode": "item_icon1_0_6101",
+      "score": 411.2
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "iconCode": "material_icon1_10931",
+      "score": 1200.6
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "iconCode": "item_icon1_0_6101",
+      "score": 480.7
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "iconCode": "prop_icon1_01051",
+      "score": 535.4
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "iconCode": "material_icon1_36508",
+      "score": 3196.0
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "iconCode": "material_icon1_36509",
+      "score": 3933.4
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "iconCode": "material_icon1_22011",
+      "score": 2649.6
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "iconCode": "prop_icon1_5004",
+      "score": 3944.0
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "iconCode": "material_icon1_12581",
+      "score": 2707.0
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "iconCode": "item_icon1_0KJ074",
+      "score": 3454.3
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "iconCode": "material_icon1_11901",
+      "score": 2013.0
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "iconCode": "material_icon1_11901",
+      "score": 2569.8
+    }
+  ]
+}

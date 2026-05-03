@@ -1,0 +1,27 @@
+{
+  "page": {
+    "eyebrow": "OYUN GÜNCELLEMELERİ",
+    "title": "Patch Notları",
+    "description": "Steam'den otomatik çekilen Quinfall yamaları, hotfix'ler ve büyük güncellemeler. Her giriş orijinal Steam duyurusuna bağlanır."
+  },
+  "hero": {
+    "kicker": "OTOMATİK SENKRON",
+    "title": "Quinfall Patch Akışı",
+    "subtitle": "Bu sayfa Steam haber feed'inden besleniyor — yayıncı resmi duyuru yaptığında en geç bir sonraki dağıtımda burada güncellenir."
+  },
+  "stats": {
+    "total":   "Toplam Duyuru",
+    "latest":  "En Son",
+    "fetched": "Çekildi"
+  },
+  "actions": {
+    "openOnSteam": "Steam'de Aç",
+    "expand":      "Detayları Aç",
+    "collapse":    "Kapat"
+  },
+  "states": {
+    "loading":  "Patch notları yükleniyor…",
+    "error":    "Patch notları yüklenemedi.",
+    "empty":    "Henüz duyuru yok."
+  }
+}

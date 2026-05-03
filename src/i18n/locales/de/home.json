@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "kicker": "DAS DEUTSCHE QUINFALL-KOMPENDIUM",
+    "title": "Tritt ein in Quinfall",
+    "subtitle": "Klassen, Gegenstände, Dungeons, Seefahrt und Karawanen — alles, was du zum Spielen brauchst, an einem Ort.",
+    "tags": [
+      "2016 km² offene Welt",
+      "Non-Target-Kampf",
+      "10 Waffenfamilien",
+      "Massive Belagerungen",
+      "Seekrieg",
+      "Dynamisches Wetter"
+    ],
+    "ctaPrimary": "Wiki entdecken",
+    "ctaSecondary": "Einsteiger-Guide starten"
+  },
+  "worldFacts": {
+    "kicker": "SPIELWELT",
+    "title": "Quinfall auf einen Blick",
+    "facts": {
+      "mapSize":     "Offene Welt",
+      "maxLevel":    "Levelobergrenze",
+      "cities":      "Großstädte",
+      "harbors":     "Häfen",
+      "worldBoss":   "Weltbosse",
+      "weapons":     "Waffenfamilien",
+      "professions": "Berufe",
+      "shipClasses": "Schiff"
+    }
+  },
+  "categories": {
+    "title": "Bereiche",
+    "subtitle": "In Sekunden finden, was du suchst"
+  },
+  "updates": {
+    "title": "Neueste Updates",
+    "subtitle": "Was zuletzt im Wiki dazukam",
+    "empty": "Hier erscheinen bald die ersten Updates."
+  },
+  "community": {
+    "title": "Werde Teil der Community",
+    "subtitle": "Komm auf Discord, stell Fragen, fahr Karawanen mit Spielern aus aller Welt."
+  }
+}

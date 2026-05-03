@@ -1,0 +1,189 @@
+{
+  "page": {
+    "eyebrow": "DUNGEONS & BOSSES",
+    "title": "Dungeons & World Bosses",
+    "description": "The live game currently has 4 active dungeons, 1 locked dungeon slot, 8 world bosses, and 1 locked boss slot. This page collects the drop tables, spawn rhythm, and real in-game captures in one place."
+  },
+  "hero": {
+    "badge": "Overview",
+    "title": "4 Dungeons, 8 Bosses, 4 Difficulties.",
+    "body": "Level cap is 100. Daily Dungeon Points stack up to 1,000 and every entry spends from this pool. Parties cap at 8 and the dungeon level locks to the highest-level player in the group. Every image below is straight from the live game.",
+    "stats": {
+      "cap": "Level Cap",
+      "points": "Daily Dungeon Points",
+      "party": "Party Cap"
+    }
+  },
+  "worldBossRoster": {
+    "kicker": "WORLD BOSSES",
+    "title": "8 Active + 1 Locked",
+    "subtitle": "Each world boss descends at scheduled intervals; the spot is marked on the map. Kraken spawns three times a day, the rest once a day.",
+    "featuredTag": "⚓ Naval · Featured",
+    "spawnPerDay": "{{count}}/day",
+    "lockedTitle": "Locked Boss",
+    "lockedTag": "9th Slot · Soon",
+    "lockedBody": "The ninth World Boss slot is locked. Content is expected to unlock with a future update.",
+    "kinds": {
+      "naval": "Sea · Ship-only",
+      "land-melee": "Land · Melee",
+      "land-aerial": "Air · Mechanical",
+      "land-dragon": "Land · Dragon",
+      "land-caster": "Land · Caster",
+      "land-fiend": "Land · Fiend",
+      "land-celestial": "Land · Fallen Angel",
+      "land-ogre": "Land · Ogre",
+      "locked": "Surprise"
+    },
+    "list": {
+      "kraken": {
+        "name": "Kraken",
+        "body": "The colossal kraken roaming Quinfall's seas. Unlike the other seven bosses it descends three times a day — the most frequently encountered and the most frequently hunted. Only ships can attack it; crew, cannon coordination and seamanship are mandatory.",
+        "meta": {
+          "location": "📍 Open sea",
+          "spawn": "⏱ 3 times a day",
+          "access": "🚢 Ship-only"
+        }
+      },
+      "titanseal": {
+        "name": "Titanseal",
+        "body": "The stone/mountain giant known for its glowing yellow eyes and humped armored body. Heavy strikes plow through the frontline."
+      },
+      "aeroForge": {
+        "name": "Aero-Forge",
+        "body": "Flying boss with a single massive eye-lens and mechanical / steam-age design. Attacks from above — ranged DPS has the edge."
+      },
+      "draconarch": {
+        "name": "Draconarch",
+        "body": "A black-scaled great dragon. The classic high-fantasy boss — falls cleanest with a mixed melee + ranged team."
+      },
+      "doomcaller": {
+        "name": "Doomcaller",
+        "body": "Caster/lord-type boss known for blue glowing eyes and mechanical armor. Casting-based attack patterns dominate."
+      },
+      "velkhurath": {
+        "name": "Vel'khurath",
+        "body": "Horned, clawed, dark-green-skinned fiend. Lich/demon aesthetic — high melee threat."
+      },
+      "seraphiel": {
+        "name": "Seraphiel",
+        "body": "White-winged, armored skull-faced angel. A sword-wielding fallen-angel design with 'holy'-themed attacks."
+      },
+      "vorgath": {
+        "name": "Vorgath",
+        "body": "A bone-shard giant ogre/beast; dark blue-purple skin, a frontline threat that crushes by sheer mass. Wants a numerous group."
+      }
+    }
+  },
+  "instanced": {
+    "kicker": "DUNGEONS",
+    "title": "4 Active + 1 Locked",
+    "subtitle": "Each dungeon opens in Solo or Party mode and supports 4 difficulty tiers (Easy → Very Hard). Very Hard has the widest boss-loot pool.",
+    "itemBadge": "items · Very Hard",
+    "lockedTitle": "Locked Dungeon",
+    "lockedTag": "5th Slot · Soon",
+    "lockedBody": "The fifth dungeon slot is locked. Content is expected to unlock with a future update.",
+    "list": {
+      "foamingCatacombs": {
+        "name": "Foaming Catacombs",
+        "theme": "Cave · underground",
+        "body": "A dark cave/underground-themed dungeon, one of the first opened in Quinfall. Entrance ringed with green vegetation."
+      },
+      "quietChambers": {
+        "name": "Quiet Chambers",
+        "theme": "Stone arches · candlelight",
+        "body": "An underground dungeon of stone-arched halls and stairs. Candlelight atmosphere."
+      },
+      "grimPoint": {
+        "name": "Grim Point",
+        "theme": "Tomb · crypt",
+        "body": "A dungeon of stone corridors lit by columns and torches. Tomb / crypt aesthetic."
+      },
+      "deepestMaze": {
+        "name": "Deepest Maze",
+        "theme": "Volcanic · lava",
+        "body": "A volcanic / lava-themed dungeon with a red-hot landscape. Visually the most aggressive of the current dungeons."
+      }
+    }
+  },
+  "points": {
+    "cap": "Daily point cap",
+    "title": "Dungeon Points system",
+    "body": "Dungeon Points refill daily and stack up to 1,000. Every entry spends from this pool. Solo entry locks the dungeon to your character level; party entry locks it to the highest-level player in the group."
+  },
+  "difficulty": {
+    "kicker": "DIFFICULTY MODES",
+    "title": "Easy → Medium → Hard → Very Hard",
+    "subtitle": "Higher difficulties widen the boss-loot pool and lift drop rates. Critical rule: in Solo mode, drop quality and variety scale with difficulty; in Party mode the SAME table drops at all four difficulties.",
+    "tiers": {
+      "easy": { "name": "🟢 Easy", "description": "Entry-level difficulty." },
+      "normal": { "name": "🟡 Medium", "description": "Standard difficulty." },
+      "hard": { "name": "🟠 Hard", "description": "High difficulty; mechanic knowledge required." },
+      "veryHard": { "name": "🔴 Very Hard", "description": "End-game difficulty. The widest, highest-quality boss loot drops here." }
+    },
+    "notes": {
+      "solo": {
+        "title": "Solo mode",
+        "body": "Go in alone and the dungeon locks to your character level. The drop table widens with difficulty and item quality climbs."
+      },
+      "party": {
+        "title": "Party mode (max 8)",
+        "body": "Only the party leader can request entry. The dungeon level locks to the highest-level player in the group. The party drop table is identical across all four difficulties."
+      }
+    }
+  },
+  "drops": {
+    "kicker": "DROP TABLES",
+    "title": "Full List With In-Game Captures",
+    "subtitle": "Each dungeon: 4 solo difficulty captures + 1 party capture. The numbers below are confirmed by in-game observation.",
+    "rule": {
+      "title": "Important rule",
+      "body": "In Solo mode the drop quality and variety grow with difficulty. In Party mode the SAME item set drops at Easy and at Very Hard — the party table is independent of difficulty."
+    },
+    "table": {
+      "dungeon": "Dungeon",
+      "easy": "Solo·Easy",
+      "normal": "Solo·Med",
+      "hard": "Solo·Hard",
+      "veryHard": "Solo·V.Hard",
+      "party": "Party (fixed)"
+    },
+    "modes": {
+      "soloEasy": "👤 Solo · 🟢 Easy",
+      "soloNormal": "👤 Solo · 🟡 Medium",
+      "soloHard": "👤 Solo · 🟠 Hard",
+      "soloVeryHard": "👤 Solo · 🔴 Very Hard",
+      "party": "👥 Party · All Difficulties"
+    },
+    "itemCount": "{{count}} items",
+    "loading": "Loading…",
+    "empty": "No drops recorded for this mode.",
+    "partyConstant": "The party drop table is fixed regardless of difficulty."
+  },
+  "prep": {
+    "kicker": "GENERAL STRATEGY",
+    "title": "Dungeon & Boss Tips",
+    "subtitle": "Practical advice distilled from community runs.",
+    "items": {
+      "gear": {
+        "title": "Burn the daily 1,000",
+        "body": "If Very Hard is out of reach, burn the points on Hard or Medium — better than letting them rot. The pool doesn't roll over and unspent equals lost loot."
+      },
+      "consumables": {
+        "title": "Buff stack matters",
+        "body": "Cooked food + alchemy potion + guild buff stacked together visibly improves drops and survival."
+      },
+      "comp": {
+        "title": "Right party comp",
+        "body": "Party caps at 8. Tank + healer + DPS mix gives the cleanest result. Ranged DPS is critical against aerial bosses like Aero-Forge."
+      },
+      "comms": {
+        "title": "Pick the right tier",
+        "body": "Very Hard has the widest boss-loot pool, but don't force gear you don't have. In a party the difficulty locks to the highest-level player — keep the group balanced."
+      },
+      "reset": {
+        "title": "Ships for Kraken",
+        "body": "Kraken descends three times a day and only falls to a naval crew. Without ships, crew and cannon coordination, an attempt is wasted time."
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "page": {
+    "eyebrow": "GUIDE",
+    "title": "Beginner's Guide",
+    "description": "Step-by-step roadmap from zero to endgame. Quinfall's character cap is level 100; main story quests end at 50. After 50, the Town Board and party-based mob grind become the core XP loop."
+  },
+  "hero": {
+    "badge": "Zero to Endgame",
+    "title": "From Lvl 1 to Lvl 100",
+    "body": "Quinfall progression is two-tier: levels 1-50 ride the main story. At level 50 the quest stream stops and the game switches to \"set your own path\". From 50 to 100 the daily Town Board quests and group-based elite-mob hunts become the primary XP source.",
+    "stats": {
+      "maxLevel":  "Level Cap",
+      "questCap":  "Quest Cap",
+      "mastery":   "Weapon Mastery"
+    }
+  },
+  "quickStart": {
+    "kicker": "QUICK START",
+    "title": "Ten Steps Out the Gate",
+    "subtitle": "Everything you should check before you spawn into the world. The decisions here are the ones that are hardest to undo later.",
+    "list": {
+      "install":   { "title": "Install on Steam",         "body": "Grab Quinfall on Steam. About 55 GB, SSD recommended." },
+      "server":    { "title": "Pick a server",            "body": "EU / NA / Asia. EU is the home for Turkish players; ping and population are the best fit." },
+      "channel":   { "title": "Channel decision",         "body": "PvE channel is safe at the start; PvP channel opens caravan, pirate and world-boss combat." },
+      "character": { "title": "Create your character",    "body": "Looks can't be changed later. Face, bone, muscle, hair, makeup — every parameter is one-shot. Don't rush." },
+      "tutorial":  { "title": "Don't skip the tutorial",  "body": "The tutorial teaches combat, map, inventory, life skills and farm mechanics. Skipping it makes catching up much harder later." },
+      "weapon":    { "title": "Pick your first weapon",   "body": "There are no classes — the weapon is the class. Try multiple weapons in the first 10 levels; commit to a main." },
+      "mount":     { "title": "Lvl 25-30: first horse",   "body": "Get the first mount on time; lasso a green/blue wild horse. Pabas is the heart of horse breeding." },
+      "profession":{ "title": "Lvl 35-40: profession",    "body": "Start at least one gathering profession. Endgame gear is hard without a lifeskill economy." },
+      "guild":     { "title": "Join a guild",             "body": "Without a guild at mid-level you miss sieges, clan island, shared investment. The social layer is the heart of the game." },
+      "grade":     { "title": "Lvl 50 → 100: board + party","body": "At level 50 the main story ends. Past that: daily Town Board quests + party-based elite-mob grind. Solo yield drops fast — make friends." }
+    }
+  },
+  "phases": {
+    "kicker": "FIVE-PHASE ROADMAP",
+    "title": "From Lvl 1 to Lvl 100",
+    "subtitle": "Quinfall progression splits cleanly into five phases. The first four go quick; the fifth phase is the real game — months, not days, are spent here.",
+    "levelLabel": "Level",
+    "hoursLabel": "Time",
+    "list": {
+      "tutorial": {
+        "tag":   "Phase 1 · Start",
+        "title": "Tutorial and Mechanic Onboarding",
+        "body":  "The main story auto-triggers; the tutorial covers combat, map, inventory, life skills and farm basics. This is where you learn the language of the game.",
+        "bullets": [
+          "From the starter city the Old Sage starts the main NPC chain.",
+          "Pick up your first weapon — it sets your class.",
+          "Low-tier starter gear + first skill points unlock.",
+          "If you want, test different weapons through level 10."
+        ]
+      },
+      "build": {
+        "tag":   "Phase 2 · Build Definition",
+        "title": "Weapon Family and Stat Allocation",
+        "body":  "Your weapon family must commit here. 2 stat points per level; total 200 by level 100. Town Board dailies are the passive XP gate.",
+        "bullets": [
+          "Equip a second weapon; the dual-weapon system unlocks.",
+          "Stat allocation: bad investment hurts — respec is limited.",
+          "Pick up the first skill books from city merchants.",
+          "Get every gear piece to at least 1 star."
+        ]
+      },
+      "dungeon": {
+        "tag":   "Phase 3 · Dungeon and Profession",
+        "title": "Foaming Catacombs and Lifeskills",
+        "body":  "First dungeon opens: Foaming Catacombs. Farm Easy/Medium; start the lifeskill tree at the same time. 1,000 dungeon points refill daily.",
+        "bullets": [
+          "First dungeon: Foaming Catacombs. Ideal for learning mechanics.",
+          "Pick a profession: gathering (Harvester / Lumberjack) or crafting (Blacksmith / Alchemy).",
+          "A horse is a must — lasso a green/blue near Pabas.",
+          "Don't skip Town Board quests — 2x XP gate."
+        ]
+      },
+      "guild": {
+        "tag":   "Phase 4 · Hard Mode and Guild",
+        "title": "Hard Dungeons, Purple Drops, Guild",
+        "body":  "Hard mode dungeons open the purple drop pool. At this point joining a guild becomes practically required — sieges, clan island, shared treasury are now in play.",
+        "bullets": [
+          "Join a guild: siege participation is members-only.",
+          "Clan altar in a red zone grants +30% permanent XP buff.",
+          "Hard mode dungeons drop purple / top-tier crafting mats.",
+          "Caravan guarding pays — work with a guild escort."
+        ]
+      },
+      "endgame": {
+        "tag":   "Phase 5 · Endgame · No Quests",
+        "title": "Lvl 50 → 100: Board and Party Hunting",
+        "body":  "At level 50 the main story ends — no new quests. XP comes from two channels: daily Town Board quests and party-based elite-mob hunts. Solo yield drops fast; without a real party you stall after 75.",
+        "bullets": [
+          "Town Board: daily board quests are the main XP gate.",
+          "Party mob hunts: take down elite and 1/2/3-star champion mobs as a group.",
+          "Stack the Statue +40% XP buff before every session.",
+          "Lvl 75-90 slows; Lvl 90-100 needs a group zone to progress."
+        ]
+      }
+    }
+  },
+  "stats": {
+    "kicker": "STAT AND MASTERY SYSTEM",
+    "title": "6 Stats, 2 Weapons, 90 Mastery",
+    "subtitle": "Every level grants 2 stat points; you spend 200 in total by Lvl 100. You carry two weapons, each with its own 90-level mastery tree.",
+    "units": {
+      "puanLevel":     "stat / level",
+      "puanGrade100":  "at Lvl 100",
+      "silahBasi":     "per weapon",
+      "stat":          "core stat",
+      "silah":         "active slot",
+      "sinifKilidi":   "no lock"
+    },
+    "list": {
+      "str": { "abbr": "STR", "name": "Strength",      "body": "Melee and physical damage." },
+      "def": { "abbr": "DEF", "name": "Defense",       "body": "Physical armor and damage reduction." },
+      "con": { "abbr": "CON", "name": "Constitution",  "body": "HP and stamina." },
+      "int": { "abbr": "INT", "name": "Intellect",     "body": "Spell damage and mana pool." },
+      "res": { "abbr": "RES", "name": "Resistance",    "body": "Spell resist and debuff reduction." },
+      "men": { "abbr": "MEN", "name": "Mind",          "body": "Healing and mana regen." }
+    },
+    "facts": {
+      "perLevel":    { "title": "2 points per level",   "body": "Every level grants 2 stat points to spend. Plan early; the right build needs the first levels mapped out." },
+      "totalAtCap":  { "title": "Lvl 100 = 200 points", "body": "By the time you cap at Lvl 100 you've spent 200 stat points; where they go defines your build." },
+      "mastery90":   { "title": "Weapon Mastery 90",    "body": "Each weapon earns its own XP and levels up to 90. Each mastery level grants a skill point for that specific weapon." },
+      "sixStats":    { "title": "6 core stats",         "body": "STR / DEF / CON / INT / RES / MEN. Your build profile is built from these six." },
+      "twoWeapons":  { "title": "2 active weapon slots","body": "Carry two weapons on your back, swap mid-fight. Think of it as two classes at once." },
+      "noClassLock": { "title": "No class lock",        "body": "Characters don't pick a class — switch the weapon, switch the class. Learn as many weapon families as you want." }
+    },
+    "respec": {
+      "title": "Respec warning",
+      "body": "Stat respec is limited and expensive. Trial-and-error is a disaster — research your build, lock the plan in the first 30 levels."
+    }
+  },
+  "post50": {
+    "kicker": "POST-50 PROGRESSION",
+    "title": "When the Story Ends, the Board Begins",
+    "subtitle": "At Lvl 50 the main story stops carrying you. No new quests. XP comes from two channels: daily Town Board quests and party-based elite-mob hunts. Stack the buff economy and daily progress speeds up.",
+    "questEnd": {
+      "title": "Lvl 50 = end of main story",
+      "body": "Community-confirmed: the main story closes at lvl 50. Between 50 and 100 the game offers no new quests; XP comes from two main channels — Town Board dailies and party-based elite-mob hunts. This is exactly where solo players hit the wall."
+    },
+    "bandsLabel": "PROGRESSION PACE",
+    "pace": {
+      "fast":   "Fast",
+      "medium": "Medium",
+      "slow":   "Slow"
+    },
+    "bands": {
+      "level50to75":  { "body": "A relatively fast band. Steady progress through Town Board quests + duo/trio elite-mob farm. Faster with the Statue buff active." },
+      "level75to90":  { "body": "Step up to Lvl 75 group zones. Solo yield drops sharply; a 4-5 person party for elite-mob hunting becomes mandatory." },
+      "level90to100": { "body": "The slowest band. Lvl 100 group zones + the full buff stack are required. Without Statue + guild + Town Board, daily progress is invisible." }
+    },
+    "buffsLabel": "XP BUFF STACK",
+    "buffs": {
+      "townBoard":  { "title": "Town Board",  "body": "Town People quests give 2x XP versus Royal Quests. The daily starting point." },
+      "statueBuff": { "title": "Statue Buff", "body": "Buy a 1-hour +40% XP buff at city statues (~2.25M gold). 4h/7h/10h variants exist too." },
+      "guildAltar": { "title": "Clan Altar",  "body": "A clan altar in a red zone grants a permanent +30% XP buff. Altar location matters when you pick a guild." },
+      "guildBuff":  { "title": "Guild Buff",  "body": "A +40% XP buff cycle activated every 12 hours. Time it to your online hours." }
+    },
+    "xpSourcesLabel": "MAIN XP SOURCES",
+    "xpSources": {
+      "townBoard":     { "title": "Town Board quests",         "body": "Town Board dailies are the spine of post-50 play. 2x XP versus Royal Quests, steady income." },
+      "partyMobs":     { "title": "Party mob hunting",         "body": "Take down elite and 1/2/3-star champion mobs with friends in your group. Yield is much higher than solo." },
+      "highDungeons":  { "title": "High-tier dungeons",        "body": "Lvl 75-100 group dungeons are an extra XP channel. Burning the daily 1,000 dungeon points is mandatory." },
+      "championStars": { "title": "Champion-star mobs",        "body": "Starred champion mobs give multiples of standard XP and drops. Worth tracking down." }
+    }
+  },
+  "daily": {
+    "kicker": "DAILY ROUTINE",
+    "title": "Six Things to Open Every Session",
+    "subtitle": "The hidden rule of endgame: nail the daily routine. Skip it and you can't catch the players who don't.",
+    "gainLabel": "Gain",
+    "list": {
+      "townBoard":      { "title": "Town Board quests",  "cadence": "Daily · 2x XP",            "body": "Town People quests give 2x XP versus Royal. The first stop of the day.",                                 "gain": "2x XP + gold" },
+      "dungeonPoints":  { "title": "Dungeon Points (1,000)", "cadence": "Daily · auto refill",  "body": "Refills hourly up to 1,000. Every entry spends from this pool — don't log off without burning them.",   "gain": "Boss loot + crafting mats" },
+      "quinfallsTower": { "title": "Quinfall's Tower",   "cadence": "Daily · solo PvE",         "body": "Floors that climb in difficulty. An endgame XP and special-reward source.",                              "gain": "Tier reward + XP" },
+      "zenithConquest": { "title": "Zenith Conquest",    "cadence": "Daily · PvE/PvP rotation", "body": "The main event: PvE / PvP swap daily; 25 per flag, 100 per battlefield.",                                "gain": "Power stones + top-tier mats" },
+      "worldBoss":      { "title": "World boss rotation","cadence": "Daily · 8 bosses",         "body": "Specific bosses descend every day. Kraken three times a day — line up the guild calendar.",              "gain": "Purple / legendary gear" },
+      "statue":         { "title": "Statue buff pickup", "cadence": "Hourly / 4-7-10h",         "body": "Buy +40% XP buffs at city statues; stack before activity.",                                                "gain": "+40% XP for the duration" }
+    }
+  },
+  "mistakes": {
+    "kicker": "BEGINNER MISTAKES",
+    "title": "Avoid Ten Mistakes, Multiply Your Pace",
+    "subtitle": "The ten traps the community calls out the most. Knowing them avoids them — fixing them later costs weeks.",
+    "list": {
+      "skipTutorial":    { "title": "Skipping the tutorial",      "body": "The tutorial gives combat, life skills and farm mechanics in one pass. Skipping it doubles the time it takes to fill the gap later." },
+      "multiWeapon":     { "title": "Spreading across weapons",   "body": "Mastery 30 on six weapons is much weaker than mastery 90 on one. Main first, sub second." },
+      "respecWait":      { "title": "Banking on respec",          "body": "Respec is limited and expensive. Research your build; lock the plan in the first 30 levels." },
+      "lowTierEnhance":  { "title": "Stars on low-tier gear",     "body": "Pushing a level-30 weapon to 5 stars is wasted — it resets when you swap to higher tier. Save stars for endgame gear." },
+      "pvpEarly":        { "title": "Switching to PvP channel early","body": "Low-gear in a PvP channel = quick deaths and gear loss. Build up on PvE first." },
+      "noGuild":         { "title": "Playing without a guild",    "body": "Sieges, clan island, guild buffs, treasury — all of it is guild-bound. Solo play misses half the content." },
+      "ignoreTownBoard": { "title": "Ignoring Town Board",        "body": "Town People quests are 2x XP — the main XP gate post-50. Skipping them stacks lost hours at endgame." },
+      "noProfession":    { "title": "Picking zero professions",   "body": "Without a profession you stay outside the economy. At least one gathering profession is mandatory." },
+      "cashShopAddict":  { "title": "Leaning on the cash shop",   "body": "V-Coin isn't pay-to-win; it gives no stat advantage. Gold buys everything — you don't need to spend." },
+      "rushed":          { "title": "Rushing the climb",          "body": "Hitting Lvl 50 in a week and asking \"what now?\" is the classic mistake. Mastery + profession + social network advance in parallel." }
+    }
+  },
+  "timeline": {
+    "kicker": "FIRST 100 HOURS",
+    "title": "Roadmap at a Glance",
+    "subtitle": "From hour zero to the endgame threshold, where you should be at each hour. Answers \"what should I do today?\" at the end of every session.",
+    "col": {
+      "hours":    "Hours",
+      "level":    "Character Level",
+      "focus":    "Focus",
+      "location": "Location"
+    },
+    "focus": {
+      "tutorial":       "Tutorial, first weapon pick, mechanic learning",
+      "sideQuest":      "Side quests, Town Board, first profession, first skill book",
+      "firstDungeon":   "First dungeon run, first mount, profession grind",
+      "guildJoin":      "Join a guild, hard-mode dungeons, gear at 3 stars",
+      "endgameDungeon": "Endgame dungeon, first world boss, gear at 4 stars",
+      "siege":          "Town Board + party mob hunts, sieges, gear at 5 stars"
+    },
+    "locations": {
+      "starter":      "Starter zone",
+      "kineallen":    "Kineallen",
+      "pabas":        "Pabas area",
+      "larcbost":     "Larcbost / Pabas",
+      "shadowAtoll":  "Shadow Atoll / Rune Mound",
+      "guildIsland":  "Clan Island + Combat Zone"
+    }
+  }
+}

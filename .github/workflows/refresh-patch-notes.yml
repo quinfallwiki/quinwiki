@@ -1,0 +1,59 @@
+name: Refresh Steam patch notes
+
+# Runs once a day, plus on demand from the Actions tab.
+# When patch-notes.json actually changes, the bot commits the new file
+# back to the repo — that push then triggers your hosting provider
+# (Vercel / Netlify / Cloudflare Pages) to redeploy with the fresh data.
+
+on:
+  schedule:
+    # 03:15 UTC every day → about 06:15 in Türkiye
+    - cron: '15 3 * * *'
+  workflow_dispatch: {}        # manual "Run workflow" button in GitHub UI
+
+permissions:
+  contents: write              # required to push the updated JSON back
+
+concurrency:
+  group: refresh-patch-notes
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch Steam feed + auto-translate
+        run: python -X utf8 scripts/fetch-patch-notes.py
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/patch-notes.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes — Steam feed is unchanged since the last run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "patch-notes.json changed — preparing commit."
+          fi
+
+      - name: Commit + push refreshed JSON
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "quinwiki-bot"
+          git config user.email "bot@quinwiki.local"
+          git add public/data/patch-notes.json
+          # [skip ci] in the message prevents this auto-commit from
+          # re-triggering this same workflow.
+          LATEST=$(python -c "import json,sys; d=json.load(open('public/data/patch-notes.json',encoding='utf-8')); print(d['entries'][0]['titles'].get('en','update'))")
+          git commit -m "chore(patches): refresh Steam feed — ${LATEST} [skip ci]"
+          git push

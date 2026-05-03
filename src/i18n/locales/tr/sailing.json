@@ -1,0 +1,257 @@
+{
+  "page": {
+    "eyebrow": "DENİZCİLİK",
+    "title": "Denizcilik & Donanma",
+    "description": "Quinfall'da deniz ayrı bir oyun: 4 sınıf gemi × 2 fraksiyon, 7 liman, 3 balıkçılık kategorisi ve günde 3 kez doğan Kraken. Naval combat sadece PvP kanalında, ödüller ve risk birbirini dengeliyor."
+  },
+  "hero": {
+    "badge": "Sistem Özeti",
+    "title": "7 Liman, 4 Gemi Sınıfı, 3 Kraken/Gün.",
+    "body": "Sal'dan savaş gemisine 4 hull boyutu, hem Tüccar hem Korsan rolüyle inşa edilir. Toplar sadece Frigate ve Warship'lere takılır (26 Haziran 2025 yamasından sonra). Limanda Harbor Master gemini yönetir; deniz kervanı paketi alır, kraken naval ekiple devrilir. Kanal değiştirmek için gemiyi limana çağırmak şart.",
+    "stats": {
+      "harbors": "Liman",
+      "shipClasses": "Gemi Sınıfı",
+      "kraken": "Kraken / Gün"
+    }
+  },
+  "fleet": {
+    "kicker": "FİLO",
+    "title": "4 Hull × 2 Fraksiyon",
+    "subtitle": "Aynı dört sınıf, iki farklı amaç. Tüccar ve Korsan gemileri inşa olarak özdeş; rolleri PvP kanalında ayrılır — biri paketle yol alır, diğeri o paketleri avlar.",
+    "cannonRule": {
+      "title": "Top Kuralı (26 Haziran 2025 yaması)",
+      "body": "Sal (Raft) ve Tekne (Boat) artık top taşıyamaz. Sadece Fırkateyn (Frigate) ve Savaş Gemisi (Warship) silahlandırılabilir. Küçük tekneler artık taşıma odaklıdır — kavgaya çıkarken hesaba kat."
+    },
+    "trader": {
+      "title": "Tüccar Gemileri",
+      "body": "PvP kanalında paket taşır. Hedef: limandan limana gold farkı kazanmak. Yük kapasitesi ve dayanıklılık ön planda."
+    },
+    "pirate": {
+      "title": "Korsan Gemileri",
+      "body": "Aynı 4 sınıf, korsan rolünde. Tüccar gemilerine saldırıp paketleri yağmalamak için kullanılır. İnşa maliyetleri Tüccar versiyonuyla aynı."
+    },
+    "shipsUnit": "gemi",
+    "buildLabel": "İnşa maliyeti",
+    "list": {
+      "raftTrader":     { "name": "Sal · Trader",       "tag": "Tier 1 · giriş",          "body": "Başlangıç teknesi. Kıyıya yakın paket ve balıkçılık için. Top takılamaz." },
+      "boatTrader":     { "name": "Tekne · Trader",     "tag": "Tier 2 · orta",           "body": "Daha büyük yük, hâlâ silahsız. İlk uzak liman seferleri için temel araç." },
+      "frigateTrader":  { "name": "Fırkateyn · Trader", "tag": "Tier 3 · silahlı",        "body": "Top monte edilebilen ilk gemi. Eskort eşliğinde değerli paket taşır." },
+      "warshipTrader":  { "name": "Savaş Gemisi · Trader","tag": "Tier 4 · zırhlı",       "body": "En büyük tüccar gemisi. Kalabalık mürettebat, ağır toplar, lonca ölçeği." },
+      "raftPirate":     { "name": "Sal · Korsan",       "tag": "Tier 1 · korsan",         "body": "Paket çalmak yerine hızla kaçma rolü. Top yok, kovalanırsan bittin." },
+      "boatPirate":     { "name": "Tekne · Korsan",     "tag": "Tier 2 · korsan",         "body": "Korsanlığa giriş. Birkaç adam bindir, küçük tüccar Sal'larını kovala." },
+      "frigatePirate":  { "name": "Fırkateyn · Korsan", "tag": "Tier 3 · korsan toplu",   "body": "Toplu korsan gemisi. PvP kanal ana avcısı." },
+      "warshipPirate":  { "name": "Savaş Gemisi · Korsan","tag": "Tier 4 · efsane korsan","body": "En büyük korsan gemisi. Lonca operasyonları ve büyük tüccar baskını için." }
+    },
+    "classTable": {
+      "title": "İnşa Maliyetleri",
+      "unit": "sınıf",
+      "col": {
+        "tier": "Tier",
+        "shipClass": "Sınıf",
+        "coins": "Coin Maliyeti",
+        "cannons": "Top"
+      },
+      "yes": "Evet",
+      "no": "Hayır",
+      "cannons": "Top yok",
+      "note": "Coin maliyetleri her iki fraksiyon için aynı. Materyaller ek; alt tier ucuz odun/demir, üst tier yüksek kalite Pine Araucaria + Sycamore + MQ Iron istiyor."
+    },
+    "classes": {
+      "raft": "Sal · Raft",
+      "boat": "Tekne · Boat",
+      "frigate": "Fırkateyn · Frigate",
+      "warship": "Savaş Gemisi · Warship"
+    }
+  },
+  "premium": {
+    "kicker": "PREMIUM GEMİLER",
+    "title": "Kozmetik Filo",
+    "subtitle": "Oyun verisinde mevcut dört özel gemi. Mağaza ve etkinlik üzerinden açıldığı düşünülüyor; şu an birincil kaynaktan unlock yöntemleri net olarak doğrulanmadı.",
+    "tag": "Premium",
+    "list": {
+      "mermaidShip":     { "name": "Mermaid Ship",       "body": "Denizkızı temalı gövde, mavi-yeşil paletli süs gemisi." },
+      "charonsFerryShip":{ "name": "Charon's Ferry Ship","body": "Yeraltı feribot estetiği — koyu mor / kemik dokulu gemi." },
+      "medusaShip":      { "name": "Medusa Ship",        "body": "Yılan motifli gövde, yeşilimsi tonlarda mitik tema." },
+      "tridentShip":     { "name": "Trident Ship",       "body": "Üç dişli mızrak / Poseidon teması, parlak altın aksanlar." }
+    },
+    "note": {
+      "title": "Veri kaynağı notu",
+      "body": "Bu dört gemi oyun istemcisinin items.json'ında mevcut; topluluk wikileri ve Steam yama notlarında satış kanalı net olarak listelenmiyor. V-Coin mağazası en olası seçenek — açıldıkça doğrulanacak."
+    }
+  },
+  "harbors": {
+    "kicker": "7 BÜYÜK LİMAN",
+    "title": "Harbor Master ve Servisleri",
+    "subtitle": "Quinfall haritasında 7 büyük liman. Hepsinde aynı Harbor Master NPC'si: gemi yönetimi, ticaret, kervan paketi, gemi inşası, çekme servisi.",
+    "tags": {
+      "edgeshore":   "Doğu kıyısı",
+      "silvercrest": "Gümüş ticareti",
+      "maplewood":   "Orman / ahşap",
+      "thessahazy":  "Sisli mistik",
+      "puttonas":    "Güney tropik",
+      "ellingliers": "Kuzey buz",
+      "traystable":  "Merkez · ana hub"
+    },
+    "regions": {
+      "east":    "Doğu",
+      "central": "Merkez",
+      "west":    "Batı",
+      "mist":    "Sis",
+      "south":   "Güney",
+      "north":   "Kuzey"
+    },
+    "list": {
+      "edgeshore":   { "body": "Doğu kıyısının ana çıkış limanı. Geniş balık çeşitliliği; başlangıç tüccar rotaları için ideal." },
+      "silvercrest": { "body": "Gümüş madenciliği etrafında dönen liman. Cevher trafiği ve ticaret yoğun." },
+      "maplewood":   { "body": "Orman ve sahil birleşiminde. Gemi inşası için ucuz Heartwood / Stormoak pazarı, pahalı liman değil." },
+      "thessahazy":  { "body": "Sisli ve mistik liman. Nadir drop oranı yüksek ama kaybolma da kolay; kaptan deneyimi şart." },
+      "puttonas":    { "body": "Güney sıcak su limanı. Tropik balık, mercanlar; aşçı tariflerinin hammadde kaynağı." },
+      "ellingliers": { "body": "Kuzeybatı buz denizi. Soğuk su balığı tek burada; soğuk dirençli ekipman gerekir." },
+      "traystable":  { "body": "Haritanın merkezindeki büyük hub. En yüksek kervan paket payout'u burada başlar." }
+    },
+    "servicesTitle": "Harbor Master Servisleri",
+    "servicesSubtitle": "Tek NPC üzerinden 6 ana hizmet — limanın merkezi sayılır.",
+    "services": {
+      "shipsInHarbor":   { "title": "My Ships in Harbor", "body": "Limanda demirlemiş tüm gemilerini listeler; çağırma ve onarım buradan." },
+      "shipTrading":     { "title": "Ship Trading",      "body": "Oyuncudan oyuncuya gemi satışı/devri için resmi kanal." },
+      "barter":          { "title": "Barter",            "body": "Mal değişimi: paket içi malları başka ürünlerle takas." },
+      "caravanPackages": { "title": "Caravan Packages",  "body": "Limanın paketleri burada satılır. Ödeme bu kalkış limanına bağlı." },
+      "shipBuilding":    { "title": "Ship Building",     "body": "Yeni gemi inşası işlemi Harbor Master üzerinden başlatılır." },
+      "towing":          { "title": "Towing",            "body": "Açık denizde sıkışmış gemini ücret karşılığı limana çekme servisi." }
+    },
+    "payoutTable": {
+      "label": "PAYOUT TABLOSU",
+      "title": "Liman Başına Tahmini Ödeme",
+      "harbor": "Liman",
+      "payout": "Tahmini Ödeme",
+      "note": "Topluluk gözleminden, kalkış limanına göre. Traystable en yüksek (~1500g); Edgeshore ve Silvercrest tabandan başlar (~500g)."
+    }
+  },
+  "combat": {
+    "kicker": "NAVAL COMBAT",
+    "title": "Top, Kanal ve Korsanlık",
+    "subtitle": "Naval combat sadece PvP kanalında işliyor. PvE kanalı saf taşımacılık; saldırı yok, kayıp yok. Aşağıdaki kalemler resmi yama notları ve Companion sailing rehberinden doğrulandı.",
+    "facts": {
+      "pvpOnly":       { "title": "Sadece PvP kanalında", "body": "Gemi savaşları yalnızca PvP kanalında aktif. PvE kanalında gemi sadece transport — diğer oyuncular saldıramaz." },
+      "mannedCannons": { "title": "Manuel veya otomatik top","body": "Toplar mürettebat tarafından doldurulup ateşlenir; bazı toplar otomatik moda alınabilir. Voice koordinasyonu ciddi avantaj." },
+      "durability":    { "title": "Geminin çürümesi yok",  "body": "Companion: 'Gemiler zamanla çürümez veya bozulmaz; sadece çarpışma ve savaş hasarı verir.' Aktif kalmasan da değer kaybetmez." },
+      "channelSwitch": { "title": "Kanal değiştirmek için liman şart","body": "Açık denizde kanal değişimi yok. Gemiyi önce limana çağırırsın; demirlersen üzerindeki kervan paketleri yok olur." },
+      "piracy":        { "title": "Korsanlık ve abordaj",  "body": "PvP kanalında korsan gemileri tüccar gemilerine saldırıp paketleri yağmalar. Yan yana getirip mürettebat atlatma (abordaj) klasik taktik." },
+      "cannonRestriction": { "title": "Sal/Tekne top yasağı","body": "Raft ve Boat artık top monte edemez. Tüm naval saldırı kapasitesi Frigate ve Warship'lerde toplandı.", "source": "26 Haziran 2025 balance patch" }
+    }
+  },
+  "kraken": {
+    "kicker": "KRAKEN AVI",
+    "title": "Açık Denizin Naval Bossu",
+    "subtitle": "Quinfall'un en sembolik dünya bossu. Sadece gemi ile saldırılır; karadan dövülmez. Günde 3 kez dünyaya iner — diğer 7 dünya bossundan kat kat sık.",
+    "spotlight": {
+      "tag": "Naval World Boss",
+      "title": "Kraken",
+      "body": "Denizin derinliklerinden yüzeye çıkıp kollarıyla gemi gövdesini parçalar. Cursed Realms yamasıyla yakın saldırı paterni eklendi ve hasarı %50 artırıldı. Lonca büyüklüğünde naval ekip + Frigate / Warship şart.",
+      "meta": {
+        "location": { "label": "Konum",  "value": "Açık deniz" },
+        "spawn":    { "label": "Spawn",  "value": "Günde 3 kez" },
+        "access":   { "label": "Erişim", "value": "Sadece gemi" }
+      }
+    },
+    "phases": {
+      "title": "Saldırı Pattern'leri",
+      "note": "Faz isimlerinin bir kısmı topluluk gözleminden derlendi; resmi mekanik metni hâlâ gelmedi.",
+      "list": {
+        "surface":    { "title": "Yüzeye çıkış",      "body": "Kraken denizden yüzeye çıkar; bütün toplar pozisyon alabilir. Açılış penceresi en yoğun hasar fırsatı." },
+        "tentacle":   { "title": "Tentacle Slam",     "body": "Bir gemiyi tek vuruşla hedefler; ağır hasar. Sıralı vurmaması için pozisyonlar dağıtılır." },
+        "inkCloud":   { "title": "Ink Cloud",         "body": "Karanlık mürekkep bulutu görüş ve isabet azaltır; kısa süreli geri çekilme penceresi." },
+        "whirlpool":  { "title": "Whirlpool",         "body": "Etrafını çağıran girdap. Yelken aç, motoru bas, merkezden uzaklaş — yoksa direkt ona çarparsın." },
+        "underwater": { "title": "Underwater Phase",  "body": "Bir süreliğine dalış yapar. Çıkacağı noktayı tahmin et; harpoonu hazırda tut." }
+      }
+    },
+    "rewards": {
+      "title": "Drop Havuzu",
+      "note": "Kraken-spesifik ödüller topluluk içinden derlendi; bazıları (örn. Sea Champion title) primer kaynakta net teyit edilmedi.",
+      "list": {
+        "materials": { "title": "Kraken parçaları",   "body": "Üst tier crafting materyalleri — naval set ve Kraken silah hatlarının temel girdisi." },
+        "gold":      { "title": "Yüksek miktar gold", "body": "Tek runda dağıtılan toplam gold ciddi; lonca ekonomisinin haftalık geliri." },
+        "navalSet":  { "title": "Naval set parçaları","body": "Mürettebat için stat bonusu veren özel naval set parçaları drop havuzunda." },
+        "title":     { "title": "Sea Champion unvanı","body": "Kalıcı title — topluluk içinde ödül olarak konuşuluyor; resmi kaynakta isim henüz net değil." }
+      }
+    }
+  },
+  "fishing": {
+    "kicker": "BALIKÇILIK",
+    "title": "3 Kategori, 2 Mod, 1 Token Ekonomisi",
+    "subtitle": "Balıkçılık doğrulanmış ekonomi kollarından biri: tatlı su, tuzlu su ve derin deniz olmak üzere üç ana kategori; aktif (E) veya AFK (T) modda çalışıyor; çıktı Armorer'da geliştirme malzemesine dönüşüyor.",
+    "categories": {
+      "title": "Balıkçılık Kategorileri",
+      "body": "Quinfall balıkçılığı resmi olarak üç kategoride toplanır. Topluluğun yaptığı liman-bazlı bölgesel ayrım (sıcak/soğuk/sisli) bunun üstünde lezzettir, ana sistem değildir.",
+      "list": {
+        "freshwater": { "name": "Tatlı Su",  "tag": "Nehir / göl",     "body": "Kara içi su kaynaklarında; en kolay erişim ve en bol balık." },
+        "saltwater":  { "name": "Tuzlu Su",  "tag": "Liman / kıyı",    "body": "Limana yakın deniz suyu. Kıyı balıklarının ana avlanma alanı." },
+        "deepSea":    { "name": "Derin Deniz","tag": "Açık deniz · gemi","body": "Limandan uzakta, gemi gerek. Daha büyük ve daha nadir balıklar; kraken çevresinde efsanevi türler." }
+      }
+    },
+    "mechanics": {
+      "title": "Balıkçılık Modları",
+      "list": {
+        "activeMode":  { "title": "Aktif mod (E)",  "body": "E tuşuyla aktif olta atışı. Tepki gerektirir, daha yüksek kalite balık şansı." },
+        "afkMode":     { "title": "AFK mod (T)",    "body": "T tuşuyla otomatik balıkçılık. Yavaş ama eli boş bırakır; uzun seanslar için." },
+        "tokens":      { "title": "Profession token", "body": "Yakaladığın balıkları Fisherman NPC'ye satınca profession token kazanırsın." },
+        "enhancement": { "title": "Armorer takası", "body": "Token'ları Armorer NPC'sinden geliştirme malzemesine takas edersin (T tuşu → Exchange)." }
+      }
+    },
+    "tokenEconomy": {
+      "title": "Token → Geliştirme Ekonomisi",
+      "body": "Steam topluluk rehberi: 'Topladığın malzemeyi profession token ile takas et... Armorer NPC'sine git, T tuşuna bas, Exchange... token'larını geliştirme malzemesine çevir.'",
+      "materialsLabel": "Doğrulanmış Geliştirme Malzemeleri",
+      "materials": {
+        "nebulas":     "Nebulas",
+        "starScroll":  "Star Scroll",
+        "meteorSouls": "Meteor Souls",
+        "astralCloth": "Astral Cloth"
+      },
+      "source": "Kaynak · Steam guide id=3533874584"
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEJİ",
+    "title": "Hangi Kaptan Hangi Yola?",
+    "subtitle": "Yeni başlayanın güvenli kıyısı, tüccarın gold rotası, korsanın PvP avı, lonca-ölçek Kraken seferi.",
+    "list": {
+      "starter": {
+        "title": "🌱 Yeni Kaptan",
+        "bullets": [
+          "İlk gemin Sal — 60.000 coin'le ucuz, kıyı balıkçılığı + kısa rota için yeter.",
+          "PvE kanalında balıkçılık ve token farm ile başla; Armorer'a sat, geliştirme malzemesi topla.",
+          "Tekne / Frigate'a geçmeden önce Maplewood'da odun ekonomisini öğren.",
+          "Kanal değişimi sadece limanda; demirleme paketi yok eder, dikkat."
+        ]
+      },
+      "trader": {
+        "title": "💰 Tüccar",
+        "bullets": [
+          "Frigate Trader — top monte edebilen ilk sınıf, eskort eşliğinde değerli paket.",
+          "Traystable kalkışlı rotaları hedefle (~1500g payout).",
+          "Caravan paketi liman dışına çıkmadan teslim et — demirlemede yok olur.",
+          "Yüksek değerli yükte Frigate/Warship eskort götür, korsan gemileri için iyi yem olma."
+        ]
+      },
+      "pirate": {
+        "title": "🏴‍☠ Korsan",
+        "bullets": [
+          "Frigate Pirate ile başla; Warship Pirate lonca yatırımı.",
+          "PvP kanalında ticaret rotalarına otur, tek başına seyahat eden Tüccar Tekne / Frigate'i kovala.",
+          "Abordaj için 4-6 yakın dövüş mürettebatı bulundur.",
+          "Tüccar limanına yaklaşmadan önce vur; yetişene kadar paket yok olabilir."
+        ]
+      },
+      "kraken": {
+        "title": "🐙 Kraken Seferi",
+        "bullets": [
+          "Lonca koordinasyonu zorunlu; tek gemi ile düşmez. Frigate / Warship karışımı en az 3 gemi.",
+          "Mürettebat: 1 kaptan + 4-8 topçu + 2 destek. Voice koordinasyonu olmadan denenmez.",
+          "Whirlpool fazında dağıl, Underwater'dan sonra harpoonu hazır tut.",
+          "Drop havuzu naval set ve crafting materyali için ana kaynak — haftalık planla."
+        ]
+      }
+    }
+  }
+}

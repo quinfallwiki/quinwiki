@@ -1,0 +1,189 @@
+{
+  "page": {
+    "eyebrow": "ZİNDANLAR VE BOSSLAR",
+    "title": "Zindan & Dünya Patronları",
+    "description": "Şu anda oyunda 4 aktif zindan, 1 kilitli zindan slotu, 8 dünya patronu ve 1 kilitli patron slotu var. Bu sayfa drop tablolarını, spawn ritmini ve oyun-içinden çekilmiş gerçek görselleri tek yerde topluyor."
+  },
+  "hero": {
+    "badge": "Genel Bakış",
+    "title": "4 Zindan, 8 Patron, 4 Zorluk.",
+    "body": "Maks seviye 100. Günlük zindan puanı 1000'e kadar birikir; her giriş bu havuzdan harcar. Party maks 8 kişiyle açılır ve zindan seviyesi gruptaki en yüksek seviyeli oyuncuya kilitlenir. Aşağıdaki tüm görseller oyun-içinden çekildi.",
+    "stats": {
+      "cap": "Maks Seviye",
+      "points": "Günlük Zindan Puanı",
+      "party": "Party Tavanı"
+    }
+  },
+  "worldBossRoster": {
+    "kicker": "DÜNYA PATRONLARI",
+    "title": "8 Aktif Patron + 1 Kilitli",
+    "subtitle": "Her dünya patronu belirli aralıklarla dünyaya iner; konumu haritada işaretlenir. Kraken günde 3 kez, diğerleri günde 1 kez doğar.",
+    "featuredTag": "⚓ Naval · Featured",
+    "spawnPerDay": "Günde {{count}}",
+    "lockedTitle": "Kilitli Patron",
+    "lockedTag": "9. Slot · Yakında",
+    "lockedBody": "Dokuzuncu Dünya Patronu slotu şu an kilitli. İçeriğin gelecek bir güncellemeyle açılması bekleniyor.",
+    "kinds": {
+      "naval": "Deniz · Sadece gemi",
+      "land-melee": "Kara · Yakın dövüş",
+      "land-aerial": "Hava · Mekanik",
+      "land-dragon": "Kara · Ejderha",
+      "land-caster": "Kara · Caster",
+      "land-fiend": "Kara · İblis",
+      "land-celestial": "Kara · Fallen Angel",
+      "land-ogre": "Kara · Ogre",
+      "locked": "Sürpriz"
+    },
+    "list": {
+      "kraken": {
+        "name": "Kraken",
+        "body": "Quinfall denizinde dolaşan dev kraken. Diğer 7 patrondan farklı olarak günde 3 kez dünyaya iner — en sık karşılaşılabilen ve en sık avlanabilen patrondur. Sadece gemi ile saldırılabilir; mürettebat, top koordinasyonu ve denizcilik becerisi şarttır.",
+        "meta": {
+          "location": "📍 Açık deniz",
+          "spawn": "⏱ Günde 3 kez",
+          "access": "🚢 Sadece gemi ile"
+        }
+      },
+      "titanseal": {
+        "name": "Titanseal",
+        "body": "Sarı parlayan gözleri ve hörgüç-zırhlı bedeniyle bilinen taş/dağ devi. Ağır vuruşlarıyla frontline'ı eze eze ilerler."
+      },
+      "aeroForge": {
+        "name": "Aero-Forge",
+        "body": "Tek dev göz lensi olan, mekanik/buhar-çağı tasarımlı uçan patron. Havadan saldırır — ranged DPS karşısında daha avantajlı."
+      },
+      "draconarch": {
+        "name": "Draconarch",
+        "body": "Siyah pullu dev ejderha. Klasik high-fantasy boss'u — yakın dövüş + ranged karışık ekiple en sağlıklı şekilde devrilir."
+      },
+      "doomcaller": {
+        "name": "Doomcaller",
+        "body": "Mavi parlayan gözleri ve mekanik zırhıyla bilinen büyücü/lord tipi patron. Casting tabanlı saldırı pattern'i öne çıkar."
+      },
+      "velkhurath": {
+        "name": "Vel'khurath",
+        "body": "Boynuzlu, pençeli, koyu yeşil tenli iblis. Lich/şeytan estetiğinde — yakın dövüş tehdidi yüksek."
+      },
+      "seraphiel": {
+        "name": "Seraphiel",
+        "body": "Beyaz kanatlı, zırhlı kafatası melek. Kılıç tutan fallen-angel tasarımı; 'kutsal' temalı saldırılar barındırır."
+      },
+      "vorgath": {
+        "name": "Vorgath",
+        "body": "Kemik parçalı dev ogre/canavar; koyu mavi-mor tenli, kütlesiyle ezici bir frontline tehdidi. Kalabalık ekip ister."
+      }
+    }
+  },
+  "instanced": {
+    "kicker": "ZİNDANLAR",
+    "title": "4 Aktif + 1 Kilitli",
+    "subtitle": "Her zindan Bireysel veya Party olarak açılır; 4 zorluk modu (Kolay → Çok Zor) destekler. Çok Zor zorluğunda boss ganimet seti en geniştir.",
+    "itemBadge": "item · Çok Zor",
+    "lockedTitle": "Kilitli Zindan",
+    "lockedTag": "5. Slot · Yakında",
+    "lockedBody": "Beşinci zindan slotu şu an kilitli. İçeriğin gelecekteki bir güncellemeyle açılması bekleniyor.",
+    "list": {
+      "foamingCatacombs": {
+        "name": "Foaming Catacombs",
+        "theme": "Mağara · yer altı",
+        "body": "Karanlık mağara/yer altı temalı, Quinfall'un ilk açılan zindanlarından biri. Yeşil bitki örtüsüyle çevrili giriş kapısı."
+      },
+      "quietChambers": {
+        "name": "Quiet Chambers",
+        "theme": "Taş kemer · mum ışığı",
+        "body": "Taş kemerli salonlar ve merdivenlerden oluşan yer altı zindanı. Mum ışığı atmosferi."
+      },
+      "grimPoint": {
+        "name": "Grim Point",
+        "theme": "Mezar · mahzen",
+        "body": "Sütun ve meşalelerle aydınlatılmış taş koridorlardan oluşan zindan. Mezar/mahzen estetiği."
+      },
+      "deepestMaze": {
+        "name": "Deepest Maze",
+        "theme": "Volkanik · lav",
+        "body": "Volkanik/lav temalı, kızıl manzaraya sahip zindan. Mevcut zindanların görsel olarak en agresif olanı."
+      }
+    }
+  },
+  "points": {
+    "cap": "Günlük puan tavanı",
+    "title": "Zindan Puanı sistemi",
+    "body": "Her gün otomatik olarak Zindan Puanı yüklenir, en fazla 1000'e kadar birikir. Zindana her giriş bu havuzdan harcar. Bireysel girişlerde zindan seviyesi karakterine göre belirlenir; partide ise grubun en yüksek seviyeli oyuncusuna göre kilitlenir."
+  },
+  "difficulty": {
+    "kicker": "ZORLUK MODLARI",
+    "title": "Kolay → Orta → Zor → Çok Zor",
+    "subtitle": "Üst zorluklara çıkıldıkça boss ganimet seti zenginleşir ve drop oranları artar. Kritik kural: Bireysel modda zorluk arttıkça drop kalitesi/çeşidi artar; Party modunda 4 zorlukta da AYNI tablo düşer.",
+    "tiers": {
+      "easy": { "name": "🟢 Kolay", "description": "Giriş zorluğu." },
+      "normal": { "name": "🟡 Orta", "description": "Standart zorluk." },
+      "hard": { "name": "🟠 Zor", "description": "Yüksek zorluk; mekanik bilgisi gerekir." },
+      "veryHard": { "name": "🔴 Çok Zor", "description": "End-game zorluğu. En kaliteli ve en çeşitli boss ganimeti bu zorlukta düşer." }
+    },
+    "notes": {
+      "solo": {
+        "title": "Bireysel mod",
+        "body": "Solo girersen zindan seviyesi karakterinin seviyesine kilitlenir. Drop tablosu zorluğa göre genişler ve item kalitesi artar."
+      },
+      "party": {
+        "title": "Party mod (max 8)",
+        "body": "Sadece parti lideri giriş isteği gönderebilir. Zindan seviyesi gruptaki en yüksek seviyeli oyuncuya kilitlenir. Party drop tablosu 4 zorluk seviyesinde de aynıdır."
+      }
+    }
+  },
+  "drops": {
+    "kicker": "DROP TABLOLARI",
+    "title": "Oyun-İçi Görsellerle Tam Liste",
+    "subtitle": "Her zindan için 4 bireysel zorluk + 1 party görseli. Aşağıdaki sayılar oyun-içi gözlemle doğrulandı.",
+    "rule": {
+      "title": "Önemli kural",
+      "body": "Bireysel modda zorluk arttıkça drop kalitesi/çeşidi artar. Party modunda Kolay'da ve Çok Zor'da AYNI item seti düşer; party tablosu zorluktan bağımsızdır."
+    },
+    "table": {
+      "dungeon": "Zindan",
+      "easy": "Bir·Kolay",
+      "normal": "Bir·Orta",
+      "hard": "Bir·Zor",
+      "veryHard": "Bir·Çok Zor",
+      "party": "Party (sabit)"
+    },
+    "modes": {
+      "soloEasy": "👤 Bireysel · 🟢 Kolay",
+      "soloNormal": "👤 Bireysel · 🟡 Orta",
+      "soloHard": "👤 Bireysel · 🟠 Zor",
+      "soloVeryHard": "👤 Bireysel · 🔴 Çok Zor",
+      "party": "👥 Party · Tüm Zorluklar"
+    },
+    "itemCount": "{{count}} item",
+    "loading": "Yükleniyor…",
+    "empty": "Bu mod için kayıtlı drop yok.",
+    "partyConstant": "Party drop tablosu zorluktan bağımsız sabittir."
+  },
+  "prep": {
+    "kicker": "GENEL STRATEJİ",
+    "title": "Zindan & Patron İpuçları",
+    "subtitle": "Topluluk run'larından damıtılmış pratik öneriler.",
+    "items": {
+      "gear": {
+        "title": "Günlük 1000 puanını eritme",
+        "body": "Çok Zor'a gücün yetmiyorsa Zor veya Orta'da puanı eritmek bile boş geçmekten iyidir. Yenilenmeyen havuz kaybedilen ganimettir."
+      },
+      "consumables": {
+        "title": "Buff stack'i şart",
+        "body": "Aşçı yemeği + simyacı iksiri + lonca buff'ı stack'lemek drop ve hayatta kalma şansını gözle görülür artırır."
+      },
+      "comp": {
+        "title": "Doğru parti kompozisyonu",
+        "body": "Party max 8 kişi. Tank + healer + dps karışımı en sağlıklı sonucu verir. Aero-Forge gibi havadaki patronlara karşı ranged DPS kritik."
+      },
+      "comms": {
+        "title": "Zorluğu doğru seç",
+        "body": "Çok Zor zorluğunda boss ganimet seti en geniştir; ancak girilemiyor diye gücü zorlama. Party'de zorluk en yüksek seviyeli oyuncuya göre ayarlanır — eşitliğe dikkat."
+      },
+      "reset": {
+        "title": "Kraken için gemi şart",
+        "body": "Kraken günde 3 kez dünyaya iner ve sadece naval ekiple devrilir. Gemi, mürettebat ve top koordinasyonu olmadan girmek zaman kaybı."
+      }
+    }
+  }
+}

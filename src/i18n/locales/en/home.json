@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "kicker": "THE COMPLETE QUINFALL CODEX",
+    "title": "Step Into Quinfall",
+    "subtitle": "Classes, items, dungeons, sailing and caravans — everything you need to play, gathered in one place.",
+    "tags": [
+      "2016 km² Open World",
+      "Non-target Combat",
+      "10 Weapon Families",
+      "Massive Sieges",
+      "Naval Warfare",
+      "Dynamic Weather"
+    ],
+    "ctaPrimary": "Browse the Wiki",
+    "ctaSecondary": "Start the Beginner's Guide"
+  },
+  "worldFacts": {
+    "kicker": "GAME WORLD",
+    "title": "Quinfall at a Glance",
+    "facts": {
+      "mapSize":     "Open World",
+      "maxLevel":    "Level Cap",
+      "cities":      "Major Cities",
+      "harbors":     "Harbours",
+      "worldBoss":   "World Bosses",
+      "weapons":     "Weapon Families",
+      "professions": "Professions",
+      "shipClasses": "Ship"
+    }
+  },
+  "categories": {
+    "title": "Sections",
+    "subtitle": "Find what you need in seconds"
+  },
+  "updates": {
+    "title": "Latest Updates",
+    "subtitle": "Recently added to the wiki",
+    "empty": "First updates will land here soon."
+  },
+  "community": {
+    "title": "Join the Community",
+    "subtitle": "Hop into Discord, ask questions, run caravans with players from every corner of the map."
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "page": {
+    "eyebrow": "REHBER",
+    "title": "Yeni Başlayan Rehberi",
+    "description": "Sıfırdan endgame'e adım adım yol haritası. Quinfall'da maks karakter seviyesi 100; ana hikaye görevleri yalnızca lvl 50'ye kadar. 50'den sonra Town Board (tahta) görevleri ve partyle yaratık avı ana XP kaynağı."
+  },
+  "hero": {
+    "badge": "Sıfırdan Endgame'e",
+    "title": "Lvl 1'den Lvl 100'e",
+    "body": "Quinfall karakter ilerlemesi iki basamaklı: Lvl 1-50 arası ana hikaye seni taşır. Lvl 50'de görev akışı durur ve oyun \"kendi rotanı kendin çiz\" moduna geçer. 50-100 bandında ilerlemek için Town Board (tahta) günlük görevleri ve grup halinde elite mob avı ana XP kaynağı haline gelir.",
+    "stats": {
+      "maxLevel":  "Maks Seviye",
+      "questCap":  "Görev Sınırı",
+      "mastery":   "Silah Mastery"
+    }
+  },
+  "quickStart": {
+    "kicker": "HIZLI BAŞLANGIÇ",
+    "title": "On Adımda Sıfırdan Yola Çıkış",
+    "subtitle": "Karakter yaratıp dünyaya inmeden önce kontrol etmen gereken her şey. Eksik bırakırsan ileride geri dönüp düzeltmesi zor olan kararlar burada.",
+    "list": {
+      "install":   { "title": "Steam'den indir",          "body": "Quinfall'u Steam'den indir. Yaklaşık 55 GB, SSD önerilir." },
+      "server":    { "title": "Sunucu seç",               "body": "EU / NA / Asya. Türk oyuncuların ana adresi EU; ping ve oyuncu yoğunluğu en uygun." },
+      "channel":   { "title": "Channel kararı",           "body": "PvE channel başlangıçta güvenli; PvP channel'da kervan, korsan ve dünya bossu kavgaları açık." },
+      "character": { "title": "Karakter yarat",           "body": "Görünüş sonradan değişmez. Yüz, kemik, kas, saç, makyaj — her parametre tek seferlik. Acele etme." },
+      "tutorial":  { "title": "Tutorial'ı atlama",        "body": "Tutorial savaş, harita, envanter, life skill ve çiftlik mekaniğini öğretir. Atlanırsa sonradan öğrenmek çok daha zor." },
+      "weapon":    { "title": "İlk silahını seç",         "body": "Sınıf yok — silah sınıftır. İlk 10 seviye boyunca farklı silahları dene; ana ailene karar ver." },
+      "mount":     { "title": "Lvl 25-30: ilk at",        "body": "İlk binek vaktinde alınır; lassoyla yeşil/mavi at yakala. Pabas at yetiştiriciliğinin merkezi." },
+      "profession":{ "title": "Lvl 35-40: profesyon",     "body": "En az bir hammadde mesleği başlat. Lifeskill ekonomisi olmadan endgame ekipmanı zor." },
+      "guild":     { "title": "Loncaya katıl",            "body": "Orta seviyede lonca olmadan kuşatma, klan adası, ortak yatırım yok. Sosyal yapı oyunun kalbi." },
+      "grade":     { "title": "Lvl 50 → 100: tahta + party","body": "Lvl 50'de ana hikaye biter. Sonrası tahta (Town Board) günlük görevleri + party halinde elite mob avı. Solo verim hızla düşer; arkadaş edin." }
+    }
+  },
+  "phases": {
+    "kicker": "BEŞ FAZLI YOL HARİTASI",
+    "title": "Lvl 1'den Lvl 100'e",
+    "subtitle": "Quinfall ilerlemesi temiz beş faza bölünür. İlk dördü hızlı geçer; beşinci faz oyunun gerçek içeriği — günler değil aylar burada geçer.",
+    "levelLabel": "Seviye",
+    "hoursLabel": "Süre",
+    "list": {
+      "tutorial": {
+        "tag":   "Faz 1 · Başlangıç",
+        "title": "Tutorial ve Mekanik Öğrenimi",
+        "body":  "Ana hikaye otomatik tetiklenir; tutorial savaş, harita, envanter, life skill ve çiftlik temellerini gösterir. Bu faz oyunun dilini öğrendiğin yer.",
+        "bullets": [
+          "Başlangıç şehrinden Eski Bilge ana NPC akışını başlatır.",
+          "İlk silahını eline al — sınıfın bu seçimle belirlenir.",
+          "Düşük tier başlangıç ekipmanı + ilk skill puanları açılır.",
+          "İstersen lvl 10'a kadar farklı silahları test et."
+        ]
+      },
+      "build": {
+        "tag":   "Faz 2 · Build Tanımlama",
+        "title": "Silah Ailen ve Stat Dağıtımı",
+        "body":  "Bu seviyede silah ailen kesinleşmeli. Her seviyede 2 stat puanı; lvl 100'de toplam 200 puan dağıtırsın. Town Board günlük görevleri pasif XP kapısı.",
+        "bullets": [
+          "İkinci silahını da kuşan; iki silah taşıma sistemi açılır.",
+          "Stat dağıtımı: hatalı yatırım pahalıya patlar — respec sınırlı.",
+          "İlk skill book'ları şehir tüccarından al.",
+          "Tüm ekipmanı en az 1 yıldıza çıkar."
+        ]
+      },
+      "dungeon": {
+        "tag":   "Faz 3 · Zindan ve Profesyon",
+        "title": "Foaming Catacombs ve Lifeskill",
+        "body":  "İlk zindan açılır: Foaming Catacombs. Easy/Orta zorluğunda farm yap; aynı anda life skill ağacını başlat. Günde 1000 zindan puanı pasif yenilenir.",
+        "bullets": [
+          "İlk zindan: Foaming Catacombs. Mekanik için ideal.",
+          "Profesyon seç: ya hammadde (Harvester / Lumberjack) ya üretim (Blacksmith / Alchemy).",
+          "Atın olmazsa olmaz — Pabas civarında lasso ile yeşil/mavi at yakala.",
+          "Town Board görevlerini pas geçme — 2x XP kapısı."
+        ]
+      },
+      "guild": {
+        "tag":   "Faz 4 · Hard Mod ve Lonca",
+        "title": "Hard Zindan, Mor Drop, Lonca",
+        "body":  "Hard mode zindanlar mor (purple) drop havuzunu açar. Bu noktada loncaya katılım pratik olarak şart — kuşatma, klan adası, ortak hazine artık devreye girer.",
+        "bullets": [
+          "Loncaya katıl: kuşatmaya katılım sadece üyelere açık.",
+          "Klan altarı kırmızı bölgede ise +30% kalıcı XP buff'ı.",
+          "Hard mode zindanlar mor / üst tier crafting materyali verir.",
+          "Caravan korumacılığı para kapısı; lonca eskortu ile çalış."
+        ]
+      },
+      "endgame": {
+        "tag":   "Faz 5 · Endgame · Görev Yok",
+        "title": "Lvl 50 → 100: Tahta ve Party Avı",
+        "body":  "Lvl 50'de ana hikaye biter — yeni quest yok. XP iki kaynaktan geliyor: Town Board (tahta) günlük görevleri ve grup halinde elite mob avı. Solo verim hızla düşer; düzgün party kuracak arkadaşların olmazsa 75 sonrası tıkanır.",
+        "bullets": [
+          "Town Board: günlük tahta görevleri ana XP kapısı.",
+          "Party mob avı: elite ve şampiyon yıldızlı yaratıkları grup halinde indir.",
+          "Statue +40% XP buff'ını her oturumdan önce stack'le.",
+          "Lvl 75-90 yavaşlar; Lvl 90-100 grup zonu olmadan ilerlemiyor."
+        ]
+      }
+    }
+  },
+  "stats": {
+    "kicker": "STAT VE MASTERY SİSTEMİ",
+    "title": "6 Stat, 2 Silah, 90 Mastery",
+    "subtitle": "Her seviye 2 stat puanı verir; toplamda Lvl 100'e kadar 200 puan dağıtırsın. İki silah taşırsın, her birinin kendi 90 seviyelik mastery ağacı var.",
+    "units": {
+      "puanLevel":     "stat / level",
+      "puanGrade100":  "Lvl 100'de",
+      "silahBasi":     "her silah",
+      "stat":          "ana stat",
+      "silah":         "aktif slot",
+      "sinifKilidi":   "kilit yok"
+    },
+    "list": {
+      "str": { "abbr": "STR", "name": "Güç",         "body": "Yakın dövüş ve fiziksel hasar." },
+      "def": { "abbr": "DEF", "name": "Savunma",     "body": "Fiziksel zırh ve hasar azaltma." },
+      "con": { "abbr": "CON", "name": "Dayanıklılık","body": "HP ve stamina." },
+      "int": { "abbr": "INT", "name": "Zeka",        "body": "Büyü hasarı ve mana havuzu." },
+      "res": { "abbr": "RES", "name": "Direnç",      "body": "Büyü direnci ve debuff azaltma." },
+      "men": { "abbr": "MEN", "name": "Akıl",        "body": "Şifa ve mana yenilenmesi." }
+    },
+    "facts": {
+      "perLevel":    { "title": "Level başına 2 puan",  "body": "Her seviye atladığında 2 stat puanı dağıtırsın. Doğru build için ilk seviyelerde plan şart." },
+      "totalAtCap":  { "title": "Lvl 100 = 200 puan",   "body": "Maks Lvl 100'e ulaşana kadar toplam 200 stat puanı kazanırsın; bu havuzun nereye gittiği build'i belirler." },
+      "mastery90":   { "title": "Silah Mastery 90",     "body": "Her silah ayrı XP kazanır ve 90 seviyeye kadar yükselir. Her mastery seviyesi o silaha özel skill puanı verir." },
+      "sixStats":    { "title": "6 ana stat",           "body": "STR / DEF / CON / INT / RES / MEN. Build profilini bu altılı belirler." },
+      "twoWeapons":  { "title": "2 aktif silah slotu",  "body": "Sırtında iki silah taşır, savaş ortasında geçiş yaparsın. Aynı anda iki sınıf gibi düşün." },
+      "noClassLock": { "title": "Sınıf kilidi yok",     "body": "Karakter sınıf seçmez — silahını değiştirince sınıfın değişir. İstediğin kadar farklı silah ailesi öğrenebilirsin." }
+    },
+    "respec": {
+      "title": "Respec uyarısı",
+      "body": "Stat sıfırlama (respec) sınırlı ve pahalı. \"Deneme yanılma\" stratejisi felaket olur — build'ini önceden araştır, ilk 30 levelde plan kur."
+    }
+  },
+  "post50": {
+    "kicker": "POST-50 İLERLEME",
+    "title": "Hikaye Bittiğinde Tahta ve Party",
+    "subtitle": "Lvl 50'de ana hikaye taşımayı bırakır. Yeni quest yok. Ana XP iki kaynaktan: Town Board (tahta) günlük görevleri ve party halinde elite mob avı. Buff yığını ile günlük ilerleme hızlanır.",
+    "questEnd": {
+      "title": "Lvl 50 = ana hikaye sonu",
+      "body": "Topluluk doğrulaması: ana hikaye lvl 50'de biter. 50-100 bandında oyun yeni quest sunmaz; XP iki ana kanaldan gelir — Town Board (tahta) günlük görevleri ve grup halinde elite mob avı. Solo oyuncu için tıkanma noktası tam burası."
+    },
+    "bandsLabel": "İLERLEME HIZLARI",
+    "pace": {
+      "fast":   "Hızlı",
+      "medium": "Orta",
+      "slow":   "Yavaş"
+    },
+    "bands": {
+      "level50to75":  { "body": "Görece hızlı bant. Tahta görevleri + duo/trio elite mob farmı ile sürekli ilerleme. Statue buff'ı açıksa daha hızlı." },
+      "level75to90":  { "body": "Lvl 75 grup zonelarına geçiş. Solo verim ciddi düşer; en az 4-5 kişilik partiyle elite mob avı zorunlu." },
+      "level90to100": { "body": "En yavaş bant. Lvl 100 grup zoneları + tüm buff yığını şart. Statue + lonca + Town Board olmadan günlük gelişim hissedilmez." }
+    },
+    "buffsLabel": "XP BUFF YIĞINI",
+    "buffs": {
+      "townBoard":  { "title": "Town Board",  "body": "Town People görevleri Royal Quest'lere göre 2x XP veriyor. Günlük başlangıç noktası." },
+      "statueBuff": { "title": "Statue Buff", "body": "Şehir heykellerinden 1 saatlik +40% XP buff'ı satın alınır (≈2.25M altın). 4h/7h/10h varyantları da var." },
+      "guildAltar": { "title": "Klan Altarı", "body": "Kırmızı bölgedeki klan altarı kalıcı +30% XP buff'ı verir. Lonca seçerken altar konumu önemli." },
+      "guildBuff":  { "title": "Lonca Buff",  "body": "12 saatte bir aktive edilen +40% XP buff cycle'ı. Online olduğun saatlere denk getir." }
+    },
+    "xpSourcesLabel": "ANA XP KAYNAKLARI",
+    "xpSources": {
+      "townBoard":     { "title": "Tahta görevleri",         "body": "Town Board günlük görevleri post-50 oyunun belkemiği. Royal Quest'lere göre 2x XP, sabit kazanç." },
+      "partyMobs":     { "title": "Party halinde mob avı",   "body": "Elite ve şampiyon yıldızlı (1/2/3 yıldızlı) yaratıkları gruptaki arkadaşlarla birlikte indir. Solo'ya göre verim çok daha yüksek." },
+      "highDungeons":  { "title": "Yüksek tier zindan",      "body": "Lvl 75-100 grup zindanlarında boss kasımı ek XP kanalı. Günlük 1000 zindan puanı havuzunu eritmek şart." },
+      "championStars": { "title": "Şampiyon yıldız mobları", "body": "Yıldızlı champion mob'lar standart düşmanlardan kat kat fazla XP ve drop verir. Aramaya değer hedefler." }
+    }
+  },
+  "daily": {
+    "kicker": "GÜNLÜK RUTİN",
+    "title": "Her Oturumda Açman Gereken Altı Şey",
+    "subtitle": "Endgame'in gizli kuralı: günlük rutini eksiksiz yap. Yapmazsan başkalarının ilerleme hızını yakalayamazsın.",
+    "gainLabel": "Kazanç",
+    "list": {
+      "townBoard":      { "title": "Town Board görevleri", "cadence": "Günlük · 2x XP",            "body": "Town People görevleri Royal'lara göre 2 katı XP. Günün ilk durağı.",                       "gain": "2x XP + altın" },
+      "dungeonPoints":  { "title": "Zindan Puanı (1000)",  "cadence": "Günlük · otomatik dolum",  "body": "Maks 1000 puana kadar saatlik dolum. Her giriş havuzdan harcar; bitirmeden kapanma.",   "gain": "Boss ganimeti + crafting mat" },
+      "quinfallsTower": { "title": "Quinfall's Tower",     "cadence": "Günlük · solo PvE",        "body": "Yukarıya doğru zorlaşan kat kat PvE. Endgame XP ve özel ödül kaynağı.",                  "gain": "Tier ödül + XP" },
+      "zenithConquest": { "title": "Zenith Conquest",      "cadence": "Günlük · PvE/PvP rotasyon","body": "Ana etkinlik: PvE / PvP günlük dönüşümlü; bayrak başına 25, alanda 100 oyuncu.",        "gain": "Power stone + üst tier crafting" },
+      "worldBoss":      { "title": "Dünya patronu rotası", "cadence": "Günlük · 8 patron",        "body": "Her gün belirli patronlar dünyaya iner. Kraken günde 3 kez; lonca takvimi düzenle.",     "gain": "Mor / efsanevi ekipman" },
+      "statue":         { "title": "Statue buff alımı",    "cadence": "Saatlik / 4-7-10 sa",      "body": "Şehir heykelinden +40% XP buff'ı al; aktiften önce stack'le.",                            "gain": "+40% XP süresi boyunca" }
+    }
+  },
+  "mistakes": {
+    "kicker": "YENİ BAŞLAYAN HATALARI",
+    "title": "On Hatadan Kaçın, İlerleme Katlanır",
+    "subtitle": "Topluluğun en sık dile getirdiği on tuzak. Bilirsen düşmezsin — düşersen sonradan toparlamak haftalar alır.",
+    "list": {
+      "skipTutorial":    { "title": "Tutorial'ı atlamak",                "body": "Tutorial savaş, life skill ve çiftlik mekaniğini tek seferde verir. Atlanırsa boşluğu sonradan kapatmak iki kat zaman alır." },
+      "multiWeapon":     { "title": "Birden çok silaha aynı anda yatırım","body": "6 silahta mastery 30 olmaktansa, 1 silahta mastery 90 olmak çok daha güçlü. Önce ana, sonra sub." },
+      "respecWait":      { "title": "Stat hatasını respec'e bırakmak",   "body": "Respec sınırlı ve pahalı. Build'ini önceden araştır; ilk 30 levelde plan oturt." },
+      "lowTierEnhance":  { "title": "Düşük tier ekipmana yıldız basmak", "body": "Lvl 30 silahını 5 yıldıza çıkarmak boştur — üst tier silaha geçince sıfırlanır. Yıldızı son ekipmanına sakla." },
+      "pvpEarly":        { "title": "Erken PvP channel'a geçmek",        "body": "Düşük gear ile PvP channel'a girmek hızlı ölüm + ekipman kaybı. Önce PvE'de güçlen." },
+      "noGuild":         { "title": "Loncasız oynamak",                  "body": "Kuşatma, klan adası, lonca buff'ı, treasury — hepsi loncaya bağlı. Solo oynamak içeriğin yarısını kaçırır." },
+      "ignoreTownBoard": { "title": "Town Board'u ihmal etmek",          "body": "Town People görevleri 2x XP veriyor — post-50'de ana XP kapısı. Atlanırsa endgame'de saatler birikir." },
+      "noProfession":    { "title": "Tek profesyon bile almamak",        "body": "Profesyon olmadan ekonomiden bağımsız kalırsın. En az 1 hammadde mesleği şart." },
+      "cashShopAddict":  { "title": "Cash shop'a bağlanmak",             "body": "V-Coin pay-to-win değildir; istatistik vermez. Gold ile her şey kazanılır — para harcamak gerekmez." },
+      "rushed":          { "title": "Acele etmek",                       "body": "Lvl 50'ye 1 haftada ulaşıp \"sonra ne yapacağım?\" demek tipik hata. Mastery + profesyon + sosyal ağ paralel ilerlemeli." }
+    }
+  },
+  "timeline": {
+    "kicker": "İLK 100 SAAT",
+    "title": "Tek Bakışta Yol Tablosu",
+    "subtitle": "Sıfır saatten endgame eşiğine kadar hangi saatte nerede olman gerek. Günün sonunda kafanı çevirip \"bugün ne yapmalıyım?\" sorusuna cevap.",
+    "col": {
+      "hours":    "Saat",
+      "level":    "Karakter Seviyesi",
+      "focus":    "Odak",
+      "location": "Lokasyon"
+    },
+    "focus": {
+      "tutorial":       "Tutorial, ilk silah seçimi, mekanik öğrenimi",
+      "sideQuest":      "Yan görev, Town Board, ilk profesyon, ilk skill book",
+      "firstDungeon":   "İlk zindan koşusu, ilk binek, profesyon kasımı",
+      "guildJoin":      "Lonca katılım, Hard mode zindan, gear 3 yıldız",
+      "endgameDungeon": "Endgame zindan, ilk dünya bossu, gear 4 yıldız",
+      "siege":          "Tahta + party mob avı, kuşatma, gear 5 yıldız hedefi"
+    },
+    "locations": {
+      "starter":      "Başlangıç bölgesi",
+      "kineallen":    "Kineallen",
+      "pabas":        "Pabas civarı",
+      "larcbost":     "Larcbost / Pabas",
+      "shadowAtoll":  "Shadow Atoll / Rune Mound",
+      "guildIsland":  "Klan adası + Combat Zone"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "page": {
+    "eyebrow": "GUIDE",
+    "title": "Anfänger-Guide",
+    "description": "Schritt-für-Schritt-Roadmap von Null bis Endgame. Quinfalls Charakter-Cap ist Lvl 100; Hauptquests enden bei Lvl 50. Nach 50 werden Town Board und Gruppen-Mob-Grind zur zentralen XP-Schleife."
+  },
+  "hero": {
+    "badge": "Von Null ins Endgame",
+    "title": "Von Lvl 1 zu Lvl 100",
+    "body": "Quinfall-Progression in zwei Stufen: Lvl 1-50 trägt dich die Hauptstory. Bei Lvl 50 endet der Quest-Strom; das Spiel schaltet auf \"setze deinen eigenen Weg\". Von 50 bis 100 werden tägliche Town-Board-Quests und Gruppen-basierte Elite-Mob-Jagden zur Haupt-XP-Quelle.",
+    "stats": {
+      "maxLevel":  "Levelobergrenze",
+      "questCap":  "Quest-Limit",
+      "mastery":   "Waffen-Mastery"
+    }
+  },
+  "quickStart": {
+    "kicker": "SCHNELLSTART",
+    "title": "In zehn Schritten loslegen",
+    "subtitle": "Alles, was du vor dem ersten Spawn prüfen musst. Die Entscheidungen hier sind später am schwersten zu korrigieren.",
+    "list": {
+      "install":   { "title": "Auf Steam installieren",   "body": "Quinfall auf Steam laden. Etwa 55 GB, SSD empfohlen." },
+      "server":    { "title": "Server wählen",            "body": "EU / NA / Asien. EU ist die Heimat türkischer Spieler; Ping und Bevölkerung passen am besten." },
+      "channel":   { "title": "Kanal-Entscheidung",       "body": "PvE-Kanal ist anfangs sicher; PvP-Kanal öffnet Karawane, Pirat und Weltboss-Kämpfe." },
+      "character": { "title": "Charakter erstellen",      "body": "Aussehen ist später nicht änderbar. Gesicht, Knochen, Muskeln, Haare, Make-up — alles einmalig. Nicht hetzen." },
+      "tutorial":  { "title": "Tutorial nicht skippen",   "body": "Das Tutorial lehrt Kampf, Karte, Inventar, Lifeskill und Farm-Mechanik. Skippen verdoppelt später den Aufholaufwand." },
+      "weapon":    { "title": "Erste Waffe wählen",       "body": "Keine Klassen — Waffe = Klasse. In den ersten 10 Leveln verschiedene Waffen testen, dann Hauptlinie festlegen." },
+      "mount":     { "title": "Lvl 25-30: erstes Pferd",  "body": "Erstes Reittier rechtzeitig holen; grünes/blaues Wildpferd lassoieren. Pabas ist das Zentrum der Pferdezucht." },
+      "profession":{ "title": "Lvl 35-40: Beruf",         "body": "Mindestens einen Sammelberuf starten. Endgame-Ausrüstung ohne Lifeskill-Wirtschaft schwierig." },
+      "guild":     { "title": "Gilde beitreten",          "body": "Ohne Gilde fehlen Belagerungen, Klan-Insel, gemeinsame Investitionen. Soziales ist das Herz des Spiels." },
+      "grade":     { "title": "Lvl 50 → 100: Board + Gruppe","body": "Bei Lvl 50 endet die Hauptstory. Danach: tägliche Town-Board-Quests + Gruppen-basierte Elite-Mob-Jagd. Solo-Ertrag fällt schnell ab — schließe Freundschaften." }
+    }
+  },
+  "phases": {
+    "kicker": "FÜNF-PHASEN-ROADMAP",
+    "title": "Von Lvl 1 zu Lvl 100",
+    "subtitle": "Quinfall-Progression teilt sich sauber in fünf Phasen. Die ersten vier gehen schnell; die fünfte ist das eigentliche Spiel — Monate, nicht Tage.",
+    "levelLabel": "Level",
+    "hoursLabel": "Zeit",
+    "list": {
+      "tutorial": {
+        "tag":   "Phase 1 · Start",
+        "title": "Tutorial und Mechanik-Onboarding",
+        "body":  "Hauptstory startet automatisch; das Tutorial deckt Kampf, Karte, Inventar, Lifeskill und Farm ab. Hier lernst du die Sprache des Spiels.",
+        "bullets": [
+          "In der Startstadt eröffnet der Alte Weise die NPC-Kette.",
+          "Erste Waffe greifen — sie legt deine Klasse fest.",
+          "Niedrig-Tier-Starterausrüstung + erste Skillpunkte schalten frei.",
+          "Bis Lvl 10 verschiedene Waffen testen, falls gewünscht."
+        ]
+      },
+      "build": {
+        "tag":   "Phase 2 · Build-Definition",
+        "title": "Waffenfamilie und Statpunkte",
+        "body":  "Hier muss die Waffenfamilie stehen. 2 Statpunkte pro Level; insgesamt 200 bei Lvl 100. Town-Board-Dailies sind das passive XP-Tor.",
+        "bullets": [
+          "Zweite Waffe ausrüsten; Doppel-Waffen-System schaltet frei.",
+          "Statverteilung: schlechte Investition tut weh — Respec ist begrenzt.",
+          "Erste Skillbücher beim Stadt-Händler kaufen.",
+          "Jedes Ausrüstungsteil auf mindestens 1 Stern."
+        ]
+      },
+      "dungeon": {
+        "tag":   "Phase 3 · Dungeon und Beruf",
+        "title": "Foaming Catacombs und Lifeskills",
+        "body":  "Erster Dungeon: Foaming Catacombs. Easy/Mittel farmen; gleichzeitig Lifeskill-Baum starten. 1.000 Dungeon-Punkte regenerieren sich täglich.",
+        "bullets": [
+          "Erster Dungeon: Foaming Catacombs. Ideal für Mechaniken.",
+          "Beruf wählen: Sammeln (Harvester / Lumberjack) oder Crafting (Blacksmith / Alchemy).",
+          "Pferd unverzichtbar — bei Pabas grünes/blaues Pferd lassoieren.",
+          "Town-Board-Quests nicht überspringen — 2x XP-Tor."
+        ]
+      },
+      "guild": {
+        "tag":   "Phase 4 · Hard Mode und Gilde",
+        "title": "Hard-Dungeons, Lila-Drops, Gilde",
+        "body":  "Hard-Mode-Dungeons öffnen den Lila-Drop-Pool. Gildenbeitritt wird praktisch Pflicht — Belagerung, Klan-Insel, gemeinsame Treasury treten in Kraft.",
+        "bullets": [
+          "Gilde beitreten: Belagerung nur für Mitglieder.",
+          "Klan-Altar in roter Zone gibt +30 % permanenten XP-Buff.",
+          "Hard-Mode-Dungeons droppen Lila / Top-Tier-Crafting-Mats.",
+          "Karawanen-Bewachung zahlt — mit Gilden-Eskorte arbeiten."
+        ]
+      },
+      "endgame": {
+        "tag":   "Phase 5 · Endgame · Keine Quests",
+        "title": "Lvl 50 → 100: Board und Gruppen-Jagd",
+        "body":  "Bei Lvl 50 endet die Hauptstory — keine neuen Quests. XP über zwei Kanäle: tägliche Town-Board-Quests und Gruppen-basierte Elite-Mob-Jagden. Solo-Ertrag fällt schnell; ohne echte Gruppe stockst du nach 75.",
+        "bullets": [
+          "Town Board: tägliche Board-Quests sind das Haupt-XP-Tor.",
+          "Gruppen-Mob-Jagd: Elite und 1/2/3-Stern-Champions im Team niederringen.",
+          "Statue-+40-%-XP-Buff vor jeder Session stacken.",
+          "Lvl 75-90 wird langsamer; Lvl 90-100 braucht eine Gruppenzone."
+        ]
+      }
+    }
+  },
+  "stats": {
+    "kicker": "STAT- UND MASTERY-SYSTEM",
+    "title": "6 Stats, 2 Waffen, 90 Mastery",
+    "subtitle": "Jedes Level gibt 2 Statpunkte; insgesamt 200 bis Lvl 100. Du trägst zwei Waffen, jede mit eigenem 90-stufigem Mastery-Tree.",
+    "units": {
+      "puanLevel":     "Stat / Level",
+      "puanGrade100":  "bei Lvl 100",
+      "silahBasi":     "pro Waffe",
+      "stat":          "Kern-Stat",
+      "silah":         "aktiver Slot",
+      "sinifKilidi":   "kein Lock"
+    },
+    "list": {
+      "str": { "abbr": "STR", "name": "Stärke",      "body": "Nahkampf und physischer Schaden." },
+      "def": { "abbr": "DEF", "name": "Verteidigung","body": "Physische Rüstung und Schadensreduktion." },
+      "con": { "abbr": "CON", "name": "Konstitution","body": "HP und Ausdauer." },
+      "int": { "abbr": "INT", "name": "Intelligenz", "body": "Zauberschaden und Mana-Pool." },
+      "res": { "abbr": "RES", "name": "Resistenz",   "body": "Zauberresistenz und Debuff-Reduktion." },
+      "men": { "abbr": "MEN", "name": "Verstand",    "body": "Heilung und Mana-Regen." }
+    },
+    "facts": {
+      "perLevel":    { "title": "2 Punkte pro Level", "body": "Jedes Level gibt 2 Statpunkte. Früh planen; richtige Builds brauchen die ersten Level vorbereitet." },
+      "totalAtCap":  { "title": "Lvl 100 = 200 Punkte","body": "Bis zum Cap bei Lvl 100 hast du 200 Statpunkte verteilt; wohin sie fließen, definiert deinen Build." },
+      "mastery90":   { "title": "Waffen-Mastery 90", "body": "Jede Waffe gewinnt eigene XP und steigt auf 90 Stufen. Jede Stufe gibt einen Skillpunkt für diese Waffe." },
+      "sixStats":    { "title": "6 Kern-Stats",      "body": "STR / DEF / CON / INT / RES / MEN. Diese sechs definieren dein Build-Profil." },
+      "twoWeapons":  { "title": "2 aktive Waffen-Slots","body": "Zwei Waffen am Rücken, mitten im Kampf wechseln. Wie zwei Klassen gleichzeitig." },
+      "noClassLock": { "title": "Kein Klassen-Lock", "body": "Charaktere wählen keine Klasse — Waffe wechseln, Klasse wechseln. Beliebig viele Waffenfamilien lernbar." }
+    },
+    "respec": {
+      "title": "Respec-Warnung",
+      "body": "Stat-Respec ist begrenzt und teuer. Trial-and-error ist desaströs — Build vorab recherchieren, in den ersten 30 Leveln festlegen."
+    }
+  },
+  "post50": {
+    "kicker": "POST-50-PROGRESSION",
+    "title": "Wenn die Story endet, beginnt das Board",
+    "subtitle": "Bei Lvl 50 hört die Hauptstory auf zu tragen. Keine neuen Quests. XP über zwei Kanäle: tägliche Town-Board-Quests und Gruppen-Elite-Mob-Jagd. Buff-Stack beschleunigt täglichen Fortschritt.",
+    "questEnd": {
+      "title": "Lvl 50 = Ende der Hauptstory",
+      "body": "Community-bestätigt: Hauptstory schließt bei Lvl 50. Zwischen 50 und 100 bietet das Spiel keine neuen Quests; XP über zwei Hauptkanäle — Town-Board-Dailies und Gruppen-Elite-Mob-Jagd. Genau hier stoßen Solo-Spieler an die Wand."
+    },
+    "bandsLabel": "PROGRESSIONS-TEMPO",
+    "pace": {
+      "fast":   "Schnell",
+      "medium": "Mittel",
+      "slow":   "Langsam"
+    },
+    "bands": {
+      "level50to75":  { "body": "Relativ schnelles Band. Stetiger Fortschritt mit Town-Board-Quests + Duo/Trio-Elite-Mob-Farm. Mit aktivem Statue-Buff schneller." },
+      "level75to90":  { "body": "Schritt zu Lvl-75-Gruppenzonen. Solo-Ertrag fällt stark; eine 4-5er-Gruppe für Elite-Mob-Jagd wird Pflicht." },
+      "level90to100": { "body": "Langsamstes Band. Lvl-100-Gruppenzonen + voller Buff-Stack erforderlich. Ohne Statue + Gilde + Town Board ist täglicher Fortschritt unsichtbar." }
+    },
+    "buffsLabel": "XP-BUFF-STACK",
+    "buffs": {
+      "townBoard":  { "title": "Town Board",  "body": "Town-People-Quests geben 2x XP gegenüber Royal Quests. Täglicher Startpunkt." },
+      "statueBuff": { "title": "Statue-Buff", "body": "1-Stunden-+40 %-XP-Buff an Stadt-Statuen kaufen (~2,25 Mio Gold). 4h/7h/10h-Varianten existieren." },
+      "guildAltar": { "title": "Klan-Altar",  "body": "Klan-Altar in roter Zone gibt permanenten +30 %-XP-Buff. Altar-Standort zählt bei Gildenwahl." },
+      "guildBuff":  { "title": "Gilden-Buff", "body": "+40-%-XP-Buff-Zyklus alle 12 Stunden. Auf Online-Zeiten timen." }
+    },
+    "xpSourcesLabel": "HAUPT-XP-QUELLEN",
+    "xpSources": {
+      "townBoard":     { "title": "Town-Board-Quests",   "body": "Town-Board-Dailies sind das Rückgrat von Post-50. 2x XP gegenüber Royal Quests, stetige Einnahme." },
+      "partyMobs":     { "title": "Gruppen-Mob-Jagd",    "body": "Elite und 1/2/3-Stern-Champions im Gruppenverbund niederringen. Ertrag deutlich höher als solo." },
+      "highDungeons":  { "title": "Hochstufige Dungeons","body": "Lvl-75-100-Gruppendungeons als Extra-XP-Kanal. Tägliche 1.000 Dungeon-Punkte verbrennen ist Pflicht." },
+      "championStars": { "title": "Champion-Stern-Mobs", "body": "Sternmarkierte Champions geben Vielfaches an XP und Drops. Lohnenswerte Ziele." }
+    }
+  },
+  "daily": {
+    "kicker": "TÄGLICHE ROUTINE",
+    "title": "Sechs Dinge pro Session öffnen",
+    "subtitle": "Endgame-Geheimregel: tägliche Routine vollständig abarbeiten. Wer es nicht tut, holt die anderen nicht ein.",
+    "gainLabel": "Gewinn",
+    "list": {
+      "townBoard":      { "title": "Town-Board-Quests",   "cadence": "Täglich · 2x XP",          "body": "Town-People-Quests geben 2x XP gegenüber Royal. Erster Stopp des Tages.",                          "gain": "2x XP + Gold" },
+      "dungeonPoints":  { "title": "Dungeon-Punkte (1.000)","cadence": "Täglich · auto Refill",  "body": "Stündlich bis 1.000. Jeder Eintritt zieht aus dem Pool — vor dem Abmelden leeren.",            "gain": "Boss-Loot + Crafting-Mats" },
+      "quinfallsTower": { "title": "Quinfall's Tower",   "cadence": "Täglich · solo PvE",       "body": "Stockwerke mit steigender Schwierigkeit. Endgame-XP- und Spezialbelohnungsquelle.",                "gain": "Tier-Belohnung + XP" },
+      "zenithConquest": { "title": "Zenith Conquest",    "cadence": "Täglich · PvE/PvP-Rotation","body": "Hauptevent: PvE / PvP wechseln täglich; 25 pro Flagge, 100 pro Schlachtfeld.",                  "gain": "Power Stones + Top-Mats" },
+      "worldBoss":      { "title": "Weltboss-Rotation",  "cadence": "Täglich · 8 Bosse",        "body": "Bestimmte Bosse steigen täglich herab. Kraken dreimal — Gildenkalender abstimmen.",                "gain": "Lila / legendäre Ausrüstung" },
+      "statue":         { "title": "Statue-Buff holen",  "cadence": "Stündlich / 4-7-10h",      "body": "+40-%-XP-Buff an Stadt-Statuen kaufen; vor Aktivität stacken.",                                    "gain": "+40 % XP für die Dauer" }
+    }
+  },
+  "mistakes": {
+    "kicker": "ANFÄNGER-FEHLER",
+    "title": "Zehn Fehler vermeiden, Tempo verdoppeln",
+    "subtitle": "Die zehn Fallen, die in der Community am häufigsten erwähnt werden. Wer sie kennt, fällt nicht hinein — wer fällt, braucht Wochen zur Korrektur.",
+    "list": {
+      "skipTutorial":    { "title": "Tutorial überspringen",      "body": "Das Tutorial gibt Kampf, Lifeskill und Farm-Mechanik in einem. Skippen verdoppelt später den Aufholaufwand." },
+      "multiWeapon":     { "title": "Auf mehrere Waffen verteilen","body": "Mastery 30 auf sechs Waffen ist viel schwächer als Mastery 90 auf einer. Erst Haupt, dann Sub." },
+      "respecWait":      { "title": "Auf Respec warten",          "body": "Respec ist begrenzt und teuer. Build vorab recherchieren; in den ersten 30 Leveln festlegen." },
+      "lowTierEnhance":  { "title": "Sterne auf Low-Tier",        "body": "Eine Lvl-30-Waffe auf 5 Sterne zu pushen ist verschwendet — bei Tier-Wechsel reset. Sterne fürs Endgame sparen." },
+      "pvpEarly":        { "title": "Zu früh in PvP-Kanal",       "body": "Schwache Ausrüstung im PvP-Kanal = schnelle Tode + Verlust. Erst auf PvE wachsen." },
+      "noGuild":         { "title": "Ohne Gilde spielen",         "body": "Belagerung, Klan-Insel, Gilden-Buffs, Treasury — alles gildengebunden. Solo verpasst die Hälfte." },
+      "ignoreTownBoard": { "title": "Town Board ignorieren",      "body": "Town-People-Quests sind 2x XP — Haupt-XP-Tor post-50. Skippen kostet im Endgame Stunden." },
+      "noProfession":    { "title": "Keinen Beruf nehmen",        "body": "Ohne Beruf bleibst du außerhalb der Wirtschaft. Mindestens ein Sammelberuf ist Pflicht." },
+      "cashShopAddict":  { "title": "Auf Cash-Shop angewiesen",   "body": "V-Coin ist nicht Pay-to-Win; gibt keinen Stat-Vorteil. Mit Gold ist alles erreichbar — kein Geld nötig." },
+      "rushed":          { "title": "Zu schnell aufsteigen",      "body": "Lvl 50 in einer Woche zu erreichen und \"jetzt was?\" zu fragen ist der Klassiker. Mastery + Beruf + Soziales parallel entwickeln." }
+    }
+  },
+  "timeline": {
+    "kicker": "ERSTE 100 STUNDEN",
+    "title": "Roadmap auf einen Blick",
+    "subtitle": "Von Stunde Null bis zur Endgame-Schwelle, wo du wann sein solltest. Beantwortet die \"Was tu ich heute?\"-Frage am Sessionende.",
+    "col": {
+      "hours":    "Stunden",
+      "level":    "Charakter-Level",
+      "focus":    "Fokus",
+      "location": "Ort"
+    },
+    "focus": {
+      "tutorial":       "Tutorial, erste Waffenwahl, Mechaniken lernen",
+      "sideQuest":      "Nebenquests, Town Board, erster Beruf, erstes Skillbuch",
+      "firstDungeon":   "Erster Dungeon-Lauf, erstes Reittier, Berufs-Grind",
+      "guildJoin":      "Gilde beitreten, Hard-Mode-Dungeons, Ausrüstung 3 Sterne",
+      "endgameDungeon": "Endgame-Dungeon, erster Weltboss, Ausrüstung 4 Sterne",
+      "siege":          "Town Board + Gruppen-Mob-Jagd, Belagerung, Ausrüstung 5 Sterne"
+    },
+    "locations": {
+      "starter":      "Startgebiet",
+      "kineallen":    "Kineallen",
+      "pabas":        "Pabas-Region",
+      "larcbost":     "Larcbost / Pabas",
+      "shadowAtoll":  "Shadow Atoll / Rune Mound",
+      "guildIsland":  "Klan-Insel + Combat Zone"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "page": {
+    "eyebrow": "ITEM CODEX",
+    "title": "Quinfall Item Catalogue",
+    "description": "Weapons, armor, accessories and gathering tools — every piece of gear in the game on a single page, with native names and real stats."
+  },
+  "explainer": {
+    "kicker": "GEAR ANATOMY",
+    "title": "How You Build Your Character",
+    "subtitle": "Quinfall uses non-target combat — your weapon shapes your playstyle and your armor weight defines mobility versus survivability.",
+    "weapons": {
+      "kicker": "10 WEAPON FAMILIES",
+      "title": "Weapon Families",
+      "subtitle": "Each family drives a distinct playstyle; swap between two equipped weapons mid-fight."
+    },
+    "armor": {
+      "kicker": "3 ARMOR WEIGHTS",
+      "title": "Armor Weights",
+      "subtitle": "Heavy armor turns you into a wall but slows you down; robes feed your mage's mana pool."
+    }
+  },
+  "explorer": {
+    "kicker": "{{total}} ENTRIES",
+    "title": "Item Browser",
+    "subtitle": "Filter, search and compare stats",
+    "search": "Search by name…",
+    "noResults": "No items match the current filters.",
+    "showing": "Showing {{shown}} of {{total}} items",
+    "loadMore": "Load more",
+    "level": "Level",
+    "grade": "Score",
+    "all": "All",
+    "loading": "Loading database…",
+    "error": "Item database failed to load."
+  },
+  "groups": {
+    "gear":        "Gear",
+    "consumables": "Drops & Crafting",
+    "world":       "World & Housing",
+    "shop":        "Shop"
+  },
+  "slots": {
+    "weapon":      "Weapon",
+    "armor":       "Armor",
+    "accessory":   "Accessory",
+    "bag":         "Bag",
+    "tool":        "Gathering Tool",
+    "costume":     "Costume",
+    "material":    "Material",
+    "foodPotion":  "Food & Potion",
+    "enhancement": "Enhancement",
+    "talisman":    "Talisman",
+    "ammo":        "Ammo",
+    "skillBook":   "Skill Book",
+    "quest":       "Quest Item",
+    "furniture":   "Furniture",
+    "workbench":   "Workbench",
+    "farm":        "Farm",
+    "siege":       "Siege Vehicle",
+    "shop":        "Shop Item"
+  },
+  "materialKinds": {
+    "crafting":    "Crafting",
+    "usable":      "Usable",
+    "food":        "Food",
+    "potion":      "Potion",
+    "supplement":  "Supplement Potion",
+    "upgrade":     "Upgrade Material",
+    "powerStone":  "Power Stone",
+    "puzzleStone": "Puzzle Stone",
+    "powerCard":   "Power Card",
+    "skillStone":  "Skill Stone",
+    "bow":         "Bow Arrow",
+    "crossbow":    "Crossbow Bolt",
+    "animal":      "Animal",
+    "seed":        "Seed"
+  },
+  "detail": {
+    "description": "IN-GAME DESCRIPTION",
+    "recipe": "RECIPE",
+    "materials": "MATERIALS",
+    "gotoProfession": "Open Profession",
+    "minLevel": "Lvl",
+    "back": "Back",
+    "unknownProfession": "Unknown Profession"
+  },
+  "weapons": {
+    "sword":        { "name": "One-Handed Sword", "tagline": "Classic shield-paired tank/duelist",   "body": "Quick strikes that combine with a shield for blocks and counter-attacks. The frontline staple." },
+    "shield":       { "name": "Shield",            "tagline": "Damage soak and active blocking",      "body": "Pairs with one-handed weapons; absorbs incoming physical damage and holds aggro for the group." },
+    "twoHandSword": { "name": "Two-Handed Sword",  "tagline": "Slow but devastating AoE",             "body": "Sweeping cleaves shred packs; single-target burst remains very competitive." },
+    "spear":        { "name": "Spear",             "tagline": "Long reach, frontline pressure",       "body": "Outranges most melee; thrust chains and pushbacks deliver controlled crowd control." },
+    "dualAxe":      { "name": "Dual Axe",          "tagline": "Berserker close-quarters destroyer",   "body": "Dual-wield speed plus high physical damage; defense pays the price." },
+    "dualDagger":   { "name": "Dual Dagger",       "tagline": "Assassin — crit and bleed focus",      "body": "Top attack speed, high crit rate and bleed effects melt single targets." },
+    "bow":           { "name": "Bow",               "tagline": "Long range single-target",             "body": "Most reliable ranged option for kiting and precision; rewards positioning." },
+    "dualCrossbow": { "name": "Dual Crossbow",     "tagline": "Mid-range sustained DPS",              "body": "Short cast windows mean rapid follow-up shots — perfect for mobile pressure." },
+    "arcaneStaff":  { "name": "Arcane Staff",      "tagline": "Elemental DPS caster",                 "body": "Fire, frost and lightning spells deliver area damage and burst potential." },
+    "lifeStaff":    { "name": "Life Staff",        "tagline": "Healer support",                       "body": "Group heals, shields and buffs — the survival anchor for any party." },
+    "warHammer":    { "name": "War Hammer",        "tagline": "Stagger crusher",                      "body": "Heavy strikes and chain stuns lock down high-value targets." }
+  },
+  "armorWeights": {
+    "heavy": { "name": "Heavy Armor", "tagline": "Maximum defense, minimum speed", "body": "For tanks and frontliners: high physical and magical defense at the cost of movement." },
+    "light": { "name": "Light Armor", "tagline": "Balance — defense and mobility", "body": "Ideal for assassins, archers and spear users: evasion bonuses and freedom of movement." },
+    "robe":  { "name": "Robe",        "tagline": "Low defense, high arcane",       "body": "For mages and healers: maximum mana pool and spell-power scaling." }
+  },
+  "armorPieces": {
+    "chest": "Chest", "helmet": "Helmet", "gauntlet": "Gauntlets", "boots": "Boots"
+  },
+  "accessories": {
+    "necklace": { "name": "Necklace", "body": "Usually carries defense or HP/MP buffs." },
+    "bracelet": { "name": "Bracelet", "body": "Provides attack power and crit bonuses." },
+    "earring":  { "name": "Earring",  "body": "Boosts cast speed or magical power." },
+    "ring":     { "name": "Ring",     "body": "Wide range of passive bonuses; pairs nicely with set bonuses." }
+  },
+  "tools": {
+    "axe":          { "name": "Axe",          "body": "Wood chopping — the staple lumberjack tool." },
+    "pickaxe":      { "name": "Pickaxe",      "body": "Mining — for ore veins and stone deposits." },
+    "sickle":       { "name": "Sickle",       "body": "Plant gathering — hemp, herbs and crops." },
+    "fishingRod":   { "name": "Fishing Rod",  "body": "Fishing — river and sea catches plus rare relics." },
+    "huntingKnife": { "name": "Hunting Knife", "body": "Skinning game — for fur, leather and meat." }
+  },
+  "bag": {
+    "name": "Backpack",
+    "body": "Expands carry capacity; critical for caravans and long farming sessions."
+  },
+  "stats": {
+    "physical_ap":    "Physical Attack",
+    "physical_dp":    "Physical Defense",
+    "magic_ap":       "Magic Attack",
+    "magic_dp":       "Magic Defense",
+    "hp":             "Health",
+    "mp":             "Mana",
+    "hp_regen":       "HP Regen",
+    "mp_regen":       "MP Regen",
+    "accuracy":       "Accuracy",
+    "evasion":        "Evasion",
+    "speed":          "Move Speed",
+    "atk_speed":      "Attack Speed",
+    "casting_speed":  "Cast Speed",
+    "extra_damage_mob":  "Mob Damage +",
+    "extra_damage_boss": "Boss Damage +",
+    "armor_weight":   "Armor Weight",
+    "weight":         "Weight",
+    "repair_price":   "Repair Cost",
+    "sale_price":     "Sell Price",
+    "purchase_price": "Buy Price"
+  },
+  "tiers": {
+    "common":    "Common",
+    "uncommon":  "Uncommon",
+    "rare":      "Rare",
+    "epic":      "Epic",
+    "legendary": "Legendary"
+  }
+}

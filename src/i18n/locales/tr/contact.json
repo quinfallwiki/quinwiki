@@ -1,0 +1,32 @@
+{
+  "page": {
+    "eyebrow": "İLETİŞİM",
+    "title": "Bize Ulaş",
+    "description": "Topluluğa katıl, geliştirici ekibe ulaş, sosyal kanallardan duyuruları takip et — bütün resmi bağlantılar tek sayfada."
+  },
+  "hero": {
+    "kicker": "EN HIZLI YOL",
+    "title": "Discord'da Buluşalım",
+    "subtitle": "Sorularını, etkinlik duyurularını ve klan eşleşmelerini en hızlı şekilde Discord'da bulursun. Dakikalar içinde Türkçe konuşan oyuncularla tanışırsın.",
+    "primaryCta": "Discord'a Katıl",
+    "secondaryCta": "Diğer Kanalları Gör"
+  },
+  "groups": {
+    "community": { "title": "Topluluk Kanalları",  "subtitle": "Anlık sohbet, duyuru ve etkinlikler" },
+    "platform":  { "title": "Resmi Platform",      "subtitle": "Oyunu indir, mağazaya git, resmi siteyi gez" },
+    "studio":    { "title": "Stüdyo İletişimi",    "subtitle": "Vawraek Technology'nin kurumsal kanalları" }
+  },
+  "channels": {
+    "discord":      { "name": "Discord",        "description": "Türkçe + uluslararası kanallar, klan arama, etkinlik duyuruları, geliştirici Q&A." },
+    "twitter":      { "name": "X (Twitter)",    "description": "Patch notları, ekran görüntüleri ve hızlı duyurular." },
+    "youtube":      { "name": "YouTube",        "description": "Resmi fragmanlar, dev-blog videoları ve etkinlik özetleri." },
+    "steam":        { "name": "Steam",          "description": "Oyunu satın al, incelemeleri oku, başarımları takip et." },
+    "officialSite": { "name": "quinfall.com",   "description": "Resmi web sitesi — fragman, oyun bilgileri ve Steam'e kısayol." },
+    "studioSite":   { "name": "vawraek.com",    "description": "Geliştirici stüdyo Vawraek Technology'nin kurumsal sitesi." },
+    "linkedin":     { "name": "LinkedIn",       "description": "Stüdyo iş ilanları, kurumsal güncellemeler ve ortaklıklar." },
+    "instagram":    { "name": "Instagram",      "description": "Sahne arkası, ekibin günlük paylaşımları ve görsel teaser'lar." }
+  },
+  "actions": {
+    "openLink": "Aç"
+  }
+}

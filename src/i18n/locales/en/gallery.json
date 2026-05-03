@@ -1,0 +1,111 @@
+{
+  "page": {
+    "eyebrow": "GALLERY & MAP",
+    "title": "A Closer Look at Quinfall",
+    "description": "In-game captures and a community-built interactive map — explore, filter and share, all on one page."
+  },
+  "grid": {
+    "kicker": "IN-GAME SHOTS",
+    "title": "Scenes & Moments",
+    "subtitle": "Quinfall's vistas, undersea world, mining and dungeon moments"
+  },
+  "types": {
+    "landscape":  "Landscape",
+    "town":       "Town",
+    "underwater": "Underwater",
+    "fishing":    "Fishing",
+    "mining":     "Mining",
+    "gathering":  "Gathering",
+    "farm":       "Farming",
+    "building":   "Building",
+    "dungeon":    "Dungeon",
+    "pvp":        "PvP",
+    "pve":        "PvE",
+    "mount":      "Mount",
+    "naval":      "Naval"
+  },
+  "items": {
+    "manzara": {
+      "title": "Open-World Vista",
+      "body":  "Quinfall's breathtaking valleys, forests and distant horizons — a living world you can ride through for hours."
+    },
+    "doga": {
+      "title": "Heart of the Wild",
+      "body":  "Lush forests, running streams and sunlight filtering through the canopy — the calm side of Quinfall."
+    },
+    "dungeon": {
+      "title": "Into the Dungeon",
+      "body":  "Dim corridors, cursed halls and elite mobs — dive in with your party for the loot."
+    },
+    "maden": {
+      "title": "The Mine",
+      "body":  "The heart of gathering: ore veins, quarries and rare resources fuel every craft in the world."
+    },
+    "toplayicilik": {
+      "title": "Harvest Time",
+      "body":  "Hemp grows wild across the world — its fibre is spun into thread, the very first link in the chain that leads to tailoring."
+    },
+    "suAlti": {
+      "title": "Beneath the Waves",
+      "body":  "Glowing ruins, schools of fish and dive sites — the hidden side of Quinfall's sailing system."
+    },
+    "manzara2": {
+      "title": "Valley of Silence",
+      "body":  "Mist over the hills, deep forest canopy and distant mountains — another face of the world."
+    },
+    "manzara3": {
+      "title": "First Light",
+      "body":  "Valleys gilded by the rising sun and a world waking up — the prettiest hour to explore."
+    },
+    "walking": {
+      "title": "On the Road",
+      "body":  "A character, a sword on the shoulder, a goal in mind — the journey is the story Quinfall tells you."
+    },
+    "kasaba": {
+      "title": "Heart of the Town",
+      "body":  "The hum of the marketplace, the ring of the forge, travelling traders — towns are the social hubs."
+    },
+    "tarim": {
+      "title": "Field Work",
+      "body":  "Grow grain, vegetables and specialty crops on your own land — the backbone of cooking and trade income."
+    },
+    "fishing": {
+      "title": "Quiet Waters",
+      "body":  "A line cast by the river — fish species, rare relics and a moment of stillness."
+    },
+    "denizcilik": {
+      "title": "Open Sea",
+      "body":  "Sails full, the horizon ahead — where trade, piracy and naval war begin."
+    },
+    "denizcilik2": {
+      "title": "Approaching Harbor",
+      "body":  "Cargo ships easing toward the docks and crowded piers — the hub of the sailing system."
+    },
+    "zirhliAt": {
+      "title": "Armored Cavalry",
+      "body":  "A fully barded warhorse and its rider — the fastest, most striking entry to the battlefield."
+    },
+    "build": {
+      "title": "Building a Home",
+      "body":  "Your own land, your own house — every brick is your signature in Quinfall's housing system."
+    },
+    "build2": {
+      "title": "The Workbenches",
+      "body":  "Forge, loom, carpenter's bench — production buildings are the craftsman's home."
+    }
+  },
+  "lightbox": {
+    "close": "Close"
+  },
+  "map": {
+    "kicker": "INTERACTIVE MAP",
+    "title": "Community Map",
+    "subtitle": "Resource nodes, creatures, bosses, cities and farming routes"
+  },
+  "frame": {
+    "loading": "Loading map",
+    "fallbackTitle": "Map could not load",
+    "fallbackBody": "Your browser blocked the embedded view. Use the button below to open the map in a new tab.",
+    "openInNewTab": "Open in new tab"
+  }
+}

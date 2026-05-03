@@ -1,0 +1,381 @@
+{
+  "page": {
+    "eyebrow": "BERUFE UND PRODUKTION",
+    "title": "Das Rückgrat der Quinfall-Wirtschaft",
+    "description": "Berufe sind die zweite Hälfte von Quinfall. Zwischen dem Spieler mit der Spitzhacke und dem mit dem Backofen liegt nur eine Werkbank — aber die richtige Berufskette schiebt dich auf der Wohlstandsleiter nach oben."
+  },
+  "stats": {
+    "professions": "Berufe",
+    "recipes": "Rezepte",
+    "workbench": "Werkbank-Stufe"
+  },
+  "hero": {
+    "title": "Das Produktionsherz von Quinfall",
+    "subtitle": "5 Sammelberufe, 5 Verarbeitungs-Werkbänke, 7 Handwerksberufe — 836 verifizierte Rezepte. Welche Bank baut was, wann öffnet T2/T3 und welche Werkzeugstufe für welchen Knoten — alles hier."
+  },
+  "tools": {
+    "kicker": "SAMMELWERKZEUGE",
+    "title":  "5 Werkzeugfamilien · 3 Qualitätsstufen",
+    "subtitle": "Jeder Sammelberuf hat sein Werkzeug. Höhere Stufe = höhergradige Knoten und bessere Drops.",
+    "tiers":  { "basic": "Einfach", "sturdy": "Robust", "advanced": "Fortgeschritten" },
+    "families": {
+      "axe":          { "name": "Axt",         "feeds": "Holzfällen", "body": "Fällt Stämme. Robust für Hartholz, Fortgeschritten für seltene Arten (Ulme, Ebenholz)." },
+      "pickaxe":      { "name": "Spitzhacke",  "feeds": "Bergbau",    "body": "Schlägt Erzadern. Kupfer/Eisen einfach, Silber/Gold robust, Mithril fortgeschritten." },
+      "sickle":       { "name": "Sichel",      "feeds": "Sammeln",    "body": "Erntet Hanf, Kräuter und Wildpflanzen. Top-Stufe öffnet seltene Alchemie-Reagenzien." },
+      "fishingRod":   { "name": "Angelrute",   "feeds": "Angeln",     "body": "Fluss-, See- und Meeresfänge plus Relikte. Robust für Meerfisch, Fortgeschritten für Unterwasser-Relikte." },
+      "huntingKnife": { "name": "Jagdmesser",  "feeds": "Jagen",      "body": "Häutet Wild — Fell, Haut, Fleisch, Knochen. Fortgeschritten erhöht seltene Felldrops deutlich." }
+    }
+  },
+  "flow": {
+    "kicker": "PRODUKTIONSKETTEN",
+    "title":  "Vom Rohstoff zum fertigen Gut — 7 Ketten",
+    "subtitle": "Je drei Glieder: Sammeln → Verarbeiten → Herstellen. Ganze Kette solo oder Glieder zwischen Spielern handeln.",
+    "family": { "gather": "Sammeln", "process": "Verarbeiten", "craft": "Herstellen" },
+    "chains": {
+      "metal":   { "name": "Metall-Kette",   "body": "Erz abbauen, in Barren schmelzen, in der Schmiede zu Waffen/Rüstung formen." },
+      "wood":    { "name": "Holz-Kette",     "body": "Stämme fällen, im Sägewerk zu Brettern verarbeiten, beim Tischler zu Möbel/Schäften." },
+      "leather": { "name": "Leder-Kette",    "body": "Wild häuten, Haut zu Leder gerben, beim Schneider zu leichter Rüstung verarbeiten." },
+      "fabric":  { "name": "Stoff-Kette",    "body": "Hanffaser sammeln, am Spinnrad zu Garn spinnen, beim Schneider zu Roben verarbeiten." },
+      "food":    { "name": "Speise-Kette",   "body": "Fisch fangen oder Wild vorbereiten, Zutaten zur Kochbank, Buff-Festmahl backen." },
+      "gem":     { "name": "Edelstein-Kette","body": "Rohe Edelsteine abbauen, am Schliff polieren, beim Juwelier in Schmuck setzen." },
+      "essence": { "name": "Essenz-Kette",   "body": "Rohe Essenz sammeln, am Veredler zu Element-Essenz destillieren, beim Alchemisten zu Tränken." }
+    }
+  },
+  "milestones": {
+    "kicker": "BERUFS-MEILENSTEINE",
+    "title":  "Was öffnet sich auf welcher Stufe?",
+    "subtitle": "Schwellen, die du über alle Berufe hinweg markieren solltest — eine verpasst, und die Kette stockt.",
+    "list": {
+      "t1Open":     { "tag": "START",        "body": "Jeder Beruf erreicht T1 sofort. Billige Rezepte spammen für schnelle XP." },
+      "t2Combat":   { "tag": "T2 KAMPF",     "body": "Schmieden / Schneidern T2 öffnet — stärkere Waffen und Rüstungssets." },
+      "t2Alchemy":  { "tag": "T2 ALCHEMIE",  "body": "Alchemie T2: Buff- und Elementtränke kommen auf den Markt." },
+      "t2Smelt":    { "tag": "T2 SCHMELZE",  "body": "Schmelzen + Tischlerei T2 öffnet — Silber/Gold und schwere Möbel möglich." },
+      "t3Smith":    { "tag": "T3 SCHMIED",   "body": "Schmieden / Schneidern T3 — Endgame-Rezepte und Saison-Meta." },
+      "t2Gem":      { "tag": "T2 JUWELIER",  "body": "Juwelier / Edelsteinschliff T2 — gesockelte Schmuckrezepte; echter Markt beginnt hier." },
+      "t3Cook":     { "tag": "T3 KOCHEN",    "body": "Kochen / Tischlerei / Schmelzen T3 — Raid-Festmahle und Mithril-Ausrüstung." },
+      "sturdyTool": { "tag": "FORTGESCHRITTENES WERKZEUG", "body": "Lvl 50 Werkzeugstufe — höchste Drop-Chance an jedem Knoten." },
+      "t3Cap":      { "tag": "T3 OBERGRENZE","body": "Kochen und Juwelier T3-Endrezepte." },
+      "t3Jewel":    { "tag": "T3 JUWELIER",  "body": "Juwelier-Spitze — Endgame-Talismane und Set-Schmuck." }
+    }
+  },
+  "workbench": {
+    "kicker": "WERKBANK-STUFEN",
+    "title": "T1, T2, T3 — Die drei Werkbank-Stufen",
+    "subtitle": "Mit steigendem Beruf schaltest du höhere Werkbänke frei: neue Rezepte, bessere Ausgaben, längere Crafts.",
+    "tiers": {
+      "t1": { "label": "EINSTIEG",   "headline": "Basis-Werkbank — Lvl 1",            "body": "Direkt verfügbar. Nutze die Stadt-Werkbänke kostenlos oder baue deine eigene auf eigenem Land.",
+        "bullets": ["Kupfer, Eisen, Hanf, rohes Fleisch — alle Grundrohstoffe", "Kurze Crafts (3–24 s), wenig XP — schnelles Leveln", "Voraussetzung für T2/T3"] },
+      "t2": { "label": "MITTEL",      "headline": "Verbesserte Werkbank — Berufslvl 9–20", "body": "Schaltet sich je nach Beruf zwischen Lvl 9 und 20 frei. Bessere Ausrüstung, stärkere Tränke, bessere Marktpreise.",
+        "bullets": ["Schmieden / Schneidern bei 9, Tischlerei / Schmelzen bei 20, Alchemie bei 15", "2–3× längere Crafts, dafür mehr XP", "T2-Bau braucht T1-Output + Berufslevel"] },
+      "t3": { "label": "MEISTER",     "headline": "Meister-Werkbank — Endgame",       "body": "Hier entsteht die Saison-Meta. Rezepte droppen aus seltenen Büchern, Materialien per Karawane, Preise an der Spitze.",
+        "bullets": ["Schmieden 21, Tischlerei / Schmelzen 40, Kochen 60, Juwelier 60", "80–180 s pro Craft, dafür Maxstats und Saison-Meta", "Großes Grundstück nötig — Gilde empfohlen"] }
+    }
+  },
+  "matrix": {
+    "kicker":   "BERUFSMATRIX",
+    "title":    "15 Berufe, T1·T2·T3 Schwellen",
+    "subtitle": "Rezeptanzahl, Stufenbereich und Tier-Freischaltlevel pro Beruf — direkt aus items.json berechnet",
+    "familyAll": "Alle",
+    "family": { "gathering": "Sammeln", "processing": "Verarbeitung", "crafting": "Handwerk", "workbench": "Werkbank" },
+    "stats": { "recipes": "Rezepte", "recipesShort": "Rez.", "levelRange": "Stufe", "tiers": "Stufen" },
+    "unlock": "Freischaltung Lvl {{level}}"
+  },
+  "professionsList": {
+    "fishing":      { "name": "Angeln",        "tagline": "Süß- · Salzwasser · Seltene Relikte",  "body": "Rute + Fluss/Meer + Geduld. Roher Lieferant der Küche; seltene Relikte sind die Marktgoldmine." },
+    "mining":       { "name": "Bergbau",        "tagline": "Spitzhacke + Erzader",                "body": "Holt Erz aus Adern — Kupfer, Eisen, Silber, Gold, Mithril. Startglied der Schmelz- und Juwelierkette." },
+    "harvesting":   { "name": "Sammeln",        "tagline": "Sichel + Wildpflanzen",               "body": "Hanffaser, Kräuter und Alchemie-Reagenzien. Gemeinsamer Zulieferer für Spinnen, Alchemie und Kochen." },
+    "hunting":      { "name": "Jagen",          "tagline": "Messer + rohe Haut",                  "body": "Häutet Wild für Haut, Fell, Fleisch und Knochen. Roher Input fürs Gerben, Fleischquelle fürs Kochen." },
+    "logging":      { "name": "Holzfällen",     "tagline": "Stamm zu Brett",                       "body": "Verarbeitet Stämme zu Brettern, Schäften und Pfeilschäften. Grundzulieferer für Schmieden und Tischlerei." },
+    "smelting":     { "name": "Schmelzen",      "tagline": "Erz zu Barren",                        "body": "Schmilzt rohes Erz zu Barren. Kernzulieferer für Schmieden und Juwelier." },
+    "tanning":      { "name": "Gerben",         "tagline": "Haut zu Leder",                        "body": "Wandelt rohe Häute in nutzbares Leder. Pflicht für Schneiderei und Tischlerei." },
+    "spinning":     { "name": "Spinnen",        "tagline": "Hanffaser → Garn",                     "body": "Spinnt wild gewachsene Hanffaser zu Garn. Rohstoff der Schneiderei; nutzt das Spinnrad." },
+    "gemcutting":   { "name": "Edelsteinschliff","tagline": "Roher Stein → schliffbarer Edelstein", "body": "Schleift rohe Edelsteine. Liefert Sockelmaterial für Juwelier und Mechanik." },
+    "essence-refining": { "name": "Essenz-Veredlung", "tagline": "Rohe Essenz → Element-Essenz",  "body": "Destilliert Roh-Essenzen aus dem Sammeln. Stiller Partner von Alchemie und Mechanik." },
+    "cooking":      { "name": "Kochen",         "tagline": "Gebufft gewinnt",                      "body": "Verwandelt Fleisch, Fisch und Gemüse in Gruppenmahle. Buffs sind kritisch in PvE/PvP." },
+    "alchemy":      { "name": "Alchemie",       "tagline": "Macht aus dem Fläschchen",             "body": "Pflanze + Essenz + seltene Komponenten → Tränke und Reagenzien. PvP-Tage = Hochnachfrage." },
+    "blacksmithing":{ "name": "Schmieden",      "tagline": "231 Waffen-/Rüstungsrezepte",          "body": "Barren + Schaft = Waffe. Der sichtbarste Beruf; der Saison-Meta-Schmied dominiert den Markt." },
+    "tailoring":    { "name": "Schneiderei",    "tagline": "Garn + Leder → Robe & leichte Rüstung","body": "Magier- und Schützenausrüstung. Wird von Spinnen und Gerben versorgt." },
+    "carpentry":    { "name": "Tischlerei",     "tagline": "Möbel + Brettarbeiten",                "body": "Möbel, Truhen, Werkbankgerüste. Rückgrat des Wohnsystems." },
+    "engineering":  { "name": "Mechanik",       "tagline": "Fallen · Katapulte · Belagerung",      "body": "Belagerungsausrüstung für den Gildenkrieg. Lebt zwischen Saisons vom Fallenverkauf." },
+    "jewelcrafting":{ "name": "Juwelier",       "tagline": "Ringe · Halsketten · Armreife · Ohrringe","body": "Kleine Slots, große Wirkung. Top-Stufe öffnet bei Lvl 60–70." }
+  },
+  "families": {
+    "all": "Alle",
+    "crafting": "Handwerk",
+    "gathering": "Sammeln",
+    "land": "Land & Zucht",
+    "caravan": "Handel & Karawanen",
+    "other": "Sonstiges"
+  },
+  "labels": {
+    "feedsInto": "Beliefert",
+    "needs": "Braucht",
+    "needsNothing": "Keine Rohstoff-Abhängigkeit",
+    "feedsNothing": "Direkt verkaufbar",
+    "bestPair": "Beste Paarung",
+    "income": "Einkommen",
+    "pace": "Tempo",
+    "difficulty": "Schwierigkeit",
+    "startup": "Startkosten"
+  },
+  "details": {
+    "openLabel": "Details öffnen",
+    "outputs": "Output",
+    "leveling": "Leveln",
+    "moneyTip": "Geldtipp"
+  },
+  "income": {
+    "low": "Niedrig",
+    "mid": "Mittel",
+    "high": "Hoch",
+    "top": "Spitze"
+  },
+  "pace": {
+    "slow": "Langsam",
+    "steady": "Stetig",
+    "fast": "Schnell"
+  },
+  "professions": {
+    "alchemy": {
+      "name": "Alchemie",
+      "tagline": "Macht aus der Flasche",
+      "summary": "Kräuter, Essenzen und seltene Reagenzien werden zu Tränken, Elixieren und Zauberstoffen. Heilung und Buffs sind in PvE Pflicht; im PvP führst du den Markt.",
+      "outputs": "Heiltränke, Manatränke, kurzfristige Statbuffs, Wiederbelebungstränke, Antitoxine.",
+      "leveling": "Auf niedriger Stufe billige Heilung in Massen — die zahlt dein Schulgeld. Auf Mid-Tier auf Buff-Elixiere für Marge umsteigen. Top-Rezepte gehen Hand in Hand mit Essenzraffinerie.",
+      "moneyTip": "An PvP-lastigen Tagen explodiert die Buff-Nachfrage. Stundenoutput messen, mit der Welle reiten."
+    },
+    "cooking": {
+      "name": "Kochkunst",
+      "tagline": "Wer Buffs isst, ist glücklich",
+      "summary": "Fleisch, Fisch, Gemüse, Gewürz — alles wird zum Gruppen-Bankett. Essen gibt zeitlich begrenzte Statboni; vor der Raid-Tür bist du die gefragteste Werkbank.",
+      "outputs": "Einzel-Stat-Gerichte, Multi-Buff-Bankette, schnelle Snacks, Karawanen-Rationen.",
+      "leveling": "Früh Einzel-Stat-Gerichte spammen. Ab 30+ auf Bankette für die halbe Gruppe wechseln. Mit einem Bauern paaren halbiert die Sammelarbeit.",
+      "moneyTip": "Sobald ein Boss-Raid angekündigt wird, schießt die Nachfrage hoch. Produktion auf den Raid-Kalender takten."
+    },
+    "smelting": {
+      "name": "Verhütten",
+      "tagline": "Erz zu Barren, Träume zu Waffen",
+      "summary": "Rohes Erz aus der Mine wird im Feuer zu Barren. Basisversorgung für Schmiedekunst und Schmuck; allein dünne Marge, aber du sitzt am Anfang der Kette.",
+      "outputs": "Eisen, Stahl, Silber, Gold, Mithril-Barren.",
+      "leveling": "Bergbau zuerst leveln — eigenes Erz verdoppelt deine echte Marge. Eine Erzsorte als Großcharge schmelzen, XP-Fluss bleibt stabil.",
+      "moneyTip": "Pro Barren ist die Marge klein, aber Durchsatz hoch. Großmengen verkaufen — das ist Volumengeschäft."
+    },
+    "woodcrafting": {
+      "name": "Holzverarbeitung",
+      "tagline": "Vom Stamm zum Bauteil",
+      "summary": "Aus rohen Stämmen werden Bretter, Schäfte, Griffe und Pfeilrohre. Pflichtversorgung für Schmiedekunst und Tischlerei.",
+      "outputs": "Bretter, Waffenschäfte, Pfeilrohre, Möbelrahmen.",
+      "leveling": "Schäfte sind früh die billigste XP. Auf Top-Tier seltene Hölzer (Ulme, Ebenholz) tief im Wald — Karawane für den Rückweg.",
+      "moneyTip": "Direkt an einen Schmied in Massen verkaufen. Marktpreise wackeln; eine Schmiedebindung sichert das Einkommen."
+    },
+    "engineering": {
+      "name": "Mechanik",
+      "tagline": "Maschinen für die Belagerung, Fallen für den Krieg",
+      "summary": "Mechanismen, Fallen, Belagerungswaffen, Karawanen-Verteidigung. Kein Solo-Beruf — du brauchst Verhütten, Holz und Schliff. Aber bei einer Burgbelagerung wird die Katapult-Crew bezahlt.",
+      "outputs": "Fallen, Ballisten, Belagerungswaffen, automatische Rigs, Torbrecher.",
+      "leveling": "Mit einfachen Fallen anfangen. Auf Top-Tier explodiert die Katapult-Nachfrage in Gilden- und Saison-Belagerungen.",
+      "moneyTip": "Ein Katapult in der Saison kann ein Jahr finanzieren. Off-Season Fallenaufträge halten den Laden offen."
+    },
+    "blacksmithing": {
+      "name": "Schmiedekunst",
+      "tagline": "Die Werkbank, an der jede Waffenhand vorbeikommt",
+      "summary": "Aus Barren und Schäften werden Waffen. Die sichtbarste Profession — das Schwert auf einem Rücken trägt deine Signatur. Ein Top-Schmied baut die Saison-Meta-Waffe.",
+      "outputs": "Einhand- und Zweihandwaffen, schwere Rüstungssets, Schilde, Kriegshämmer.",
+      "leveling": "Billige Anfängerwaffen für XP, ab 30+ auf Auftragsarbeit umsteigen. Kontrolle über Bergbau + Verhütten verdoppelt die Marge.",
+      "moneyTip": "Patches verschieben die Meta. Wer am Saisonstart die neue Meta-Waffe lagert, frisst Aufträge tagelang."
+    },
+    "jewelcrafting": {
+      "name": "Schmuckkunst",
+      "tagline": "Kleiner Slot, großer Bonus",
+      "summary": "Ringe, Ketten, Ohrringe, Armbänder — kleine Slots, große Wirkung. Geht Hand in Hand mit Edelsteinschliff; jedes Stück hat einen oder zwei Sockets.",
+      "outputs": "Ringe, Ketten, Ohrringe, Armbänder, Talismane.",
+      "leveling": "Früh Einzel-Stat-Schmuck. Doppel-Socket-Rezepte ab 50+ — der echte Markt fängt da an.",
+      "moneyTip": "Mit einem Edelsteinschleifer paaren — gemeinsam erreicht ihr die obere Margenklasse."
+    },
+    "gemcutting": {
+      "name": "Edelsteinschliff",
+      "tagline": "Licht, im Sockel gefangen",
+      "summary": "Rohe Edelsteine aus der Mine werden geschliffen, poliert und Socket-tauglich. Stiller Partner von Schmuckkunst und Mechanik.",
+      "outputs": "Socket-fertige Rubin, Saphir, Smaragd, Opal, Diamant — jeweils auf einen Stat abgestimmt.",
+      "leveling": "Eine Steinart als Charge, Werkbank warm halten. Auf Top-Tier liefern Spezialschliffe (Oval, Marquise) Bonusstats.",
+      "moneyTip": "Top-Schliffe definieren PvP-Builds. Richtiger Stein + richtiger Schliff ist der Endgame-Stempel."
+    },
+    "essence-refining": {
+      "name": "Essenzraffinerie",
+      "tagline": "Wo das Unsichtbare gereinigt wird",
+      "summary": "Rohe Essenzen aus dem Sammeln werden destilliert — die Basisversorgung für Alchemie und Mechanik. Leise, aber kritisch.",
+      "outputs": "Magisches Pulver, Manaessenz, Elementaressenzen, Aufwertungsreagenzien.",
+      "leveling": "Früh Basis-Essenzrezepte spammen. Auf Mid-Tier auf elementar-spezifische Essenzen (Feuer, Frost, Sturm) umsteigen — die Alchemisten kommen.",
+      "moneyTip": "Elementaressenzen hängen an Rezeptbüchern. Wer den Rezeptzugang hütet, kann den Markt monopolisieren."
+    },
+    "leatherworking": {
+      "name": "Lederverarbeitung",
+      "tagline": "Hier füllt sich der Beutel des Jägers",
+      "summary": "Du gerbst und vernähst die Häute der Jäger zu leichter Rüstung, Beuteln, Scheiden und Gürteln. Deine Signatur sitzt auf jedem Überlebenden.",
+      "outputs": "Leichte Rüstungssets, Beutel, Waffenscheiden, Gürtel, Handschuhe.",
+      "leveling": "Beutelplatz ist das, was jeder Spieler in den ersten 50 Stunden kauft — Anfängerbeutel spammen, XP und Einkommen laufen parallel.",
+      "moneyTip": "Zwei oder drei Beutel pro Frischling sind sicher. Auf einem neuen Server ist Lederverarbeitung der schnellste Break-even."
+    },
+    "thread-weaving": {
+      "name": "Garnspinnerei",
+      "tagline": "Die erste Stufe zur Stoffbahn",
+      "summary": "Aus Fasern der Erntenden wird Garn gesponnen. Pflichtversorgung für Schneiderei; reich wirst du nicht im Direktverkauf, sondern in der Partnerschaft.",
+      "outputs": "Baumwollgarn, Leinengarn, Seide, arkan-imprägniertes Garn.",
+      "leveling": "Eine Faserart als Charge. Arkan-Garn schaltet ab 50+ frei — Preise multiplizieren sich dort.",
+      "moneyTip": "Eine langfristige Tauschvereinbarung mit einem Schneider — Tagesoutput gesichert, Marktrauschen außen vor."
+    },
+    "tailoring": {
+      "name": "Schneiderei",
+      "tagline": "Macht hinter der Robe",
+      "summary": "Garn zu Stoff, Stoff zu Roben, Umhängen und Caster-Rüstung. Pflichtlieferant für Magierstab- und Lebensstab-Spieler.",
+      "outputs": "Roben, Umhänge, Stoffrüstung, Caster-Hüte, Magierhauben.",
+      "leveling": "Auf niedriger Stufe Standard-Roben spammen. Ab 40+ Elementarwiderstand-Stoffe — Pflicht für jeden Raid-Heiler.",
+      "moneyTip": "Lifestaff-Zahlen schießen in der Raid-Saison hoch. Schneiderei trägt Gewicht in diesen Wochen."
+    },
+    "carpentry": {
+      "name": "Tischlerei",
+      "tagline": "Ein Haus mit Charakter ist mehr wert",
+      "summary": "Möbel, Bauteile, Dekorationsbauten. Der Wohnungsmarkt ist konstant; ein guter Tischler ist der weiche, verlässliche Marktgewinner.",
+      "outputs": "Stühle, Tische, Schränke, Regale, Dekor, Gildenhaus-Bauteile.",
+      "leveling": "Mit Stuhl-Tisch-Sets starten. Ab 30+ schalten seltene Hölzer Signatur-Rezepte frei.",
+      "moneyTip": "Gildenhäuser und Spielerwohnungen sind die stetige Nachfrage. Tischler haben immer Käufer."
+    },
+    "logging": {
+      "name": "Holzfällerei",
+      "tagline": "Der Axtschlag im Herzen der Wirtschaft",
+      "summary": "Wald rein, Baum fällen, Stamm ziehen. Niedrige Startkosten, hohe Nachfrage — die Schulbuch-Sammelschleife. Anfang der Holzkette.",
+      "outputs": "Kiefer, Eiche, Ahorn, Ebenholz-Stämme.",
+      "leveling": "Nicht in einer Zone parken — Stämme respawnen. Zwischen Wäldern rotieren für stabilen Durchsatz.",
+      "moneyTip": "Holzfäller-Pet leveln — bis zu +50% Rate, echter Hebel auf das Stundeneinkommen."
+    },
+    "mining": {
+      "name": "Bergbau",
+      "tagline": "Anfang jedes Erzflusses",
+      "summary": "Spitzhacke schwingen, Erz aus dem Fels brechen. Roheingang für Verhütten, Edelsteinschliff und Essenz. Niedrige Startkosten, langlebiges Einkommen.",
+      "outputs": "Kupfer, Eisen, Silber, Gold, Mithril, rohe Edelsteine.",
+      "leveling": "Reiche Knoten in Respawn-Rotation laufen. Karten-Marker zeigen Zyklen — nutze sie aus.",
+      "moneyTip": "Eigenen Schmelzer betreiben — die Marge bleibt bei dir. Sonst eine Schmiede-Partnerschaft binden."
+    },
+    "harvesting": {
+      "name": "Ernte",
+      "tagline": "Kräuter, Blumen, Felder — das Grün gehört dir",
+      "summary": "Wildpflanzen, Pilze, Kräuter und Feldfrüchte sammeln. Basisversorgung für Alchemie, Küche und Garn.",
+      "outputs": "Heilkräuter, Pilze, Blumen, Feldfrüchte, Maulbeerblätter.",
+      "leveling": "Ernte-Pet leveln — Doppel-Drop kippt deine Stunde. Paart sich natürlich mit Landwirtschaft.",
+      "moneyTip": "Direkt an einen Alchemisten liefern — +20% über Marktpreis sind üblich."
+    },
+    "fishing": {
+      "name": "Angeln",
+      "tagline": "Passives Einkommen für den geduldigen Spieler",
+      "summary": "Süßwasser, Meer, Wrackpunkte — Angeln skaliert mit der Zeit. Langsames Tempo, aber ein seltener Fang ist ein Volltreffer.",
+      "outputs": "Süßwasser- und Meeresfische, seltene Tiefseearten, Schatztruhen-Fragmente.",
+      "leveling": "Erst die beste Rute kaufen — Bisszeit ist der Engpass. Angler-Pet draufsetzen.",
+      "moneyTip": "Seltener Fang + Seehandel ist der breite Markt — ein Ozean-Lauf öffnet das Tor zum Jahreseinkommen."
+    },
+    "hunting": {
+      "name": "Jagd",
+      "tagline": "Spuren, häuten, verkaufen",
+      "summary": "Wildtiere für Häute, Fleisch und Trophäen jagen. Einziger Lieferant für Koch + Lederer; eine profitable Brücke.",
+      "outputs": "Hirschhaut, Bärenfell, Wolfspelz, Fleisch, seltene Trophäen.",
+      "leveling": "Beutestufe an deine anpassen. Top-Tier-Jagden sind Boss-Klasse — bring einen Jagdpartner mit.",
+      "moneyTip": "Jagdsaison schlägt Wellen. Häute und Fleisch im Bundle verkaufen verdoppelt den Lauf."
+    },
+    "farming": {
+      "name": "Landwirtschaft",
+      "tagline": "Pflanzen, ernten, verkaufen — schlafen",
+      "summary": "Land kaufen, Saat setzen, ernten. Langsam, aber die Hauptader passiven Einkommens. Direkte Versorgung für Küche und Garn.",
+      "outputs": "Getreide, Gemüse, Obst, Gewürze, Maulbeerblätter.",
+      "leveling": "Erste 20 Stufen Einzelfrucht-Rotation. Danach auf Multi-Acker-Verwaltung — Landbesitz akkumuliert.",
+      "moneyTip": "Direktvertrag mit einem Koch. Marktrauschen ist laut; per Vertrag fixieren."
+    },
+    "breeding": {
+      "name": "Tierzucht",
+      "tagline": "Linien stärken, Preisobergrenze setzen",
+      "summary": "Reittiere und Pets ziehen. Top-Tier-Blutlinien sind die teuersten Einzelposten am Markt. Langfrist-Investition, Spitzen-Rendite.",
+      "outputs": "Reittierlinien, Pet-Linien, fortgeschrittene Blutlinien, Saison-Tiere.",
+      "leveling": "Erste 30 Stufen ausgewogen züchten. Dann in seltene Eigenschaften — ein legendäres Reittier zahlt ein Jahr Arbeit zurück.",
+      "moneyTip": "Das saisonale Meta-Reittier peakt im Launch-Monat. Erste 2 Wochen Produktion gehören dem."
+    },
+    "caravan-trading": {
+      "name": "Karawanenhandel",
+      "tagline": "Güter über die Straße — die Straße zahlt das Risiko",
+      "summary": "Güter zwischen Städten transportieren. Banditen, Wetter, gesperrte Straßen — Risiko bei jedem Schritt. Auf der richtigen Route bricht das Stundeneinkommen die Tabelle.",
+      "outputs": "Stadt-zu-Stadt-Preisdifferenz ist dein Profit. Top-Tier-Handwerk + seltene Gewürze = beste Marge.",
+      "leveling": "Erst kurze Routen. Lange Routen mit der Gilde — Schutz und geteilte Belohnung.",
+      "moneyTip": "Karawanen-Events in der Saison kappen den Profit nach oben. Goldenes Ticket für Hybrid-Spieler."
+    },
+    "sea-trading": {
+      "name": "Seehandel",
+      "tagline": "Steuer, Wind und Hafenbuch",
+      "summary": "Fracht zwischen Häfen. Riskanter als Karawanen, profitabler. Piraten und Stürme — Eskorte oder Gildenrückendeckung Pflicht.",
+      "outputs": "Hafen-zu-Hafen-Differenzen, seltene Ozeanwaren, saisonale Quest-Belohnungen.",
+      "leveling": "Kleines Boot → Mittelfracht → großer Handelsmann. Jeder Schritt ist ein großer Kauf und ein großer Sprung.",
+      "moneyTip": "Seekarte auswendig lernen; Wind- und Sturmkarten lesen. Wer sie kennt, beherrscht den Markt."
+    },
+    "treasure-hunting": {
+      "name": "Schatzsuche",
+      "tagline": "Karte, Schaufel, Glück",
+      "summary": "Alte Karten, verstreute Hinweise, versteckte Truhen. Hobby für den Casual; Hochvarianz-Saison für den Profi.",
+      "outputs": "Seltene Kostüme, einzigartige Trinkets, alte Rezeptbücher, Schatz-Cache-Teile.",
+      "leveling": "Frühe Karten gibt's gratis; spätere im Handel. Beute ist ungleich verteilt — manche Wochen leer, manche voll.",
+      "moneyTip": "Wenn eine Karte Top-Tier dropt, schlägt diese Woche drei Mid-Tier-Wochen."
+    }
+  },
+  "chain": {
+    "heading": "PRODUKTIONSKETTE",
+    "title": "Wer beliefert wen",
+    "subtitle": "Quinfall-Berufe laufen nicht solo. Sammeln → veredeln → zusammenbauen → verkaufen. Die häufigsten Flüsse unten.",
+    "groups": {
+      "metal": {
+        "name": "Eisen-Lane",
+        "description": "Von der Mine zum Katapult — die klassische Metallkette."
+      },
+      "wood": {
+        "name": "Holz-Lane",
+        "description": "Stamm zu Möbel — Schäfte, Stühle, Belagerungstürme alle hier."
+      },
+      "fabric": {
+        "name": "Stoff-Lane",
+        "description": "Ernte → Garn → Stoff → Robe. Die Fußspuren von Heiler und Magier."
+      },
+      "leather": {
+        "name": "Leder-Lane",
+        "description": "Der einzige Pfad, der die Häute des Jägers in leichte Rüstung und Beutel verwandelt."
+      },
+      "consumable": {
+        "name": "Verbrauchs-Lane",
+        "description": "Wo Küche und Alchemie zusammentreffen — der gebuffte Spieler taucht oft in den Charts auf."
+      }
+    }
+  },
+  "tips": {
+    "heading": "PRO-TIPPS",
+    "title": "Hol dir den Spitzenplatz im Beruf",
+    "items": {
+      "1": {
+        "title": "Berufspaar laufen lassen",
+        "body": "Ein Sammelberuf + ein Handwerk verdoppelt deine Marge, weil du keine Rohstoffe einkaufst. Bergbau + Verhütten, Holz + Verarbeitung, Ernte + Alchemie."
+      },
+      "2": {
+        "title": "Pet auf den Beruf abstimmen",
+        "body": "Wenn du sammelst, ist dein Pet ein Enhancer — +50% Rate, +5% Doppel-Drops verstärken dein Stundeneinkommen."
+      },
+      "3": {
+        "title": "Den Saisonkalender lesen",
+        "body": "Gildenkrieg, Belagerung, Raid — jedes Event spitzt eine andere Nachfrage. Erkenn die Welle, reite mit."
+      },
+      "4": {
+        "title": "Großmengen-Verträge fixieren",
+        "body": "Schlag Einzelverkäufe — sign einen Stammkäufer. Stetige Versorgung schlägt Stückwerk jeden Tag."
+      },
+      "5": {
+        "title": "Rezeptbücher jagen",
+        "body": "Top-Rezepte stehen in versteckten Büchern. Ein einziges Rezept kann dir das Marktmonopol geben."
+      },
+      "6": {
+        "title": "Werkbank aus der Stadt rausziehen",
+        "body": "Stadt-Werkbänke sind in Stoßzeiten langsam. Gildenhalle oder eigenes Land sind die schnellen Produktionspunkte."
+      }
+    }
+  }
+}

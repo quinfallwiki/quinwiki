@@ -1,0 +1,95 @@
+{
+  "brand": {
+    "title": "The Quinfall Wiki",
+    "tagline": "Quinfall evrenine adım at"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "guide": "Rehber",
+    "classes": "Sınıflar",
+    "crafting": "Toplama / İşleme",
+    "dungeons": "Zindanlar / Bosslar",
+    "items": "İtemler",
+    "craftCalc": "Craft Hesaplama",
+    "mounts": "Binekler / Petler",
+    "sailing": "Denizcilik",
+    "caravan": "Kervan Sistemi",
+    "leveling": "Level Kasma",
+    "gallery": "Galeri",
+    "system": "Sistem & Performans",
+    "updates": "Güncellemeler",
+    "studio": "Vawraek Technology",
+    "contact": "İletişim"
+  },
+  "search": {
+    "open": "Ara",
+    "placeholder": "Sayfa, eşya, boss, zindan veya bölge ara…",
+    "loading": "İndeks yükleniyor…",
+    "noResults": "Eşleşme yok.",
+    "hintsTitle": "İpuçları",
+    "hint1": "Sayfa adı, eşya, boss, zindan veya bölge yaz",
+    "hint2": "↑ ↓ ile gez, Enter ile aç, Esc ile kapat",
+    "hint3": "Türkçe karakterler önemsiz: \"demir cevheri\" ile \"Demir Cevheri\" aynı sonucu verir",
+    "kbdNav":   "gez",
+    "kbdOpen":  "aç",
+    "kbdClose": "kapat",
+    "kinds": {
+      "page":       "Sayfa",
+      "profession": "Meslek",
+      "boss":       "Boss",
+      "dungeon":    "Zindan",
+      "zone":       "Av Bölgesi",
+      "item":       "Eşya",
+      "material":   "Hammadde",
+      "prop":       "Obje"
+    },
+    "kindShort": {
+      "page": "sayfa", "profession": "meslek", "boss": "boss",
+      "dungeon": "zindan", "zone": "bölge", "item": "eşya",
+      "material": "hammadde", "prop": "obje"
+    }
+  },
+  "actions": {
+    "search": "Ara",
+    "explore": "Keşfet",
+    "readMore": "Devamı",
+    "back": "Geri",
+    "language": "Dil",
+    "theme": "Tema",
+    "menu": "Menü",
+    "close": "Kapat",
+    "more": "Daha fazla"
+  },
+  "navGroups": {
+    "world": "Dünya",
+    "tools": "Araçlar",
+    "about": "Hakkında"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "communityNote": "Bu wiki topluluk katkılarıyla geliştirilmektedir.",
+    "language": "Dil"
+  },
+  "states": {
+    "loading": "Yükleniyor",
+    "empty": "Burada henüz bir şey yok",
+    "error": "Bir şeyler ters gitti"
+  },
+  "pages": {
+    "guide":     { "summary": "Sıfırdan Lvl 100'e adım adım yol haritası — tutorial, build kararı, lonca girişi, post-50 grindi." },
+    "classes":   { "summary": "10 silah ailesi ve 20 alt sınıf — sınıf kilidi yok, silahını değiştir, sınıfını değiştir." },
+    "crafting":  { "summary": "Hasatçı, madenci, oduncu, aşçı, demirci, terzi, simyacı — 13 meslek, 700+ tarif." },
+    "dungeons":  { "summary": "4 aktif zindan, 8 dünya patronu, 4 zorluk modu — Foaming Catacombs'tan Kraken'a." },
+    "items":     { "summary": "Madenler, bitkiler, esanslar, ekipman setleri — 1900+ kalemlik aranabilir veritabanı." },
+    "craftCalc": { "summary": "Maliyet/kâr hesaplaması, malzeme zinciri ve farm planı — endgame ekonomisi için." },
+    "mounts":    { "summary": "Atlar yeşil/mavi yakalanır, mor/turuncu çiftleştirilir; eşek/öküz/deve/fil kervan kirası." },
+    "sailing":   { "summary": "4 sınıf gemi × 2 fraksiyon, 7 liman, naval combat ve günde 3 kez Kraken." },
+    "caravan":   { "summary": "12 büyük şehir arası ticaret — Caravan Vendor kira, paket, PvP kanalı %20 bonus." },
+    "leveling":  { "summary": "Town Board ×2 XP, statue +%40 buff, Lvl 75-90 grup zonu — endgame ilerleme rotası." },
+    "gallery":   { "summary": "Ekran görüntüleri, sahneler, kraken kavgaları ve şehir manzaraları." },
+    "system":    { "summary": "Sistem gereksinimleri, performans ayarları ve düşük PC için optimizasyon." },
+    "updates":   { "summary": "Steam'den otomatik çekilen oyun yamaları, hotfix'ler ve büyük güncellemeler." },
+    "studio":    { "summary": "Vawraek Technology — geliştirici, yama notları, roadmap ve şirket geçmişi." },
+    "contact":   { "summary": "Topluluk linkleri, Discord, geri bildirim ve katkı kanalları." }
+  }
+}

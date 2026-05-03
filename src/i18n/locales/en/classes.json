@@ -1,0 +1,478 @@
+{
+  "page": {
+    "eyebrow": "BUILDS AND CLASSES",
+    "title": "Pick Your Weapon, Forge Your Path",
+    "description": "Quinfall has no class in the traditional sense — the weapon in your hand is your class. Ten weapons, ten ways to play. Carry two at once, and your secondary turns you into a different player entirely."
+  },
+  "hero": {
+    "featured": "On Display",
+    "viewClass": "Open Class",
+    "next": "Next Weapon"
+  },
+  "grid": {
+    "heading": "ALL WEAPONS",
+    "title": "Ten Weapons, Ten Characters",
+    "subtitle": "Each weapon has its own skill tree, its own 100-level path and its own role. Mix two and shape a build that's truly yours."
+  },
+  "combos": {
+    "heading": "COMBINATIONS",
+    "title": "Two Weapons, One Build",
+    "subtitle": "In Quinfall you carry a secondary too. Here are the most-played pairings — each one a distinct archetype the community has built around.",
+    "roles": {
+      "tank": "Tank",
+      "melee": "Melee",
+      "ranged": "Ranged",
+      "magic": "Magic",
+      "healer": "Healer",
+      "hybrid": "Hybrid"
+    },
+    "list": {
+      "paladin": {
+        "name": "Paladin",
+        "description": "Hold the front, plant the shield, and drop a heal when your group needs it. The PvE raid evergreen."
+      },
+      "crusader": {
+        "name": "Crusader",
+        "description": "Open as a tank, swap to the great-sword when the gap opens. A classic bruiser that shifts gears mid-fight."
+      },
+      "berserker": {
+        "name": "Berserker",
+        "description": "No shield, no range — pure damage. Open with the great-sword, finish with the hammer; if no healer's around, you'll outlive them anyway."
+      },
+      "reaver": {
+        "name": "Reaver",
+        "description": "Charge in with the axes, peel out and pop a crossbow shot from range. Big swings on short windows."
+      },
+      "assassin": {
+        "name": "Assassin",
+        "description": "Daggers and bow. The PvP hunter — sticks to backs, escapes when it has to, punishes a single mistake."
+      },
+      "dragoon": {
+        "name": "Dragoon",
+        "description": "Hold the gap with the spear, punish from range with the bow. Mid-range pressure that's a nightmare to peel."
+      },
+      "ranger": {
+        "name": "Ranger",
+        "description": "Harass with the bow, draw the daggers if anyone closes. The textbook solo PvE and gank-survivor."
+      },
+      "sniper": {
+        "name": "Sniper",
+        "description": "Crossbow for crit hunts; the hammer is what answers anyone who closes the gap."
+      },
+      "battlemage": {
+        "name": "Battlemage",
+        "description": "Lay AoE with the staff, swap to the life staff to keep yourself and the team upright. A confident mage."
+      },
+      "cleric": {
+        "name": "Cleric",
+        "description": "Life staff lead, staff backup. Heal first, but ready to lay down damage when the moment opens."
+      },
+      "templar": {
+        "name": "Templar",
+        "description": "Healer-tank hybrid. Life staff keeps the team standing; the shield keeps you standing in the front row."
+      },
+      "spellblade": {
+        "name": "Spellblade",
+        "description": "Stick with daggers, finish a combo, then drop a staff burst on top. High ceiling, high skill."
+      }
+    }
+  },
+  "leveling": {
+    "heading": "PROGRESSION",
+    "title": "Every Weapon Goes to 100",
+    "subtitle": "The weapon in your hand is the weapon that levels. Independent of your character level, weapon mastery climbs from 1 to {{max}}; each milestone unlocks a new ability, passive or upgrade.",
+    "steps": {
+      "1": {
+        "kicker": "STEP 1",
+        "title": "Equip the Weapon",
+        "body": "Whatever you're holding earns the XP. Mobs in PvE, players in PvP, bosses in dungeons — every hit feeds your weapon level."
+      },
+      "2": {
+        "kicker": "STEP 2",
+        "title": "Open the Tree",
+        "body": "Levels 10, 25, 50 and 75 each open new branches in the weapon tree. Slot passives, pair actives, build the kit you actually want."
+      },
+      "3": {
+        "kicker": "STEP 3",
+        "title": "Reach 100",
+        "body": "At max level the weapon's signature legendary passive unlocks. Finish one weapon, move to the next — there's no penalty for swapping."
+      }
+    }
+  },
+  "filter": {
+    "all": "All",
+    "tank": "Tank",
+    "melee": "Melee",
+    "ranged": "Ranged",
+    "magic": "Magic",
+    "healer": "Healer"
+  },
+  "labels": {
+    "role": "Role",
+    "range": "Range",
+    "difficulty": "Difficulty"
+  },
+  "ranges": {
+    "melee": "Melee",
+    "mid": "Mid",
+    "ranged": "Long"
+  },
+  "speeds": {
+    "slow": "Slow",
+    "medium": "Medium",
+    "fast": "Fast"
+  },
+  "damage": {
+    "physical": "Physical",
+    "magic": "Magic",
+    "mixed": "Mixed"
+  },
+  "stats": {
+    "damage": "Damage",
+    "defense": "Defense",
+    "mobility": "Mobility",
+    "range": "Range",
+    "support": "Support",
+    "complexity": "Complexity"
+  },
+  "tags": {
+    "pve": "PvE",
+    "pvp": "PvP",
+    "solo": "Solo",
+    "group": "Group",
+    "raid": "Raid",
+    "arena": "Arena",
+    "siege": "Siege"
+  },
+  "actions": {
+    "viewDetail": "Open Class"
+  },
+  "milestones": {
+    "headings": {
+      "10": "Lv 10",
+      "25": "Lv 25",
+      "50": "Lv 50",
+      "75": "Lv 75",
+      "100": "Lv 100"
+    }
+  },
+  "detail": {
+    "backToList": "Back to Classes",
+    "statsAria": "Class stats radar chart",
+    "maxLevel": "Max Level",
+    "bestForLabel": "Best At",
+    "strengthsWeaknesses": "Strengths & Weaknesses",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "signatureSkills": "Signature Skills",
+    "signatureSkillsSub": "The four abilities that define how this weapon plays.",
+    "levelJourney": "The 100-Level Journey",
+    "levelJourneySub": "From 1 to {{max}} — what each milestone unlocks.",
+    "recommendedCombos": "Recommended Combinations",
+    "recommendedCombosSub": "The most-paired secondaries and the archetypes they create.",
+    "alsoTry": "Also Try",
+    "alsoTrySub": "Weapons with a similar rhythm worth picking up next."
+  },
+  "weapons": {
+    "swordShield": {
+      "name": "Sword & Shield",
+      "tagline": "The wall up front, the raid's evergreen",
+      "summary": "Pull aggro, soak the hits, give your group the room they need. Damage is modest but survivability is legendary — the most-wanted seat in dungeons and group PvP.",
+      "lore": "You learn the shield-bash in front of the smith on day one. For most players, this is the steadiest start in the game.",
+      "strengths": [
+        "High HP and defense — you stay standing the longest.",
+        "Active block soaks the bulk of any incoming hit.",
+        "Provoke kit makes aggro management trivial.",
+        "With a group behind you, the toughest bosses fall in line."
+      ],
+      "weaknesses": [
+        "Damage chart never puts you on top.",
+        "Stuck in melee — closing on ranged kiters takes time.",
+        "A broken shield or mistimed parry is a real opening."
+      ],
+      "skills": [
+        { "name": "Shield Bash", "description": "Short-range stagger hit. Breaks stances and opens the next combo." },
+        { "name": "Provoke", "description": "Pulls aggro from everything around you — the bread and butter of tanking." },
+        { "name": "Castle Stance", "description": "Briefly slashes incoming damage by a large margin." },
+        { "name": "Shield Half", "description": "A short-duration defensive dome over your group at boss windows." }
+      ],
+      "milestones": {
+        "10": "Basic block and provoke unlock.",
+        "25": "Passive: stamina returns on each successful block.",
+        "50": "Castle Stance — your long-form defensive cooldown.",
+        "75": "Protective aura that radiates to nearby allies.",
+        "100": "Shield Half legendary: a group-wide defensive dome at boss windows."
+      }
+    },
+    "twoHandedSword": {
+      "name": "Two-Handed Sword",
+      "tagline": "Wide swing, heavy blow",
+      "summary": "Animations are slow but every swing carves through anyone foolish enough to bunch up. Built for AoE farming and chaotic PvP scrums.",
+      "lore": "When NPCs see you swing this thing two-handed, they step back. The greatsword is a statement.",
+      "strengths": [
+        "Wide arcs — stacking damage in crowds.",
+        "Damage-per-effort is excellent for PvE farming.",
+        "Heavy single-hit combos shut targets down.",
+        "Animation locks come with strong cancel options at the right milestones."
+      ],
+      "weaknesses": [
+        "Single-target loses to bow and staff.",
+        "Slow swings make you predictable to skilled opponents.",
+        "Almost no damage while moving — positioning is everything."
+      ],
+      "skills": [
+        { "name": "Wide Swing", "description": "Half-circle AoE that always catches at least two." },
+        { "name": "Slam", "description": "Leap and crash; landing creates an AoE stagger." },
+        { "name": "Shield Breaker", "description": "Heavy single-hit that drops the target's defense." },
+        { "name": "Battle Hymn", "description": "Short damage buff — perfect AoE opener." }
+      ],
+      "milestones": {
+        "10": "Wide Swing unlocks.",
+        "25": "Passive: stamina back from AoE hits.",
+        "50": "Slam — your gap-closer.",
+        "75": "Shield Breaker, opening tier-up targets.",
+        "100": "Battle Hymn legendary: short +15% party damage buff."
+      }
+    },
+    "spear": {
+      "name": "Spear",
+      "tagline": "Control the gap, harass everyone",
+      "summary": "A balanced weapon that can poke from mid-range or stab up close. Devastating in skilled hands, but unforgiving on the way up.",
+      "lore": "First pick of arena professionals — the spear is defense, offense and gap control all in one shaft.",
+      "strengths": [
+        "Mid-range pressure — pulls opponents out of comfort.",
+        "Stagger and knock-back lets you chain CC.",
+        "High effective hitbox — even glancing strikes register.",
+        "Big positioning advantage in PvP."
+      ],
+      "weaknesses": [
+        "Maxing DPS demands tight timing.",
+        "Closing windows leave brief openings.",
+        "Weak AoE — struggles against multi-target."
+      ],
+      "skills": [
+        { "name": "Thrust", "description": "Fast poke that nudges the target a meter back." },
+        { "name": "Leap Strike", "description": "Jump to your target — instant gap-closer." },
+        { "name": "Vortex", "description": "Spin around yourself for AoE damage and stagger." },
+        { "name": "Plant Banner", "description": "Drive the spear into the ground for a buff zone." }
+      ],
+      "milestones": {
+        "10": "Thrust and basic poke combos.",
+        "25": "Passive: extra range bonus on critical hits.",
+        "50": "Leap Strike — gap-close and disengage in one button.",
+        "75": "Vortex — small-team AoE panic.",
+        "100": "Plant Banner legendary: +10% range to allies in zone."
+      }
+    },
+    "dualAxes": {
+      "name": "Dual Axes",
+      "tagline": "Fast, bloody, unbalanced",
+      "summary": "Stack hits per second and stagger anything in front of you. Defenses are paper-thin; this is hit-and-run played at full speed.",
+      "lore": "The signature kit of the northern clans. Two axes in Quinfall mean one thing: someone has come to settle scores.",
+      "strengths": [
+        "Very high hit frequency — bleeds melt targets.",
+        "Frenzy mechanic gets stronger as enemies fall.",
+        "Damage while moving — flexible positioning.",
+        "Cheap and fast as a starter weapon."
+      ],
+      "weaknesses": [
+        "Paper defenses — one mistake snowballs.",
+        "Lacks stagger for boss fights.",
+        "Damage ceiling outside crits is average."
+      ],
+      "skills": [
+        { "name": "Twin Slash", "description": "Quick X-slash applying two bleeds." },
+        { "name": "Blood Call", "description": "Short attack-speed buff that refreshes each kill." },
+        { "name": "Charge", "description": "Sprint forward, leaving bleed on whatever you pass." },
+        { "name": "Berserk Rush", "description": "Brief +damage / -defense state." }
+      ],
+      "milestones": {
+        "10": "Twin Slash.",
+        "25": "Passive: life-leech from bleeding targets.",
+        "50": "Blood Call — the snowball.",
+        "75": "Charge — manoeuvre and damage in one.",
+        "100": "Berserk Rush legendary: +30% damage / -15% defense."
+      }
+    },
+    "dualDaggers": {
+      "name": "Dual Daggers",
+      "tagline": "Strike from the dark",
+      "summary": "One of the fastest kits in the game. You hunt for crits and decide engagements — but a single mistake puts you on the floor. A monster in PvP.",
+      "lore": "Not a thief's weapon — an assassin's. One of the most-feared kits in Quinfall arenas.",
+      "strengths": [
+        "Massive crit and movement bonuses.",
+        "Backstab multiplier — proper positioning hits twice as hard.",
+        "Disengage tools to leave a fight alive.",
+        "Best solo PvE farm rate in the game."
+      ],
+      "weaknesses": [
+        "Tiny defense — a single root or stun ends you.",
+        "Weak AoE; bottom-of-chart in raid DPS.",
+        "Damage ceiling against tank archetypes is limited."
+      ],
+      "skills": [
+        { "name": "Backstab", "description": "+200% damage when struck from behind. The classic opener." },
+        { "name": "Shadow Step", "description": "Short-range teleport — escape or close." },
+        { "name": "Poison Blade", "description": "Applies a 6-second poison tick on hit." },
+        { "name": "Quick Reflex", "description": "Reflects a slice of incoming damage for a short window." }
+      ],
+      "milestones": {
+        "10": "Backstab unlocks.",
+        "25": "Passive: stamina back per crit.",
+        "50": "Shadow Step.",
+        "75": "Poison Blade — hybrid damage profile.",
+        "100": "Quick Reflex legendary: 40% reflect for 4 seconds."
+      }
+    },
+    "warHammer": {
+      "name": "War Hammer",
+      "tagline": "End it in one swing",
+      "summary": "Slow, but terrifying. A single charged blow can swing the bar; when you connect, the damage chart makes it obvious who's carrying.",
+      "lore": "The siege weapon for the people who can't reach the wall — and probably don't need to.",
+      "strengths": [
+        "Single-hit damage near the top of the roster.",
+        "Stagger and knockdown floor opponents.",
+        "Armor-break passive — heavy targets hate this.",
+        "Bonus damage to gates and walls in sieges."
+      ],
+      "weaknesses": [
+        "Slow — a whiff is a real opening.",
+        "Low movement speed — no answer for ranged kiters.",
+        "Sustained DPS is mid-tier."
+      ],
+      "skills": [
+        { "name": "Slam", "description": "Heavy AoE stun. Opens fights." },
+        { "name": "Armor Crack", "description": "Reduces target defense for several seconds." },
+        { "name": "Hammer Bomb", "description": "Throw the hammer; it explodes on return." },
+        { "name": "Yoke", "description": "Single-target knockdown with a brief stop." }
+      ],
+      "milestones": {
+        "10": "Slam unlocks.",
+        "25": "Passive: +10% post-stagger damage.",
+        "50": "Armor Crack — tank-killer combos.",
+        "75": "Hammer Bomb — ranged influence.",
+        "100": "Yoke legendary: 1.5s knockdown."
+      }
+    },
+    "bow": {
+      "name": "Bow",
+      "tagline": "Death from a distance, constant pressure",
+      "summary": "Mobile, accurate, relentless. Struggles up close — positioning is the entire skill ceiling.",
+      "lore": "An archer's call in the Quinfall woods is the warning before a caravan ambush.",
+      "strengths": [
+        "Long-range pressure — you decide the fight.",
+        "Damage while moving — kiting is the gameplan.",
+        "High sustained single-target DPS.",
+        "Flexible boss-fight positioning in PvE."
+      ],
+      "weaknesses": [
+        "DPS drops when enemies close.",
+        "Cloth defenses — front line ends you.",
+        "Demands tracking; mispositioning is fatal."
+      ],
+      "skills": [
+        { "name": "Quick Shot", "description": "Short-cooldown double arrow — sustained pressure." },
+        { "name": "Rain of Arrows", "description": "Wide AoE downpour for area denial." },
+        { "name": "Mark Shot", "description": "Tag a target so allies hit harder." },
+        { "name": "Backstep", "description": "Hop back while firing — the spacing tool." }
+      ],
+      "milestones": {
+        "10": "Quick Shot unlocks.",
+        "25": "Passive: no movement penalty on damage.",
+        "50": "Rain of Arrows — area denial.",
+        "75": "Mark Shot — party damage support.",
+        "100": "Backstep legendary: 2-second damage immunity window."
+      }
+    },
+    "crossbow": {
+      "name": "Crossbow",
+      "tagline": "Critical hunter, boss breaker",
+      "summary": "Slow rate of fire, brutal multipliers. In a boss fight a single shot can re-open the gap.",
+      "lore": "Castle-wall snipers' weapon — one bolt through the right window can decide a war.",
+      "strengths": [
+        "Outrageous crit multiplier.",
+        "One-shot alpha damage.",
+        "Strong boss-damage passives.",
+        "Siege range usable like artillery."
+      ],
+      "weaknesses": [
+        "High reload — no sustained pressure.",
+        "Anchored stance — bad while moving.",
+        "Loses to fast targets in PvP."
+      ],
+      "skills": [
+        { "name": "Heavy Bolt", "description": "Single hit that triples on crit." },
+        { "name": "Trap Bolt", "description": "Ground shot that slows anyone walking through." },
+        { "name": "Rapid Cocking", "description": "+50% fire rate for a short window." },
+        { "name": "Chain Shot", "description": "Single shot that bounces to two more nearby targets." }
+      ],
+      "milestones": {
+        "10": "Heavy Bolt unlocks.",
+        "25": "Passive: crit halves reload.",
+        "50": "Trap Bolt — area control.",
+        "75": "Rapid Cocking — burst window.",
+        "100": "Chain Shot legendary: bounces to up to four targets."
+      }
+    },
+    "staff": {
+      "name": "Staff",
+      "tagline": "Bend the elements, control the field",
+      "summary": "A radiant PvE damage dealer with sweeping AoE. Robes only — keep your distance and let the spells speak.",
+      "lore": "The Vawraek Academy graduates' signature. A staff player wins fights with light and ice instead of words.",
+      "strengths": [
+        "Powerful AoE — top-tier raid trash clearer.",
+        "Element chain combos compound damage.",
+        "Control kit — root, slow, freeze.",
+        "Mana economy holds up in long fights."
+      ],
+      "weaknesses": [
+        "Cloth-tier physical defense.",
+        "Heavy movement penalty during casts.",
+        "Defenseless when the gap closes."
+      ],
+      "skills": [
+        { "name": "Fireball", "description": "Wide-area explosion leaving a burning patch." },
+        { "name": "Frost Chains", "description": "Slow / lock target and surroundings briefly." },
+        { "name": "Lightning Arc", "description": "Bouncing electric damage across multiple targets." },
+        { "name": "Element Call", "description": "Brief +magic damage buff." }
+      ],
+      "milestones": {
+        "10": "Fireball unlocks.",
+        "25": "Passive: mana back on AoE hits.",
+        "50": "Frost Chains — multi-target CC.",
+        "75": "Lightning Arc — sustained AoE.",
+        "100": "Element Call legendary: 8s of +25% magic damage."
+      }
+    },
+    "lifeStaff": {
+      "name": "Life Staff",
+      "tagline": "Keep them standing, decide the fight",
+      "summary": "Heals and support magic. Quiet alone, royalty in a group — a strong life-staff player is the spine of every raid.",
+      "lore": "A life-staff player tilts the war with spells, not words. A weak healer means a lost fight.",
+      "strengths": [
+        "Smooth shift between single-target and party heals.",
+        "Constant background heal aura.",
+        "Resurrect and buff kit — flips fights.",
+        "Effectively endless sustain when played well."
+      ],
+      "weaknesses": [
+        "Weak solo damage — PvE is a slog alone.",
+        "Priority target for any enemy.",
+        "Mana mismanagement collapses the whole party."
+      ],
+      "skills": [
+        { "name": "Healing Strike", "description": "Big single-target burst heal." },
+        { "name": "Healing Aura", "description": "Continuous heal to allies in range." },
+        { "name": "Light Call", "description": "Drop a zone — heals double inside it." },
+        { "name": "Call from Death", "description": "Resurrect a recently fallen ally." }
+      ],
+      "milestones": {
+        "10": "Healing Strike unlocks.",
+        "25": "Passive: +20% bonus on critical heals.",
+        "50": "Healing Aura — party sustain.",
+        "75": "Light Call — area sustain.",
+        "100": "Call from Death legendary: cooldown halved."
+      }
+    }
+  }
+}

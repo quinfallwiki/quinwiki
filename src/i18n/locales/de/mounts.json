@@ -1,0 +1,327 @@
+{
+  "page": {
+    "eyebrow": "REITTIERE & HAUSTIERE",
+    "title": "Reittiere & Haustiere",
+    "description": "In Quinfall ist das Pferd das einzige Reittier, das du wirklich besitzt — Esel, Kamele und Elefanten werden beim Caravan Vendor für Handelszüge gemietet. Haustiere entwickeln sich weiter und steigern den Berufs-Ertrag."
+  },
+  "hero": {
+    "badge": "Überblick",
+    "title": "4 Reittiere · 12-Stunden-Zucht · 6 Haustier-Klassen.",
+    "body": "Lassoiere ein Wildpferd in der offenen Welt (in der Wildnis nur grün oder blau); Esel, Kamel und Elefant lassen sich nicht zähmen — du mietest sie beim Caravan Vendor und führst eine Karawane. Blau × Grün dauert 12 Stunden und kann ein lila oder oranges (legendäres) Fohlen ergeben. Pets entwickeln sich passend zu deinem Beruf.",
+    "stats": {
+      "mountTypes": "Reittier-Arten",
+      "tameableSpecies": "Nur Pferd zähmbar",
+      "petTypes": "Haustier-Klassen"
+    }
+  },
+  "mounts": {
+    "kicker": "REITTIER-SYSTEM",
+    "title": "Vier Reittiere, zwei Bezugswege",
+    "subtitle": "Das Pferd lassoierst du in der Wildnis und besitzt es dann. Esel, Kamel und Elefant sind nicht zähmbar — du mietest sie beim Caravan-Vendor-NPC, um Karawanen zu führen. Werte unten aus dem In-Game-Verhalten.",
+    "tipLabel": "TIPP",
+    "source": {
+      "tameable": "Mit Lasso zähmen",
+      "caravanRental": "Miete beim Caravan Vendor"
+    },
+    "statLabels": {
+      "speed": "Tempo",
+      "capacity": "Fracht",
+      "combat": "Kampf",
+      "stamina": "Ausdauer"
+    },
+    "list": {
+      "horse": {
+        "name": "Pferd",
+        "tag": "Einziges persönliches Reittier · 4 Seltenheiten",
+        "body": "Das einzige Reittier, das du persönlich besitzen kannst. In der Wildnis spawnt es nur in grün (Common) und blau (Uncommon); lila (Rare) und orange (Legendary) gibt es ausschließlich aus der Zucht. Der Speer (Lancer) macht zu Pferd doppelten Schaden.",
+        "tip": "Hol dir das erste Lasso beim Mount-Caretaker-NPC. Blaue Pferde sind seltener — die Jagd lohnt sich, sie heben deinen Zucht-Pool."
+      },
+      "donkey": {
+        "name": "Esel",
+        "tag": "Caravan-Vendor-Miete",
+        "body": "Nicht zähmbar, kein persönliches Reittier. Wird beim Caravan-Vendor-NPC gemietet und für Karawanen verwendet. Langsam, aber große Fracht-Kapazität; Rückgrat von Einsteiger-Karawanen.",
+        "tip": "Esel-Karawanen sind der risikoarme Einstieg: günstige Miete, einfache Route, stetiges Gold."
+      },
+      "ox": {
+        "name": "Ochse",
+        "tag": "Caravan-Vendor-Miete · schwere Fracht",
+        "body": "Nicht zähmbar. Mietbar beim Caravan Vendor. Langsamer als der Esel, aber Spitzenwert bei Fracht. Konstantes Tempo und hohe Ausdauer — der Langstrecken-Halbbruder des Esels.",
+        "tip": "Wenn das Paket schwer ist und Zeit egal: solides Gold/Stunde, mehr Kisten pro Lauf als ein Esel."
+      },
+      "camel": {
+        "name": "Kamel",
+        "tag": "Caravan-Vendor-Miete · Wüstenspezialist",
+        "body": "Nicht zähmbar. Mietbar beim Caravan Vendor. Effizientestes Karawanen-Tier in der Wüste: immun gegen Hitze-Debuff, niedriger Wasserverbrauch. Mittleres Tempo, in der Wüste schneller als das Pferd.",
+        "tip": "Wenn du Richtung Horus handelst, miete ein Kamel — die gleiche Route mit Esel kostet Zeit und Ausdauer."
+      },
+      "elephant": {
+        "name": "Elefant",
+        "tag": "Caravan-Vendor-Miete · Fracht + Kampf",
+        "body": "Nicht zähmbar. Mietbar beim Caravan Vendor. Spitzenwerte bei HP und Fracht; aus dem Howdah auf seinem Rücken feuern Waffen, Bögen und Zauber. In der Karawane Transport und Kampfplattform zugleich.",
+        "tip": "Elefanten-Miete ist die teuerste Option; ohne Gildenkarawane oder hochwertige Route bringen Esel/Kamel mehr Gold."
+      }
+    }
+  },
+  "tame": {
+    "kicker": "PFERDE-ZÄHMEN",
+    "title": "Lassoiere ein Pferd, mach es zu deinem",
+    "subtitle": "Das Pferd ist das einzige persönliche Reittier in Quinfall. Lasso beim Mount-Caretaker-NPC kaufen, ein grünes oder blaues Pferd in der Wildnis finden und im Ausrichtungs-Minispiel beanspruchen.",
+    "wildHorses": {
+      "title": "Wild-Farben",
+      "body": "Wildpferde spawnen nur in zwei Seltenheiten. Höhere Tiers (lila, orange) gibt es ausschließlich aus dem Zucht-Pool.",
+      "greenLabel": "Tier 1",
+      "greenName": "Grün · Common",
+      "blueLabel": "Tier 2",
+      "blueName": "Blau · Uncommon",
+      "note": "Grüne sind leicht, blaue selten und länger zu jagen. Beide lohnen sich — sie speisen den Zucht-Pool."
+    },
+    "npc": {
+      "title": "Mount-Caretaker-NPC",
+      "body": "In jeder Stadt zu finden. Verkauft Lassos und verwaltet deinen Stall. Nicht mit dem Caravan Vendor verwechseln — das ist der separate NPC für Esel/Kamel/Elefant-Mieten.",
+      "bullet1": "Das Lasso ist günstig; mit Starter-Budget machbar.",
+      "bullet2": "Ein gefangenes Pferd geht direkt in den Stall; Kapazität 20 Pferde.",
+      "bullet3": "Mount Caretaker = Lassos. Caravan Vendor = Karawanen-Miete. Zwei verschiedene NPCs."
+    },
+    "steps": {
+      "title": "Lasso-Schritte",
+      "list": {
+        "buyLasso": { "title": "Lasso kaufen",       "body": "Günstig beim Mount-Caretaker-NPC." },
+        "find":     { "title": "Wildpferd finden",   "body": "Streife durch die offene Welt; grün ist häufig, blau selten. Vor der Panik-Distanz langsamer werden." },
+        "throw":    { "title": "Lasso werfen",       "body": "Geh nah genug heran, wirf das Lasso; bei Treffer startet das Minispiel." },
+        "minigame": { "title": "Pfeil-Minispiel",    "body": "Den beweglichen Pfeil im Zielfeld halten. Saubere Ausrichtung ermüdet das Pferd, es ergibt sich." },
+        "success":  { "title": "Fang abgeschlossen", "body": "Das Pferd geht direkt in den Stall, nicht ins Inventar. Beim Mount Caretaker beschwören." },
+        "stable":   { "title": "Stall-Management",   "body": "Kapazität 20 Pferde. Für eine wachsende Linie ältere/qualitätsschwache Pferde aussortieren." }
+      }
+    }
+  },
+  "caravan": {
+    "kicker": "KARAWANEN-MIETE",
+    "title": "Caravan Vendor: Esel, Kamel, Elefant",
+    "subtitle": "Esel, Kamele und Elefanten sind nicht zähmbar. Du mietest sie beim Caravan-Vendor-NPC in jeder größeren Stadt, um eine Handelskarawane zu bilden. Miete, Paket, Route — alles am selben NPC.",
+    "vendorTitle": "Caravan-Vendor-NPC",
+    "vendorBody": "Einer der zentralen NPCs jeder Stadt. Mietest ein Tier, beschwörst es, kaufst ein Paket, setzt eine Route zur Zielstadt. Nicht mit dem Mount Caretaker verwechseln — das ist der Lasso-Verkäufer.",
+    "facts": {
+      "vendor":  { "title": "Vendor in der Stadt",     "body": "Jede größere Stadt hat einen Caravan Vendor. Tier mieten und Paket kaufen am selben Tresen." },
+      "rent":    { "title": "Miet-Fenster",            "body": "Miete ist zeitlich begrenzt; das Tier gehört dir, bis du den Lauf abschließt oder die Miete abläuft." },
+      "package": { "title": "Paket kaufen",            "body": "Du kaufst beim selben NPC das Paket der Stadt. Paketgröße skaliert mit der Fracht des gemieteten Tiers." },
+      "route":   { "title": "Route wählen",            "body": "Weiter weg = mehr Lohn. Routen durch gefährliches Land bringen Bonus und entsprechendes Risiko." },
+      "profit":  { "title": "Abgabe & Auszahlung",     "body": "Übergib das Paket dem Caravan Vendor in der Zielstadt; die Auszahlung landet sofort. Das Tier kann innerhalb der Mietzeit zurückgegeben werden." }
+    }
+  },
+  "breeding": {
+    "kicker": "PFERDE-ZUCHT",
+    "title": "Grün & Blau ergeben Lila / Orange",
+    "subtitle": "Wildpferde spawnen nur grün und blau. Lila (Rare) und orange (Legendary) entstehen ausschließlich, wenn man die beiden zusammen verpaart. Jeder Zyklus dauert 12 Stunden und das Ergebnis ist reines RNG.",
+    "rarityLabel": "PFERDE-SELTENHEITS-LEITER",
+    "formula": "Grün × Blau → 12 Stunden → Chance auf Lila oder Orange (RNG)",
+    "obtainShort": {
+      "wild": "Wild-Spawn",
+      "breeding": "Nur Zucht"
+    },
+    "rarities": {
+      "common":    { "name": "Grün",   "body": "Common. Reichlich in der Wildnis — dein erstes Lasso-Ziel." },
+      "uncommon":  { "name": "Blau",   "body": "Uncommon. Seltene Spawns, längere Jagd. Kritisch für den Zucht-Pool." },
+      "rare":      { "name": "Lila",   "body": "Rare. Nur als Zucht-Ergebnis von Grün × Blau erhältlich." },
+      "legendary": { "name": "Orange", "body": "Legendary. Top-Tier; das seltene RNG-Resultat desselben Pools." }
+    },
+    "facts": {
+      "duration":      { "title": "Zucht-Dauer",       "unit": "Stunden",  "body": "Beide gepaarten Pferde sind 12 Stunden lang gesperrt; vorher kann keines beschworen werden." },
+      "femaleCharges": { "title": "Stuten-Slots",      "unit": "mal",      "body": "Jede Stute kann insgesamt 3-mal verpaart werden. Bei 3/3 ist sie raus aus dem Pool." },
+      "maleUnlimited": { "title": "Hengst-Slots",      "unit": "unbegrenzt","body": "Hengste haben kein Zucht-Limit; derselbe Hengst kann mit verschiedenen Stuten immer wieder verpaart werden." },
+      "lockDuring":    { "title": "Sperrzeit",         "unit": "Stunden",  "body": "Während der Zucht sind beide Eltern gesperrt — kein Reiten, kein Bewegen, kein Verkauf." },
+      "stableCap":     { "title": "Stallkapazität",    "unit": "Pferde-Slots","body": "Insgesamt 20 Pferde. Für eine breitere Linie schwache Pferde freigeben." },
+      "rngStats":      { "title": "Werte und Farbe",   "unit": "RNG",      "body": "Werte und Farbe des Fohlens sind komplett zufällig. Community-bestätigt: keine deterministische Vererbung." }
+    },
+    "medallionLabel": "ZUCHT-MATERIALIEN",
+    "medallions": {
+      "horseMedallion":         { "name": "Horse Medallion",         "body": "Basis-Material zum Züchten von Grün (Common) und Blau (Uncommon)." },
+      "qualityHorseMedallion":  { "name": "Quality Horse Medallion", "body": "Aufgewertete Medaille zum Züchten eines Lila-Pferdes (Rare)." }
+    },
+    "shopLabel": "SHOP-STEINE (V-COIN)",
+    "unit": {
+      "charges": "Slot-Reset",
+      "hours": "Stunden Reduktion"
+    },
+    "shop": {
+      "resetStone":     { "name": "Zucht-Reset-Stein", "body": "Setzt die genutzten Zucht-Slots einer Stute wieder auf 0/3 — keine neue Stute jagen. Bezahlung mit V-Coin (Steam-Premiumwährung) im In-Game-Shop." },
+      "reductionStone": { "name": "Zeit-Reduktions-Stein", "body": "Verkürzt den aktiven Zucht-Timer um 6 Stunden. Spart Zeit, wenn du eine Linie jagst. Zahlung mit V-Coin im Shop." }
+    }
+  },
+  "premium": {
+    "kicker": "SHOP & AUSRÜSTUNG",
+    "title": "Premium-Pferde, Karawanen-Sets und Sattel-Gear",
+    "subtitle": "Gepanzerte Kosmetik-Pferde aus dem V-Coin-Shop, hochwertige Karawanen-Sets und das Sattel- + Hufeisen-Gear, das die Pferde-Performance hebt. Alle Icons stammen direkt aus dem Spiel.",
+    "horses": {
+      "title": "Premium-Panzer-Pferde",
+      "unit": "Varianten",
+      "body": "Kosmetische Pferde aus Cash-Shop oder Events. Statistisch identisch mit normalen Pferden; nur optischer Unterschied."
+    },
+    "caravans": {
+      "title": "Spezielle Karawanen-Tiere",
+      "unit": "Sets",
+      "body": "Zusätzlich zur Standard-Caravan-Vendor-Miete: Top-Tier-Karawanen-Looks aus Events oder Shop.",
+      "list": {
+        "desertCaravan": "Wüsten-Karawane",
+        "sultansGuardian": "Sultans Wächter",
+        "warBehemoth": "Kriegs-Behemoth"
+      },
+      "descriptions": {
+        "desertCaravan": "Auffälliges Karawanen-Set für die Horus-Route.",
+        "sultansGuardian": "Top-Tier-Karawanen-Look in Sultan-Optik.",
+        "warBehemoth": "Kampfgerüstetes Karawanen-/Kriegstier."
+      }
+    },
+    "gear": {
+      "title": "Pferde-Ausrüstung",
+      "unit": "Teile",
+      "body": "Sättel und Hufeisen in drei Qualitätsstufen: höhere Qualität hebt Tempo, Ausdauer und Ritt-Komfort.",
+      "list": {
+        "saddleLow":     "Sattel · Niedrig",
+        "saddleMedium":  "Sattel · Mittel",
+        "saddleHigh":    "Sattel · Hoch",
+        "horseshoeLow":  "Hufeisen · Niedrig",
+        "horseshoeMed":  "Hufeisen · Mittel",
+        "horseshoeHigh": "Hufeisen · Hoch",
+        "stirrupLow":    "Steigbügel · Niedrig",
+        "stirrupMed":    "Steigbügel · Mittel",
+        "stirrupHigh":   "Steigbügel · Hoch"
+      },
+      "quality": { "low": "Niedrig", "medium": "Mittel", "high": "Hoch" }
+    }
+  },
+  "pets": {
+    "kicker": "HAUSTIER-KOLLEKTION",
+    "title": "In Quinfall bestätigte Pets",
+    "subtitle": "Aktive Pet-Liste aus der spielinternen Datenbank. Nach Typ filtern; jedes Icon stammt direkt aus dem Spiel-Asset.",
+    "filterAll": "Alle ({{count}})",
+    "groups": {
+      "flying":  "Flieger",
+      "dragon":  "Drache",
+      "wolf":    "Wolf",
+      "rhino":   "Nashorn",
+      "pitbull": "Pitbull",
+      "raccoon": "Waschbär",
+      "reptile": "Reptil",
+      "rabbit":  "Hase",
+      "rodent":  "Nagetier",
+      "serpent": "Schlange",
+      "mythic":  "Mythisch",
+      "special": "Spezial"
+    },
+    "list": {
+      "venomBee":          "Gift-Biene",
+      "speckledButterfly": "Gefleckter Schmetterling",
+      "lavaDragon":        "Lava-Drache",
+      "nightDragon":       "Nacht-Drache",
+      "sandDragon":        "Sand-Drache",
+      "forestDragon":      "Wald-Drache",
+      "rhinoBeetle":       "Fliegender Nashornkäfer",
+      "shadowBat":         "Schatten-Fledermaus",
+      "glacierWolf":       "Gletscher-Wolf",
+      "shadowWolf":        "Schatten-Wolf",
+      "mistWolf":          "Nebel-Wolf",
+      "mountainWolf":      "Berg-Wolf",
+      "rockRhino":         "Stein-Nashorn",
+      "lavaRhino":         "Lava-Nashorn",
+      "purpleRhino":       "Chaos-Nashorn",
+      "skyRhino":          "Himmels-Nashorn",
+      "earthPitbull":      "Erd-Pitbull",
+      "shadowPitbull":     "Schatten-Pitbull",
+      "fangPitbull":       "Gelbzahn-Pitbull",
+      "marmaladeRaccoon":  "Marmeladen-Waschbär",
+      "rockRaccoon":       "Stein-Waschbär",
+      "forestRaccoon":     "Wald-Waschbär",
+      "nightRaccoon":      "Nacht-Waschbär",
+      "desertReptile":     "Wüsten-Reptil",
+      "enchantedPhoenix":  "Verzauberter Phönix",
+      "crystalRabbit":     "Kristall-Hase",
+      "goldenRabbit":      "Goldener Hase",
+      "darkHopper":        "Dunkler Hüpfer",
+      "lightRunner":       "Lichtläufer",
+      "darkWanderer":      "Dunkler Wanderer",
+      "skyManedWolf":      "Himmel-Mähnen-Wolf",
+      "lavaClaw":          "Lava-Klaue",
+      "wintersFootprints": "Winterspuren",
+      "dazzlingWolf":      "Strahlender Wolf",
+      "lightRat":          "Licht-Ratte",
+      "shadowRodent":      "Schatten-Nager",
+      "goldenRodent":      "Gold-Nager",
+      "midnightSeer":      "Mitternachts-Seher",
+      "venomLeaper":       "Gift-Springer",
+      "glintSnake":        "Glanz-Schlange",
+      "ashenCreature":     "Aschenwesen"
+    },
+    "note": {
+      "title": "Was Pets leisten",
+      "body": "Pets sind nicht dekorativ — sie folgen dir, steigern den Berufs-Ertrag und schalten via Evolution einen Skill-Tree frei. Die Abschnitte unten zeigen Evolution und Skill-Tree."
+    }
+  },
+  "evolution": {
+    "kicker": "PET-EVOLUTION",
+    "title": "Entwickle es weiter, öffne den Skill-Tree",
+    "subtitle": "Pets entwickeln sich; Optik ändert sich, Fähigkeiten schärfen sich, manche wandeln in neue Spezies. Ein Endgame-Pet bringt 2-3× den Ertrag eines Standard-Pets.",
+    "requirements": {
+      "title": "Evolutionsvoraussetzungen",
+      "list": {
+        "level":    { "title": "Pet-Level erhöhen",      "body": "Pet-XP wächst durch Kampf an deiner Seite. Evolution startet erst ab einem bestimmten Level." },
+        "material": { "title": "Evolutionsmats sammeln", "body": "Engineer-Produkte, seltene Pflanzen oder Weltboss-Drops nötig. Hängt von der Spezies ab." },
+        "npc":      { "title": "Mount-Caretaker aufsuchen","body": "Ritual beim Mount-Caretaker oder einem dedizierten Pet-NPC starten." },
+        "ritual":   { "title": "Ritual und Ergebnis",    "body": "Das Evolutionsritual läuft; das Ergebnis kann teils zufällig sein. Manche Pets wechseln komplett die Spezies." }
+      }
+    },
+    "skills": {
+      "title": "Pet-Skill-Tree",
+      "intro": "Gemeinsame Zeit erzeugt Punkte; Punkte schalten Pet-Skills frei.",
+      "list": {
+        "gathering": { "title": "Sammel-Boost",         "body": "Beschleunigt Ernten, Bergbau und Holzfällen. Pflicht für Lifeskill-Spieler." },
+        "combat":    { "title": "Kampfunterstützung",   "body": "Mischt sich ein: zieht Aggro, tankt oder fügt Schaden zu." },
+        "loot":      { "title": "Loot-Erkennung",       "body": "Markiert nahe seltene Drops. Direkter Effekt auf den Farm-Ertrag." },
+        "aura":      { "title": "Stat-Aura",            "body": "Passiver Stat-Bonus für den Besitzer. Wert steigt bei Endgame-Pets stark." }
+      },
+      "note": "Ein Endgame-Pet bringt 2-3× den Ertrag eines Standard-Pets — Lifeskiller skippen die Pet-Investition nicht."
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGIE",
+    "title": "Praktische Wege für Pets und Reittiere",
+    "subtitle": "Kernzüge für Neue, Geld-Spuren für Wirtschaftsspieler, Waffenwahl fürs Belagerungsteam, Berufspaarungen für Lifeskiller.",
+    "list": {
+      "beginner": {
+        "title": "🌱 Neuer Spieler",
+        "bullets": [
+          "Ersten Lasso beim Mount Caretaker holen; mit grünen Pferden anfangen.",
+          "Erste Karawane mit einem beim Caravan Vendor gemieteten Esel — günstig, einfache Route.",
+          "Erstes Pet: Hase oder Fuchs; günstig mit Sammel-Buff.",
+          "Jedes blaue Pferd, das du siehst, einfangen — Gold für den Zucht-Pool."
+        ]
+      },
+      "economy": {
+        "title": "💰 Wirtschaftsspiel",
+        "bullets": [
+          "Bau einen Zucht-Pool: 2-3 blaue Stuten + 1 blauer Hengst.",
+          "Wenn ein lila Fohlen kommt, nicht verkaufen — zurück in den Pool, weiter auf Orange.",
+          "Reset-Stein kaufen: eine 3/3-Quality-Stute neu beleben statt neue zu suchen.",
+          "Reduktions-Steine: 12h → 6h, zwei Versuche pro Stute pro Tag."
+        ]
+      },
+      "siege": {
+        "title": "⚔ Belagerungs-Pet/-Reittier",
+        "bullets": [
+          "Elefanten-Miete: Kanonen/Bögen/Zauber aus dem Howdah — wandelnde Zinne, ideal für Gilden-Karawanen.",
+          "Hunter-Begleiter: zusätzlicher Tank zum Schutz des Heilers.",
+          "Rhino-Pet: kleine Frontline-Tank-Unterstützung.",
+          "Lila/oranges Pferd + Lancer: verheerende Flanke im offenen Feld."
+        ]
+      },
+      "profession": {
+        "title": "🌾 Berufs-Pets",
+        "bullets": [
+          "Ernter-Pet: 15-30% schnelleres Pflanzensammeln.",
+          "Bergmann-Pet: schnelleres Mining und höhere Drop-Raten.",
+          "Holzfäller-Pet: dasselbe für Bäume.",
+          "Hunter-Pet: verfolgt Mobs, deckt versteckte Drops auf."
+        ]
+      }
+    }
+  }
+}

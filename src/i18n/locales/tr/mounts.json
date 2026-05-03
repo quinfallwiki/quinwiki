@@ -1,0 +1,400 @@
+{
+  "page": {
+    "eyebrow": "BİNEKLER VE PETLER",
+    "title": "Binekler & Petler",
+    "description": "Quinfall'da binek sadece hareket aracı değil — yük taşıma, savaş, kuşatma, breeding ve ekonomik yatırım aracı. Pet'ler ise hem dekoratif hem profesyon verimini artıran aktif yardımcılar."
+  },
+  "hero": {
+    "badge": "Genel Bakış",
+    "title": "4 Binek · 12 Saatlik Çiftleşme · 6 Pet Sınıfı.",
+    "body": "Atı doğadan lasso ile yakalarsın (yeşil ya da mavi gelir); eşek, deve ve fil tame edilmez — Caravan Vendor'dan kiralanır ve kervan oluşturulur. Mavi × Yeşil çiftleşmesi 12 saat sürer ve mor ya da turuncu (efsanevi) at çıkma şansı verir. Pet'in profesyonuna göre evrim eder.",
+    "stats": {
+      "mountTypes": "Binek Türü",
+      "tameableSpecies": "Sadece At Tame",
+      "petTypes": "Pet Sınıfı"
+    }
+  },
+  "mounts": {
+    "kicker": "BİNEK SİSTEMİ",
+    "title": "Dört Binek, İki Edinme Yolu",
+    "subtitle": "At doğadan lasso ile yakalanır ve sahibi olur. Eşek, deve ve fil tame edilmez — Caravan Vendor NPC'sinden kiralanır ve kervan kurulur. Aşağıdaki istatistikler oyun-içi davranışlardan damıtıldı.",
+    "tipLabel": "İPUCU",
+    "source": {
+      "tameable": "Lasso ile tame",
+      "caravanRental": "Caravan Vendor kirası"
+    },
+    "statLabels": {
+      "speed": "Hız",
+      "capacity": "Yük",
+      "combat": "Savaş",
+      "stamina": "Stamina"
+    },
+    "list": {
+      "horse": {
+        "name": "At · Horse",
+        "tag": "Tek tame edilen binek · 4 nadirlik",
+        "body": "Quinfall'da kişisel olarak sahip olabileceğin tek binek. Doğada sadece yeşil (Common) ve mavi (Uncommon) renklerde gelir; mor (Rare) ve turuncu (Legendary) sadece breeding ile elde edilir. Mızrak (Lancer) at üzerinde çift hasar verir.",
+        "tip": "İlk lassonu Mount Caretaker NPC'sinden al. Mavi at avlamak yeşilden zor — yatırım buna değer çünkü breeding havuzunu yükseltir."
+      },
+      "donkey": {
+        "name": "Eşek · Donkey",
+        "tag": "Caravan Vendor kirası",
+        "body": "Tame edilmez, kişisel binek değildir. Caravan Vendor NPC'sinden kiralanır ve kervan oluşturmak için kullanılır. Yavaş ama yük kapasitesi yüksek; başlangıç düzeyi kervanların belkemiği.",
+        "tip": "Eşekle başlangıç kervanı düşük riskli kapı: ucuz kira, basit rota, sabit kazanç."
+      },
+      "ox": {
+        "name": "Öküz · Ox",
+        "tag": "Caravan Vendor kirası · ağır yük",
+        "body": "Tame edilmez. Caravan Vendor'dan kiralanır. Eşekten daha yavaş ama yük kapasitesi en yüksekler arasında. Yüksek dayanıklılık ve sabit tempo ile uzun rota kervanlarının üvey kardeşi.",
+        "tip": "Yüklü-yavaş paket için tercih: zaman önemsiz, gold/saat sabit. Eşekle aynı tarifeye yakın ama daha çok paket taşır."
+      },
+      "camel": {
+        "name": "Deve · Camel",
+        "tag": "Caravan Vendor kirası · çöl uzmanı",
+        "body": "Tame edilmez. Caravan Vendor'dan kiralanır. Çöl bölgesinin en verimli kervan hayvanı: sıcak debuff'ından etkilenmez, su tüketimi düşük. Hızı orta seviyede ama çölde at'tan hızlı.",
+        "tip": "Horus civarına ticarete çıkıyorsan deve kirala — eşekle aynı yola çıkmak zaman + dayanıklılık kaybı."
+      },
+      "elephant": {
+        "name": "Fil · Elephant",
+        "tag": "Caravan Vendor kirası · taşıma + savaş",
+        "body": "Tame edilmez. Caravan Vendor'dan kiralanır. HP ve yük kapasitesi en yüksek; sırtındaki platform üzerinden silah, yay ve büyü kullanılır. Kervanlara hem nakliyeci hem yürüyen platform olarak katılır.",
+        "tip": "Fil kirası en pahalı seçenektir; lonca kervanı veya yüksek değerli rota olmadan eşek/deve daha verimli."
+      }
+    }
+  },
+  "tame": {
+    "kicker": "AT YAKALAMA",
+    "title": "Lasso ile Atı Sahip Olmak",
+    "subtitle": "Quinfall'da kişisel binek olarak sahip olabileceğin tek hayvan attır. Mount Caretaker NPC'sinden lasso al, doğadaki yeşil veya mavi atı yakala, mini-oyunda çubuğu ortalayarak sahibi ol.",
+    "wildHorses": {
+      "title": "Doğada Bulunan At Renkleri",
+      "body": "Vahşi atlar yalnızca iki nadirlikte spawn olur. Daha yüksek renkler (mor, turuncu) sadece breeding havuzundan üretilir.",
+      "greenLabel": "Tier 1",
+      "greenName": "Yeşil · Common",
+      "blueLabel": "Tier 2",
+      "blueName": "Mavi · Uncommon",
+      "note": "Yeşil at avlamak kolay; mavi at daha az spawn olur ve kovalama süresi uzun. Yine de breeding için iki rengi de toplamaya değer."
+    },
+    "npc": {
+      "title": "Mount Caretaker NPC",
+      "body": "Her şehirde bulunan, lasso ve at bakımından sorumlu görevli. Lasso burada satılır, ahır işlemleri buradan yürür.",
+      "bullet1": "Lasso uygun fiyatlı, başlangıç bütçesiyle karşılanır.",
+      "bullet2": "Yakalanan at otomatik ahıra alınır; ahır kapasiten 20 at.",
+      "bullet3": "Caravan Vendor ile karıştırma — o ayrı NPC'dir, eşek/deve/fil kiralar."
+    },
+    "steps": {
+      "title": "Lasso Adımları",
+      "list": {
+        "buyLasso": {
+          "title": "Lasso satın al",
+          "body": "Mount Caretaker NPC'sinden uygun fiyata alınır."
+        },
+        "find": {
+          "title": "Vahşi at bul",
+          "body": "Açık alanda gez; yeşil at sık, mavi at seyrek. Atın panik mesafesine girmeden önce yavaşla."
+        },
+        "throw": {
+          "title": "Lasso'yu at",
+          "body": "Hedefe yeterince yaklaşıp lasso'yu fırlat; isabet edersen mini-oyun başlar."
+        },
+        "minigame": {
+          "title": "Hareketli ok mini-oyunu",
+          "body": "Hareketli oku hedef kutusunun içine getir. Doğru hizalamayla at yorulur ve teslim olur."
+        },
+        "success": {
+          "title": "Yakalama başarılı",
+          "body": "At envanterine değil; doğrudan ahıra alınır. Mount Caretaker'dan çağırabilirsin."
+        },
+        "stable": {
+          "title": "Ahır yönetimi",
+          "body": "Ahır kapasiten 20 at. Cins kuyruğunu büyütmek istiyorsan eski / düşük kalite atları temizle."
+        }
+      }
+    }
+  },
+  "caravan": {
+    "kicker": "KERVAN KİRALAMA",
+    "title": "Caravan Vendor: Eşek, Deve, Fil",
+    "subtitle": "Eşek, deve ve fil tame edilmez. Her büyük şehirdeki Caravan Vendor NPC'sinden kiralanır ve ticari kervan oluşturulur. Kira, paket alımı ve rota — hepsi aynı NPC'den.",
+    "vendorTitle": "Caravan Vendor NPC",
+    "vendorBody": "Şehre giriş yapan ana NPC'lerden biri. Kiralık kervan hayvanı seçer, mount'u summon edersin, paket satın alır ve hedef şehre rota başlatırsın. Mount Caretaker (lasso satıcı) ile karıştırma — ayrı NPC'lerdir.",
+    "facts": {
+      "vendor": {
+        "title": "Şehirde Caravan Vendor",
+        "body": "Her büyük şehirde kervan kiralayan NPC bulunur. Burası hem hayvanı kiralarsın hem paketi alırsın."
+      },
+      "rent": {
+        "title": "Kira süresi",
+        "body": "Kira süreli; kiraladığın hayvan kervan tamamlanana ya da süre dolana kadar elinde."
+      },
+      "package": {
+        "title": "Paket alımı",
+        "body": "Aynı NPC'den o şehrin paketini satın alırsın. Paket boyutu hayvanın taşıma kapasitesine bağlı."
+      },
+      "route": {
+        "title": "Rota seçimi",
+        "body": "Hedef şehir uzağa gittikçe kazanç artar. Tehlikeli bölgelerden geçen rota daha riskli ama bonus verir."
+      },
+      "profit": {
+        "title": "Kazanç teslimi",
+        "body": "Hedefteki Caravan Vendor'a paketi teslim edersin; kazancın anında hesaba düşer. Hayvan kira süresi içinde geri verilebilir."
+      }
+    }
+  },
+  "premium": {
+    "kicker": "MAĞAZA & EKİPMAN",
+    "title": "Premium Atlar, Kervan Setleri ve Eyer Donanımı",
+    "subtitle": "V-Coin mağazasında satılan zırhlı süs atlar, üst seviye kervan paketleri ve atının performansını artıran eyer + nal kalitesi. İkonların tamamı oyun içinden alındı.",
+    "horses": {
+      "title": "Premium Zırhlı Atlar",
+      "unit": "varyant",
+      "body": "Cash-shop / etkinlik kanallarından açılan görünüm atları. Stat olarak normal atlardan ayrılmaz; tamamen estetik fark."
+    },
+    "caravans": {
+      "title": "Özel Kervan Hayvanları",
+      "unit": "set",
+      "body": "Standart Caravan Vendor kirasına ek olarak, etkinlik veya mağazadan açılan üst seviye kervan görünümleri.",
+      "list": {
+        "desertCaravan": "Çöl Kervanı",
+        "sultansGuardian": "Sultan'ın Muhafızı",
+        "warBehemoth": "Savaş Behemotu"
+      },
+      "descriptions": {
+        "desertCaravan": "Horus rotasında öne çıkan dekoratif kervan seti.",
+        "sultansGuardian": "Sultan estetiğine bürünmüş üst seviye kervan görünümü.",
+        "warBehemoth": "Savaş için süslenmiş kervan/savaş hayvanı."
+      }
+    },
+    "gear": {
+      "title": "At Ekipmanları",
+      "unit": "parça",
+      "body": "Eyer ve at nalı üç kalitede gelir: kalite arttıkça atın hızı, dayanıklılık ve binicilik konforu yükselir.",
+      "list": {
+        "saddleLow":     "Eyer · Düşük Kalite",
+        "saddleMedium":  "Eyer · Orta Kalite",
+        "saddleHigh":    "Eyer · Yüksek Kalite",
+        "horseshoeLow":  "At Nalı · Düşük",
+        "horseshoeMed":  "At Nalı · Orta",
+        "horseshoeHigh": "At Nalı · Yüksek",
+        "stirrupLow":    "Üzengi · Düşük",
+        "stirrupMed":    "Üzengi · Orta",
+        "stirrupHigh":   "Üzengi · Yüksek"
+      },
+      "quality": {
+        "low":    "Düşük",
+        "medium": "Orta",
+        "high":   "Yüksek"
+      }
+    }
+  },
+  "pets": {
+    "kicker": "PET KOLEKSİYONU",
+    "title": "Quinfall'da Doğrulanmış Pet'ler",
+    "subtitle": "Oyun içi pet veritabanından çekilen aktif pet listesi. Türlere göre filtrele; her ikon doğrudan oyun asset'inden geliyor.",
+    "filterAll": "Hepsi ({{count}})",
+    "groups": {
+      "flying":  "Uçan",
+      "dragon":  "Ejderha",
+      "wolf":    "Kurt",
+      "rhino":   "Gergedan",
+      "pitbull": "Pitbull",
+      "raccoon": "Rakun",
+      "reptile": "Sürüngen",
+      "rabbit":  "Tavşan",
+      "rodent":  "Kemirgen",
+      "serpent": "Yılan",
+      "mythic":  "Mitik",
+      "special": "Özel"
+    },
+    "list": {
+      "venomBee":          "Zehirli Arı",
+      "speckledButterfly": "Ala Kelebek",
+      "lavaDragon":        "Lav Ejderhası",
+      "nightDragon":       "Gece Ejderhası",
+      "sandDragon":        "Kum Ejderhası",
+      "forestDragon":      "Orman Ejderhası",
+      "rhinoBeetle":       "Uçan Gergedan Böceği",
+      "shadowBat":         "Gölgeler Yarasası",
+      "glacierWolf":       "Buzul Kurdu",
+      "shadowWolf":        "Gölge Kurdu",
+      "mistWolf":          "Sisli Kurt",
+      "mountainWolf":      "Dağ Kurdu",
+      "rockRhino":         "Kaya Gergedanı",
+      "lavaRhino":         "Lav Gergedanı",
+      "purpleRhino":       "Kaos Gergedanı",
+      "skyRhino":          "Gökyüzü Gergedanı",
+      "earthPitbull":      "Toprak Pitbull",
+      "shadowPitbull":     "Karartı Pitbull",
+      "fangPitbull":       "Sarı Diş Pitbull",
+      "marmaladeRaccoon":  "Sarman Rakun",
+      "rockRaccoon":       "Kaya Rakunu",
+      "forestRaccoon":     "Orman Rakunu",
+      "nightRaccoon":      "Gece Rakunu",
+      "desertReptile":     "Çöl Sürüngeni",
+      "enchantedPhoenix":  "Efsunlu Anka",
+      "crystalRabbit":     "Kristal Tavşan",
+      "goldenRabbit":      "Altın Tavşan",
+      "darkHopper":        "Karanlık Hoplayan",
+      "lightRunner":       "Işığın Koşucusu",
+      "darkWanderer":      "Karanlık Gezgin",
+      "skyManedWolf":      "Gökyüzü Yeleli",
+      "lavaClaw":          "Lav Pençesi",
+      "wintersFootprints": "Kışın Ayak İzleri",
+      "dazzlingWolf":      "Göz Kamaştıran Kurt",
+      "lightRat":          "Işık Sıçanı",
+      "shadowRodent":      "Gölge Kemirgen",
+      "goldenRodent":      "Altın Kemirgen",
+      "midnightSeer":      "Geceyarısı Kahini",
+      "venomLeaper":       "Zehir Sıçrayanı",
+      "glintSnake":        "Işıltı Yılanı",
+      "ashenCreature":     "Kül Yaratığı"
+    },
+    "note": {
+      "title": "Pet'lerin Rolü",
+      "body": "Pet'ler dekoratif değil — sahibini takip eder, profesyon verimini artırır ve evrim ile yetenek ağacı açar. Aşağıdaki bölümler evrim ve yetenek ağacını detaylandırıyor."
+    }
+  },
+  "evolution": {
+    "kicker": "PET EVRİM SİSTEMİ",
+    "title": "Pet'ini Geliştir, Yetenek Ağacını Aç",
+    "subtitle": "Pet'ler zamanla evrim geçirir; görünümleri değişir, yetenekleri güçlenir, bazıları tamamen farklı bir türe dönüşür. End-game pet'i, normal pet'in 2-3 katı verim sağlar.",
+    "requirements": {
+      "title": "Evrim Şartları",
+      "list": {
+        "level": {
+          "title": "Pet seviyesi yükselt",
+          "body": "Pet'in XP'si sahibinin yanında savaşmasıyla artar. Belirli seviyeye ulaşmadan evrim açılmaz."
+        },
+        "material": {
+          "title": "Evrim malzemesi topla",
+          "body": "Mühendis ürünleri, nadir bitkiler veya world boss drop'u gerekir. Türe göre değişir."
+        },
+        "npc": {
+          "title": "Mount Caretaker'a git",
+          "body": "Mount Caretaker veya özel pet NPC'sine başvurarak ritüeli başlatırsın."
+        },
+        "ritual": {
+          "title": "Ritüel ve sonuç",
+          "body": "Evrim ritüeli yapılır; sonuç bazen rastgele (cins yönlü). Bazı pet'ler farklı türe dönüşebilir."
+        }
+      }
+    },
+    "skills": {
+      "title": "Pet Yetenek Ağacı",
+      "intro": "Sahiple geçirilen zaman puanları kazandırır; bu puanlar pet skill'lerini açar.",
+      "list": {
+        "gathering": {
+          "title": "Gathering Boost",
+          "body": "Hasat, madencilik ve oduncu hızını artırır. Lifeskill kasanın olmazsa olmazı."
+        },
+        "combat": {
+          "title": "Combat Assist",
+          "body": "Savaşa katılır; hedef alır, tank olur veya ek hasar verir."
+        },
+        "loot": {
+          "title": "Loot Detection",
+          "body": "Yakındaki rare drop'ları işaretler. Farm verimine doğrudan yansır."
+        },
+        "aura": {
+          "title": "Stat Aura",
+          "body": "Sahibe pasif stat boost verir. Endgame pet'lerinde değer ciddi şekilde artar."
+        }
+      },
+      "note": "End-game pet'i, normal pet'in 2-3 katı verim sağlar; lifeskill kasanlar pet yatırımını ihmal etmez."
+    }
+  },
+  "breeding": {
+    "kicker": "AT BREEDING",
+    "title": "Yeşil ve Maviden Mor / Turuncu",
+    "subtitle": "Doğada sadece yeşil ve mavi at gelir. Mor (Rare) ve turuncu (Legendary) atları ancak bu ikisini çiftleştirerek üretirsin. Süreç 12 saat sürer ve sonuç tamamen RNG'ye bağlıdır.",
+    "rarityLabel": "AT NADİRLİK MERDİVENİ",
+    "formula": "Yeşil × Mavi → 12 saat → Mor ya da Turuncu çıkma şansı (RNG)",
+    "obtainShort": {
+      "wild": "Doğada bulunur",
+      "breeding": "Sadece breeding"
+    },
+    "rarities": {
+      "common":    { "name": "Yeşil",  "body": "Common. Doğada bol bol spawn olur, ilk lassoyu burada alırsın." },
+      "uncommon":  { "name": "Mavi",   "body": "Uncommon. Spawn seyrek, kovalama uzun. Breeding havuzunda kritik." },
+      "rare":      { "name": "Mor",    "body": "Rare. Yalnızca Yeşil × Mavi breeding sonucu çıkabilir." },
+      "legendary": { "name": "Turuncu","body": "Legendary. En üst kademe; aynı havuzun nadir RNG sonucu." }
+    },
+    "facts": {
+      "duration":      { "title": "Çiftleşme süresi", "unit": "saat",    "body": "Eşleştirilen iki at 12 saat boyunca kullanılamaz; süre dolmadan ahırdan çağrılmaz." },
+      "femaleCharges": { "title": "Dişi at hakkı",    "unit": "kez",     "body": "Her dişi at toplam 3 kez çiftleştirilebilir. 3/3 dolduğunda dişi breeding havuzundan düşer." },
+      "maleUnlimited": { "title": "Erkek at hakkı",   "unit": "sınırsız", "body": "Erkek atların çiftleşme limiti yok; aynı erkek farklı dişilerle defalarca eşleştirilebilir." },
+      "lockDuring":    { "title": "Kilit süresi",     "unit": "saat",    "body": "Çiftleşme süresince her iki ebeveyn at lock'lu — binilmez, taşınmaz, satılmaz." },
+      "stableCap":     { "title": "Ahır kapasitesi",  "unit": "at slotu","body": "Toplam 20 at sığar. Cins genişletmek için düşük kalite atları boşaltmak gerek." },
+      "rngStats":      { "title": "Stat ve renk",     "unit": "RNG",     "body": "Yavru atın stat ve rengi tamamen rastgele. Topluluk doğrulaması: deterministik kalıtım yok." }
+    },
+    "medallionLabel": "BREEDING MATERYALLERİ",
+    "medallions": {
+      "horseMedallion": {
+        "name": "Horse Medallion",
+        "body": "Yeşil (Common) ve Mavi (Uncommon) atları çiftleştirmek için gereken temel materyal."
+      },
+      "qualityHorseMedallion": {
+        "name": "Quality Horse Medallion",
+        "body": "Mor (Rare) at çiftleşmesi için gerekli yükseltilmiş madalya."
+      }
+    },
+    "shopLabel": "MAĞAZA TAŞLARI (V-COIN)",
+    "unit": {
+      "charges": "hak yenileme",
+      "hours": "saat azaltma"
+    },
+    "shop": {
+      "resetStone": {
+        "name": "Çiftleşme Sıfırlama Taşı",
+        "body": "Dişi atın 0/3 olan çiftleşme hakkını yeniler — başka bir dişi aramaya gerek kalmaz. V-Coin (Steam premium para) ile mağazadan alınır."
+      },
+      "reductionStone": {
+        "name": "Süre Azaltma Taşı",
+        "body": "Aktif çiftleşmenin süresini 6 saat kısaltır. Acil cins yetiştirenler için zaman tasarrufu. V-Coin ile mağazadan alınır."
+      }
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEJİ",
+    "title": "Pet ve Binek İçin Pratik Yol",
+    "subtitle": "Yeni başlayan için temel adımlar, ekonomi yatırımcısı için para kapısı, kuşatma takımı için silah seçimi, lifeskill kasanı için profesyon eşlemesi.",
+    "list": {
+      "beginner": {
+        "title": "🌱 Yeni Başlayan",
+        "bullets": [
+          "İlk lassoyu Mount Caretaker'dan al; doğada yeşil at avlamayla başla.",
+          "İlk kervanı Caravan Vendor'dan eşek kiralayarak çık — ucuz, basit rota.",
+          "İlk pet: Tavşan veya tilki; ucuz ve gathering buff'ı verir.",
+          "Mavi at gördüğünde mutlaka yakala — breeding havuzu için altın."
+        ]
+      },
+      "economy": {
+        "title": "💰 Ekonomi Yatırımı",
+        "bullets": [
+          "Breeding havuzu kur: 2-3 dişi mavi + 1 erkek mavi at biriktir.",
+          "Mor at çıkarsa pazara koyma — erkeği breeding havuzuna katarak turuncu hedefle.",
+          "Sıfırlama taşı al: 3/3 olan iyi dişiyi yeniden değerlendir.",
+          "Süre azaltma taşı: 12 → 6 saat ile aynı dişiden günde 2 deneme."
+        ]
+      },
+      "siege": {
+        "title": "⚔ Kuşatma Pet/Binek",
+        "bullets": [
+          "Fil kirası: Sırtından top/yay/spell — yürüyen kalebenti, lonca kervanlarına ideal.",
+          "Hunter Companion: Healer'ı korumak için ek tank.",
+          "Rhino pet: Frontline'da küçük tank desteği.",
+          "Mor/turuncu at + Lancer: Açık alan flank için yıkıcı kombinasyon."
+        ]
+      },
+      "profession": {
+        "title": "🌾 Profesyon Pet'leri",
+        "bullets": [
+          "Hasatçı pet'i: Bitki toplama hızını %15-30 artırır.",
+          "Madenci pet'i: Maden çıkarma hızını ve drop oranını artırır.",
+          "Oduncu pet'i: Aynı şekilde ağaç kesme verimi.",
+          "Avcı pet'i: Mob takip etme, saklı drop bulma."
+        ]
+      }
+    }
+  }
+}

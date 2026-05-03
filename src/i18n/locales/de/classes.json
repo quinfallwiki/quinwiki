@@ -1,0 +1,478 @@
+{
+  "page": {
+    "eyebrow": "BUILDS UND KLASSEN",
+    "title": "Wähle deine Waffe, finde deinen Weg",
+    "description": "In Quinfall gibt es keine Klasse im klassischen Sinn — die Waffe in deiner Hand ist deine Klasse. Zehn Waffen, zehn Spielstile. Trag zwei gleichzeitig, und deine Zweitwaffe macht aus dir einen anderen Spieler."
+  },
+  "hero": {
+    "featured": "Vitrine",
+    "viewClass": "Klasse öffnen",
+    "next": "Nächste Waffe"
+  },
+  "grid": {
+    "heading": "ALLE WAFFEN",
+    "title": "Zehn Waffen, zehn Charaktere",
+    "subtitle": "Jede Waffe hat ihren eigenen Skill-Tree, ihren eigenen 100-Stufen-Pfad und ihre eigene Rolle. Misch zwei und bau dir genau die Klasse, die du willst."
+  },
+  "combos": {
+    "heading": "KOMBINATIONEN",
+    "title": "Zwei Waffen, ein Build",
+    "subtitle": "In Quinfall trägst du eine Zweitwaffe. Das hier sind die meistgespielten Paarungen — jede ein eigenes Archetyp-Profil aus der Community.",
+    "roles": {
+      "tank": "Tank",
+      "melee": "Nahkampf",
+      "ranged": "Fernkampf",
+      "magic": "Magie",
+      "healer": "Heiler",
+      "hybrid": "Hybrid"
+    },
+    "list": {
+      "paladin": {
+        "name": "Paladin",
+        "description": "Halte die Front, stell den Schild, wirf einen Heal, wenn die Gruppe ihn braucht. Der Dauerbrenner im PvE-Raid."
+      },
+      "crusader": {
+        "name": "Kreuzritter",
+        "description": "Tank-Eröffnung, dann zum Zweihänder, sobald sich die Lücke öffnet. Klassischer Bruiser mit Tempowechsel."
+      },
+      "berserker": {
+        "name": "Berserker",
+        "description": "Kein Schild, keine Reichweite — nur Schaden. Eröffne mit dem Zweihänder, beende mit dem Hammer; ohne Heiler überlebst du sie trotzdem."
+      },
+      "reaver": {
+        "name": "Plünderer",
+        "description": "Mit den Äxten rein, beim Rückzug ein Armbrust-Schuss aus der Distanz. Große Spitzen in kurzen Fenstern."
+      },
+      "assassin": {
+        "name": "Assassine",
+        "description": "Dolche und Bogen. Der PvP-Jäger — klebt am Rücken, kommt raus wenn's brennt, bestraft jeden Fehler."
+      },
+      "dragoon": {
+        "name": "Dragoner",
+        "description": "Mit dem Speer den Abstand halten, mit dem Bogen aus der Distanz strafen. Mittelreichweiten-Druck, der schwer zu lösen ist."
+      },
+      "ranger": {
+        "name": "Waldläufer",
+        "description": "Mit dem Bogen nerven, die Dolche raus, wenn jemand näherkommt. Solo-PvE und Gank-Survival in Reinform."
+      },
+      "sniper": {
+        "name": "Scharfschütze",
+        "description": "Armbrust für die Kritjagd; der Hammer ist die Antwort, sobald jemand reinläuft."
+      },
+      "battlemage": {
+        "name": "Kampfmagier",
+        "description": "AoE mit dem Magierstab, swap auf den Lebensstab, um Team und dich selbst aufrecht zu halten. Selbstbewusste Magie."
+      },
+      "cleric": {
+        "name": "Kleriker",
+        "description": "Lebensstab führt, Magierstab als Backup. Heilen zuerst — bereit, zuzuschlagen, wenn das Fenster aufgeht."
+      },
+      "templar": {
+        "name": "Templer",
+        "description": "Heiler-Tank-Hybrid. Lebensstab hält die Gruppe, der Schild dich selbst — auch in der ersten Reihe."
+      },
+      "spellblade": {
+        "name": "Spellblade",
+        "description": "Kleb mit den Dolchen, beende einen Combo, dann zünde mit dem Magierstab den Burst. Hohes Skill-Cap."
+      }
+    }
+  },
+  "leveling": {
+    "heading": "FORTSCHRITTSSYSTEM",
+    "title": "Jede Waffe geht bis 100",
+    "subtitle": "Die Waffe in deiner Hand ist die, die levelt. Unabhängig vom Charakterlevel klettert die Waffenmeisterschaft von 1 bis {{max}}; jeder Meilenstein schaltet eine neue Fertigkeit, ein Passiv oder ein Upgrade frei.",
+    "steps": {
+      "1": {
+        "kicker": "SCHRITT 1",
+        "title": "Waffe ausrüsten",
+        "body": "Was du hältst, sammelt die EP. Mobs in PvE, Spieler in PvP, Bosse in Dungeons — jeder Treffer geht aufs Konto deiner Waffe."
+      },
+      "2": {
+        "kicker": "SCHRITT 2",
+        "title": "Den Baum öffnen",
+        "body": "Stufen 10, 25, 50 und 75 öffnen jeweils neue Äste. Passive setzen, Aktive paaren, das Kit bauen, das du wirklich willst."
+      },
+      "3": {
+        "kicker": "SCHRITT 3",
+        "title": "Stufe 100 erreichen",
+        "body": "Auf Maximalstufe schaltet das legendäre Kern-Passiv frei. Eine Waffe abschließen, zur nächsten — der Wechsel kostet nichts."
+      }
+    }
+  },
+  "filter": {
+    "all": "Alle",
+    "tank": "Tank",
+    "melee": "Nahkampf",
+    "ranged": "Fernkampf",
+    "magic": "Magie",
+    "healer": "Heiler"
+  },
+  "labels": {
+    "role": "Rolle",
+    "range": "Reichweite",
+    "difficulty": "Schwierigkeit"
+  },
+  "ranges": {
+    "melee": "Nahkampf",
+    "mid": "Mittel",
+    "ranged": "Fernkampf"
+  },
+  "speeds": {
+    "slow": "Langsam",
+    "medium": "Mittel",
+    "fast": "Schnell"
+  },
+  "damage": {
+    "physical": "Physisch",
+    "magic": "Magisch",
+    "mixed": "Gemischt"
+  },
+  "stats": {
+    "damage": "Schaden",
+    "defense": "Verteidigung",
+    "mobility": "Mobilität",
+    "range": "Reichweite",
+    "support": "Support",
+    "complexity": "Komplexität"
+  },
+  "tags": {
+    "pve": "PvE",
+    "pvp": "PvP",
+    "solo": "Solo",
+    "group": "Gruppe",
+    "raid": "Raid",
+    "arena": "Arena",
+    "siege": "Belagerung"
+  },
+  "actions": {
+    "viewDetail": "Klasse öffnen"
+  },
+  "milestones": {
+    "headings": {
+      "10": "St. 10",
+      "25": "St. 25",
+      "50": "St. 50",
+      "75": "St. 75",
+      "100": "St. 100"
+    }
+  },
+  "detail": {
+    "backToList": "Zurück zur Übersicht",
+    "statsAria": "Klassenwerte als Radardiagramm",
+    "maxLevel": "Maxstufe",
+    "bestForLabel": "Stark in",
+    "strengthsWeaknesses": "Stärken & Schwächen",
+    "strengths": "Stärken",
+    "weaknesses": "Schwächen",
+    "signatureSkills": "Signatur-Fertigkeiten",
+    "signatureSkillsSub": "Die vier Fähigkeiten, die diese Waffe ausmachen.",
+    "levelJourney": "Die 100-Stufen-Reise",
+    "levelJourneySub": "Von 1 bis {{max}} — was jeder Meilenstein freischaltet.",
+    "recommendedCombos": "Empfohlene Kombinationen",
+    "recommendedCombosSub": "Die häufigsten Zweitwaffen und die Archetypen, die daraus entstehen.",
+    "alsoTry": "Probier auch",
+    "alsoTrySub": "Waffen mit ähnlichem Rhythmus, die als Nächstes Spaß machen."
+  },
+  "weapons": {
+    "swordShield": {
+      "name": "Schwert & Schild",
+      "tagline": "Die Wand vorne, der Dauerbrenner im Raid",
+      "summary": "Du ziehst Aggro, fängst die Treffer und gibst der Gruppe Luft. Der Schaden ist überschaubar, deine Überlebensfähigkeit dafür legendär — der gefragteste Platz in Dungeons und Gruppen-PvP.",
+      "lore": "Du lernst den Schildschlag am ersten Tag vor der Schmiede. Für die meisten Spieler der ruhigste Einstieg.",
+      "strengths": [
+        "Hohe HP und Verteidigung — du stehst am längsten.",
+        "Aktiver Block schluckt den Großteil jedes Treffers.",
+        "Provoke macht Aggromanagement banal.",
+        "Mit Gruppe im Rücken fallen selbst harte Bosse."
+      ],
+      "weaknesses": [
+        "Du tauchst nie ganz oben in der Schadensliste auf.",
+        "Im Nahkampf gefangen — Kiter einzuholen kostet Zeit.",
+        "Gebrochener Schild oder verpatzte Parry öffnen dich richtig."
+      ],
+      "skills": [
+        { "name": "Schildschlag", "description": "Kurzer Stagger-Schlag — bricht Stände, öffnet den nächsten Combo." },
+        { "name": "Provoke", "description": "Zieht Aggro im Umkreis — das tägliche Brot des Tanks." },
+        { "name": "Festungshaltung", "description": "Reduziert für kurze Zeit eingehenden Schaden deutlich." },
+        { "name": "Schildkuppel", "description": "Kurzer Schutzdom für die Gruppe in Bossfenstern." }
+      ],
+      "milestones": {
+        "10": "Block und Provoke schalten frei.",
+        "25": "Passiv: Ausdauer pro Block zurück.",
+        "50": "Festungshaltung — die langfristige Defensive.",
+        "75": "Schutzaura für nahe Verbündete.",
+        "100": "Schildkuppel-Legende: Gruppen-Defensivdom für Bossfenster."
+      }
+    },
+    "twoHandedSword": {
+      "name": "Zweihänder",
+      "tagline": "Weiter Schwung, schwerer Treffer",
+      "summary": "Die Animationen sind träge, doch jeder Hieb fegt alles weg, was sich vor dir zusammendrängt. Gemacht für AoE-Farmen und ein chaotisches Gemenge im PvP.",
+      "lore": "Wenn NPCs sehen, wie du das Ding zweihändig schwingst, treten sie zurück. Der Zweihänder ist eine Ansage.",
+      "strengths": [
+        "Breite Bögen — Schaden stapelt im Pulk.",
+        "Schaden pro Aufwand stark im PvE-Farmen.",
+        "Schwere Einzeltreffer-Combos schließen Kämpfe.",
+        "Animationen mit klaren Cancel-Optionen ab den richtigen Stufen."
+      ],
+      "weaknesses": [
+        "Im Single-Target verlierst du gegen Bogen und Stab.",
+        "Langsame Schwünge machen dich vorhersehbar.",
+        "Fast kein Schaden im Laufen — Position ist alles."
+      ],
+      "skills": [
+        { "name": "Weiter Schwung", "description": "Halbkreis-AoE, fängt mindestens zwei." },
+        { "name": "Erdstoß", "description": "Sprung mit Aufprall — AoE-Stagger beim Aufkommen." },
+        { "name": "Schildbrecher", "description": "Schwerer Einzeltreffer, senkt Verteidigung." },
+        { "name": "Schlachtgesang", "description": "Kurzer Schadensbuff — perfekt vor AoE." }
+      ],
+      "milestones": {
+        "10": "Weiter Schwung schaltet frei.",
+        "25": "Passiv: Ausdauer zurück durch AoE-Hits.",
+        "50": "Erdstoß — dein Gap-Closer.",
+        "75": "Schildbrecher — öffnet Top-Tier-Ziele.",
+        "100": "Schlachtgesang-Legende: kurzer +15% Gruppen-Schaden."
+      }
+    },
+    "spear": {
+      "name": "Speer",
+      "tagline": "Kontrolliere den Abstand, nerv jeden",
+      "summary": "Eine ausgewogene Waffe — du stichst aus der Distanz oder im Nahkampf. In geübten Händen verheerend, aber sie verzeiht keine Anfängerfehler.",
+      "lore": "Erste Wahl der Arenaprofis — der Speer ist Verteidigung, Angriff und Abstandskontrolle in einer Stange.",
+      "strengths": [
+        "Mittelreichweiten-Druck — zieht Gegner aus der Komfortzone.",
+        "Stagger und Knockback ergeben CC-Ketten.",
+        "Große Hitbox — Streifer treffen.",
+        "Großer Positionsvorteil im PvP."
+      ],
+      "weaknesses": [
+        "Maximaler DPS verlangt enges Timing.",
+        "Schließphasen geben kurze Öffnungen.",
+        "Schwacher AoE — Probleme bei Multi-Target."
+      ],
+      "skills": [
+        { "name": "Stoß", "description": "Schneller Poke, drückt das Ziel einen Meter zurück." },
+        { "name": "Sprung-Stoß", "description": "Sprung aufs Ziel — sofortiger Gap-Closer." },
+        { "name": "Vortex", "description": "Drehung um sich selbst — AoE und Stagger." },
+        { "name": "Banner setzen", "description": "Speer in den Boden — Buff-Zone." }
+      ],
+      "milestones": {
+        "10": "Stoß und Basis-Pokes.",
+        "25": "Passiv: extra Reichweite bei Krits.",
+        "50": "Sprung-Stoß — Gap-Closer und Disengage in einem.",
+        "75": "Vortex — Klein-Team-AoE.",
+        "100": "Banner-Legende: +10% Reichweite für Verbündete in der Zone."
+      }
+    },
+    "dualAxes": {
+      "name": "Doppeläxte",
+      "tagline": "Schnell, blutig, instabil",
+      "summary": "Hits pro Sekunde stapeln und alles vor dir aus dem Tritt bringen. Die Verteidigung ist hauchdünn — Hit-and-Run auf Höchstgeschwindigkeit.",
+      "lore": "Das Markenzeichen der nördlichen Klans. Zwei Äxte in Quinfall heißen: jemand kommt, um etwas auszutragen.",
+      "strengths": [
+        "Sehr hohe Trefferdichte — Bluten fressen Ziele.",
+        "Frenzy wird stärker, je mehr fallen.",
+        "Schaden im Laufen — flexibel.",
+        "Günstige, schnelle Einsteigerwaffe."
+      ],
+      "weaknesses": [
+        "Papier-Verteidigung — ein Fehler eskaliert.",
+        "Bei Bossen fehlt der Stagger.",
+        "Schadenhöchstmarke außerhalb von Krits ist mittelmäßig."
+      ],
+      "skills": [
+        { "name": "Doppelschlag", "description": "Schneller X-Schlag mit zwei Bluten." },
+        { "name": "Blutruf", "description": "Kurzer Tempobuff, refresht bei Kills." },
+        { "name": "Sturm", "description": "Sprint nach vorn, hinterlässt Bluten." },
+        { "name": "Berserker-Sturm", "description": "Kurz +Schaden / -Verteidigung." }
+      ],
+      "milestones": {
+        "10": "Doppelschlag.",
+        "25": "Passiv: Lebensraub von blutenden Zielen.",
+        "50": "Blutruf — der Schneeball.",
+        "75": "Sturm — Manöver und Schaden in einem.",
+        "100": "Berserker-Sturm-Legende: +30% Schaden / -15% Verteidigung."
+      }
+    },
+    "dualDaggers": {
+      "name": "Doppeldolche",
+      "tagline": "Aus dem Schatten zustechen",
+      "summary": "Eines der schnellsten Kits im Spiel. Du jagst Krits und bestimmst, wann der Kampf beginnt — ein Fehler reicht und du liegst am Boden. Im PvP ein Albtraum.",
+      "lore": "Keine Diebes-, sondern eine Assassinen-Waffe. Eines der gefürchtetsten Kits der Quinfall-Arenen.",
+      "strengths": [
+        "Riesige Krit- und Tempo-Boni.",
+        "Backstab-Multiplikator — richtig positioniert doppelter Schaden.",
+        "Disengage-Tools, um lebend rauszukommen.",
+        "Beste Solo-PvE-Farmrate."
+      ],
+      "weaknesses": [
+        "Mini-Verteidigung — ein Root oder Stun beendet dich.",
+        "Schwacher AoE; Raid-DPS am unteren Ende.",
+        "Begrenzte Decke gegen Tank-Archetypen."
+      ],
+      "skills": [
+        { "name": "Hinterhältiger Stich", "description": "+200% bei Treffer von hinten — der klassische Opener." },
+        { "name": "Schattenschritt", "description": "Kurzer Teleport — Flucht oder Anschluss." },
+        { "name": "Giftklinge", "description": "6 Sekunden Gift-Tick beim Treffer." },
+        { "name": "Schneller Reflex", "description": "Reflektiert kurz einen Teil des eingehenden Schadens." }
+      ],
+      "milestones": {
+        "10": "Hinterhältiger Stich.",
+        "25": "Passiv: Ausdauer zurück pro Krit.",
+        "50": "Schattenschritt.",
+        "75": "Giftklinge — Hybrid-Schadensprofil.",
+        "100": "Schneller-Reflex-Legende: 40% Reflect für 4 Sekunden."
+      }
+    },
+    "warHammer": {
+      "name": "Kriegshammer",
+      "tagline": "Mit einem Schlag erledigt",
+      "summary": "Langsam, aber furchteinflößend. Ein aufgeladener Treffer kippt den Kampf; wenn du landest, ist klar, wer hier trägt.",
+      "lore": "Belagerungswaffe für die, die die Mauer nicht erreichen — und sie wahrscheinlich auch nicht müssen.",
+      "strengths": [
+        "Einzeltreffer-Schaden ganz oben.",
+        "Stagger und Knockdown legen Gegner flach.",
+        "Rüstungsbruch-Passiv — schwere Ziele hassen das.",
+        "Bonusschaden auf Tore und Mauern in Belagerungen."
+      ],
+      "weaknesses": [
+        "Langsam — ein Whiff ist eine echte Öffnung.",
+        "Geringes Tempo — keine Antwort gegen Kiter.",
+        "Sustained-DPS im Mittelfeld."
+      ],
+      "skills": [
+        { "name": "Erdstoß", "description": "Schwere AoE mit Stun. Eröffnet Kämpfe." },
+        { "name": "Rüstungsbruch", "description": "Verteidigung des Ziels für mehrere Sekunden runter." },
+        { "name": "Hammerbombe", "description": "Wirf den Hammer; er explodiert beim Rückkehren." },
+        { "name": "Joch", "description": "Single-Target-Knockdown mit kurzer Pause." }
+      ],
+      "milestones": {
+        "10": "Erdstoß.",
+        "25": "Passiv: +10% Schaden nach Stagger.",
+        "50": "Rüstungsbruch — Tank-Killer-Combo.",
+        "75": "Hammerbombe — Reichweite.",
+        "100": "Joch-Legende: 1,5s Knockdown."
+      }
+    },
+    "bow": {
+      "name": "Bogen",
+      "tagline": "Tod aus der Distanz, dauerhafter Druck",
+      "summary": "Beweglich, präzise, unerbittlich. Im Nahkampf wird's eng — Positionierung ist hier alles.",
+      "lore": "Der Ruf eines Bogenschützen im Quinfall-Wald ist die Warnung vor einem Karawanen-Hinterhalt.",
+      "strengths": [
+        "Druck aus der Distanz — du bestimmst den Kampf.",
+        "Schaden im Laufen — Kiten ist der Plan.",
+        "Hoher Single-Target-Sustained-DPS.",
+        "Flexible Boss-Positionierung im PvE."
+      ],
+      "weaknesses": [
+        "DPS sinkt, sobald jemand reinläuft.",
+        "Stoffrüstung — die Front beendet dich.",
+        "Verlangt Tracking; Fehler sind tödlich."
+      ],
+      "skills": [
+        { "name": "Schnellschuss", "description": "Doppelpfeil mit kurzer CD — Dauer-Druck." },
+        { "name": "Pfeilregen", "description": "Breiter AoE-Niederschlag." },
+        { "name": "Markierungsschuss", "description": "Markiere ein Ziel — Verbündete treffen härter." },
+        { "name": "Rückschritt", "description": "Sprung zurück, dabei feuern — Spacing-Tool." }
+      ],
+      "milestones": {
+        "10": "Schnellschuss.",
+        "25": "Passiv: keine Bewegungs-Strafe auf Schaden.",
+        "50": "Pfeilregen — Area Denial.",
+        "75": "Markierungsschuss — Gruppen-Schadenssupport.",
+        "100": "Rückschritt-Legende: 2 Sekunden Schadens-Immunität."
+      }
+    },
+    "crossbow": {
+      "name": "Armbrust",
+      "tagline": "Krit-Jäger, Boss-Brecher",
+      "summary": "Niedrige Schussrate, brutale Multiplikatoren. Im Boss-Fight reicht ein Schuss, um die Lücke zu reißen.",
+      "lore": "Mauer-Scharfschützenwaffe — ein Bolzen durchs richtige Fenster entscheidet einen Krieg.",
+      "strengths": [
+        "Wahnsinniger Krit-Multiplikator.",
+        "One-Shot-Alpha-Schaden.",
+        "Starke Boss-Schadens-Passive.",
+        "Belagerungs-Reichweite, fast wie Artillerie."
+      ],
+      "weaknesses": [
+        "Lange Reload — kein Dauerdruck.",
+        "An Position gebunden — schlecht im Laufen.",
+        "Verliert gegen schnelle PvP-Ziele."
+      ],
+      "skills": [
+        { "name": "Schwerer Bolzen", "description": "Einzelschuss, verdreifacht bei Krit." },
+        { "name": "Fallenbolzen", "description": "Bodenschuss — verlangsamt jeden, der durchläuft." },
+        { "name": "Schnellspannen", "description": "+50% Feuerrate für ein kurzes Fenster." },
+        { "name": "Kettenschuss", "description": "Schuss springt auf zwei weitere nahe Ziele." }
+      ],
+      "milestones": {
+        "10": "Schwerer Bolzen.",
+        "25": "Passiv: Krit halbiert die Reload.",
+        "50": "Fallenbolzen — Areale.",
+        "75": "Schnellspannen — Burst-Fenster.",
+        "100": "Kettenschuss-Legende: bis zu vier Ziele."
+      }
+    },
+    "staff": {
+      "name": "Magierstab",
+      "tagline": "Beuge die Elemente, kontrolliere das Feld",
+      "summary": "Ein starker PvE-DPS mit weiten AoE-Zaubern. Nur Stoff am Körper — halte Abstand und lass die Magie sprechen.",
+      "lore": "Die Signatur der Vawraek-Akademie. Ein Stab-Spieler entscheidet Kämpfe mit Licht und Eis statt Worten.",
+      "strengths": [
+        "Mächtiger AoE — Top-Räumer im Raid.",
+        "Element-Ketten erhöhen den Schaden.",
+        "Kontroll-Kit — Root, Slow, Freeze.",
+        "Mana-Ökonomie hält in langen Kämpfen."
+      ],
+      "weaknesses": [
+        "Stoffkleidung — keine physische Verteidigung.",
+        "Hoher Bewegungs-Malus beim Casten.",
+        "Wehrlos, sobald die Lücke zu ist."
+      ],
+      "skills": [
+        { "name": "Feuerball", "description": "Großflächige Explosion — hinterlässt brennenden Boden." },
+        { "name": "Frostketten", "description": "Slow / kurzer Lock auf Ziel und Umgebung." },
+        { "name": "Blitzbogen", "description": "Springender Elektro-Schaden über mehrere Ziele." },
+        { "name": "Element-Ruf", "description": "Kurzer +Magieschaden-Buff." }
+      ],
+      "milestones": {
+        "10": "Feuerball.",
+        "25": "Passiv: Mana zurück durch AoE-Hits.",
+        "50": "Frostketten — Multi-Target-CC.",
+        "75": "Blitzbogen — Sustained AoE.",
+        "100": "Element-Ruf-Legende: 8s +25% Magieschaden."
+      }
+    },
+    "lifeStaff": {
+      "name": "Lebensstab",
+      "tagline": "Halte sie auf den Beinen, bestimme den Kampf",
+      "summary": "Heilung und Support-Magie. Allein eher leise, in der Gruppe Königsklasse — ein guter Lifestaff ist das Rückgrat jeder Schlachtzug-Gruppe.",
+      "lore": "Ein Lifestaff-Spieler entscheidet den Krieg mit Zaubern, nicht Worten. Schwacher Heiler, verlorener Kampf.",
+      "strengths": [
+        "Sauberer Wechsel zwischen Single-Target und Gruppen-Heals.",
+        "Konstante Heil-Aura im Hintergrund.",
+        "Resurrect- und Buff-Kit — dreht Kämpfe.",
+        "Praktisch endloser Sustain bei guter Hand."
+      ],
+      "weaknesses": [
+        "Schwacher Solo-Schaden — PvE wird zur Geduldsprobe.",
+        "Priorisiertes Ziel jedes Gegners.",
+        "Mana-Fehler reißen die ganze Gruppe runter."
+      ],
+      "skills": [
+        { "name": "Heilstoß", "description": "Großer Single-Target-Burst-Heal." },
+        { "name": "Heilaura", "description": "Konstante Heilung in Reichweite." },
+        { "name": "Lichtruf", "description": "Zone — Heilung in der Zone verdoppelt." },
+        { "name": "Ruf aus dem Tod", "description": "Kürzlich gefallenen Verbündeten wiederbeleben." }
+      ],
+      "milestones": {
+        "10": "Heilstoß.",
+        "25": "Passiv: +20% bei kritischen Heilungen.",
+        "50": "Heilaura — Gruppen-Sustain.",
+        "75": "Lichtruf — Zonen-Sustain.",
+        "100": "Ruf-aus-dem-Tod-Legende: Cooldown halbiert."
+      }
+    }
+  }
+}

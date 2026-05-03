@@ -1,0 +1,189 @@
+{
+  "page": {
+    "eyebrow": "DUNGEONS & BOSSE",
+    "title": "Dungeons & Weltbosse",
+    "description": "Im Live-Spiel gibt es derzeit 4 aktive Dungeons, 1 gesperrten Dungeon-Slot, 8 Weltbosse und einen gesperrten Boss-Slot. Diese Seite bündelt Drop-Tabellen, Spawn-Rhythmus und echte In-Game-Aufnahmen."
+  },
+  "hero": {
+    "badge": "Überblick",
+    "title": "4 Dungeons, 8 Bosse, 4 Schwierigkeiten.",
+    "body": "Levelobergrenze ist 100. Tägliche Dungeon-Punkte stapeln bis 1.000; jeder Eintritt zieht aus diesem Pool. Gruppen sind auf 8 begrenzt und das Dungeon-Level orientiert sich am Spieler mit dem höchsten Level. Alle Bilder unten stammen direkt aus dem Live-Spiel.",
+    "stats": {
+      "cap": "Levelobergrenze",
+      "points": "Tägl. Dungeon-Punkte",
+      "party": "Gruppen-Limit"
+    }
+  },
+  "worldBossRoster": {
+    "kicker": "WELTBOSSE",
+    "title": "8 Aktiv + 1 Gesperrt",
+    "subtitle": "Jeder Weltboss steigt in festen Intervallen herab; sein Spawn ist auf der Karte markiert. Kraken erscheint dreimal täglich, die anderen einmal.",
+    "featuredTag": "⚓ Naval · Featured",
+    "spawnPerDay": "{{count}}/Tag",
+    "lockedTitle": "Gesperrter Boss",
+    "lockedTag": "9. Slot · Bald",
+    "lockedBody": "Der neunte Weltboss-Slot ist gesperrt. Inhalt soll mit einem späteren Update freigeschaltet werden.",
+    "kinds": {
+      "naval": "Meer · nur Schiff",
+      "land-melee": "Land · Nahkampf",
+      "land-aerial": "Luft · Mechanik",
+      "land-dragon": "Land · Drache",
+      "land-caster": "Land · Caster",
+      "land-fiend": "Land · Teufel",
+      "land-celestial": "Land · Fallen Angel",
+      "land-ogre": "Land · Oger",
+      "locked": "Überraschung"
+    },
+    "list": {
+      "kraken": {
+        "name": "Kraken",
+        "body": "Der gewaltige Kraken in den Meeren von Quinfall. Anders als die anderen sieben Bosse erscheint er dreimal pro Tag — der am häufigsten begegnete und gejagte Boss. Nur Schiffe greifen ihn an; Crew, Kanonenkoordination und Seemannschaft sind Pflicht.",
+        "meta": {
+          "location": "📍 Hochsee",
+          "spawn": "⏱ 3× täglich",
+          "access": "🚢 Nur Schiff"
+        }
+      },
+      "titanseal": {
+        "name": "Titanseal",
+        "body": "Der Stein-/Berggigant mit gelb glühenden Augen und höckriger Rüstung. Schwere Schläge fegen die Frontline."
+      },
+      "aeroForge": {
+        "name": "Aero-Forge",
+        "body": "Fliegender Boss mit einer riesigen Augenlinse, mechanisch / im Steam-Age-Design. Greift aus der Luft an — Ranged-DPS hat den Vorteil."
+      },
+      "draconarch": {
+        "name": "Draconarch",
+        "body": "Ein schwarzgeschuppter Drache. Klassischer High-Fantasy-Boss — fällt am saubersten mit gemischtem Nahkampf-/Ranged-Team."
+      },
+      "doomcaller": {
+        "name": "Doomcaller",
+        "body": "Caster/Lord-Typ mit blau glühenden Augen und mechanischer Rüstung. Cast-basierte Angriffsmuster dominieren."
+      },
+      "velkhurath": {
+        "name": "Vel'khurath",
+        "body": "Gehörnter, beklauter Teufel mit dunkelgrüner Haut. Lich-/Dämonen-Ästhetik — hohe Nahkampfgefahr."
+      },
+      "seraphiel": {
+        "name": "Seraphiel",
+        "body": "Weiß-geflügelter, gepanzerter Schädelengel. Schwertführendes Fallen-Angel-Design mit 'heiligen' Angriffen."
+      },
+      "vorgath": {
+        "name": "Vorgath",
+        "body": "Knochensplitter-Oger; dunkles Blau-Lila, Frontline-Drohung pur durch Masse. Verlangt eine zahlreiche Gruppe."
+      }
+    }
+  },
+  "instanced": {
+    "kicker": "DUNGEONS",
+    "title": "4 Aktiv + 1 Gesperrt",
+    "subtitle": "Jeder Dungeon öffnet im Solo- oder Gruppen-Modus und unterstützt 4 Schwierigkeitsstufen (Leicht → Sehr Schwer). Sehr Schwer hat den größten Boss-Loot-Pool.",
+    "itemBadge": "Items · Sehr Schwer",
+    "lockedTitle": "Gesperrter Dungeon",
+    "lockedTag": "5. Slot · Bald",
+    "lockedBody": "Der fünfte Dungeon-Slot ist gesperrt. Inhalt soll mit einem späteren Update freigeschaltet werden.",
+    "list": {
+      "foamingCatacombs": {
+        "name": "Foaming Catacombs",
+        "theme": "Höhle · unterirdisch",
+        "body": "Dunkles Höhlen-/Untergrund-Thema, einer der ersten Dungeons in Quinfall. Eingang umringt von grüner Vegetation."
+      },
+      "quietChambers": {
+        "name": "Quiet Chambers",
+        "theme": "Steinbögen · Kerzenlicht",
+        "body": "Unterirdischer Dungeon mit steinbogigen Hallen und Treppen. Kerzenlicht-Atmosphäre."
+      },
+      "grimPoint": {
+        "name": "Grim Point",
+        "theme": "Grab · Krypta",
+        "body": "Steinkorridore beleuchtet von Säulen und Fackeln. Grab- / Kryptaästhetik."
+      },
+      "deepestMaze": {
+        "name": "Deepest Maze",
+        "theme": "Vulkanisch · Lava",
+        "body": "Vulkanisch / lavaorientierter Dungeon mit glutroter Landschaft. Visuell der aggressivste der aktuellen Dungeons."
+      }
+    }
+  },
+  "points": {
+    "cap": "Tägliches Punktelimit",
+    "title": "Dungeon-Punkte-System",
+    "body": "Dungeon-Punkte regenerieren sich täglich und stapeln bis 1.000. Jeder Eintritt zieht aus diesem Pool. Solo legt das Dungeon-Level auf deinen Charakter fest; in der Gruppe zählt der Spieler mit dem höchsten Level."
+  },
+  "difficulty": {
+    "kicker": "SCHWIERIGKEITSMODI",
+    "title": "Leicht → Mittel → Schwer → Sehr Schwer",
+    "subtitle": "Höhere Stufen erweitern den Boss-Loot-Pool und heben die Drop-Raten. Wichtig: Im Solo skaliert Drop-Qualität/-Vielfalt mit der Stufe; im Gruppen-Modus fällt auf allen vier Stufen DIESELBE Tabelle.",
+    "tiers": {
+      "easy": { "name": "🟢 Leicht", "description": "Einstiegsstufe." },
+      "normal": { "name": "🟡 Mittel", "description": "Standardstufe." },
+      "hard": { "name": "🟠 Schwer", "description": "Hohe Stufe; Mechanikkenntnis erforderlich." },
+      "veryHard": { "name": "🔴 Sehr Schwer", "description": "Endgame-Stufe. Hier fällt der größte und hochwertigste Boss-Loot." }
+    },
+    "notes": {
+      "solo": {
+        "title": "Solo-Modus",
+        "body": "Allein passt sich der Dungeon deinem Charakterlevel an. Die Drop-Tabelle wächst mit der Stufe und die Item-Qualität steigt."
+      },
+      "party": {
+        "title": "Gruppen-Modus (max 8)",
+        "body": "Nur der Gruppenleiter kann den Eintritt anfordern. Das Dungeon-Level orientiert sich am Spieler mit dem höchsten Level. Die Gruppen-Drop-Tabelle ist auf allen vier Stufen identisch."
+      }
+    }
+  },
+  "drops": {
+    "kicker": "DROP-TABELLEN",
+    "title": "Vollständige Liste mit In-Game-Aufnahmen",
+    "subtitle": "Pro Dungeon: 4 Solo-Stufen-Aufnahmen + 1 Gruppen-Aufnahme. Zahlen unten sind durch In-Game-Beobachtung bestätigt.",
+    "rule": {
+      "title": "Wichtige Regel",
+      "body": "Im Solo wachsen Drop-Qualität und -Vielfalt mit der Stufe. Im Gruppen-Modus fällt bei Leicht und bei Sehr Schwer DASSELBE Item-Set — die Gruppen-Tabelle ist stufenunabhängig."
+    },
+    "table": {
+      "dungeon": "Dungeon",
+      "easy": "Solo·Lt",
+      "normal": "Solo·Mit",
+      "hard": "Solo·Sw",
+      "veryHard": "Solo·S.Sw",
+      "party": "Gruppe (fix)"
+    },
+    "modes": {
+      "soloEasy": "👤 Solo · 🟢 Leicht",
+      "soloNormal": "👤 Solo · 🟡 Mittel",
+      "soloHard": "👤 Solo · 🟠 Schwer",
+      "soloVeryHard": "👤 Solo · 🔴 Sehr Schwer",
+      "party": "👥 Gruppe · Alle Stufen"
+    },
+    "itemCount": "{{count}} Items",
+    "loading": "Lädt…",
+    "empty": "Keine Drops für diesen Modus erfasst.",
+    "partyConstant": "Die Gruppen-Drop-Tabelle ist stufenunabhängig fest."
+  },
+  "prep": {
+    "kicker": "GENERELLE STRATEGIE",
+    "title": "Dungeon- & Boss-Tipps",
+    "subtitle": "Praktische Tipps aus Community-Runs.",
+    "items": {
+      "gear": {
+        "title": "Die täglichen 1.000 verbrennen",
+        "body": "Ist Sehr Schwer außer Reichweite, brenn die Punkte auf Schwer oder Mittel — besser als sie verfallen zu lassen. Der Pool rollt nicht über."
+      },
+      "consumables": {
+        "title": "Buff-Stack zählt",
+        "body": "Gekochtes Essen + Alchemie-Trank + Gilden-Buff zusammen heben Drop und Überleben sichtbar."
+      },
+      "comp": {
+        "title": "Richtige Aufstellung",
+        "body": "Gruppe max 8. Tank + Heiler + DPS-Mix bringt das sauberste Ergebnis. Ranged-DPS ist gegen Luftbosse wie Aero-Forge entscheidend."
+      },
+      "comms": {
+        "title": "Stufe richtig wählen",
+        "body": "Sehr Schwer hat den größten Loot-Pool, aber nicht überspielen. In der Gruppe bestimmt der höchste Spieler die Stufe — Balance halten."
+      },
+      "reset": {
+        "title": "Schiffe für Kraken",
+        "body": "Kraken steigt dreimal täglich herab und fällt nur einer Schiffsmannschaft. Ohne Schiffe, Crew und Kanonenkoordination ist der Versuch verlorene Zeit."
+      }
+    }
+  }
+}

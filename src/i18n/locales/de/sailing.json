@@ -1,0 +1,257 @@
+{
+  "page": {
+    "eyebrow": "SEEFAHRT",
+    "title": "Seefahrt & Marine",
+    "description": "In Quinfall ist das Meer ein eigenes Spiel: 4 Schiffsklassen × 2 Fraktionen, 7 Häfen, 3 Angelkategorien und ein Kraken, der dreimal täglich auftaucht. Naval Combat lebt nur im PvP-Kanal; Belohnung und Risiko halten sich die Waage."
+  },
+  "hero": {
+    "badge": "Systemüberblick",
+    "title": "7 Häfen, 4 Schiffsklassen, 3 Kraken/Tag.",
+    "body": "Vier Rumpftypen vom Floß zum Kriegsschiff, jeweils als Händler- oder Piraten-Rolle baubar. Kanonen passen nur auf Frigatten und Kriegsschiffe (seit Patch 26.06.2025). Im Hafen verwaltet der Harbor Master die Flotte; See-Karawanen kaufen das Paket, der Kraken fällt nur einer Schiffscrew. Kanalwechsel verlangt einen Hafenbesuch zuerst.",
+    "stats": {
+      "harbors": "Häfen",
+      "shipClasses": "Schiffsklassen",
+      "kraken": "Kraken / Tag"
+    }
+  },
+  "fleet": {
+    "kicker": "FLOTTE",
+    "title": "4 Rümpfe × 2 Fraktionen",
+    "subtitle": "Dieselben vier Klassen, zwei Zwecke. Händler- und Piratenschiffe sind im Bau identisch; ihre Rollen trennen sich auf dem PvP-Kanal — der eine fährt das Paket, der andere jagt es.",
+    "cannonRule": {
+      "title": "Kanonenregel (Patch 26.06.2025)",
+      "body": "Flöße und Boote können keine Kanonen mehr montieren. Nur Frigatten und Kriegsschiffe sind bewaffnungsfähig. Kleine Rümpfe sind jetzt reine Frachter — vor dem Kampf bedenken."
+    },
+    "trader": {
+      "title": "Händlerschiffe",
+      "body": "Tragen Pakete auf dem PvP-Kanal. Ziel: Goldgefälle zwischen Häfen einsacken. Fracht und Rumpfintegrität zählen alles."
+    },
+    "pirate": {
+      "title": "Piratenschiffe",
+      "body": "Dieselben vier Klassen in Piratenrolle. Greifen Händlerschiffe an und plündern Pakete. Baukosten identisch zur Händlerversion."
+    },
+    "shipsUnit": "Schiffe",
+    "buildLabel": "Baukosten",
+    "list": {
+      "raftTrader":     { "name": "Floß · Händler",        "tag": "Tier 1 · Einstieg",      "body": "Starter-Floß. Küstenpakete und Inshore-Angeln. Keine Kanonen." },
+      "boatTrader":     { "name": "Boot · Händler",        "tag": "Tier 2 · Mitte",         "body": "Mehr Fracht, immer noch unbewaffnet. Erstes echtes Langstrecken-Transportmittel." },
+      "frigateTrader":  { "name": "Frigatte · Händler",    "tag": "Tier 3 · bewaffnet",     "body": "Erstes Schiff mit Kanonen. Trägt mit Eskorte wertvolle Pakete." },
+      "warshipTrader":  { "name": "Kriegsschiff · Händler","tag": "Tier 4 · gepanzert",     "body": "Größter Händler. Große Crew, schwere Kanonen, Gildenmaßstab." },
+      "raftPirate":     { "name": "Floß · Pirat",          "tag": "Tier 1 · Pirat",         "body": "Eher Fluchtboot als Räuber. Keine Kanonen; verfolgt = vorbei." },
+      "boatPirate":     { "name": "Boot · Pirat",          "tag": "Tier 2 · Pirat",         "body": "Pirat-Einstieg. Ein paar Crew an Bord, kleine Händler-Flöße jagen." },
+      "frigatePirate":  { "name": "Frigatte · Pirat",      "tag": "Tier 3 · bewaffnet",     "body": "Bewaffnete Piratenfrigatte. Hauptjäger im PvP-Kanal." },
+      "warshipPirate":  { "name": "Kriegsschiff · Pirat",  "tag": "Tier 4 · Legende",       "body": "Größtes Piratenschiff. Gilden-Ops und große Händlerüberfälle." }
+    },
+    "classTable": {
+      "title": "Baukosten",
+      "unit": "Klassen",
+      "col": {
+        "tier": "Tier",
+        "shipClass": "Klasse",
+        "coins": "Münzkosten",
+        "cannons": "Kanonen"
+      },
+      "yes": "Ja",
+      "no": "Nein",
+      "cannons": "Keine Kanonen",
+      "note": "Münzkosten sind in beiden Fraktionen gleich. Materialien zusätzlich: untere Tiers nutzen günstiges Holz/Eisen, oberste verlangen High-Quality Pine Araucaria + Sycamore + MQ Iron."
+    },
+    "classes": {
+      "raft": "Floß",
+      "boat": "Boot",
+      "frigate": "Frigatte",
+      "warship": "Kriegsschiff"
+    }
+  },
+  "premium": {
+    "kicker": "PREMIUM-SCHIFFE",
+    "title": "Kosmetische Flotte",
+    "subtitle": "Vier besondere Schiffe in den Spieldaten. Wahrscheinlich über Shop und Events freigeschaltet; der Freischaltkanal ist primärquellenseitig noch nicht voll bestätigt.",
+    "tag": "Premium",
+    "list": {
+      "mermaidShip":     { "name": "Mermaid Ship",       "body": "Meerjungfrauen-Thema, blau-grünes Kosmetik-Schiff." },
+      "charonsFerryShip":{ "name": "Charon's Ferry Ship","body": "Unterwelt-Fähren-Ästhetik — dunkellila, knochentexturiertes Schiff." },
+      "medusaShip":      { "name": "Medusa Ship",        "body": "Schlangen-Motiv am Rumpf, grünliche Töne, mythisches Thema." },
+      "tridentShip":     { "name": "Trident Ship",       "body": "Dreizack/Poseidon-Thema mit hellen Goldakzenten." }
+    },
+    "note": {
+      "title": "Datenquellen-Hinweis",
+      "body": "Diese vier Schiffe stehen in der Client-items.json; Community-Wikis und Steam-Patch Notes nennen noch keinen Verkaufsweg. V-Coin-Shop ist die wahrscheinlichste Quelle — Bestätigung folgt, sobald in-game gesichtet."
+    }
+  },
+  "harbors": {
+    "kicker": "7 GROSSE HÄFEN",
+    "title": "Harbor Master und Dienste",
+    "subtitle": "Sieben große Häfen auf der Weltkarte. In jedem derselbe Harbor-Master-NPC: Schiffsverwaltung, Schiffshandel, Karawanen-Pakete, Schiffsbau, Schleppdienst.",
+    "tags": {
+      "edgeshore":   "Ostküste",
+      "silvercrest": "Silberhandel",
+      "maplewood":   "Wald / Holz",
+      "thessahazy":  "Nebel-Mystik",
+      "puttonas":    "Süd-Tropen",
+      "ellingliers": "Nordeis",
+      "traystable":  "Zentrum · Hauptdrehscheibe"
+    },
+    "regions": {
+      "east":    "Osten",
+      "central": "Zentrum",
+      "west":    "Westen",
+      "mist":    "Nebel",
+      "south":   "Süden",
+      "north":   "Norden"
+    },
+    "list": {
+      "edgeshore":   { "body": "Hauptausfahrt der Ostküste. Große Fischvielfalt; ideal für Einsteiger-Händlerrouten." },
+      "silvercrest": { "body": "Hafen rund um Silberbergbau. Erzverkehr und Handel sind dicht." },
+      "maplewood":   { "body": "Wald trifft Küste. Günstiger Heartwood-/Stormoak-Markt für Schiffbauer; kein hochzahlender Hafen." },
+      "thessahazy":  { "body": "Nebliger, mystischer Hafen. Höhere Selten-Drop-Raten, aber leicht orientierungslos; nur erfahrene Kapitäne." },
+      "puttonas":    { "body": "Südlicher Warmwasserhafen. Tropische Fische, Korallen; Rohstoffquelle für Kochrezepte." },
+      "ellingliers": { "body": "Nordwestliche Eissee. Kaltwasserfische nur hier; Kälteschutz nötig." },
+      "traystable":  { "body": "Zentrale Drehscheibe der Karte. Hier starten die höchstbezahlten Karawanen-Pakete." }
+    },
+    "servicesTitle": "Harbor-Master-Dienste",
+    "servicesSubtitle": "Sechs Kerndienste über einen NPC — die Kommandobrücke des Hafens.",
+    "services": {
+      "shipsInHarbor":   { "title": "Meine Schiffe im Hafen", "body": "Listet alle hier liegenden Schiffe; Beschwören und Reparieren über dieses Menü." },
+      "shipTrading":     { "title": "Schiffshandel",          "body": "Offizieller Kanal für Spieler-zu-Spieler-Schiffsverkauf/-übergabe." },
+      "barter":          { "title": "Tauschhandel",           "body": "Waren gegen Waren: Paketinhalt gegen andere Items tauschen." },
+      "caravanPackages": { "title": "Karawanen-Pakete",       "body": "Hier werden die Pakete des Hafens verkauft. Auszahlung hängt an diesem Abfahrtshafen." },
+      "shipBuilding":    { "title": "Schiffsbau",             "body": "Neuen Schiffsbau über den Harbor Master starten." },
+      "towing":          { "title": "Schleppen",              "body": "Festsitzendes Schiff gegen Gebühr in den Hafen schleppen." }
+    },
+    "payoutTable": {
+      "label": "AUSZAHLUNGSTABELLE",
+      "title": "Geschätzte Auszahlung pro Hafen",
+      "harbor": "Hafen",
+      "payout": "Geschätzte Auszahlung",
+      "note": "Aus Community-Beobachtung, nach Abfahrtshafen. Traystable am höchsten (~1.500g); Edgeshore und Silvercrest am Boden (~500g)."
+    }
+  },
+  "combat": {
+    "kicker": "NAVAL COMBAT",
+    "title": "Kanonen, Kanäle, Piraterie",
+    "subtitle": "Naval Combat läuft nur auf dem PvP-Kanal. Der PvE-Kanal ist reiner Transport; keine Angriffe, keine Verluste. Die Punkte unten sind aus offiziellen Patch Notes und dem Companion-Sailing-Guide bestätigt.",
+    "facts": {
+      "pvpOnly":       { "title": "Nur PvP-Kanal",          "body": "Schiffskampf nur im PvP-Kanal aktiv. Auf PvE ist das Schiff Transport — andere Spieler greifen nicht an." },
+      "mannedCannons": { "title": "Bemannte oder automatische Kanonen","body": "Kanonen werden von der Crew geladen und gefeuert; einige sind in den Auto-Modus schaltbar. Voice-Koordination ist ein klarer Vorteil." },
+      "durability":    { "title": "Schiffe verfallen nicht","body": "Companion: 'Schiffe rosten oder verfallen nicht mit der Zeit; Haltbarkeit verlierst du nur durch Kampfschaden und Kollisionen.' Auszeit kostet nichts." },
+      "channelSwitch": { "title": "Kanalwechsel nur am Hafen","body": "Auf hoher See kein Kanalwechsel. Schiff erst in den Hafen rufen; beim Anlegen werden Karawanen-Pakete an Bord zerstört." },
+      "piracy":        { "title": "Piraterie und Entern",   "body": "Im PvP-Kanal jagen Piratenschiffe Händler und plündern Pakete. Längsseits beigehen und Crew rüberschicken (Entern) ist der klassische Move." },
+      "cannonRestriction": { "title": "Floß/Boot-Kanonenverbot","body": "Flöße und Boote können keine Kanonen mehr montieren. Alle Naval-Feuerkraft konzentriert sich auf Frigatten und Kriegsschiffe.", "source": "Balance-Patch vom 26.06.2025" }
+    }
+  },
+  "kraken": {
+    "kicker": "KRAKEN-JAGD",
+    "title": "Hochsee-Naval-Boss",
+    "subtitle": "Quinfalls ikonischster Weltboss. Nur per Schiff — vom Land nicht bekämpfbar. Erscheint dreimal täglich, weit häufiger als jeder andere Weltboss.",
+    "spotlight": {
+      "tag": "Naval-Weltboss",
+      "title": "Kraken",
+      "body": "Steigt aus der Tiefe und reißt Rümpfe mit Tentakeln auseinander. Der Cursed-Realms-Patch fügte ein Nahkampfmuster hinzu und erhöhte den Schaden um 50%. Eine Gilden-Crew + Frigatte/Kriegsschiff ist Pflicht.",
+      "meta": {
+        "location": { "label": "Ort",   "value": "Hochsee" },
+        "spawn":    { "label": "Spawn", "value": "3× täglich" },
+        "access":   { "label": "Zugang","value": "Nur Schiffe" }
+      }
+    },
+    "phases": {
+      "title": "Angriffsmuster",
+      "note": "Einige Phasennamen aus Community-Beobachtung; offizieller Mechanik-Text steht aus.",
+      "list": {
+        "surface":    { "title": "Auftauchen",       "body": "Kraken bricht durch; jede Kanone kann sich ausrichten. Das Eröffnungsfenster ist die dichteste Schadenschance." },
+        "tentacle":   { "title": "Tentacle Slam",    "body": "Trifft ein Schiff in einem schweren Schlag. Positionen verteilen, damit nicht derselbe Rumpf hintereinander getroffen wird." },
+        "inkCloud":   { "title": "Ink Cloud",        "body": "Eine dunkle Tintenwolke senkt Sicht und Trefferchance; kurze Rückzugschance." },
+        "whirlpool":  { "title": "Whirlpool",        "body": "Zieht die Umgebung zur Mitte. Segel auf, Antrieb voll, raus — sonst rammst du gerade hinein." },
+        "underwater": { "title": "Underwater-Phase", "body": "Taucht eine Weile ab. Auftauchort vorhersagen; Harpunen bereithalten." }
+      }
+    },
+    "rewards": {
+      "title": "Drop-Pool",
+      "note": "Kraken-spezifische Belohnungen aus Community-Quellen; einige (z. B. Sea-Champion-Titel) sind primärquellenseitig nicht voll bestätigt.",
+      "list": {
+        "materials": { "title": "Kraken-Teile",       "body": "Top-Tier-Crafting-Materialien — Eingang für Naval-Set und Kraken-Linien-Waffen." },
+        "gold":      { "title": "Schwere Goldsumme",  "body": "Gesamtgold pro Lauf ist erheblich; ein wöchentlicher Gilden-Wirtschaftsstrom." },
+        "navalSet":  { "title": "Naval-Set-Teile",    "body": "Crew-Bonus-Naval-Set-Teile droppen im selben Pool." },
+        "title":     { "title": "Sea-Champion-Titel", "body": "Permanenter Titel — in der Community besprochen; das exakte In-Game-Label ist noch nicht bestätigt." }
+      }
+    }
+  },
+  "fishing": {
+    "kicker": "ANGELN",
+    "title": "3 Kategorien, 2 Modi, 1 Token-Wirtschaft",
+    "subtitle": "Angeln ist eine der bestätigten Wirtschaftsstränge: drei Kategorien (Süßwasser, Salzwasser, Tiefsee); aktiv (E) oder AFK (T); Output wird beim Armorer in Verbesserungs-Materialien getauscht.",
+    "categories": {
+      "title": "Angel-Kategorien",
+      "body": "Quinfall-Angeln teilt sich offiziell in drei Kategorien. Die hafenflavored Zonen (warm/kalt/neblig) der Community sind Würzung darüber, nicht das Kernsystem.",
+      "list": {
+        "freshwater": { "name": "Süßwasser", "tag": "Flüsse / Seen",     "body": "Inland-Wasserquellen; einfachster Zugang und größtes Fischangebot." },
+        "saltwater":  { "name": "Salzwasser","tag": "Hafen / Küste",     "body": "Meerwasser nahe dem Hafen. Hauptangelplatz für Küstenfische." },
+        "deepSea":    { "name": "Tiefsee",   "tag": "Hochsee · Schiff",  "body": "Weit weg vom Hafen, Schiff nötig. Größere und seltenere Fische; legendäre Arten nahe der Kraken-Zone." }
+      }
+    },
+    "mechanics": {
+      "title": "Angel-Modi",
+      "list": {
+        "activeMode":  { "title": "Aktiv-Modus (E)", "body": "Aktives Auswerfen mit der E-Taste. Reaktionsbasiert, höhere Chance auf Qualitätsfisch." },
+        "afkMode":     { "title": "AFK-Modus (T)",   "body": "Automatisches Angeln mit der T-Taste. Langsam, aber freihändig; ideal für lange Sessions." },
+        "tokens":      { "title": "Berufs-Token",    "body": "Verkauf des Fangs an den Fisherman-NPC bringt Berufs-Token." },
+        "enhancement": { "title": "Armorer-Tausch",  "body": "Token am Armorer-NPC gegen Verbesserungs-Materialien tauschen (T → Exchange)." }
+      }
+    },
+    "tokenEconomy": {
+      "title": "Token → Verbesserungs-Wirtschaft",
+      "body": "Steam-Community-Guide: 'Tausche deine gesammelten Materialien gegen Berufs-Token... geh zu einem Armorer-NPC, drücke T, Exchange, und tausche deine Token gegen Verbesserungs-Materialien.'",
+      "materialsLabel": "Bestätigte Verbesserungs-Materialien",
+      "materials": {
+        "nebulas":     "Nebulas",
+        "starScroll":  "Star Scroll",
+        "meteorSouls": "Meteor Souls",
+        "astralCloth": "Astral Cloth"
+      },
+      "source": "Quelle · Steam guide id=3533874584"
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGIE",
+    "title": "Welcher Kapitän für welchen Weg?",
+    "subtitle": "Sichere Küste für Neue, Goldspuren für Händler, PvP-Jagd für Piraten, Gilden-Skala für Kraken-Läufe.",
+    "list": {
+      "starter": {
+        "title": "🌱 Neuer Kapitän",
+        "bullets": [
+          "Erstes Schiff: Floß — 60.000-Münzen-Einstieg, reicht für Inshore-Angeln + Kurzstrecken.",
+          "Auf PvE-Kanal mit Angeln und Token-Farm starten; an den Armorer verkaufen, Verbesserungs-Mats holen.",
+          "Vor dem Sprung auf Boot/Frigatte die Holz-Wirtschaft in Maplewood lernen.",
+          "Kanalwechsel nur im Hafen — Anlegen zerstört das Paket, Reihenfolge beachten."
+        ]
+      },
+      "trader": {
+        "title": "💰 Händler",
+        "bullets": [
+          "Frigatte Händler — erster bewaffnungsfähiger Rumpf, mit Eskorte wertvolle Pakete fahren.",
+          "Auf Traystable-Abfahrten (~1.500g Auszahlung) zielen.",
+          "Paket vor dem Anlegen anderswo abgeben — Anlegen zerstört es.",
+          "Auf wertvollen Läufen Frigatten-/Kriegsschiff-Eskorte mitnehmen; nicht Pirat-Futter sein."
+        ]
+      },
+      "pirate": {
+        "title": "🏴‍☠ Pirat",
+        "bullets": [
+          "Mit Frigatte-Pirat starten; Kriegsschiff-Pirat ist Gilden-Investition.",
+          "PvP-Kanal-Handelsrouten belauern; einsame Händler-Boote / -Frigatten jagen.",
+          "4-6 Nahkampf-Crew für Enter-Aktionen.",
+          "Vor dem Hafen zuschlagen; nach dem Anlegen ist das Paket weg."
+        ]
+      },
+      "kraken": {
+        "title": "🐙 Kraken-Lauf",
+        "bullets": [
+          "Gilden-Koordination Pflicht; ein Schiff reißt ihn nicht. Frigatte/Kriegsschiff-Mix, mind. 3 Schiffe.",
+          "Crew: 1 Kapitän + 4-8 Kanoniere + 2 Support. Ohne Voice gar nicht erst versuchen.",
+          "In der Whirlpool-Phase verteilen, nach Underwater Harpunen bereithalten.",
+          "Drop-Pool ist die Hauptquelle für Naval-Set + Crafting-Materialien — wöchentlich planen."
+        ]
+      }
+    }
+  }
+}

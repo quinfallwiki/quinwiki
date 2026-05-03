@@ -1,0 +1,47 @@
+{
+  "page": {
+    "eyebrow": "SYSTEM & PERFORMANCE",
+    "title": "Run Quinfall Smoothly",
+    "description": "Verified minimum and recommended specs from the Steam store, compared side by side, plus performance tips collected from the community."
+  },
+  "hero": {
+    "kicker": "AT A GLANCE",
+    "title": "Is Your Rig Ready?",
+    "subtitle": "Quinfall runs smoothly on 55 GB of disk, DirectX 12 and a modern mid-range GPU. Check the table below against your setup."
+  },
+  "highlights": {
+    "storage": "Disk Space",
+    "dx":      "DirectX",
+    "os":      "Operating System",
+    "engine":  "Game Engine"
+  },
+  "specs": {
+    "kicker":      "OFFICIAL REQUIREMENTS",
+    "title":       "Minimum & Recommended",
+    "subtitle":    "Pulled directly from the Steam store page",
+    "minHeader":   "MINIMUM",
+    "recHeader":   "RECOMMENDED",
+    "rows": {
+      "os":      "Operating System",
+      "cpu":     "Processor",
+      "ram":     "Memory",
+      "gpu":     "Graphics Card",
+      "dx":      "DirectX",
+      "storage": "Storage",
+      "network": "Network"
+    }
+  },
+  "tips": {
+    "kicker":   "PERFORMANCE TIPS",
+    "title":    "6 Ways to Lift Your FPS",
+    "subtitle": "Settings advice gathered from community testing",
+    "list": {
+      "ssd":        { "name": "Install on SSD",          "body": "Put the 55 GB install on an SSD rather than an HDD — map load times drop 3–5× and world traversal stutters shrink." },
+      "shadows":    { "name": "Drop Shadows",            "body": "Ultra → High has minimal visual impact and gains 15–20% FPS. Medium is the sweet spot for mid-range GPUs." },
+      "foliage":    { "name": "Foliage Density",         "body": "Open-world vegetation is the most expensive setting. Setting density to Medium gives a clear FPS boost in forested areas." },
+      "resolution": { "name": "Resolution Scale",        "body": "Instead of native 1080p/1440p, run at 85% scale — sharpness barely suffers and GPU load falls by ~15%." },
+      "vram":       { "name": "VRAM Management",         "body": "6 GB+ GPU is recommended; keep textures at High while avoiding Discord/Chrome in the background." },
+      "background": { "name": "Background Apps",         "body": "Browser tabs, Riot Vanguard, OBS and friends steal RAM and GPU. Keep Game Mode on while launching." }
+    }
+  }
+}

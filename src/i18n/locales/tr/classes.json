@@ -1,0 +1,478 @@
+{
+  "page": {
+    "eyebrow": "BUILD VE SINIFLAR",
+    "title": "Silahını Seç, Yolunu Çiz",
+    "description": "Quinfall'da klasik anlamda sınıf yok — kuşandığın silah, sınıfını belirler. On farklı silah, on farklı oyun tarzı. Aynı anda iki silah taşıyabilir, ikinci silahla tamamen farklı bir oyuncu olabilirsin."
+  },
+  "hero": {
+    "featured": "Vitrindeki Silah",
+    "viewClass": "Detayları Gör",
+    "next": "Sonraki Silah"
+  },
+  "grid": {
+    "heading": "TÜM SİLAHLAR",
+    "title": "On Silah, On Karakter",
+    "subtitle": "Her silahın kendi yetenek ağacı, kendi 100 seviyelik ilerleme yolu ve kendi rolü var. Karakterini birden çok silahla beslemek serbest."
+  },
+  "combos": {
+    "heading": "KOMBİNASYONLAR",
+    "title": "İki Silah, Tek Build",
+    "subtitle": "Quinfall'da ikincil silahını da kuşanırsın. İşte topluluğun en çok tercih ettiği eşleşmeler — her biri farklı bir arketip yaratıyor.",
+    "roles": {
+      "tank": "Tank",
+      "melee": "Yakın Dövüş",
+      "ranged": "Menzilli",
+      "magic": "Büyü",
+      "healer": "Şifa",
+      "hybrid": "Hibrit"
+    },
+    "list": {
+      "paladin": {
+        "name": "Paladin",
+        "description": "Ön cephede dur, kalkanı tut, gerektiğinde grubuna şifa ver. PvE raid'lerinin değişmez ekranı."
+      },
+      "crusader": {
+        "name": "Haçlı",
+        "description": "Tankla başla, ihtiyaç olunca sırta iki elli kılıç at; çift form arasında geçiş yapan klasik bruiser."
+      },
+      "berserker": {
+        "name": "Berserk",
+        "description": "Ne kalkan ne menzil — sadece hasar. İki elli kılıçla aç, savaş çekiciyle bitir; şifacı yoksa sen şifacı sayılırsın."
+      },
+      "reaver": {
+        "name": "Çapulcu",
+        "description": "Çift balta ile içeri dal, çekilirken tatar yayıyla nokta hasar. Hızlı çıkışlarda büyük etki."
+      },
+      "assassin": {
+        "name": "Suikastçı",
+        "description": "Çift hançer + yay. Sırta yapışan, ölmediyse kaçabilen, tek hata kaldıran klasik PvP avcısı."
+      },
+      "dragoon": {
+        "name": "Süvari",
+        "description": "Mızrakla mesafeyi tut, yayla cezayı uzaktan kes. Orta menzilde rahatsız edici bir bask sağlıyor."
+      },
+      "ranger": {
+        "name": "Avcı",
+        "description": "Yayla taciz et, biri yaklaşırsa hançeri çek. Solo PvE ve gank kaçınmasında ekol."
+      },
+      "sniper": {
+        "name": "Keskin Nişancı",
+        "description": "Tatar yayıyla kritik avına çık, gerekirse savaş çekiciyle yaklaşanları sustur."
+      },
+      "battlemage": {
+        "name": "Savaş Büyücüsü",
+        "description": "Asayla AoE bas, lifestaff'a geçip kendine ve takıma şifa ver. Özgüvenli mage."
+      },
+      "cleric": {
+        "name": "Rahip",
+        "description": "Lifestaff ana, asa yedek. Şifaya odaklanır ama gerektiğinde lay-down yapar."
+      },
+      "templar": {
+        "name": "Tapınakçı",
+        "description": "Şifacı + tank sentezi. Lifestaff'la grubu ayakta tut, kalkanla ön sırada hayatta kal."
+      },
+      "spellblade": {
+        "name": "Büyü Bıçağı",
+        "description": "Çift hançerle yapış, bir kombo bitir, asayla bitiriş büyüsü patlat. Yüksek tavan, yüksek skill."
+      }
+    }
+  },
+  "leveling": {
+    "heading": "İLERLEME SİSTEMİ",
+    "title": "Her Silah 100 Seviyeye Kadar Kasılır",
+    "subtitle": "Hangi silahı kuşanırsan o silahın deneyimi birikir. Karakterin ana seviyesinden bağımsız olarak silah seviyen 1'den {{max}}'e kadar ayrı yükselir; her milestone yeni yetenek, pasif veya geliştirme açar.",
+    "steps": {
+      "1": {
+        "kicker": "ADIM 1",
+        "title": "Silahı Kuşan",
+        "body": "Hangi silahı tutuyorsan onun XP'si artar. PvE'de mob, PvP'de oyuncu, zindanda boss — her vuruş silah seviyene yazılır."
+      },
+      "2": {
+        "kicker": "ADIM 2",
+        "title": "Yetenekleri Aç",
+        "body": "10, 25, 50, 75 seviyeleri silah ağacında yeni dallar açar. Pasifleri seç, aktif becerileri eşle, kendi build'ini şekillendir."
+      },
+      "3": {
+        "kicker": "ADIM 3",
+        "title": "100'e Ulaş",
+        "body": "Maksimum seviyede silahın özünü işleyen efsanevi pasifler ve özel etkiler açılır. Bir silahı bitirip ikinciye geçmek serbesttir."
+      }
+    }
+  },
+  "filter": {
+    "all": "Tümü",
+    "tank": "Tank",
+    "melee": "Yakın Dövüş",
+    "ranged": "Menzilli",
+    "magic": "Büyü",
+    "healer": "Şifacı"
+  },
+  "labels": {
+    "role": "Rol",
+    "range": "Menzil",
+    "difficulty": "Zorluk"
+  },
+  "ranges": {
+    "melee": "Yakın",
+    "mid": "Orta",
+    "ranged": "Uzak"
+  },
+  "speeds": {
+    "slow": "Yavaş Ritim",
+    "medium": "Orta Ritim",
+    "fast": "Hızlı Ritim"
+  },
+  "damage": {
+    "physical": "Fiziksel",
+    "magic": "Büyü",
+    "mixed": "Karma"
+  },
+  "stats": {
+    "damage": "Hasar",
+    "defense": "Savunma",
+    "mobility": "Hareket",
+    "range": "Menzil",
+    "support": "Destek",
+    "complexity": "Karmaşıklık"
+  },
+  "tags": {
+    "pve": "PvE",
+    "pvp": "PvP",
+    "solo": "Solo",
+    "group": "Grup",
+    "raid": "Raid",
+    "arena": "Arena",
+    "siege": "Kuşatma"
+  },
+  "actions": {
+    "viewDetail": "Sınıfı Aç"
+  },
+  "milestones": {
+    "headings": {
+      "10": "Sv 10",
+      "25": "Sv 25",
+      "50": "Sv 50",
+      "75": "Sv 75",
+      "100": "Sv 100"
+    }
+  },
+  "detail": {
+    "backToList": "Sınıflara Dön",
+    "statsAria": "Sınıf istatistikleri radar grafiği",
+    "maxLevel": "Max Seviye",
+    "bestForLabel": "Öne Çıkan",
+    "strengthsWeaknesses": "Güçlü ve Zayıf Yönler",
+    "strengths": "Güçlü Yönler",
+    "weaknesses": "Zayıf Yönler",
+    "signatureSkills": "İmza Yetenekler",
+    "signatureSkillsSub": "Bu silahın oyun tarzını tanımlayan dört temel beceri.",
+    "levelJourney": "100 Seviyelik Yol",
+    "levelJourneySub": "1'den {{max}}'e — her milestone neyi açıyor.",
+    "recommendedCombos": "Önerilen Kombinasyonlar",
+    "recommendedCombosSub": "Bu silahla en sık eşleşen ikincil silahlar ve oluşan arketipler.",
+    "alsoTry": "Bunu Sevdiysen",
+    "alsoTrySub": "Benzer ritimde bu silahları da deneyebilirsin."
+  },
+  "weapons": {
+    "swordShield": {
+      "name": "Kalkanlı Kılıç",
+      "tagline": "Grubun ön cephesi, raid'in değişmezi",
+      "summary": "Düşmanın dikkatini üstüne çek, sırtını arkadaşlarına dön. Hasarın azdır ama dayanıklılığın efsane; PvE zindanlarında ve PvP grup savaşlarında en aranan rol.",
+      "lore": "Quinfall'un ilk eğitim alanlarında demirhanenin önünde durup kalkan vuruşunu öğrenirsin. Çoğu oyuncu için en güvenilir başlangıç.",
+      "strengths": [
+        "Yüksek can ve savunma — uzun süre ayakta kalır.",
+        "Kalkan blok mekaniğiyle gelen vuruşların büyük kısmını emer.",
+        "Provoke yetenekleri ile aggro yönetimi rakipsiz.",
+        "Grup yardımıyla en korkutucu boss'ları bile sürükleyebilir."
+      ],
+      "weaknesses": [
+        "Tek başına hasar tablosunda ön sırada görünmez.",
+        "Yakın dövüşe sıkışır; menzilli rakiplere yetişmesi zaman alır.",
+        "Kalkan kırıldığında veya yanlış zamanlanan parry sonrası açıklık verir."
+      ],
+      "skills": [
+        { "name": "Kalkan Vuruşu", "description": "Kısa menzilli, sersemleten saldırı. Düşman dizisini kırmak için." },
+        { "name": "Provokasyon", "description": "Çevredeki düşmanların aggro'sunu üstüne çeker; tank temel becerisi." },
+        { "name": "Kale Duruşu", "description": "Birkaç saniye boyunca alınan hasarı ciddi oranda düşürür." },
+        { "name": "Kalkan Yarı", "description": "Boss önünde kısa süreli ekip için savunma kubbesi." }
+      ],
+      "milestones": {
+        "10": "Temel kalkan blok ve provoke açılır.",
+        "25": "İkincil pasif: blok başına stamina geri kazanımı.",
+        "50": "Kale Duruşu becerisi kazanılır; uzun süreli savunma.",
+        "75": "Grup içine yayılan koruma aurası açılır.",
+        "100": "Kalkan Yarı efsane pasifi — boss savaşlarında ekip için savunma kubbesi."
+      }
+    },
+    "twoHandedSword": {
+      "name": "Çift Elli Kılıç",
+      "tagline": "Geniş alan, ağır darbe",
+      "summary": "Animasyonlar yavaştır, ama her sallayışta etrafındaki kalabalığı biçer. AoE kasmak ve kalabalık PvP için hazır bir silah.",
+      "lore": "Köy meydanında devasa bir kılıçla çift elle salladığını gören NPC'ler şaşkınlıkla geri çekilir; çift elli kılıç güç gösterisidir.",
+      "strengths": [
+        "Geniş alana yayılan vuruşlar — kalabalıkta katlama hasarı.",
+        "Hasar başına maliyet düşük; PvE farm'ında verimli.",
+        "Tek-vuruş ağır combo'larla rakibi kapatır.",
+        "Animasyon süreleriyle gelen bekleme telafisi yüksek."
+      ],
+      "weaknesses": [
+        "Tek hedefte yay/asayla yarışamaz.",
+        "Yavaş animasyon, oyuncunun tahmin edilebilirliğini artırır.",
+        "Hareket halindeyken hasar veremez; pozisyon hatası affetmez."
+      ],
+      "skills": [
+        { "name": "Geniş Sallayış", "description": "Yarım daire şeklinde alan hasarı; en az iki düşmanı kapsar." },
+        { "name": "Yere Çakma", "description": "Sıçra ve yere indir; iniş anında alan sersemletme." },
+        { "name": "Kalkan Kırıcı", "description": "Hedefin savunma yüzdesini düşüren güçlü tek-vuruş." },
+        { "name": "Kuvvet Marşı", "description": "Kısa süreli hasar artışı; AoE açılışı için ideal." }
+      ],
+      "milestones": {
+        "10": "Geniş Sallayış aktif olur.",
+        "25": "Pasif: AoE vuruşlardan stamina geri dönüşü.",
+        "50": "Yere Çakma açılır; sıçrayışla giriş kapısı.",
+        "75": "Kalkan Kırıcı — yüksek tier hedeflerde geçit açar.",
+        "100": "Kuvvet Marşı 100'lük efsane pasifi: takım için kısa süreli %15 hasar buff'ı."
+      }
+    },
+    "spear": {
+      "name": "Mızrak",
+      "tagline": "Mesafeyi kontrol et, herkesi rahatsız et",
+      "summary": "Hem yakına hem orta menzile dokunabilen dengeli bir silah. Doğru ellerde son derece güçlü; öğrenme eğrisi dik.",
+      "lore": "Profesyonel arenacıların ilk seçimi; çünkü mızrak hem savunma hem hücum hem de uzaklık tutma demek.",
+      "strengths": [
+        "Orta menzilden bask sağlar; rakibi konfor alanından çıkarır.",
+        "Stagger ve knock-back becerileriyle CC zinciri kurabilir.",
+        "Yüksek isabet açısı — sıyırma vuruşları bile hasar yazar.",
+        "PvP'de pozisyonlama avantajı yaratır."
+      ],
+      "weaknesses": [
+        "Maksimum DPS için detaylı zamanlama ister.",
+        "Kapanma anlarında kısa pencere açıkları verir.",
+        "Tek başına AoE'si zayıf; çoklu hedefte zorlanır."
+      ],
+      "skills": [
+        { "name": "Mızrak Saplama", "description": "Hızlı, mesafe açma vuruşu; düşmanı 1-2 metre geri iter." },
+        { "name": "Sıçrama Saplaması", "description": "Hedefe atlayıp anlık hasar; gap-closer." },
+        { "name": "Vortex", "description": "Etrafına dönerek alan hasarı + stagger." },
+        { "name": "Bayrak Dik", "description": "Yere mızrak saplayarak alan buff'ı yaratır." }
+      ],
+      "milestones": {
+        "10": "Mızrak Saplama ve temel poke kombo.",
+        "25": "Pasif: kritik isabette mesafe avantajı bonusu.",
+        "50": "Sıçrama Saplaması açılır; gap-close ve disengage çift yönlü.",
+        "75": "Vortex — kalabalıkta panik yaratan AoE.",
+        "100": "Bayrak Dik 100 pasifi: ekip etrafında %10 menzil bonusu."
+      }
+    },
+    "dualAxes": {
+      "name": "Çift Balta",
+      "tagline": "Hızlı, kanlı, dengesiz",
+      "summary": "Saniyede onlarca darbe indirir, düşmanı sersemletir. Savunması zayıftır; vur-kaç tarzında oynamayı sevenlere göre.",
+      "lore": "Kuzey kabilelerinin imzası; iki balta tutmak Quinfall'da \"hesap soruyorum\" demektir.",
+      "strengths": [
+        "Çok yüksek vuruş sıklığı — DoT etkilerle rakibi eritir.",
+        "Frenzy mekaniği düşman düştükçe daha güçlü olur.",
+        "Hareket halinde hasar verebilir; pozisyon esnekliği.",
+        "Ucuz ve hızlı silah seçeneği — başlangıç düz."
+      ],
+      "weaknesses": [
+        "Savunması zayıf; tek hata zincirleme ölüm.",
+        "Boss savaşlarında stagger eksikliği hisseder.",
+        "Kritik dışında hasar tavanı ortalama."
+      ],
+      "skills": [
+        { "name": "Çift Sallayış", "description": "Hızlı X-pattern saldırı; düşmana çift kanama uygular." },
+        { "name": "Kan Çağrısı", "description": "Kısa süreli vuruş hızı bonusu; düşman düştükçe yenilenir." },
+        { "name": "Atılım", "description": "Öne fırla, geçtiğin hedeflere kanama bırak." },
+        { "name": "Berserk Hücum", "description": "Birkaç saniye süreyle hasar artışı, savunma azalışı." }
+      ],
+      "milestones": {
+        "10": "Çift Sallayış aktif.",
+        "25": "Pasif: kanayan düşmandan can sızdırma.",
+        "50": "Kan Çağrısı; düşen düşman başına buff yenilenir.",
+        "75": "Atılım — manevra ve hasar birleşik.",
+        "100": "Berserk Hücum efsane formu: %30 hasar artışı, %15 savunma azalması."
+      }
+    },
+    "dualDaggers": {
+      "name": "Çift Hançer",
+      "tagline": "Gölgeden çık, sırta vur",
+      "summary": "En hızlı sınıflardan biri. Kritik avına çıkarsın, ama tek isabet alırsan yere düşersin. PvP'de canavar.",
+      "lore": "Hırsızların değil, suikastçıların silahı. Quinfall arenalarında en korkulan kit'lerden.",
+      "strengths": [
+        "Çok yüksek kritik şansı ve hareket hızı.",
+        "Sırt vuruş bonusu; doğru pozisyonda x2 hasar.",
+        "Disengage becerileriyle ölmeden çıkar.",
+        "Solo PvE'de farm hızı şampiyon."
+      ],
+      "weaknesses": [
+        "Çok düşük savunma — tek root ya da stun bitiriyor.",
+        "AoE'si yetersiz; raid'de DPS sıralamasında geride.",
+        "Tank rakiplerine karşı hasar tavanı sınırlı."
+      ],
+      "skills": [
+        { "name": "Sırt Saplama", "description": "Sırttan vurulduğunda %200 hasar; klasik suikast açılışı." },
+        { "name": "Gölge Adımı", "description": "Kısa mesafe ışınlanma; kaçış ya da gap-closer." },
+        { "name": "Zehir Bıçağı", "description": "Vuruşa zehir uygular; tick hasarı 6 saniye sürer." },
+        { "name": "Süratli Reflex", "description": "Birkaç saniye süreyle gelen hasarın bir kısmını yansıtır." }
+      ],
+      "milestones": {
+        "10": "Sırt Saplama açılır.",
+        "25": "Pasif: kritik vuruş başına stamina geri dönüşü.",
+        "50": "Gölge Adımı — kısa menzilli teleport.",
+        "75": "Zehir Bıçağı; hibrit hasar profili.",
+        "100": "Süratli Reflex 100 formu: %40 yansıtma, 4 sn süre."
+      }
+    },
+    "warHammer": {
+      "name": "Savaş Çekici",
+      "tagline": "Tek vuruşta dize getir",
+      "summary": "Yavaş ama korkutucu. Bir sallayışın bir kaldırma yeteneğin var; isabet ettiğinde hasar tablosunda yıldız sensin.",
+      "lore": "Kuşatma savaşlarında kapı kıran adamların silahı; dümeni döndüremezsen seni bir nallar.",
+      "strengths": [
+        "Tek-vuruş hasarı sınıfın en yükseklerinden.",
+        "Stagger ve knockdown ile düşmanı yere serer.",
+        "Zırh kırma pasifi — yüksek savunmalı rakiplere etkili.",
+        "Kuşatmada kapı/duvar kırma bonusları."
+      ],
+      "weaknesses": [
+        "Yavaş; whiff yaptığında ciddi açıklık verir.",
+        "Hareket hızı düşük; menzilli rakiplere yetişmesi zor.",
+        "DPS toplamı sustained olarak ortalama."
+      ],
+      "skills": [
+        { "name": "Yere Çakma", "description": "Yüksek hasar + alan stun. Kalabalıkta kapı açar." },
+        { "name": "Zırh Çatlatma", "description": "Hedefin savunma yüzdesini birkaç saniye düşürür." },
+        { "name": "Çekiç Bombası", "description": "Çekici fırlat; geri döndüğünde patlar." },
+        { "name": "Boyunduruk", "description": "Tek hedefi yere serer ve kısa süreli durdurur." }
+      ],
+      "milestones": {
+        "10": "Yere Çakma açılır.",
+        "25": "Pasif: stagger sonrası hedefe ekstra %10 hasar.",
+        "50": "Zırh Çatlatma; tank kırıcı kombolar.",
+        "75": "Çekiç Bombası — uzaktan etki.",
+        "100": "Boyunduruk efsanesi: 1.5 sn knock-down."
+      }
+    },
+    "bow": {
+      "name": "Yay",
+      "tagline": "Uzaktan ölüm, sürekli baskı",
+      "summary": "Hareket halinde, açıdan bağımsız hasar. Yakına gelirse zorlanır; pozisyon hatası kabul etmez.",
+      "lore": "Quinfall ormanlarında bir okçunun avladığı ses, kervan saldırılarının habercisi olarak bilinir.",
+      "strengths": [
+        "Uzun menzilden sürekli hasar; kontrol bende oyunu.",
+        "Hareket halinde atış; kiting ekol.",
+        "Tek hedefte yüksek sustained DPS.",
+        "PvE'de boss-fight pozisyonlamasında esnek."
+      ],
+      "weaknesses": [
+        "Yakına gelen rakiplerde DPS düşer.",
+        "Cüppe gibi savunma — ön cephede hayatta kalmaz.",
+        "Hedef takibi gerektirir; pozisyon hatası ölümcül."
+      ],
+      "skills": [
+        { "name": "Hızlı Atış", "description": "Kısa cooldown'lu çift ok; sustained baskı." },
+        { "name": "Yağmur Atışı", "description": "Geniş alan ok yağmuru; AoE kontrolü." },
+        { "name": "İz Sürücü Ok", "description": "Hedefi işaretle; takıma ek hasar bonusu sağla." },
+        { "name": "Geri Kayma", "description": "Geri sıçra ve aynı anda ok at; mesafe yönetimi." }
+      ],
+      "milestones": {
+        "10": "Hızlı Atış aktif.",
+        "25": "Pasif: hareket halindeyken hasar cezası kalkar.",
+        "50": "Yağmur Atışı — saha kontrolü.",
+        "75": "İz Sürücü Ok; takım hasar bonusu.",
+        "100": "Geri Kayma efsane formu: 2 sn hasar bağışıklığı."
+      }
+    },
+    "crossbow": {
+      "name": "Tatar Yayı",
+      "tagline": "Kritik avcısı, boss yıkıcı",
+      "summary": "Atış hızı düşük, vuruş katsayısı yüksek. Boss savaşlarında tek atışla farkı kapatabilir.",
+      "lore": "Kale duvarlarından nişancılar tarafından kullanılır; pencerenin ardından atılan tek mermi savaşı kapatabilir.",
+      "strengths": [
+        "Olağanüstü kritik vuruş çarpanı.",
+        "Tek atışta kapat tipinde alpha hasar.",
+        "Pasif pasifle boss-vuruş bonusu yüksek.",
+        "Kuşatmalarda mancınık benzeri menzil kullanımı."
+      ],
+      "weaknesses": [
+        "Reload süresi yüksek; sürekli baskı veremez.",
+        "Hareket halinde atış zor — pozisyona kilitli.",
+        "PvP'de hızlı rakiplere yetişmez."
+      ],
+      "skills": [
+        { "name": "Ağır Cıvata", "description": "Yüksek hasarlı tek atış; kritikte 3 katlanır." },
+        { "name": "Tuzak Cıvatası", "description": "Yere atış; bölgeye giren düşmanı yavaşlatır." },
+        { "name": "Çift Yayım", "description": "Birkaç saniye süreyle atış hızı %50 artar." },
+        { "name": "Zincir Atış", "description": "İlk hedeften en yakın iki düşmana sıçrayan ok." }
+      ],
+      "milestones": {
+        "10": "Ağır Cıvata aktif.",
+        "25": "Pasif: kritik vuruşta reload süresi yarıya iner.",
+        "50": "Tuzak Cıvatası; saha kontrolü.",
+        "75": "Çift Yayım — burst pencere.",
+        "100": "Zincir Atış efsanesi: 4 hedefe kadar sıçrama."
+      }
+    },
+    "staff": {
+      "name": "Asa",
+      "tagline": "Elementi yönet, sahayı kontrol et",
+      "summary": "PvE'de geniş alan büyüleriyle parlak bir DPS. Cüppe giyer, savunması incedir; mesafeyi koruman gerek.",
+      "lore": "Vawraek Akademisi mezunlarının imza silahı. Asa tutan oyuncu, savaşı kelimelerle değil ışıkla yapar.",
+      "strengths": [
+        "Çok güçlü AoE büyüleri; raid trash temizleme şampiyonu.",
+        "Element zinciri kombolarla ekstra hasar.",
+        "Kontrol becerileri — root, slow, freeze.",
+        "Mana yönetimiyle uzun savaşlarda dengeli."
+      ],
+      "weaknesses": [
+        "Çok düşük fiziksel savunma.",
+        "Casting sırasında hareket cezası yüksek.",
+        "Kapanma sırasında savunmasız."
+      ],
+      "skills": [
+        { "name": "Ateş Topu", "description": "Geniş alan patlama; ısı tabakası bırakır." },
+        { "name": "Buz Zinciri", "description": "Hedefi ve etrafını kısa süreli yavaşlatır/kilitler." },
+        { "name": "Yıldırım Kavisi", "description": "Birden çok hedefe sıçrayan elektrik hasarı." },
+        { "name": "Element Çağrısı", "description": "Birkaç saniye boyunca büyü hasarı bonusu kazanırsın." }
+      ],
+      "milestones": {
+        "10": "Ateş Topu aktif.",
+        "25": "Pasif: AoE büyülerden mana iadesi.",
+        "50": "Buz Zinciri; CC çoklu hedef.",
+        "75": "Yıldırım Kavisi — sustained AoE.",
+        "100": "Element Çağrısı 100: 8 sn süreyle %25 büyü hasarı bonusu."
+      }
+    },
+    "lifeStaff": {
+      "name": "Hayat Asası",
+      "tagline": "Grubu hayatta tut, oyunu sen yönet",
+      "summary": "Şifa ve destek büyüleri. Tek başına zayıf, grup içinde kraliçe; iyi bir lifestaff oyuncusu raid'in belkemiğidir.",
+      "lore": "Lifestaff kuşanan oyuncular, savaşın kaderini kelimelerle değiştirir. Kötü bir healer, kötü bir savaş demektir.",
+      "strengths": [
+        "Tek hedef ve grup şifaları arasında esnek geçiş.",
+        "Pasif şifa aurasıyla sürekli grup desteği.",
+        "Diriltme ve buff becerileri — savaşı çevirir.",
+        "Düzgün yönetildiğinde sınırsız sustain."
+      ],
+      "weaknesses": [
+        "Solo hasar düşük; tek başına PvE zorlanır.",
+        "Düşmanlar tarafından öncelikli hedef.",
+        "Mana yönetimi hatası bir grubu çökertir."
+      ],
+      "skills": [
+        { "name": "Şifa Vuruşu", "description": "Tek hedefe yüksek miktarda anlık şifa." },
+        { "name": "Şifa Aurası", "description": "Belirli mesafedeki ekip üyelerine sürekli şifa." },
+        { "name": "Aydınlık Çağrısı", "description": "Yere bir alan kur; içinde duranların şifası iki katına çıkar." },
+        { "name": "Ölümden Geri Çağır", "description": "Yakın zamanda düşen takım üyesini diriltir." }
+      ],
+      "milestones": {
+        "10": "Şifa Vuruşu aktif.",
+        "25": "Pasif: kritik şifada %20 ek şifa.",
+        "50": "Şifa Aurası; grup sürekli destek.",
+        "75": "Aydınlık Çağrısı — saha kontrolü ve sustain.",
+        "100": "Ölümden Geri Çağır 100 formu: cooldown yarıya iner."
+      }
+    }
+  }
+}

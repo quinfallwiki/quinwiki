@@ -1,0 +1,86 @@
+{
+  "page": {
+    "eyebrow": "LEVEL-GUIDE",
+    "title": "Von 1 auf 100 in Quinfall",
+    "description": "Quests reichen bis Stufe 50 — danach lebst du von Brett-Aufträgen und Gruppenfarmen. Die richtige Aktivität, Zone und der richtige Multiplikator für jede Stufenspanne auf einer Seite."
+  },
+  "hero": {
+    "kicker": "GRUNDLAGEN",
+    "title": "Charakter-Cap 100, Quests bis 50",
+    "subtitle": "Die maximale Charakterstufe in Quinfall ist 100. Quests gehen bei Stufe 50 zu Ende; danach bilden Brett-Aufträge (×2 XP) und gruppenbasierte Elitejagden den Kern der Progression.",
+    "stats": {
+      "maxLevel":     "Max. Charakterstufe",
+      "questCap":     "Quest-Endstufe",
+      "huntingZones": "Jagdgebiete (1–100)",
+      "endgameZones": "Endgame-Gebiete (Stufe 100)"
+    }
+  },
+  "phases": {
+    "kicker": "5 PHASEN",
+    "title": "Die Stufenreise",
+    "subtitle": "Jede Phase ist ein anderer Spielloop — Phase und Aktivität müssen passen",
+    "list": {
+      "tutorial":  { "name": "Tutorial & Start",   "headline": "Hauptstory + erste Waffe wählen",  "body": "Räume die Eröffnungs-Questkette in der Startregion ab. Probiere beide Waffenslots und lege deine Familie fest. Frühe Ausrüstung kommt aus Questbelohnungen — Shop und Handwerk sind später dran." },
+      "questCore": { "name": "Kern-Quests",        "headline": "Nebenquests halten den Balken am Laufen", "body": "Story + Nebenquests leveln schnell. Wähle einen ersten Beruf (Sammeln oder Bergbau) und farme nebenbei. Deine ersten Dungeon-Runs landen in dieser Phase." },
+      "questLate": { "name": "Späte Quests",       "headline": "Regionswechsel und Dungeon-Fokus", "body": "Neue Regionen öffnen sich, Quests verweisen auf Elite-Gruppenziele. Hier rüstest du erstmals ernsthaft auf — sammle Verstärkungsmaterial von Champion-Gegnern." },
+      "townBoard": { "name": "Brett-Aufträge",     "headline": "×2 XP-Loop — täglich laufen",      "body": "Quests sind durch, das Brett ist offen. Tägliche Wiederholungen am Stadtbrett geben ×2 XP. Gruppe ist Pflicht: 60er-Zonen mit einer Dreiergruppe abräumen, Brett parallel zurücksetzen." },
+      "endgame":   { "name": "Endgame",            "headline": "Elites & Weltbosse",                "body": "Ab 75 brauchst du eine volle Gruppe. Die 75er und 100er Zonen sind das Herz des Endgame-Loops: 26 verschiedene Lvl-100-Felder, Weltboss-Rotationen, offene Dungeons und Set-Farming." }
+    }
+  },
+  "xpSources": {
+    "kicker": "XP-QUELLEN",
+    "title": "Woher kommt XP?",
+    "subtitle": "Jede Aktivität hat ihr eigenes Fenster und ihren Multiplikator",
+    "list": {
+      "storyQuest":   { "name": "Story-Quest",   "body": "Die Hauptkette ist die stabilste XP-Quelle von 1 bis 50. Das Rückgrat des Levelns." },
+      "sideQuest":    { "name": "Nebenquest",    "body": "Regionale Nebenquests füllen Lücken und liefern Gold und Ausrüstung." },
+      "townBoard":    { "name": "Brett-Auftrag", "body": "Wiederholbare Tagesaufträge in der Stadt. Hauptquelle ab 50 — ×2 aktiv." },
+      "mobKill":      { "name": "Mob-Kill",      "body": "Solo-XP außerhalb von Quests. Solider Filler unterwegs zwischen Hubs." },
+      "partyKill":    { "name": "Gruppen-Kill",  "body": "Elites kann man nicht solo töten. Gruppe ist ab 50 Pflicht; pro Spieler +50% XP in der Gruppe." },
+      "dungeonClear": { "name": "Dungeon-Run",   "body": "Ein Komplett-Run entspricht etwa einer Stunde Solo-Grind. Ab 25 täglich laufen." },
+      "worldBoss":    { "name": "Weltboss",      "body": "Tägliche Spawn-Rotation. Hohe Teilnahme-XP und große Drops. Ideal ab 60+." },
+      "profession":   { "name": "Berufs-XP",     "body": "Jeder der 13 Berufe hat seinen eigenen Balken — unabhängig von der Charakterstufe, aber selbst gefertigte Ausrüstung beschleunigt dich." }
+    }
+  },
+  "zones": {
+    "kicker": "JAGDGEBIETE",
+    "title": "Wo jagst du auf welcher Stufe?",
+    "subtitle": "Alle 54 Zonen mit ihren echten In-Game-Namen, Gruppenpflicht und Stufenband",
+    "level":      "Stufe",
+    "zones":      "Zonen",
+    "partySolo":  "Solo",
+    "partySmall": "Kleine Gruppe",
+    "partyFull":  "Volle Gruppe",
+    "partyFlag":  "Gruppe"
+  },
+  "mastery": {
+    "kicker": "MEISTERSCHAFTS-SYSTEME",
+    "title": "Charakter + Waffe + Beruf",
+    "subtitle": "Drei unabhängige Fortschrittsbalken — alle laufen parallel",
+    "weapon": {
+      "name": "Waffenmeisterschaft",
+      "body": "Jede Waffenfamilie hat eigenen Skilltree und Meisterschaftsstufe. Treffer leveln die Meisterschaft. Zwei Waffen ausrüsten und beide gleichzeitig speisen ist möglich."
+    },
+    "profession": {
+      "name": "Berufsstufe",
+      "body": "13 Berufe: Bergbau, Sammeln, Angeln, Jagen, Holzfällen, Schmieden, Schneidern, Alchemie, Kochen, Tischlerei, Juwelier, Mechanik, Landwirtschaft. Alle unabhängig vom Charakter-Level."
+    },
+    "character": {
+      "name": "Charakterstufe",
+      "body": "Max 100. Statpunkte, LP, MP, Skill-Slots und das Ausrüstungs-Gating hängen an diesem Balken."
+    }
+  },
+  "mistakes": {
+    "kicker": "TYPISCHE FEHLER",
+    "title": "6 Fallen, die du vermeiden solltest",
+    "subtitle": "Klassische Level-Fallen aus Community-Guides",
+    "list": {
+      "soloPast50":         { "name": "Nach 50 alleine bleiben",        "body": "Sobald die Quests aus sind, stagniert die Solo-XP-Kurve. Schließ dich früh einer Gilde oder Gruppe an." },
+      "ignoringTownBoard":  { "name": "Brett-Aufträge ignorieren",      "body": "Tägliche Wiederholungen geben ×2 XP — schon 30 Minuten am Tag machen viel aus." },
+      "wrongWeaponMastery": { "name": "Mit falscher Waffe leveln",      "body": "Wer mit einer Nicht-Mainwaffe levelt, hat im Endgame eine schwache Meisterschaft. Mainwaffe früh festlegen." },
+      "noProfessions":      { "name": "Berufe überspringen",            "body": "Ohne 1-2 Berufe bis Stufe 20 gibt es keine eigene Ausrüstung — du fällst in der Wirtschaft zurück." },
+      "overgearing":        { "name": "Übergearing-Falle",              "body": "Lvl-50-Ausrüstung mit Lvl 30 jagen frisst Gold und bremst dich. Bleib in deinem Stufenband." },
+      "skipDungeons":       { "name": "Dungeons überspringen",          "body": "Dungeon-Belohnungen liefern Tages-XP-Kontingente und seltene Teile. Der stufengerechte Dungeon gehört in den Tagesplan." }
+    }
+  }
+}

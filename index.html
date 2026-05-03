@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0e1a" />
+    <meta name="description" content="The Quinfall Wiki — sınıflar, eşyalar, zindanlar, crafting ve daha fazlası." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="apple-mobile-web-app-title" content="Quinfall Wiki" />
+    <meta name="application-name" content="The Quinfall Wiki" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The Quinfall Wiki</title>
+
+    <!-- Site-wide structured data: WebSite (with sitelinks search) + VideoGame -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://quinwiki.com/#website",
+            "name": "The Quinfall Wiki",
+            "url": "https://quinwiki.com",
+            "description": "Topluluk yapımı kapsamlı Quinfall MMORPG wiki — sınıflar, eşyalar, zindanlar, denizcilik, kervan ve crafting rehberleri.",
+            "inLanguage": ["tr", "en", "de", "ru"],
+            "publisher": { "@id": "https://quinwiki.com/#publisher" },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://quinwiki.com/tr/itemler?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://quinwiki.com/#publisher",
+            "name": "The Quinfall Wiki",
+            "url": "https://quinwiki.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://quinwiki.com/logo.webp"
+            },
+            "sameAs": [
+              "https://discord.gg/JnTqyN2b",
+              "https://x.com/quinfall",
+              "https://www.youtube.com/@TheQuinfall"
+            ]
+          },
+          {
+            "@type": "VideoGame",
+            "name": "The Quinfall",
+            "description": "An MMORPG developed by Vawraek Technology — 2016 km² open world, non-target combat, sailing, caravans and massive sieges.",
+            "genre": ["MMORPG", "Fantasy", "Action RPG", "Sandbox"],
+            "gamePlatform": ["PC"],
+            "applicationCategory": "Game",
+            "publisher": { "@type": "Organization", "name": "Vawraek Technology", "url": "https://www.vawraek.com" },
+            "developer": { "@type": "Organization", "name": "Vawraek Technology", "url": "https://www.vawraek.com" },
+            "url": "https://store.steampowered.com/app/2294660/The_Quinfall/",
+            "image": "https://quinwiki.com/logo.webp"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

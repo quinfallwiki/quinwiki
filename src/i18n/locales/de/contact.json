@@ -1,0 +1,32 @@
+{
+  "page": {
+    "eyebrow": "KONTAKT",
+    "title": "Schreib uns",
+    "description": "Tritt der Community bei, erreiche das Dev-Team und verfolge Ankündigungen über alle offiziellen Kanäle — alles auf einer Seite."
+  },
+  "hero": {
+    "kicker": "DER SCHNELLSTE WEG",
+    "title": "Sehen wir uns auf Discord",
+    "subtitle": "Discord ist der schnellste Ort für Fragen, Events und Gildensuche. Innerhalb weniger Minuten triffst du Spieler aus jeder Region.",
+    "primaryCta": "Discord beitreten",
+    "secondaryCta": "Andere Kanäle ansehen"
+  },
+  "groups": {
+    "community": { "title": "Community-Kanäle",      "subtitle": "Live-Chat, Ankündigungen und Events" },
+    "platform":  { "title": "Offizielle Plattformen", "subtitle": "Spiel laden, Store besuchen, Website durchstöbern" },
+    "studio":    { "title": "Studio-Kontakte",        "subtitle": "Unternehmenskanäle von Vawraek Technology" }
+  },
+  "channels": {
+    "discord":      { "name": "Discord",       "description": "Internationale + regionale Kanäle, Gildensuche, Events, Dev-Q&A." },
+    "twitter":      { "name": "X (Twitter)",   "description": "Patchnotes, Screenshots und schnelle Ankündigungen." },
+    "youtube":      { "name": "YouTube",       "description": "Offizielle Trailer, Dev-Blogs und Event-Zusammenfassungen." },
+    "steam":        { "name": "Steam",         "description": "Spiel kaufen, Reviews lesen, Erfolge verfolgen." },
+    "officialSite": { "name": "quinfall.com",  "description": "Offizielle Website — Trailer, Spielinfos und Steam-Shortcut." },
+    "studioSite":   { "name": "vawraek.com",   "description": "Die Unternehmens-Website von Vawraek Technology." },
+    "linkedin":     { "name": "LinkedIn",      "description": "Stellenangebote, Unternehmens-Updates und Partnerschaften." },
+    "instagram":    { "name": "Instagram",     "description": "Behind-the-scenes-Fotos, Team-Posts und visuelle Teaser." }
+  },
+  "actions": {
+    "openLink": "Öffnen"
+  }
+}

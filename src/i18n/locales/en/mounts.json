@@ -1,0 +1,372 @@
+{
+  "page": {
+    "eyebrow": "MOUNTS & PETS",
+    "title": "Mounts & Pets",
+    "description": "In Quinfall the only mount you actually own is the horse — donkeys, camels and elephants are rented from the Caravan Vendor for trade runs. Pets evolve and boost profession yield."
+  },
+  "hero": {
+    "badge": "Overview",
+    "title": "4 Mounts · 12-hour Breeding · 6 Pet Classes.",
+    "body": "Lasso a wild horse from the open world (only green or blue spawn there); donkey, camel and elephant aren't tameable — you rent them from the Caravan Vendor and run a caravan. Blue × Green takes 12 hours and can roll a Purple or Orange (Legendary) foal. Pets evolve to match your profession.",
+    "stats": {
+      "mountTypes": "Mount Types",
+      "tameableSpecies": "Only Horse Tameable",
+      "petTypes": "Pet Classes"
+    }
+  },
+  "mounts": {
+    "kicker": "MOUNT SYSTEM",
+    "title": "Four Mounts, Two Ways to Get Them",
+    "subtitle": "The horse is lassoed from the wild and you own it. Donkey, camel and elephant aren't tameable — they're rented from the Caravan Vendor NPC to run caravans. Stats below distilled from in-game behaviour.",
+    "tipLabel": "TIP",
+    "source": {
+      "tameable": "Lasso to tame",
+      "caravanRental": "Caravan Vendor rental"
+    },
+    "statLabels": {
+      "speed": "Speed",
+      "capacity": "Cargo",
+      "combat": "Combat",
+      "stamina": "Stamina"
+    },
+    "list": {
+      "horse": {
+        "name": "Horse",
+        "tag": "The only personal mount · 4 rarities",
+        "body": "The only mount you can own personally in Quinfall. Spawns in the wild only in green (Common) and blue (Uncommon); purple (Rare) and orange (Legendary) come exclusively from breeding. The Spear (Lancer) deals double damage on horseback.",
+        "tip": "Buy your first lasso from the Mount Caretaker NPC. Blue horses are harder to find — worth the chase, they raise your breeding pool."
+      },
+      "donkey": {
+        "name": "Donkey",
+        "tag": "Caravan Vendor rental",
+        "body": "Not tameable, not a personal mount. Rented from the Caravan Vendor NPC and used to form caravans. Slow but high cargo capacity; the backbone of starter caravan runs.",
+        "tip": "Donkey-led starter caravans are the low-risk entry: cheap rent, simple route, steady gold."
+      },
+      "ox": {
+        "name": "Ox",
+        "tag": "Caravan Vendor rental · heavy cargo",
+        "body": "Not tameable. Rented from the Caravan Vendor. Slower than the donkey but tops the cargo chart. Steady pace and high stamina — the long-haul half-sibling of the donkey.",
+        "tip": "Pick when the package is heavy and time isn't critical: solid gold-per-hour, more crates per run than a donkey."
+      },
+      "camel": {
+        "name": "Camel",
+        "tag": "Caravan Vendor rental · desert specialist",
+        "body": "Not tameable. Rented from the Caravan Vendor. The most efficient caravan animal in the desert: immune to the heat debuff, low water consumption. Mid-tier speed but in the desert it outpaces the horse.",
+        "tip": "If you're trading toward Horus, rent a camel — same route on a donkey is a stamina/time loss."
+      },
+      "elephant": {
+        "name": "Elephant",
+        "tag": "Caravan Vendor rental · cargo + combat",
+        "body": "Not tameable. Rented from the Caravan Vendor. Tops the chart on HP and cargo; weapons, bows and spells fire from the howdah on its back. In a caravan it's both transport and a moving combat platform.",
+        "tip": "Elephant rent is the priciest option; without a guild caravan or a high-value route, donkey/camel return more gold."
+      }
+    }
+  },
+  "tame": {
+    "kicker": "HORSE TAMING",
+    "title": "Lasso a Horse, Make It Yours",
+    "subtitle": "The horse is the only personal mount in Quinfall. Buy a lasso from the Mount Caretaker NPC, find a green or blue horse in the wild, and run the alignment mini-game to claim it.",
+    "wildHorses": {
+      "title": "Wild Horse Colours",
+      "body": "Wild horses spawn at only two rarities. The higher tiers (purple, orange) come exclusively from the breeding pool.",
+      "greenLabel": "Tier 1",
+      "greenName": "Green · Common",
+      "blueLabel": "Tier 2",
+      "blueName": "Blue · Uncommon",
+      "note": "Green horses are easy to find; blue ones spawn rarely and the chase is longer. Both are worth collecting — they feed the breeding pool."
+    },
+    "npc": {
+      "title": "Mount Caretaker NPC",
+      "body": "Found in every city. Sells lassos and runs your stable. Don't confuse it with the Caravan Vendor — that's a separate NPC who rents donkeys, camels and elephants.",
+      "bullet1": "The lasso is cheap; affordable on a starter budget.",
+      "bullet2": "A captured horse goes straight into your stable; cap is 20 horses.",
+      "bullet3": "Mount Caretaker = lassos. Caravan Vendor = caravan rentals. Two different NPCs."
+    },
+    "steps": {
+      "title": "Lasso Steps",
+      "list": {
+        "buyLasso": {
+          "title": "Buy a lasso",
+          "body": "Cheap from the Mount Caretaker NPC."
+        },
+        "find": {
+          "title": "Find a wild horse",
+          "body": "Roam the open world; green is common, blue is rare. Slow down before you cross the horse's panic distance."
+        },
+        "throw": {
+          "title": "Throw the lasso",
+          "body": "Get close enough, throw the lasso; on hit the mini-game starts."
+        },
+        "minigame": {
+          "title": "Moving-arrow mini-game",
+          "body": "Line up the moving arrow inside the target box. Right alignment tires the horse and it surrenders."
+        },
+        "success": {
+          "title": "Capture complete",
+          "body": "The horse goes straight into your stable, not your inventory. Summon it from the Mount Caretaker."
+        },
+        "stable": {
+          "title": "Stable management",
+          "body": "Stable cap is 20 horses. To grow the breeding line, clear out older / lower-quality horses."
+        }
+      }
+    }
+  },
+  "caravan": {
+    "kicker": "CARAVAN RENTALS",
+    "title": "Caravan Vendor: Donkey, Camel, Elephant",
+    "subtitle": "Donkeys, camels and elephants aren't tameable. You rent them from the Caravan Vendor NPC in any major city to form a trade caravan. Rent, package, route — all from the same NPC.",
+    "vendorTitle": "Caravan Vendor NPC",
+    "vendorBody": "One of the main entry-point NPCs in any city. Pick a rental animal, summon the mount, buy a package, set a route to the destination city. Don't confuse it with the Mount Caretaker — that's the lasso vendor.",
+    "facts": {
+      "vendor": {
+        "title": "Vendor in the city",
+        "body": "Every major city has a Caravan Vendor. You rent the animal and buy the package at the same counter."
+      },
+      "rent": {
+        "title": "Rental window",
+        "body": "Rentals are time-bound; the animal is yours until you finish the run or the rental expires."
+      },
+      "package": {
+        "title": "Buy a package",
+        "body": "You buy the city's package from the same NPC. Package size scales with the rented animal's cargo."
+      },
+      "route": {
+        "title": "Pick the route",
+        "body": "Farther destinations pay more. Routes through dangerous land carry a bonus and the matching risk."
+      },
+      "profit": {
+        "title": "Drop-off & payout",
+        "body": "Hand the package to the destination Caravan Vendor; payout hits the wallet on delivery. The animal can be returned within the rental window."
+      }
+    }
+  },
+  "breeding": {
+    "kicker": "HORSE BREEDING",
+    "title": "Green & Blue Roll Into Purple / Orange",
+    "subtitle": "Wild horses only spawn green and blue. Purple (Rare) and orange (Legendary) come only from breeding the two together. Each cycle is 12 hours and the outcome is full RNG.",
+    "rarityLabel": "HORSE RARITY LADDER",
+    "formula": "Green × Blue → 12 hours → chance for Purple or Orange (RNG)",
+    "obtainShort": {
+      "wild": "Wild spawn",
+      "breeding": "Breeding only"
+    },
+    "rarities": {
+      "common":    { "name": "Green",    "body": "Common. Plentiful in the wild — your first lasso target." },
+      "uncommon":  { "name": "Blue",     "body": "Uncommon. Rare spawns, longer chase. Critical for the breeding pool." },
+      "rare":      { "name": "Purple",   "body": "Rare. Only obtainable as a breeding result of Green × Blue." },
+      "legendary": { "name": "Orange",   "body": "Legendary. Top tier; the rare RNG outcome of the same pool." }
+    },
+    "facts": {
+      "duration":      { "title": "Breeding duration",  "unit": "hours",   "body": "Both paired horses are unusable for 12 hours; you can't summon them until the cycle ends." },
+      "femaleCharges": { "title": "Female mate slots",  "unit": "uses",    "body": "Each female can be bred a total of 3 times. Once a female hits 3/3, she's done — out of the breeding pool." },
+      "maleUnlimited": { "title": "Male mate slots",    "unit": "unlimited","body": "Males have no breeding cap; the same male can pair with different females again and again." },
+      "lockDuring":    { "title": "Lock window",        "unit": "hours",   "body": "While breeding runs, both parents are locked — can't ride, can't move, can't sell." },
+      "stableCap":     { "title": "Stable capacity",    "unit": "horse slots","body": "Total cap of 20 horses. To expand a line, retire low-quality horses to free slots." },
+      "rngStats":      { "title": "Stats and colour",   "unit": "RNG",     "body": "The foal's stats and colour are fully random. Community-confirmed: there's no deterministic inheritance formula." }
+    },
+    "medallionLabel": "BREEDING MATERIALS",
+    "medallions": {
+      "horseMedallion": {
+        "name": "Horse Medallion",
+        "body": "The base material required to breed Green (Common) and Blue (Uncommon) horses."
+      },
+      "qualityHorseMedallion": {
+        "name": "Quality Horse Medallion",
+        "body": "Upgraded medallion required to breed a Purple (Rare) horse."
+      }
+    },
+    "shopLabel": "SHOP STONES (V-COIN)",
+    "unit": {
+      "charges": "charge reset",
+      "hours": "hour reduction"
+    },
+    "shop": {
+      "resetStone": {
+        "name": "Breeding Reset Stone",
+        "body": "Resets a female's used breeding charges back to 0/3 — you don't need to hunt for another female. Bought with V-Coin (Steam premium currency) from the in-game shop."
+      },
+      "reductionStone": {
+        "name": "Time Reduction Stone",
+        "body": "Cuts the active breeding timer by 6 hours. Saves serious time when you're racing for a line. Bought with V-Coin from the in-game shop."
+      }
+    }
+  },
+  "premium": {
+    "kicker": "SHOP & GEAR",
+    "title": "Premium Horses, Caravan Sets and Saddle Gear",
+    "subtitle": "V-Coin shop armoured cosmetic horses, top-tier caravan packs and the saddle + horseshoe gear that lifts your horse's performance. Every icon comes from the live game.",
+    "horses": {
+      "title": "Premium Armoured Horses",
+      "unit": "variants",
+      "body": "Cosmetic horses unlocked through the cash shop or events. Stat-wise identical to standard horses; the difference is purely visual."
+    },
+    "caravans": {
+      "title": "Special Caravan Animals",
+      "unit": "sets",
+      "body": "Beyond the standard Caravan Vendor rentals, top-tier caravan looks unlocked from events or the shop.",
+      "list": {
+        "desertCaravan": "Desert Caravan",
+        "sultansGuardian": "Sultan's Guardian",
+        "warBehemoth": "War Behemoth"
+      },
+      "descriptions": {
+        "desertCaravan": "A standout cosmetic caravan set on the Horus route.",
+        "sultansGuardian": "Top-tier caravan look in Sultan-styled cosmetics.",
+        "warBehemoth": "A combat-dressed caravan / war animal."
+      }
+    },
+    "gear": {
+      "title": "Horse Gear",
+      "unit": "pieces",
+      "body": "Saddles and horseshoes come in three quality tiers: higher quality lifts speed, stamina and ride comfort.",
+      "list": {
+        "saddleLow":     "Saddle · Low",
+        "saddleMedium":  "Saddle · Medium",
+        "saddleHigh":    "Saddle · High",
+        "horseshoeLow":  "Horseshoe · Low",
+        "horseshoeMed":  "Horseshoe · Medium",
+        "horseshoeHigh": "Horseshoe · High",
+        "stirrupLow":    "Stirrup · Low",
+        "stirrupMed":    "Stirrup · Medium",
+        "stirrupHigh":   "Stirrup · High"
+      },
+      "quality": { "low": "Low", "medium": "Medium", "high": "High" }
+    }
+  },
+  "pets": {
+    "kicker": "PET COLLECTION",
+    "title": "Pets Confirmed in Quinfall",
+    "subtitle": "Active pet roster pulled from the in-game pet database. Filter by type; every icon comes straight from the game asset.",
+    "filterAll": "All ({{count}})",
+    "groups": {
+      "flying":  "Flying",
+      "dragon":  "Dragon",
+      "wolf":    "Wolf",
+      "rhino":   "Rhino",
+      "pitbull": "Pitbull",
+      "raccoon": "Raccoon",
+      "reptile": "Reptile",
+      "rabbit":  "Rabbit",
+      "rodent":  "Rodent",
+      "serpent": "Serpent",
+      "mythic":  "Mythic",
+      "special": "Special"
+    },
+    "list": {
+      "venomBee":          "Venom Bee",
+      "speckledButterfly": "Speckled Butterfly",
+      "lavaDragon":        "Lava Dragon",
+      "nightDragon":       "Night Dragon",
+      "sandDragon":        "Sand Dragon",
+      "forestDragon":      "Forest Dragon",
+      "rhinoBeetle":       "Flying Rhino Beetle",
+      "shadowBat":         "Shadow Bat",
+      "glacierWolf":       "Glacier Wolf",
+      "shadowWolf":        "Shadow Wolf",
+      "mistWolf":          "Mist Wolf",
+      "mountainWolf":      "Mountain Wolf",
+      "rockRhino":         "Rock Rhino",
+      "lavaRhino":         "Lava Rhino",
+      "purpleRhino":       "Purple Rhino",
+      "skyRhino":          "Sky Rhino",
+      "earthPitbull":      "Earth Pitbull",
+      "shadowPitbull":     "Shadow Pitbull",
+      "fangPitbull":       "Yellow-Fang Pitbull",
+      "marmaladeRaccoon":  "Marmalade Raccoon",
+      "rockRaccoon":       "Rock Raccoon",
+      "forestRaccoon":     "Forest Raccoon",
+      "nightRaccoon":      "Night Raccoon",
+      "desertReptile":     "Desert Reptile",
+      "enchantedPhoenix":  "Enchanted Phoenix",
+      "crystalRabbit":     "Crystal Rabbit",
+      "goldenRabbit":      "Golden Rabbit",
+      "darkHopper":        "Dark Hopper",
+      "lightRunner":       "Light Runner",
+      "darkWanderer":      "Dark Wanderer",
+      "skyManedWolf":      "Sky-Maned Wolf",
+      "lavaClaw":          "Lava Claw",
+      "wintersFootprints": "Winter's Footprints",
+      "dazzlingWolf":      "Dazzling Wolf",
+      "lightRat":          "Light Rat",
+      "shadowRodent":      "Shadow Rodent",
+      "goldenRodent":      "Golden Rodent",
+      "midnightSeer":      "Midnight Seer",
+      "venomLeaper":       "Venom Leaper",
+      "glintSnake":        "Glint Snake",
+      "ashenCreature":     "Ashen Creature"
+    },
+    "note": {
+      "title": "What pets do",
+      "body": "Pets aren't decorative — they follow you, boost profession yield, and unlock a skill tree through evolution. The sections below detail evolution and the skill tree."
+    }
+  },
+  "evolution": {
+    "kicker": "PET EVOLUTION",
+    "title": "Evolve It, Open the Skill Tree",
+    "subtitle": "Pets evolve over time; their look changes, their abilities sharpen, some morph into entirely new species. An end-game pet yields 2-3× a basic one.",
+    "requirements": {
+      "title": "Evolution Requirements",
+      "list": {
+        "level":    { "title": "Raise the pet's level",    "body": "Pet XP grows as it fights beside its owner. Evolution doesn't unlock until a certain level." },
+        "material": { "title": "Gather evolution mats",    "body": "Engineer products, rare plants, or world boss drops are required. Varies by species." },
+        "npc":      { "title": "Visit the Mount Caretaker","body": "Trigger the ritual at a Mount Caretaker or a dedicated pet NPC." },
+        "ritual":   { "title": "Ritual and outcome",       "body": "The evolution ritual runs; the outcome can be partly random (variant-bound). Some pets shift to a new species entirely." }
+      }
+    },
+    "skills": {
+      "title": "Pet Skill Tree",
+      "intro": "Time spent with the owner turns into points; points unlock pet skills.",
+      "list": {
+        "gathering": { "title": "Gathering Boost", "body": "Speeds up harvesting, mining, and lumberjacking. Non-negotiable for a lifeskiller." },
+        "combat":    { "title": "Combat Assist",   "body": "Joins the fight: takes aggro, tanks, or adds damage." },
+        "loot":      { "title": "Loot Detection",  "body": "Marks nearby rare drops. Direct effect on farm yield." },
+        "aura":      { "title": "Stat Aura",       "body": "Passive stat boost for the owner. The value climbs sharply on endgame pets." }
+      },
+      "note": "An end-game pet yields 2-3× a basic one — lifeskillers don't skip the pet investment."
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGY",
+    "title": "Practical Paths for Pets and Mounts",
+    "subtitle": "Core moves for new players, money lanes for the economy investor, weapon picks for the siege team, profession matchups for lifeskillers.",
+    "list": {
+      "beginner": {
+        "title": "🌱 New Player",
+        "bullets": [
+          "Grab your first lasso from the Mount Caretaker; start by hunting green horses.",
+          "Run your first caravan with a donkey rented from the Caravan Vendor — cheap, simple route.",
+          "First pet: rabbit or fox; cheap with a gathering buff.",
+          "Catch every blue horse you see — gold for the breeding pool."
+        ]
+      },
+      "economy": {
+        "title": "💰 Economy Play",
+        "bullets": [
+          "Build a breeding pool: 2-3 blue females + 1 blue male.",
+          "If a purple foal lands, don't sell — feed it back into the pool to chase orange.",
+          "Buy a reset stone: revive a 3/3 quality female instead of replacing her.",
+          "Reduction stones: 12h → 6h, two attempts per female per day."
+        ]
+      },
+      "siege": {
+        "title": "⚔ Siege Pet/Mount",
+        "bullets": [
+          "Elephant rental: cannons/bows/spells from the howdah — a walking battlement, ideal for guild caravans.",
+          "Hunter Companion: extra tank to protect the healer.",
+          "Rhino pet: small frontline tank support.",
+          "Purple/orange horse + Lancer: devastating open-field flank combo."
+        ]
+      },
+      "profession": {
+        "title": "🌾 Profession Pets",
+        "bullets": [
+          "Harvester pet: 15-30% faster plant gathering.",
+          "Miner pet: faster mining and higher drop rates.",
+          "Lumberjack pet: same idea, applied to trees.",
+          "Hunter pet: tracks mobs, surfaces hidden drops."
+        ]
+      }
+    }
+  }
+}

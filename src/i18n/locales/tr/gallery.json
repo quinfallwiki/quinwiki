@@ -1,0 +1,111 @@
+{
+  "page": {
+    "eyebrow": "GALERİ & HARİTA",
+    "title": "Quinfall'a Yakından Bak",
+    "description": "Oyundan çekilmiş kareler ve topluluk yapımı etkileşimli harita — tek sayfada keşfet, filtrele, paylaş."
+  },
+  "grid": {
+    "kicker": "OYUN İÇİ KARELER",
+    "title": "Sahneler & Anlar",
+    "subtitle": "Quinfall'un manzaraları, su altı dünyası, madencilik ve zindan anları"
+  },
+  "types": {
+    "landscape":  "Manzara",
+    "town":       "Şehir",
+    "underwater": "Su Altı",
+    "fishing":    "Balıkçılık",
+    "mining":     "Madencilik",
+    "gathering":  "Toplayıcılık",
+    "farm":       "Çiftlik",
+    "building":   "Yapım",
+    "dungeon":    "Zindan",
+    "pvp":        "PvP",
+    "pve":        "PvE",
+    "mount":      "Binek",
+    "naval":      "Denizcilik"
+  },
+  "items": {
+    "manzara": {
+      "title": "Açık Dünya Manzarası",
+      "body":  "Quinfall'un nefes kesen vadileri, ormanları ve uzak ufukları — atınla saatlerce sürebileceğin yaşayan bir dünya."
+    },
+    "doga": {
+      "title": "Doğanın Kalbi",
+      "body":  "Yemyeşil ormanlar, akarsular ve gün ışığının yapraklara süzüldüğü patikalar — Quinfall'un sakin yüzü."
+    },
+    "dungeon": {
+      "title": "Zindan Derinlikleri",
+      "body":  "Karanlık koridorlar, lanetli mekânlar ve elit yaratıklar — partinle birlikte loot için içeri dal."
+    },
+    "maden": {
+      "title": "Maden Ocağı",
+      "body":  "Toplayıcılığın kalbi: cevher damarları, taş ocakları ve nadir kaynaklar zanaatın temelini kurar."
+    },
+    "toplayicilik": {
+      "title": "Hasat Vakti",
+      "body":  "Doğada yetişen kenevir bitkisinden elde edilen lif, iplikçiliğin ham maddesidir — iplik üretiminden terziliğe uzanan zincirin ilk halkası."
+    },
+    "suAlti": {
+      "title": "Su Altı Dünyası",
+      "body":  "Denizin altında parlayan kalıntılar, balık sürüleri ve dalış noktaları — denizcilik sisteminin gizli yüzü."
+    },
+    "manzara2": {
+      "title": "Vadinin Sessizliği",
+      "body":  "Sis altındaki tepeler, derin orman örtüsü ve uzakta beliren dağ silsileleri — Quinfall'un başka bir yüzü."
+    },
+    "manzara3": {
+      "title": "Şafak Vakti",
+      "body":  "Gün doğarken altın rengine bürünen vadiler ve uyanan dünya — keşfin en güzel saatleri."
+    },
+    "walking": {
+      "title": "Yolda",
+      "body":  "Bir karakter, omzunda bir kılıç, gözünde bir hedef — Quinfall yolculuğun sana anlattıklarıdır."
+    },
+    "kasaba": {
+      "title": "Kasabanın Kalbi",
+      "body":  "Pazaryerinin uğultusu, demirhanenin sesi ve seyyah tüccarlar — şehirler oyunun sosyal merkezidir."
+    },
+    "tarim": {
+      "title": "Tarla İşi",
+      "body":  "Kendi arazinde tahıl, sebze ve özel mahsuller yetiştir — yemek tarifleri ve tüccar gelirinin temeli."
+    },
+    "fishing": {
+      "title": "Sakin Sular",
+      "body":  "Nehir kenarında atılan olta — balık çeşitleri, nadir kalıntılar ve sessiz bir mola anı."
+    },
+    "denizcilik": {
+      "title": "Açık Deniz",
+      "body":  "Yelkenler dolu, ufuk önünde — ticaret, korsanlık ve deniz savaşlarının başladığı yer."
+    },
+    "denizcilik2": {
+      "title": "Liman Yaklaşırken",
+      "body":  "Kıyıya yanaşan yük gemileri ve kalabalık iskeleler — denizcilik sisteminin uğrak noktası."
+    },
+    "zirhliAt": {
+      "title": "Zırhlı Süvari",
+      "body":  "Tam donanımlı bir at ve binicisi — savaş alanına en hızlı, en görkemli giriş."
+    },
+    "build": {
+      "title": "Yurt Kurmak",
+      "body":  "Kendi araziniz, kendi eviniz — Quinfall'un yapım ve yerleşim sistemiyle her tuğla senin imzan."
+    },
+    "build2": {
+      "title": "Tezgâhların Sesi",
+      "body":  "Demirhane, dokuma tezgâhı, marangozhane — üretim binaları, zanaatkârın yaşam alanıdır."
+    }
+  },
+  "lightbox": {
+    "close": "Kapat"
+  },
+  "map": {
+    "kicker": "ETKİLEŞİMLİ HARİTA",
+    "title": "Topluluk Haritası",
+    "subtitle": "Kaynak noktaları, yaratıklar, bosslar, şehirler ve farm rotaları"
+  },
+  "frame": {
+    "loading": "Harita yükleniyor",
+    "fallbackTitle": "Harita yüklenemedi",
+    "fallbackBody": "Tarayıcı gömülü görünümü engelledi. Aşağıdaki butonla haritayı yeni sekmede aç.",
+    "openInNewTab": "Yeni sekmede aç"
+  }
+}

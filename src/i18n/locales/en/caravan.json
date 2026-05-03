@@ -1,0 +1,157 @@
+{
+  "page": {
+    "eyebrow": "CARAVAN SYSTEM",
+    "title": "Caravan & Trade",
+    "description": "In Quinfall a caravan isn't just hauling — it's the spine of the economy and a PvP battlefield. Rent an animal at the Caravan Vendor, buy a package, pick the right route. PvE channel is safe, PvP channel pays +20%."
+  },
+  "hero": {
+    "badge": "System overview",
+    "title": "12 cities, 7 harbours, +20% PvP bonus.",
+    "body": "Rent a donkey, ox, camel or elephant from the Caravan Vendor NPC, grab a package and run it to the next city or harbour. PvE channel is safe but pays no bonus; PvP channel allows attacks and pays +20%. As of patch v1.0.0.6 an unattended caravan stays put for 1 hour — your package isn't lost.",
+    "stats": {
+      "cities": "Major Cities",
+      "harbors": "Harbors",
+      "pvpBonus": "PvP Bonus"
+    }
+  },
+  "flow": {
+    "kicker": "FLOW",
+    "title": "How a Caravan Run Works",
+    "subtitle": "The standard five-step loop — every Caravan Vendor in every city follows it.",
+    "steps": {
+      "rent":    { "title": "Rent an animal",  "body": "Pick donkey, ox, camel or elephant from the Caravan Vendor. The mount is summoned; the rental clock starts." },
+      "package": { "title": "Buy the package", "body": "Buy the city's package from the same NPC. Package size scales with the rented animal's cargo." },
+      "route":   { "title": "Set the route",   "body": "Pick a destination city or harbour. Distance + channel type (PvE/PvP) decide the payout." },
+      "travel":  { "title": "Travel",          "body": "Stay active: in a PvP channel other players can attack. If you log out, the animal stays put for 1 hour." },
+      "deliver": { "title": "Deliver",         "body": "Hand the package to the destination NPC; payout hits the wallet immediately. The animal can be returned within the rental window." }
+    }
+  },
+  "animals": {
+    "kicker": "CARAVAN ANIMALS",
+    "title": "Rental Types",
+    "subtitle": "Standard Caravan Vendor inventory: 4 animals, with cargo and rent climbing as the tier rises. Premium mounts unlock through V-Coin / events.",
+    "tiers": { "starter": "Starter", "mid": "Mid", "top": "Top" },
+    "standard": {
+      "title": "Standard Rentals",
+      "unit": "animals",
+      "body": "The four base options at every Caravan Vendor. The first three are cheap; the elephant is a real investment."
+    },
+    "premium": {
+      "title": "Premium Caravan Skins",
+      "unit": "sets",
+      "body": "Top-tier looks unlocked via the shop or events. No stat advantage, purely cosmetic."
+    },
+    "list": {
+      "donkey":   { "name": "Donkey",   "tag": "Starter rental",        "body": "The cheapest option. Slow but carries cargo; ideal for starter routes." },
+      "ox":       { "name": "Ox",       "tag": "Heavy starter",         "body": "Slower than the donkey but among the highest cargo capacity. Steady pace, long routes." },
+      "camel":    { "name": "Camel",    "tag": "Desert specialist",     "body": "Immune to the heat debuff in the desert. The non-negotiable mount on Horus routes." },
+      "elephant": { "name": "Elephant", "tag": "Top tier · pricey",     "body": "Top HP and cargo. The howdah lets you fight from the back; ideal for guild caravans." }
+    },
+    "premiums": {
+      "goldenMerchant":  { "name": "Golden Merchant",   "body": "Shop horse with merchant aesthetics." },
+      "desertCaravan":   { "name": "Desert Caravan",    "body": "Premium look themed for the Horus route." },
+      "sultansGuardian": { "name": "Sultan's Guardian", "body": "Top-tier caravan in Sultan-styled cosmetics." },
+      "warBehemoth":     { "name": "War Behemoth",      "body": "A combat-dressed caravan / war animal." }
+    }
+  },
+  "channels": {
+    "kicker": "CHANNEL RULES",
+    "title": "PvE Safe, PvP +20%",
+    "subtitle": "The critical mechanic updated in patch v1.0.0.6 (Feb 14, 2026). The bonus argument now lives entirely in the channel choice.",
+    "pve": {
+      "tag": "Safe",
+      "title": "PvE Channel",
+      "body": "Other players can't attack your caravan. No risk, no loss — but the previous 5% bonus was removed entirely.",
+      "bonusLabel": "Bonus payout"
+    },
+    "pvp": {
+      "tag": "Open field",
+      "title": "PvP Channel",
+      "body": "Attacks are open. Get caught and you drop the package or lose it. This is where real traders earn — bonus raised to +20%.",
+      "bonusLabel": "Bonus payout"
+    },
+    "unattended": {
+      "title": "v1.0.0.6: Unattended Protection",
+      "body": "If you log out or the server restarts, the caravan animal stays put for 1 hour. The package isn't lost and the caravan doesn't unwind during that window.",
+      "source": "Official patch note · Feb 14, 2026"
+    }
+  },
+  "cities": {
+    "kicker": "12 MAJOR CITIES",
+    "title": "Caravan Route Hubs",
+    "subtitle": "The 12 major cities on the world map — grouped by region. Each hosts a Caravan Vendor; routes are drawn between these.",
+    "regions": {
+      "west":    "West",
+      "central": "Central",
+      "east":    "East",
+      "south":   "South",
+      "desert":  "Desert"
+    },
+    "note": {
+      "title": "Distance = Payout",
+      "body": "Short routes between adjacent cities are quick but pay less; long routes (e.g. desert ↔ west) pay more. Combine the distance with the channel choice — a long PvP-channel route compounds the +20% bonus, but the risk scales too."
+    }
+  },
+  "sea": {
+    "kicker": "SEA CARAVAN",
+    "title": "Harbours and the Harbor Master",
+    "subtitle": "The parallel system to land caravans. Pick up a package at a Harbor Master and ship it to another harbour. Key rule: payout depends on the departure harbour, not the destination.",
+    "harborTable": {
+      "label": "PAYOUT TABLE",
+      "title": "Estimated Payout per Harbor",
+      "harbor": "Harbor",
+      "payout": "Estimated payout",
+      "note": "Based on community observation, by departure harbour. Traystable pays the most; Edgeshore and Silvercrest the least."
+    },
+    "facts": {
+      "harborMaster":     { "title": "Harbor Master at every harbour", "body": "One NPC handles ship management, caravan packages and fishing services — all in one." },
+      "departurePayout":  { "title": "Departure harbour decides pay",  "body": "Payout depends on where you picked up the package, not where you drop it. Pricey departure = higher gold." },
+      "destroyOnDock":    { "title": "Packages destroyed on dock",     "body": "Docking the ship can destroy the package on board — be careful until you reach the destination NPC." },
+      "pirate":           { "title": "Pirate risk in PvP channel",     "body": "On a PvP channel other players can attack your ship. Same logic as land caravans: risk × reward." },
+      "channelSwitch":    { "title": "Channel switch",                 "body": "Switching channels requires summoning the ship to a harbour first; no mid-ocean swap." }
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGY",
+    "title": "Which Path for Which Profile?",
+    "subtitle": "Safe income for new players, scale for the mid-game, risk-and-reward for the PvPer, ops for the guild.",
+    "list": {
+      "starter": {
+        "title": "🌱 New Player",
+        "bullets": [
+          "First route: a short hop between two adjacent cities, donkey, PvE channel — zero risk, learn the loop.",
+          "Find the Caravan Vendor in every major city.",
+          "If you have to log out, no panic — 1-hour unattended protection covers you.",
+          "Move from low-payout starter loops to long routes like Horus / Pabas."
+        ]
+      },
+      "midGame": {
+        "title": "💰 Mid-Game Yield",
+        "bullets": [
+          "Rent a camel — the no-water-debuff edge changes everything around Horus.",
+          "Set up a circular multi-city loop (Pabas → Reasya → Horus → Pabas).",
+          "Even on PvE channel, distance × package size delivers serious gold.",
+          "If a harbour is on the way, chain land + sea caravans."
+        ]
+      },
+      "pvpHigh": {
+        "title": "⚔ PvP Risk Stacking",
+        "bullets": [
+          "PvP channel: +20% bonus stacks meaningfully on long routes.",
+          "Don't go solo: bring at least one guard player.",
+          "Elephant + armoured escort buys the package real time.",
+          "Logging out under attack = animal stays 1 hour, but the package is at risk."
+        ]
+      },
+      "guildOps": {
+        "title": "🏰 Guild Operation",
+        "bullets": [
+          "Elephant + premium skins (Desert Caravan, Sultan's Guardian) are guild investments.",
+          "Run multiple caravans on one route: 1 guard for 4 caravans — economy of scale.",
+          "Run sea caravans in parallel: Traystable departures (~1,500g) are the highest payout.",
+          "Plan channel choice around the guild calendar — primetime PvP channels get crowded."
+        ]
+      }
+    }
+  }
+}

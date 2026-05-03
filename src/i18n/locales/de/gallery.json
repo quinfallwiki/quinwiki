@@ -1,0 +1,111 @@
+{
+  "page": {
+    "eyebrow": "GALERIE & KARTE",
+    "title": "Quinfall ganz aus der Nähe",
+    "description": "In-Game-Aufnahmen und eine von der Community gebaute interaktive Karte — auf einer Seite erkunden, filtern und teilen."
+  },
+  "grid": {
+    "kicker": "IN-GAME-AUFNAHMEN",
+    "title": "Szenen & Momente",
+    "subtitle": "Quinfalls Landschaften, Unterwasserwelt, Bergbau- und Dungeon-Momente"
+  },
+  "types": {
+    "landscape":  "Landschaft",
+    "town":       "Stadt",
+    "underwater": "Unterwasser",
+    "fishing":    "Angeln",
+    "mining":     "Bergbau",
+    "gathering":  "Sammeln",
+    "farm":       "Landwirtschaft",
+    "building":   "Bauen",
+    "dungeon":    "Dungeon",
+    "pvp":        "PvP",
+    "pve":        "PvE",
+    "mount":      "Reittier",
+    "naval":      "Seefahrt"
+  },
+  "items": {
+    "manzara": {
+      "title": "Weite der offenen Welt",
+      "body":  "Atemberaubende Täler, Wälder und ferne Horizonte — eine lebendige Welt, durch die du stundenlang reiten kannst."
+    },
+    "doga": {
+      "title": "Herz der Wildnis",
+      "body":  "Dichte Wälder, klare Bäche und Sonnenlicht, das durchs Blätterdach fällt — die ruhige Seite Quinfalls."
+    },
+    "dungeon": {
+      "title": "Tiefen des Dungeons",
+      "body":  "Dunkle Gänge, verfluchte Hallen und Elite-Gegner — geh mit deiner Gruppe rein und hol dir die Beute."
+    },
+    "maden": {
+      "title": "Die Mine",
+      "body":  "Das Herz des Sammelns: Erzadern, Steinbrüche und seltene Rohstoffe sind die Grundlage jedes Handwerks."
+    },
+    "toplayicilik": {
+      "title": "Erntezeit",
+      "body":  "Hanf wächst wild in der Natur — aus seiner Faser wird Garn gesponnen, das erste Glied der Kette, die zur Schneiderei führt."
+    },
+    "suAlti": {
+      "title": "Unter den Wellen",
+      "body":  "Leuchtende Ruinen, Fischschwärme und Tauchspots — die verborgene Seite des Seefahrtssystems."
+    },
+    "manzara2": {
+      "title": "Tal der Stille",
+      "body":  "Nebel über den Hügeln, dichtes Walddach und ferne Bergketten — ein anderes Gesicht der Welt."
+    },
+    "manzara3": {
+      "title": "Erstes Licht",
+      "body":  "Vom Sonnenaufgang vergoldete Täler und eine erwachende Welt — die schönste Stunde zum Erkunden."
+    },
+    "walking": {
+      "title": "Unterwegs",
+      "body":  "Eine Figur, das Schwert auf der Schulter, ein Ziel im Blick — die Reise ist die Geschichte, die Quinfall dir erzählt."
+    },
+    "kasaba": {
+      "title": "Herz der Stadt",
+      "body":  "Das Treiben des Marktes, der Klang der Schmiede, reisende Händler — Städte sind das soziale Zentrum."
+    },
+    "tarim": {
+      "title": "Feldarbeit",
+      "body":  "Baue Getreide, Gemüse und Spezialpflanzen auf eigenem Land an — Grundlage von Kochrezepten und Handelseinkommen."
+    },
+    "fishing": {
+      "title": "Stille Gewässer",
+      "body":  "Eine Schnur am Fluss — Fischarten, seltene Relikte und ein Moment der Ruhe."
+    },
+    "denizcilik": {
+      "title": "Offene See",
+      "body":  "Volle Segel, der Horizont voraus — wo Handel, Piraterie und Seekrieg beginnen."
+    },
+    "denizcilik2": {
+      "title": "Annäherung an den Hafen",
+      "body":  "Frachtschiffe gleiten an die Docks und volle Piers — der Knotenpunkt des Seefahrtssystems."
+    },
+    "zirhliAt": {
+      "title": "Gepanzerte Reiterei",
+      "body":  "Ein vollständig gerüstetes Schlachtross und sein Reiter — der schnellste, eindrucksvollste Auftritt im Kampf."
+    },
+    "build": {
+      "title": "Ein Zuhause bauen",
+      "body":  "Eigenes Land, eigenes Haus — jeder Stein trägt deine Handschrift im Wohnsystem von Quinfall."
+    },
+    "build2": {
+      "title": "Die Werkbänke",
+      "body":  "Schmiede, Webstuhl, Tischlerbank — Produktionsbauten sind das Zuhause des Handwerkers."
+    }
+  },
+  "lightbox": {
+    "close": "Schließen"
+  },
+  "map": {
+    "kicker": "INTERAKTIVE KARTE",
+    "title": "Community-Karte",
+    "subtitle": "Ressourcen, Kreaturen, Bosse, Städte und Farm-Routen"
+  },
+  "frame": {
+    "loading": "Karte wird geladen",
+    "fallbackTitle": "Karte konnte nicht geladen werden",
+    "fallbackBody": "Der Browser blockiert die Einbettung. Öffne die Karte per Button in einem neuen Tab.",
+    "openInNewTab": "In neuem Tab öffnen"
+  }
+}

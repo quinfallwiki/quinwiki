@@ -1,0 +1,47 @@
+{
+  "page": {
+    "eyebrow": "SİSTEM & PERFORMANS",
+    "title": "Quinfall'u Akıcı Çalıştır",
+    "description": "Steam mağazasından doğrulanan minimum ve önerilen sistem gereksinimleri, kart kart karşılaştırmalı; üstüne topluluk testlerinden derlenmiş performans ipuçları."
+  },
+  "hero": {
+    "kicker": "BİR BAKIŞTA",
+    "title": "Donanımın Hazır mı?",
+    "subtitle": "Quinfall 55 GB disk, DirectX 12 ve modern bir orta sınıf GPU ile akıcı çalışır. Aşağıdaki tabloda yapılandırmanı kontrol et."
+  },
+  "highlights": {
+    "storage": "Disk Alanı",
+    "dx":      "DirectX",
+    "os":      "İşletim Sistemi",
+    "engine":  "Oyun Motoru"
+  },
+  "specs": {
+    "kicker":      "RESMİ GEREKSİNİMLER",
+    "title":       "Minimum & Önerilen",
+    "subtitle":    "Steam mağaza sayfasından birebir alınmıştır",
+    "minHeader":   "MİNİMUM",
+    "recHeader":   "ÖNERİLEN",
+    "rows": {
+      "os":      "İşletim Sistemi",
+      "cpu":     "İşlemci",
+      "ram":     "Bellek",
+      "gpu":     "Ekran Kartı",
+      "dx":      "DirectX",
+      "storage": "Depolama",
+      "network": "Ağ"
+    }
+  },
+  "tips": {
+    "kicker":   "PERFORMANS İPUÇLARI",
+    "title":    "FPS'i Yükseltmenin 6 Yolu",
+    "subtitle": "Topluluk testlerinden derlenmiş ayar önerileri",
+    "list": {
+      "ssd":        { "name": "SSD'ye Kur",                "body": "55 GB'lık kurulumu HDD yerine SSD'ye yap; harita yüklenme süreleri 3–5 kata kadar düşer ve dünya gezerken takılma azalır." },
+      "shadows":    { "name": "Gölgeleri Düşür",            "body": "Ultra → Yüksek geçişi görseli pek bozmadan %15-20 FPS kazandırır. Orta seviyede kalmak orta sınıf GPU'lar için ideal." },
+      "foliage":    { "name": "Çimen Yoğunluğu",            "body": "Açık dünya bitki örtüsü en pahalı ayar. Yoğunluğu Orta'ya alırsan ormanlık bölgelerde belirgin FPS artışı." },
+      "resolution": { "name": "Çözünürlük Ölçeği",          "body": "Native 1080p/1440p yerine %85 ölçek kullan; netliği önemli ölçüde kaybetmeden GPU yükünü %15 azaltır." },
+      "vram":       { "name": "VRAM Yönetimi",              "body": "6 GB üstü GPU önerilir; tekstür kalitesini Yüksek üstü tutarken arka planda Discord/Chrome çalıştırma." },
+      "background": { "name": "Arka Plan Uygulamaları",     "body": "Tarayıcı sekmeleri, Riot Vanguard, OBS gibi servisler RAM ve GPU çalıyor. Oyun açılırken Game Mode'u açık tut." }
+    }
+  }
+}

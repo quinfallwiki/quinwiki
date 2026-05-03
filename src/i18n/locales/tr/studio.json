@@ -1,0 +1,81 @@
+{
+  "page": {
+    "eyebrow": "STÜDYO",
+    "title": "Vawraek Technology",
+    "description": "Quinfall'u geliştiren bağımsız oyun stüdyosu — Ocak 2021'de kuruldu, hedefi yapay zeka destekli, devasa ölçekli MMORPG dünyaları yaratmak."
+  },
+  "hero": {
+    "kicker": "BİZ KİMİZ?",
+    "title": "Cesaretli Yolculukların Mimarı",
+    "subtitle": "Vawraek Technology, oyun endüstrisine yeniliği taşımak hedefiyle Ocak 2021'de kuruldu. Aynı ekibin daha önce geliştirdiği Türkçe MMORPG Kayra Online'ın beta başarısı, Vawraek'i bugünkü kapsamlı projelerine taşıdı. İleri teknoloji ve yapay zeka sistemleriyle sektörün öncülerinden biri olmayı, küresel oyuncu kitlesine hitap edecek devrim niteliğinde fikirler üretmeyi amaçlıyor.",
+    "stats": {
+      "founded":  "Kuruluş",
+      "lineage":  "Stüdyonun Köklü Geçmişi",
+      "scope":    "Hedef",
+      "country":  "Merkez"
+    },
+    "values": {
+      "founded":  "Ocak 2021",
+      "lineage":  "Kayra Online → The Quinfall",
+      "scope":    "Küresel MMORPG",
+      "country":  "Türkiye"
+    }
+  },
+  "pillars": {
+    "kicker":   "DEĞERLER",
+    "title":    "Vawraek'i Tanımlayan 4 Sütun",
+    "subtitle": "Resmi vawraek.com sayfasından alınmıştır",
+    "list": {
+      "innovation": { "name": "Yenilikçilik",       "body": "Endüstriye taze fikirlerle yaklaşıyor; klasik MMO kalıplarının dışına çıkacak deneyimler tasarlıyor." },
+      "scale":      { "name": "Devasa Ölçek",       "body": "İlk oyun The Quinfall ile dünyadaki en geniş MMORPG evrenini oluşturmayı hedefliyor — gerçek hayatı dijital dünyaya taşıyan Sandbox vizyonu." },
+      "global":     { "name": "Küresel Oyuncu",     "body": "Çok dilli içerik ve uluslararası topluluk odağı; başlangıçtan itibaren küresel piyasaya hitap ediyor." },
+      "ai":         { "name": "Yapay Zeka",         "body": "Geleneksel oyun mekaniklerinin ötesine geçen, AI destekli sistemlerle yaşayan bir dünya inşa ediyor." }
+    }
+  },
+  "projects": {
+    "kicker":   "PROJELER",
+    "title":    "Vawraek'in Yapım Listesi",
+    "subtitle": "Çıkmış oyun + geliştirme aşamasındaki yeni projeler",
+    "list": {
+      "kayra": {
+        "name":     "Kayra Online",
+        "tagline":  "Stüdyonun ilk projesi · Türkçe MMORPG",
+        "body":     "Vawraek ekibinin Quinfall öncesinde geliştirdiği, Unity üzerinde inşa edilmiş Türkiye odaklı MMORPG. Beta sürümü Türk topluluğunda büyük ilgi gördü ve The Quinfall'un yatırımcı bulmasının yolunu açtı. Tam sürüm yayınlanmadan proje arşivlendi.",
+        "cta":      "Arşivde"
+      },
+      "quinfall": {
+        "name":     "The Quinfall",
+        "tagline":  "Stüdyonun ikinci oyunu · Ortaçağ MMORPG",
+        "body":     "Kayra Online'ın deneyimi üzerine inşa edilen, Vawraek'in küresel piyasaya çıkardığı ilk büyük başlık. 2016 km² açık dünya, hedefsiz savaş, denizcilik, kervanlar ve devasa kuşatmalarla canlı.",
+        "cta":      "Steam'de Gör"
+      },
+      "sandbox": {
+        "name":     "Yeni Nesil Sandbox MMORPG",
+        "tagline":  "Üçüncü proje · Geliştirme aşamasında",
+        "body":     "Vawraek'in bir sonraki büyük adımı: gerçek hayatı dijital dünyaya taşıyacak ölçekte yepyeni bir Sandbox MMORPG evreni. Detaylar yakında.",
+        "cta":      "Yakında"
+      }
+    },
+    "status": {
+      "live":          "YAYINDA",
+      "inDevelopment": "GELİŞTİRMEDE",
+      "archived":      "ARŞİVLENDİ"
+    }
+  },
+  "media": {
+    "kicker":   "MEDYA",
+    "title":    "Stüdyodan Görseller",
+    "subtitle": "Resmi Vawraek medya kütüphanesinden derlenmiştir"
+  },
+  "social": {
+    "kicker":   "İLETİŞİM",
+    "title":    "Vawraek'i Takip Et",
+    "subtitle": "Resmi sosyal kanallarından duyuruları kaçırma",
+    "labels": {
+      "web":       "vawraek.com",
+      "linkedin":  "LinkedIn",
+      "instagram": "Instagram",
+      "twitter":   "X (Twitter)"
+    }
+  }
+}

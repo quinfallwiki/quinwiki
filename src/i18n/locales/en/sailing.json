@@ -1,0 +1,257 @@
+{
+  "page": {
+    "eyebrow": "SAILING",
+    "title": "Sailing & Naval",
+    "description": "In Quinfall the sea is a separate game: 4 ship classes × 2 factions, 7 harbours, 3 fishing categories and a Kraken that descends 3 times a day. Naval combat lives only on the PvP channel; reward and risk balance each other."
+  },
+  "hero": {
+    "badge": "System overview",
+    "title": "7 harbours, 4 ship classes, 3 Krakens/day.",
+    "body": "Four hulls from raft to warship, each built in either Trader or Pirate role. Cannons fit only Frigates and Warships (since the June 26, 2025 patch). At a harbour the Harbor Master runs your fleet; sea caravans buy the package, the Kraken falls only to a naval crew. Switching channels means calling the ship to a harbour first.",
+    "stats": {
+      "harbors": "Harbours",
+      "shipClasses": "Ship Classes",
+      "kraken": "Kraken / Day"
+    }
+  },
+  "fleet": {
+    "kicker": "FLEET",
+    "title": "4 Hulls × 2 Factions",
+    "subtitle": "The same four classes, two purposes. Trader and Pirate ships are identical to build; their roles split on the PvP channel — one carries the package, the other hunts it.",
+    "cannonRule": {
+      "title": "Cannon Rule (June 26, 2025 patch)",
+      "body": "Rafts and Boats can no longer mount cannons. Only Frigates and Warships are armable. Small hulls are now hauling-only — keep that in mind before you pick a fight."
+    },
+    "trader": {
+      "title": "Trader Ships",
+      "body": "Carry packages on the PvP channel. Goal: pocket the gold gap between harbours. Cargo and hull integrity are everything."
+    },
+    "pirate": {
+      "title": "Pirate Ships",
+      "body": "Same four classes in pirate role. Used to attack Trader ships and loot their packages. Build cost identical to the Trader version."
+    },
+    "shipsUnit": "ships",
+    "buildLabel": "Build cost",
+    "list": {
+      "raftTrader":     { "name": "Raft · Trader",     "tag": "Tier 1 · entry",        "body": "Starter raft. Coastal packages and inshore fishing. No cannons." },
+      "boatTrader":     { "name": "Boat · Trader",     "tag": "Tier 2 · mid",          "body": "Bigger cargo, still unarmed. The first real long-haul transport." },
+      "frigateTrader":  { "name": "Frigate · Trader",  "tag": "Tier 3 · armed",        "body": "First ship that can mount cannons. Carries valuable packages with escort." },
+      "warshipTrader":  { "name": "Warship · Trader",  "tag": "Tier 4 · armoured",     "body": "The biggest trader. Large crew, heavy cannons, guild scale." },
+      "raftPirate":     { "name": "Raft · Pirate",     "tag": "Tier 1 · pirate",       "body": "More about a quick getaway than raiding. No cannons; if you get chased, it's over." },
+      "boatPirate":     { "name": "Boat · Pirate",     "tag": "Tier 2 · pirate",       "body": "Pirating 101. Stack a few crew and chase down small Trader rafts." },
+      "frigatePirate":  { "name": "Frigate · Pirate",  "tag": "Tier 3 · armed pirate", "body": "Cannon-armed pirate hull. The main predator on the PvP channel." },
+      "warshipPirate":  { "name": "Warship · Pirate",  "tag": "Tier 4 · legend",       "body": "The biggest pirate ship. Guild ops and major Trader raids." }
+    },
+    "classTable": {
+      "title": "Build Costs",
+      "unit": "classes",
+      "col": {
+        "tier": "Tier",
+        "shipClass": "Class",
+        "coins": "Coin Cost",
+        "cannons": "Cannons"
+      },
+      "yes": "Yes",
+      "no": "No",
+      "cannons": "No cannons",
+      "note": "Coin cost is identical for both factions. Materials add up: lower tiers use cheap wood / iron, top tiers want high-quality Pine Araucaria + Sycamore + MQ Iron."
+    },
+    "classes": {
+      "raft": "Raft",
+      "boat": "Boat",
+      "frigate": "Frigate",
+      "warship": "Warship"
+    }
+  },
+  "premium": {
+    "kicker": "PREMIUM SHIPS",
+    "title": "Cosmetic Fleet",
+    "subtitle": "Four special ships present in the game data. Likely unlocked through the shop and events; the unlock channel isn't fully verified yet from primary sources.",
+    "tag": "Premium",
+    "list": {
+      "mermaidShip":     { "name": "Mermaid Ship",       "body": "Mermaid-themed hull, blue-green palette cosmetic ship." },
+      "charonsFerryShip":{ "name": "Charon's Ferry Ship","body": "Underworld-ferry aesthetic — dark purple / bone-textured ship." },
+      "medusaShip":      { "name": "Medusa Ship",        "body": "Serpent motif on the hull, greenish tones, mythic theme." },
+      "tridentShip":     { "name": "Trident Ship",       "body": "Trident / Poseidon theme, bright gold accents." }
+    },
+    "note": {
+      "title": "Data source note",
+      "body": "These four ships exist in the client items.json; community wikis and Steam patch notes don't list a sales channel yet. The V-Coin shop is the most likely source — to be confirmed when surfaced in-game."
+    }
+  },
+  "harbors": {
+    "kicker": "7 MAJOR HARBOURS",
+    "title": "Harbor Master and Services",
+    "subtitle": "Seven major harbours on the world map. Every one hosts the same Harbor Master NPC: ship management, ship trading, caravan packages, ship building, towing.",
+    "tags": {
+      "edgeshore":   "East coast",
+      "silvercrest": "Silver trade",
+      "maplewood":   "Forest / wood",
+      "thessahazy":  "Misty mystic",
+      "puttonas":    "Southern tropical",
+      "ellingliers": "Northern ice",
+      "traystable":  "Central · main hub"
+    },
+    "regions": {
+      "east":    "East",
+      "central": "Central",
+      "west":    "West",
+      "mist":    "Mist",
+      "south":   "South",
+      "north":   "North"
+    },
+    "list": {
+      "edgeshore":   { "body": "Main exit harbour on the east coast. Wide variety of fish; ideal for starter trader routes." },
+      "silvercrest": { "body": "A harbour built around silver mining. Heavy ore traffic and trade." },
+      "maplewood":   { "body": "Forest meets coast. Cheap heartwood / stormoak market for shipbuilders; not a high-payout harbour." },
+      "thessahazy":  { "body": "Misty, mystical harbour. Higher rare-drop rates but easy to lose your way; experienced captains only." },
+      "puttonas":    { "body": "Southern warm-water harbour. Tropical fish, corals; raw material source for cooking recipes." },
+      "ellingliers": { "body": "Northwestern ice sea. Cold-water fish only here; cold-resist gear required." },
+      "traystable":  { "body": "The central hub of the map. The highest caravan-pack payouts depart from here." }
+    },
+    "servicesTitle": "Harbor Master Services",
+    "servicesSubtitle": "Six core services through one NPC — the harbour's command desk.",
+    "services": {
+      "shipsInHarbor":   { "title": "My Ships in Harbor", "body": "Lists every ship docked here; summon and repair from this menu." },
+      "shipTrading":     { "title": "Ship Trading",      "body": "Official channel for player-to-player ship sales / transfers." },
+      "barter":          { "title": "Barter",            "body": "Goods-for-goods exchange: trade package contents for other items." },
+      "caravanPackages": { "title": "Caravan Packages",  "body": "The harbour's packages live here. Payout depends on this departure harbour." },
+      "shipBuilding":    { "title": "Ship Building",     "body": "Start a new ship build through the Harbor Master." },
+      "towing":          { "title": "Towing",            "body": "Tow a stuck ship back to the harbour for a fee." }
+    },
+    "payoutTable": {
+      "label": "PAYOUT TABLE",
+      "title": "Estimated Payout per Harbor",
+      "harbor": "Harbor",
+      "payout": "Estimated payout",
+      "note": "From community observation, by departure harbour. Traystable is the highest (~1,500g); Edgeshore and Silvercrest start at the floor (~500g)."
+    }
+  },
+  "combat": {
+    "kicker": "NAVAL COMBAT",
+    "title": "Cannons, Channels, Piracy",
+    "subtitle": "Naval combat only runs on the PvP channel. The PvE channel is pure transport; no attacks, no losses. Items below are confirmed against official patch notes and the Companion sailing guide.",
+    "facts": {
+      "pvpOnly":       { "title": "PvP channel only",    "body": "Ship combat is only active on PvP channels. On PvE the ship is a transport — other players can't attack." },
+      "mannedCannons": { "title": "Manned or automatic cannons","body": "Cannons are loaded and fired by crew; some can be set to automatic. Voice coordination is a serious advantage." },
+      "durability":    { "title": "Ships don't decay",   "body": "Companion: 'Ships do not rot or decay over time; you only lose durability from combat damage and collisions.' Time-away costs nothing." },
+      "channelSwitch": { "title": "Channel swap needs harbour","body": "No mid-ocean channel swap. Call the ship to a harbour first; if you dock, on-board caravan packages are destroyed." },
+      "piracy":        { "title": "Piracy and boarding", "body": "On a PvP channel, pirate ships hunt traders and loot packages. Side-by-side boarding (sending crew across) is the classic move." },
+      "cannonRestriction": { "title": "Raft/Boat cannon ban","body": "Rafts and Boats can no longer mount cannons. All naval firepower is concentrated in Frigates and Warships.", "source": "June 26, 2025 balance patch" }
+    }
+  },
+  "kraken": {
+    "kicker": "KRAKEN HUNT",
+    "title": "Open-Sea Naval Boss",
+    "subtitle": "Quinfall's most iconic world boss. Ship-only — can't be fought from land. Descends three times a day, far more often than any other world boss.",
+    "spotlight": {
+      "tag": "Naval World Boss",
+      "title": "Kraken",
+      "body": "Surfaces from the deep and shreds hulls with its tentacles. The Cursed Realms patch added a melee pattern and bumped damage by 50%. A guild-scale naval crew + Frigate/Warship is mandatory.",
+      "meta": {
+        "location": { "label": "Location", "value": "Open sea" },
+        "spawn":    { "label": "Spawn",    "value": "3 times a day" },
+        "access":   { "label": "Access",   "value": "Ships only" }
+      }
+    },
+    "phases": {
+      "title": "Attack Patterns",
+      "note": "Some phase names come from community observation; the official mechanic text isn't out yet.",
+      "list": {
+        "surface":    { "title": "Surface emerge",    "body": "Kraken breaches; every cannon can line up. The opening window is the densest damage opportunity." },
+        "tentacle":   { "title": "Tentacle Slam",     "body": "Targets one ship in a single heavy strike. Spread positions so it can't sequence-hit the same hull." },
+        "inkCloud":   { "title": "Ink Cloud",         "body": "A dark ink cloud cuts vision and accuracy; a brief retreat window." },
+        "whirlpool":  { "title": "Whirlpool",         "body": "Pulls the area to centre. Open the sail, push the engine, get out — or you ram straight into it." },
+        "underwater": { "title": "Underwater Phase",  "body": "Dives for a while. Predict the resurface point; keep harpoons ready." }
+      }
+    },
+    "rewards": {
+      "title": "Drop Pool",
+      "note": "Kraken-specific rewards are gathered from community sources; some (e.g. the Sea Champion title) aren't fully verified in primary sources.",
+      "list": {
+        "materials": { "title": "Kraken parts",       "body": "Top-tier crafting materials — the input for naval set and Kraken-line weapons." },
+        "gold":      { "title": "Heavy gold",         "body": "Total gold per run is significant; a guild-economy weekly stream." },
+        "navalSet":  { "title": "Naval set pieces",   "body": "Crew-bonus naval set pieces drop in the same pool." },
+        "title":     { "title": "Sea Champion title", "body": "A permanent title — discussed in the community; the exact in-game label isn't confirmed yet." }
+      }
+    }
+  },
+  "fishing": {
+    "kicker": "FISHING",
+    "title": "3 Categories, 2 Modes, 1 Token Economy",
+    "subtitle": "Fishing is one of the verified economy lanes: three categories (freshwater, saltwater, deep sea); active (E) or AFK (T) mode; output converts at the Armorer into enhancement materials.",
+    "categories": {
+      "title": "Fishing Categories",
+      "body": "Quinfall fishing is officially split into three categories. The harbour-flavoured zones the community talks about (warm/cold/misty) are flavour on top of this, not the core system.",
+      "list": {
+        "freshwater": { "name": "Freshwater", "tag": "Rivers / lakes",  "body": "Inland water sources; easiest access and the largest fish supply." },
+        "saltwater":  { "name": "Saltwater",  "tag": "Harbour / coast", "body": "Sea water near the harbour. The main fishing ground for coastal fish." },
+        "deepSea":    { "name": "Deep Sea",   "tag": "Open sea · ship", "body": "Far from harbour, ship required. Larger and rarer fish; legendary species near the Kraken zone." }
+      }
+    },
+    "mechanics": {
+      "title": "Fishing Modes",
+      "list": {
+        "activeMode":  { "title": "Active mode (E)",  "body": "Active casting with the E key. Reaction-based, higher chance of quality fish." },
+        "afkMode":     { "title": "AFK mode (T)",     "body": "Automatic fishing on the T key. Slow but hands-free; great for long sessions." },
+        "tokens":      { "title": "Profession tokens","body": "Sell your catch to the Fisherman NPC and you earn profession tokens." },
+        "enhancement": { "title": "Armorer exchange", "body": "Trade tokens at the Armorer NPC for enhancement materials (T → Exchange)." }
+      }
+    },
+    "tokenEconomy": {
+      "title": "Token → Enhancement Economy",
+      "body": "Steam community guide: 'Trade your gathered materials for profession tokens... go to an Armorer NPC, press T, Exchange, and trade your tokens for enhancement materials.'",
+      "materialsLabel": "Verified Enhancement Materials",
+      "materials": {
+        "nebulas":     "Nebulas",
+        "starScroll":  "Star Scroll",
+        "meteorSouls": "Meteor Souls",
+        "astralCloth": "Astral Cloth"
+      },
+      "source": "Source · Steam guide id=3533874584"
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEGY",
+    "title": "Which Captain for Which Path?",
+    "subtitle": "Safe shores for new captains, gold lanes for traders, PvP hunting for pirates, guild-scale Kraken runs.",
+    "list": {
+      "starter": {
+        "title": "🌱 New Captain",
+        "bullets": [
+          "First ship: a raft — 60,000 coin entry, fine for inshore fishing + short routes.",
+          "Start on the PvE channel with fishing and token farming; sell to the Armorer for enhancement mats.",
+          "Before stepping up to Boat / Frigate, learn the wood economy at Maplewood.",
+          "Channel switching only at a harbour — docking destroys the package, mind the order."
+        ]
+      },
+      "trader": {
+        "title": "💰 Trader",
+        "bullets": [
+          "Frigate Trader — first armable hull, run valuable packages with escort.",
+          "Aim for Traystable departures (~1,500g payout).",
+          "Deliver the package before docking elsewhere — docking destroys it.",
+          "On a high-value run bring a Frigate / Warship escort; don't be free pirate food."
+        ]
+      },
+      "pirate": {
+        "title": "🏴‍☠ Pirate",
+        "bullets": [
+          "Start with Frigate Pirate; Warship Pirate is a guild investment.",
+          "Camp the trade lanes on PvP channel; chase lone Trader Boats / Frigates.",
+          "Keep 4-6 melee crew for boarding actions.",
+          "Strike before the trader hits the harbour; once it docks the package is gone."
+        ]
+      },
+      "kraken": {
+        "title": "🐙 Kraken Run",
+        "bullets": [
+          "Guild coordination is mandatory; one ship can't drop it. Mix Frigates / Warships, at least 3 ships.",
+          "Crew: 1 captain + 4-8 gunners + 2 support. Don't even try without voice.",
+          "Spread on Whirlpool, keep harpoons ready after the Underwater phase.",
+          "The drop pool is the main source of naval set + crafting materials — schedule it weekly."
+        ]
+      }
+    }
+  }
+}

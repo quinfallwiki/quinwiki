@@ -1,0 +1,157 @@
+{
+  "page": {
+    "eyebrow": "KERVAN SİSTEMİ",
+    "title": "Kervan & Ticaret",
+    "description": "Quinfall'da kervan sadece nakliye değil — ekonominin omurgası ve PvP sahası. Caravan Vendor'dan hayvan kirala, paket al, doğru rotayı seç. PvE kanalı güvenli, PvP kanalı +%20 bonus."
+  },
+  "hero": {
+    "badge": "Sistem Özeti",
+    "title": "12 Şehir, 7 Liman, +%20 PvP Bonusu.",
+    "body": "Caravan Vendor NPC'sinden eşek/öküz/deve/fil kiralayıp paketle bir sonraki şehre/limana götürürsün. PvE kanalında güvenli ama bonussuz, PvP kanalında saldırı serbest ama ödül %20 fazla. v1.0.0.6 yamasıyla unattended kervan 1 saat yerinde bekler — paketin kaybolmaz.",
+    "stats": {
+      "cities": "Büyük Şehir",
+      "harbors": "Liman",
+      "pvpBonus": "PvP Bonusu"
+    }
+  },
+  "flow": {
+    "kicker": "AKIŞ",
+    "title": "Bir Kervan Nasıl Çalışır?",
+    "subtitle": "Beş adımlık standart döngü — her şehirdeki Caravan Vendor'da aynı işliyor.",
+    "steps": {
+      "rent":    { "title": "Hayvan kirala",    "body": "Caravan Vendor'dan eşek, öküz, deve veya fil seç. Hayvan summon edilir; kira süresi başlar." },
+      "package": { "title": "Paket satın al",   "body": "Aynı NPC'den çıkış şehri paketini al. Paket kapasitesi hayvanın yüküyle orantılı." },
+      "route":   { "title": "Rota belirle",     "body": "Hedef şehir veya liman seç. Mesafe + kanal tipi (PvE/PvP) ödülü belirler." },
+      "travel":  { "title": "Yolculuk",         "body": "Aktif kal: PvP kanalında diğer oyuncular saldırabilir. Logout olursan hayvan 1 saat yerinde bekler." },
+      "deliver": { "title": "Teslim et",        "body": "Hedef NPC'ye paketi teslim et; ödeme anında düşer. Hayvan kira süresinde geri verilebilir." }
+    }
+  },
+  "animals": {
+    "kicker": "KERVAN HAYVANLARI",
+    "title": "Kira Türleri",
+    "subtitle": "Standart Caravan Vendor envanteri 4 hayvan: tier yükseldikçe yük ve kira artar. Premium binekler V-Coin / etkinlik üzerinden açılır.",
+    "tiers": { "starter": "Başlangıç", "mid": "Orta", "top": "Üst" },
+    "standard": {
+      "title": "Standart Kira",
+      "unit": "hayvan",
+      "body": "Caravan Vendor envanterinin temel dört seçeneği. İlk üçü açıkça ucuz, fil ciddi yatırım."
+    },
+    "premium": {
+      "title": "Premium Kervan Görünümleri",
+      "unit": "set",
+      "body": "Mağaza veya etkinlik üzerinden açılan üst seviye görünümler. Stat avantajı yok, görsel fark."
+    },
+    "list": {
+      "donkey":   { "name": "Eşek · Donkey",   "tag": "Başlangıç kirası",      "body": "En ucuz seçenek. Yavaş ama yük taşır; başlangıç rotaları için ideal." },
+      "ox":       { "name": "Öküz · Ox",       "tag": "Ağır yük starter",      "body": "Eşekten yavaş, ama yük kapasitesi en yüksekler arasında. Sabit tempo, uzun mesafe." },
+      "camel":    { "name": "Deve · Camel",    "tag": "Çöl uzmanı",            "body": "Çölde sıcak debuff'ından etkilenmez. Horus rotalarının vazgeçilmezi." },
+      "elephant": { "name": "Fil · Elephant",  "tag": "Üst tier · pahalı",     "body": "En yüksek HP ve yük. Sırtındaki platformdan saldırılır; lonca kervanı için ideal." }
+    },
+    "premiums": {
+      "goldenMerchant":  { "name": "Altın Tacir",       "body": "Mağaza atı; tacir estetiği." },
+      "desertCaravan":   { "name": "Çöl Kervanı",       "body": "Horus rotası temalı premium görünüm." },
+      "sultansGuardian": { "name": "Sultan'ın Muhafızı","body": "Sultan estetikli üst seviye kervan." },
+      "warBehemoth":     { "name": "Savaş Behemotu",    "body": "Savaş süslü kervan / savaş hayvanı." }
+    }
+  },
+  "channels": {
+    "kicker": "KANAL KURALLARI",
+    "title": "PvE Güvenli, PvP +%20",
+    "subtitle": "v1.0.0.6 yamasıyla (14 Şubat 2026) güncellenen kritik mekanik. Bonus kavgası tamamen kanal seçimine bağlı.",
+    "pve": {
+      "tag": "Güvenli",
+      "title": "PvE Kanalı",
+      "body": "Diğer oyuncular kervanına saldıramaz. Risk yok, kayıp yok — ama önceki %5 bonus tamamen kaldırıldı.",
+      "bonusLabel": "Ek ödül"
+    },
+    "pvp": {
+      "tag": "Açık alan",
+      "title": "PvP Kanalı",
+      "body": "Saldırı açık. Yakalanırsan paket düşürür ya da çalınır. Gerçek tüccar burada kazanır — ödül +%20 yükseltildi.",
+      "bonusLabel": "Ek ödül"
+    },
+    "unattended": {
+      "title": "v1.0.0.6: Unattended Koruma",
+      "body": "Logout olursan veya server restart olursa kervan hayvanı 1 saat boyunca yerinde bekler. Bu süre içinde paket kaybolmaz, kervan dağılmaz.",
+      "source": "Resmi yama notu · 14 Şubat 2026"
+    }
+  },
+  "cities": {
+    "kicker": "12 BÜYÜK ŞEHİR",
+    "title": "Kervan Rotalarının Düğüm Noktaları",
+    "subtitle": "Oyun haritasının ana 12 büyük şehri — bölgesel olarak gruplandı. Her biri Caravan Vendor barındırır; rotalar bu şehirler arasında kurulur.",
+    "regions": {
+      "west":    "Batı Bölgesi",
+      "central": "Orta Bölge",
+      "east":    "Doğu Bölgesi",
+      "south":   "Güney",
+      "desert":  "Çöl Bölgesi"
+    },
+    "note": {
+      "title": "Mesafe = Ödül",
+      "body": "Yakın şehirler arası rota düşük gold ama hızlı; uzak şehirler (ör. çöl ↔ batı) daha yüksek ödeme. Mesafeyi kanal seçimiyle birlikte düşün — uzak rotada PvP kanalı %20 bonusla cazip ama riskli."
+    }
+  },
+  "sea": {
+    "kicker": "DENİZ KERVANI",
+    "title": "Limanlar ve Harbor Master",
+    "subtitle": "Kara kervanına paralel ikinci sistem. Harbor Master'dan paket al, gemiyle başka limana götür. Önemli kural: ödeme kalkış limanına bağlı, varış limanına değil.",
+    "harborTable": {
+      "label": "PAYOUT TABLOSU",
+      "title": "Liman Başına Tahmini Ödeme",
+      "harbor": "Liman",
+      "payout": "Tahmini Ödeme",
+      "note": "Topluluk gözleminden, kalkış limanına göre. Traystable en yüksek; Edgeshore ve Silvercrest en düşük."
+    },
+    "facts": {
+      "harborMaster":     { "title": "Harbor Master her limanda", "body": "Tek NPC; gemi yönetimi + kervan paket alımı + balıkçı servisi hep burada." },
+      "departurePayout":  { "title": "Kalkış limanı belirler",    "body": "Ödeme varışa değil, paketi aldığın limana bağlı. Pahalı limandan kalkmak hedefe değil de rotaya yatırım." },
+      "destroyOnDock":    { "title": "Dock'larken paket yok olur","body": "Gemi limana yanaştırırken yanlışlıkla paketin yok olabilir — teslim NPC'sine gidene kadar dikkat." },
+      "pirate":           { "title": "PvP kanalda korsan riski",  "body": "PvP kanalda diğer oyuncular gemine saldırabilir. Kara kervanıyla aynı mantık: risk × ödül." },
+      "channelSwitch":    { "title": "Kanal değişimi",            "body": "Kanal değiştirmek için gemiyi limana çağırmak gerek; deniz ortasında geçiş yok." }
+    }
+  },
+  "strategy": {
+    "kicker": "STRATEJİ",
+    "title": "Hangi Profil İçin Hangi Yol?",
+    "subtitle": "Yeni başlayanın güvenli kazancı, orta seviyenin verimi, PvP'cinin riskli ödülü, lonca operasyonunun ölçeği.",
+    "list": {
+      "starter": {
+        "title": "🌱 Yeni Başlayan",
+        "bullets": [
+          "İlk rota: yakın iki şehir arası eşek + PvE kanal — kayıp yok, mekanik öğrenirsin.",
+          "Caravan Vendor'ın yerini öğren: her büyük şehirde var.",
+          "Logout zorunda kalırsan paniklemeyin — 1 saat unattended koruması var.",
+          "Düşük ödülle başlayıp Horus / Pabas gibi uzak rotalara geç."
+        ]
+      },
+      "midGame": {
+        "title": "💰 Orta Seviye Verim",
+        "bullets": [
+          "Deve kirala — Horus çevresinde +su tüketimi avantajı tam fark yaratır.",
+          "Birden fazla şehir arası döngüsel rota kur (Pabas → Reasya → Horus → Pabas).",
+          "PvE kanalında bile mesafe + paket büyüklüğü ile ciddi gold girer.",
+          "Liman varsa kara kervanını deniz kervanıyla zincirle."
+        ]
+      },
+      "pvpHigh": {
+        "title": "⚔ PvP Riskli Yüksek Kazanç",
+        "bullets": [
+          "PvP kanalda %20 bonus — uzun rotada anlamlı fark.",
+          "Tek başına gitme: en az 1 muhafız oyuncu götür.",
+          "Fil + zırhlı eskort kombinasyonu pakete daha fazla zaman kazandırır.",
+          "Saldırıya uğradığında logout = hayvan 1 saat yerinde, ama paket riskte."
+        ]
+      },
+      "guildOps": {
+        "title": "🏰 Lonca Operasyonu",
+        "bullets": [
+          "Fil + premium kervan görünümleri (Çöl Kervanı, Sultan Muhafızı) lonca yatırımı.",
+          "Çoklu kervanı tek rotada götür: muhafız 4 kervana 1 — ölçek ekonomisi.",
+          "Deniz kervanını paralel çalıştır: Traystable kalkışlı rotalar (~1500g) en kazançlı.",
+          "Kanal seçimini lonca etkinlik takvimine göre planla — primetime'da PvP kanalı kalabalık."
+        ]
+      }
+    }
+  }
+}

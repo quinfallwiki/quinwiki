@@ -1,0 +1,86 @@
+{
+  "page": {
+    "eyebrow": "LEVEL KASMA REHBERİ",
+    "title": "1'den 100'e Quinfall Level Yolu",
+    "description": "Görevler 50'de bitiyor — sonrası tahta görevleri ve party kasmalarıyla yürüyor. Her seviye dilimi için doğru aktivite, doğru zone ve doğru çarpan tek sayfada."
+  },
+  "hero": {
+    "kicker": "TEMEL BİLGİ",
+    "title": "Karakter Maks 100, Görevler 50'ye Kadar",
+    "subtitle": "Quinfall'da maksimum karakter seviyesi 100. Görevler seviye 50'de tükeniyor; sonrasında tahta görevleri (×2 XP) ve party halinde elit yaratık avı oyunun ana ilerleme döngüsünü oluşturuyor.",
+    "stats": {
+      "maxLevel":     "Maks Karakter Seviyesi",
+      "questCap":     "Görev Bitiş Seviyesi",
+      "huntingZones": "Av Bölgesi (1–100)",
+      "endgameZones": "Endgame (Lvl 100) Bölgesi"
+    }
+  },
+  "phases": {
+    "kicker": "5 FAZ",
+    "title": "Seviye Yolculuğu",
+    "subtitle": "Her faz farklı bir oyun döngüsü — doğru fazı doğru aktiviteyle eşle",
+    "list": {
+      "tutorial":  { "name": "Tutorial & Başlangıç", "headline": "Ana hikaye + ilk silahını seç", "body": "Açılış görev zinciriyle başlayıcı bölgeyi temizle. Bu fazda iki silah yuvasını da deneyip kendine uygun aileyi seç. Erken seviye eşyaları görev ödüllerinden gelir, henüz mağaza/üretim sıkıntısı çekme." },
+      "questCore": { "name": "Çekirdek Görev",       "headline": "Yan görevleri tarayarak ilerle", "body": "Hikaye + yan görev kombosu hızla seviye verir. İlk meslek (toplayıcılık veya madencilik) seçip dünyada gezerken yanında kasmaya başla. İlk dungeon girişlerin de bu fazda olur." },
+      "questLate": { "name": "Geç Görev",            "headline": "Bölge değişimi ve dungeon",     "body": "Bu fazda haritanın yeni bölgelerine açılırsın; görevler artık parti gerektiren elit hedeflere işaret eder. Ekipmanını ilk kez gerçekten yükselt — Şampiyon yaratıklardan düşen güçlendirme malzemelerini topla." },
+      "townBoard": { "name": "Tahta Görevleri",      "headline": "×2 XP loop — her gün koş",       "body": "Görevler bitti, tahta açıldı. Şehir tahtasındaki günlük tekrar görevleri ×2 XP verir. Bu fazda parti şart: 3 kişilik küçük gruplarla 60'lık alanları temizle, tahtayı paralel sıfırla." },
+      "endgame":   { "name": "Endgame",              "headline": "Elit yaratık & dünya bossu",     "body": "75 sonrası tam parti gerek. 75 ve 100'lük bölgeler endgame loop'unun kalbi: 26 farklı 100'lük av sahası, dünya bossu rotasyonları, açık zindanlar ve set parça farmı." }
+    }
+  },
+  "xpSources": {
+    "kicker": "XP KAYNAKLARI",
+    "title": "XP'yi Nereden Alırsın?",
+    "subtitle": "Her aktivitenin kendi pencere ve çarpanı var",
+    "list": {
+      "storyQuest":   { "name": "Hikaye Görevi",   "body": "Ana zincir, 1–50 boyunca en stabil XP kaynağı. Levellaşmanın ana ekseni." },
+      "sideQuest":    { "name": "Yan Görev",       "body": "Bölgesel yan görevler hikaye boşluklarını doldurur, ek altın ve eşya verir." },
+      "townBoard":    { "name": "Tahta Görevi",    "body": "Şehir merkezinde günlük yenilenen tekrar görevleri. 50 sonrası ana XP musluğu — ×2 çarpan aktif." },
+      "mobKill":      { "name": "Yaratık Avı",     "body": "Görev dışı solo XP. Düşük leveldeyken görev için harita değiştiriyorsan yolda alacağın küçük dolgu." },
+      "partyKill":    { "name": "Parti Avı",       "body": "Elit yaratıklar yalnız öldürülemez. Parti kuralı 50 sonrası mecburi; partide kasıldığında bireysel XP %50 daha fazla." },
+      "dungeonClear": { "name": "Zindan Bitirimi", "body": "Tek bir zindan tam temizlik = 1 saatlik solo grind kadar XP. 25 sonrası açılan instance'larda her gün koş." },
+      "worldBoss":    { "name": "Dünya Bossu",     "body": "Günlük spawn rotasyonu. Katılım XP'si yüksek, drop ekstra. 60+ seviye için ideal." },
+      "profession":   { "name": "Meslek XP",       "body": "13 meslek dalının kendi level çubuğu var; karakter level'ından bağımsız ama crafted ekipman karakter ilerleyişini hızlandırır." }
+    }
+  },
+  "zones": {
+    "kicker": "AV BÖLGELERİ",
+    "title": "Hangi Levelde Nereye Git?",
+    "subtitle": "Oyun verisinden birebir 54 av sahasının gerçek adları, parti gereksinimi ve seviye dilimi",
+    "level":      "Lvl",
+    "zones":      "Bölge",
+    "partySolo":  "Solo",
+    "partySmall": "Küçük Parti",
+    "partyFull":  "Tam Parti",
+    "partyFlag":  "Parti"
+  },
+  "mastery": {
+    "kicker": "USTALIK SİSTEMLERİ",
+    "title": "Karakter Level + Silah + Meslek",
+    "subtitle": "Quinfall'da üç ayrı ilerleme çubuğu var; üçü birden çalışır",
+    "weapon": {
+      "name": "Silah Ustalığı",
+      "body": "Her silah ailesinin kendi yetenek ağacı ve ustalık seviyesi var. Bir silahla vurdukça o silahın ustalığı artar. İki silahı kuşanıp ikisini de paralel besleyebilirsin."
+    },
+    "profession": {
+      "name": "Meslek Seviyesi",
+      "body": "13 meslek dalı: madencilik, toplayıcılık, balıkçılık, avcılık, oduncoluk, demircilik, terzilik, simyacılık, aşçılık, marangozluk, mücevherat, mekanik, çiftçilik. Her biri karakter level'ından bağımsız."
+    },
+    "character": {
+      "name": "Karakter Seviyesi",
+      "body": "Maks 100. Stat puanı, can, mana, beceri yuvası ve ekipman level kapısı bu çubuğa bağlı."
+    }
+  },
+  "mistakes": {
+    "kicker": "YAYGIN HATALAR",
+    "title": "Kaçınman Gereken 6 Tuzak",
+    "subtitle": "Topluluk rehberlerinden derlenen klasik level kasma hataları",
+    "list": {
+      "soloPast50":         { "name": "50 sonrası solo kalmak",         "body": "Görevler bittikten sonra solo XP eğrisi neredeyse durur. Mutlaka klan veya parti ağına bağlan." },
+      "ignoringTownBoard":  { "name": "Tahta görevlerini ihmal etmek",  "body": "Şehir tahtasındaki günlük tekrar görevleri ×2 XP veriyor — günde 30 dakika bile büyük fark yaratır." },
+      "wrongWeaponMastery": { "name": "Yanlış silahla level atmak",     "body": "Karakter levelı yükselirken yanlış silahla kasarsan endgame'de ustalık çubuğun düşük kalır. Ana silahını erken seç." },
+      "noProfessions":      { "name": "Meslek açmadan ilerlemek",       "body": "İlk 20 levelde 1–2 meslek seçmezsen sonrasında crafted ekipman üretemez, ekonomide geri kalırsın." },
+      "overgearing":        { "name": "Aşırı yükseltme tuzağı",         "body": "30. levelde 50 levellik eşya peşinde koşmak hem altın yakar hem ilerleyişi yavaşlatır. Level aralığında kal." },
+      "skipDungeons":       { "name": "Zindanları atlamak",             "body": "Zindan ödülleri günlük XP kotası ve rare ekipman parçaları sunar. Level'e uygun zindanı her gün koş." }
+    }
+  }
+}

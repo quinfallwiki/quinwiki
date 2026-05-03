@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "kicker": "TÜRKİYE'NİN QUINFALL KAYNAĞI",
+    "title": "Quinfall Evrenine Adım At",
+    "subtitle": "Sınıflar, eşyalar, zindanlar, denizcilik ve kervanlar — oyunda ihtiyacın olan her şey, tek çatıda toplandı.",
+    "tags": [
+      "2016 km² Açık Dünya",
+      "Hedefsiz Savaş",
+      "10 Silah Ailesi",
+      "Devasa Kuşatmalar",
+      "Deniz Savaşları",
+      "Dinamik Hava ve Mevsim"
+    ],
+    "ctaPrimary": "Wiki'yi Keşfet",
+    "ctaSecondary": "Yeni Başlayan Rehberi"
+  },
+  "worldFacts": {
+    "kicker": "OYUN DÜNYASI",
+    "title": "Quinfall Bir Bakışta",
+    "facts": {
+      "mapSize":     "Açık Dünya",
+      "maxLevel":    "Maks Seviye",
+      "cities":      "Büyük Şehir",
+      "harbors":     "Liman",
+      "worldBoss":   "Dünya Bossu",
+      "weapons":     "Silah Ailesi",
+      "professions": "Meslek",
+      "shipClasses": "Gemi"
+    }
+  },
+  "categories": {
+    "title": "Bölümler",
+    "subtitle": "Aradığın bilgiye saniyeler içinde ulaş"
+  },
+  "updates": {
+    "title": "Son Güncellemeler",
+    "subtitle": "Wiki'ye eklenen son içerikler",
+    "empty": "Yakında ilk güncellemeler burada görünecek."
+  },
+  "community": {
+    "title": "Topluluğa Katıl",
+    "subtitle": "Discord'da Türk oyuncularla buluş, kervanlara katıl, sorularına anında cevap bul."
+  }
+}
