@@ -15,7 +15,7 @@ export function WorldBossRoster() {
         subtitle={t('worldBossRoster.subtitle') as string}
       />
 
-      <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+      <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
         {WORLD_BOSSES.map((b, i) => {
           const locked = b.status === 'locked';
           return (
@@ -24,11 +24,11 @@ export function WorldBossRoster() {
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
-              transition={{ duration: 0.4, delay: (i % 3) * 0.05 }}
+              transition={{ duration: 0.4, delay: (i % 4) * 0.05 }}
               className={`group relative flex flex-col overflow-hidden rounded-2xl border bg-gradient-to-b from-ink-800/80 via-ink-900/90 to-ink-950/95 transition ${
                 locked
                   ? 'border-steel-700/40'
-                  : 'border-steel-700/60 hover:-translate-y-0.5 hover:border-ember-400/50 hover:shadow-glow'
+                  : 'border-steel-700/60 hover:-translate-y-1 hover:border-ember-400/55 hover:shadow-glow'
               }`}
               style={
                 locked
@@ -36,6 +36,14 @@ export function WorldBossRoster() {
                   : { borderTopWidth: 3, borderTopColor: b.accent }
               }
             >
+              {/* Boss-coloured glow on hover */}
+              {!locked && (
+                <span
+                  aria-hidden
+                  className="pointer-events-none absolute -top-12 -right-12 h-32 w-32 rounded-full opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-60"
+                  style={{ background: b.accent }}
+                />
+              )}
               <div className="relative aspect-[4/3] overflow-hidden bg-ink-950">
                 {b.imageFile && (
                   <img

@@ -9,9 +9,11 @@
     "title": "4 Dungeons, 8 Bosses, 4 Difficulties.",
     "body": "Level cap is 100. Daily Dungeon Points stack up to 1,000 and every entry spends from this pool. Parties cap at 8 and the dungeon level locks to the highest-level player in the group. Every image below is straight from the live game.",
     "stats": {
-      "cap": "Level Cap",
-      "points": "Daily Dungeon Points",
-      "party": "Party Cap"
+      "dungeons": "Active Dungeons",
+      "bosses":   "Active Bosses",
+      "party":    "Party Cap",
+      "cap":      "Level Cap",
+      "points":   "Daily Points"
     }
   },
   "worldBossRoster": {
@@ -79,6 +81,8 @@
     "title": "4 Active + 1 Locked",
     "subtitle": "Each dungeon opens in Solo or Party mode and supports 4 difficulty tiers (Easy → Very Hard). Very Hard has the widest boss-loot pool.",
     "itemBadge": "items · Very Hard",
+    "statusLive":  "LIVE",
+    "dropPerRun": "DROPS PER RUN",
     "lockedTitle": "Locked Dungeon",
     "lockedTag": "5th Slot · Soon",
     "lockedBody": "The fifth dungeon slot is locked. Content is expected to unlock with a future update.",
@@ -118,7 +122,8 @@
       "easy": { "name": "🟢 Easy", "description": "Entry-level difficulty." },
       "normal": { "name": "🟡 Medium", "description": "Standard difficulty." },
       "hard": { "name": "🟠 Hard", "description": "High difficulty; mechanic knowledge required." },
-      "veryHard": { "name": "🔴 Very Hard", "description": "End-game difficulty. The widest, highest-quality boss loot drops here." }
+      "veryHard": { "name": "🔴 Very Hard", "description": "End-game difficulty. The widest, highest-quality boss loot drops here." },
+      "party":    { "name": "🟣 Party",    "description": "Group mode — up to 8 players." }
     },
     "notes": {
       "solo": {
@@ -184,6 +189,26 @@
         "title": "Ships for Kraken",
         "body": "Kraken descends three times a day and only falls to a naval crew. Without ships, crew and cannon coordination, an attempt is wasted time."
       }
+    }
+  },
+  "arena": {
+    "kicker":   "NEW — v1.0.0.27",
+    "title":    "Trio Arena 3v3",
+    "subtitle": "Quinfall's first structured PvP tournament system, shipped in the May 2026 major update",
+    "badge":    "PvP EVENT",
+    "headline": "3-Player Squads, Ladder Matches",
+    "body":     "Added in Major Update v1.0.0.27, Trio Arena is a 3-on-3 ranked tournament for small PvP squads. Build a team, queue up, prove your skill — winners pull arena material rewards from the prize box.",
+    "features": {
+      "team":         "Fixed 3-player squad — bring any class combo you want",
+      "matchmaking":  "Auto matchmaking — queue without waiting",
+      "rewards":      "Winning team pulls arena materials and reward boxes",
+      "season":       "Seasonal ranking — leaderboard prizes at season end"
+    },
+    "stats": {
+      "teamSize": "Team",
+      "mode":     "Mode",
+      "queue":    "Queue Open",
+      "season":   "Shipped In"
     }
   }
 }

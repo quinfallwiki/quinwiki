@@ -4,11 +4,11 @@ import { Container } from '@/components/ui/Container';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Seo } from '@/components/seo/Seo';
 import { DungeonHero } from '@/features/dungeons/DungeonHero';
-import { WorldBossRoster } from '@/features/dungeons/WorldBossRoster';
 import { DungeonGrid } from '@/features/dungeons/DungeonGrid';
-import { DungeonPoints } from '@/features/dungeons/DungeonPoints';
+import { WorldBossRoster } from '@/features/dungeons/WorldBossRoster';
+import { ArenaPanel } from '@/features/dungeons/ArenaPanel';
 import { DifficultyMatrix } from '@/features/dungeons/DifficultyMatrix';
-import { DungeonDrops } from '@/features/dungeons/DungeonDrops';
+import { DungeonPoints } from '@/features/dungeons/DungeonPoints';
 import { PrepChecklist } from '@/features/dungeons/PrepChecklist';
 
 export default function DungeonsPage() {
@@ -26,11 +26,11 @@ export default function DungeonsPage() {
       />
       <Container size="xl" className="space-y-16 py-12">
         <DungeonHero />
-        <WorldBossRoster />
         <DungeonGrid />
-        <DungeonPoints />
+        <WorldBossRoster />
+        <ArenaPanel />
         <DifficultyMatrix />
-        <DungeonDrops />
+        <DungeonPoints />
         <PrepChecklist />
       </Container>
     </>

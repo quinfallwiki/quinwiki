@@ -9,9 +9,11 @@
     "title": "4 Zindan, 8 Patron, 4 Zorluk.",
     "body": "Maks seviye 100. Günlük zindan puanı 1000'e kadar birikir; her giriş bu havuzdan harcar. Party maks 8 kişiyle açılır ve zindan seviyesi gruptaki en yüksek seviyeli oyuncuya kilitlenir. Aşağıdaki tüm görseller oyun-içinden çekildi.",
     "stats": {
-      "cap": "Maks Seviye",
-      "points": "Günlük Zindan Puanı",
-      "party": "Party Tavanı"
+      "dungeons": "Aktif Zindan",
+      "bosses":   "Aktif Patron",
+      "party":    "Party Tavanı",
+      "cap":      "Maks Seviye",
+      "points":   "Günlük Puan"
     }
   },
   "worldBossRoster": {
@@ -79,6 +81,8 @@
     "title": "4 Aktif + 1 Kilitli",
     "subtitle": "Her zindan Bireysel veya Party olarak açılır; 4 zorluk modu (Kolay → Çok Zor) destekler. Çok Zor zorluğunda boss ganimet seti en geniştir.",
     "itemBadge": "item · Çok Zor",
+    "statusLive":  "AKTİF",
+    "dropPerRun": "KOŞU BAŞINA DÜŞEN",
     "lockedTitle": "Kilitli Zindan",
     "lockedTag": "5. Slot · Yakında",
     "lockedBody": "Beşinci zindan slotu şu an kilitli. İçeriğin gelecekteki bir güncellemeyle açılması bekleniyor.",
@@ -118,7 +122,8 @@
       "easy": { "name": "🟢 Kolay", "description": "Giriş zorluğu." },
       "normal": { "name": "🟡 Orta", "description": "Standart zorluk." },
       "hard": { "name": "🟠 Zor", "description": "Yüksek zorluk; mekanik bilgisi gerekir." },
-      "veryHard": { "name": "🔴 Çok Zor", "description": "End-game zorluğu. En kaliteli ve en çeşitli boss ganimeti bu zorlukta düşer." }
+      "veryHard": { "name": "🔴 Çok Zor", "description": "End-game zorluğu. En kaliteli ve en çeşitli boss ganimeti bu zorlukta düşer." },
+      "party":    { "name": "🟣 Party",   "description": "Grup modu — max 8 kişi." }
     },
     "notes": {
       "solo": {
@@ -184,6 +189,26 @@
         "title": "Kraken için gemi şart",
         "body": "Kraken günde 3 kez dünyaya iner ve sadece naval ekiple devrilir. Gemi, mürettebat ve top koordinasyonu olmadan girmek zaman kaybı."
       }
+    }
+  },
+  "arena": {
+    "kicker":   "YENİ — v1.0.0.27",
+    "title":    "Trio Arena 3v3",
+    "subtitle": "Mayıs 2026 büyük güncellemesiyle gelen Quinfall'un ilk yapılandırılmış PvP turnuva sistemi",
+    "badge":    "PvP ETKİNLİĞİ",
+    "headline": "3 Kişilik Takımlar, Sayısız Maç",
+    "body":     "Major Update v1.0.0.27 ile gelen yeni Trio Arena, küçük PvP grupları için tasarlanmış 3'e 3 turnuva sistemidir. Takım kur, sıraya gir, becerini göster — kazanan takımlar arena materyallerinden büyük ödüller toplar.",
+    "features": {
+      "team":         "3 kişilik sabit takım — istediğin sınıf kombinasyonunu kurabilirsin",
+      "matchmaking":  "Otomatik eşleşme — beklemeden hızlı sıraya gir",
+      "rewards":      "Kazanan takım için arena materyali ve ödül kasası",
+      "season":       "Sezonluk derecelendirme — sezon sonu lider tablosu ödülleri"
+    },
+    "stats": {
+      "teamSize": "Takım",
+      "mode":     "Mod",
+      "queue":    "Sıra Açık",
+      "season":   "Geldiği Yama"
     }
   }
 }

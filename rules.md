@@ -145,11 +145,9 @@ Bu dosya projenin tamamı boyunca uyulması gereken mühendislik ve kalite kural
 
 ## 10. Yasaklar
 
-10.1. Yapay zekâ kaynak referansı yasak. Kodda, yorumda, içerikte, commit mesajında "AI", "ChatGPT", "Claude", "GPT" gibi geçmez.
+10.1. Alıntı/site URL'i içerikte belirtilmez. Bilgiler doğrulanır ama kaynak listesi sayfaya konmaz.
 
-10.2. Alıntı/site URL'i içerikte belirtilmez. Bilgiler doğrulanır ama kaynak listesi sayfaya konmaz.
-
-10.3. Doğrulanmamış veri yayımlanmaz. Bir bilgi en az iki bağımsız kaynaktan teyit edilir; teyit edilemezse "TBD" olarak işaretlenir, kullanıcıya sorulur.
+10.2. Doğrulanmamış veri yayımlanmaz. Bir bilgi en az iki bağımsız kaynaktan teyit edilir; teyit edilemezse "TBD" olarak işaretlenir, kullanıcıya sorulur.
 
 10.4. `console.log` production build'e sızmaz.
 

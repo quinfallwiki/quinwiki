@@ -67,15 +67,15 @@ export interface WorldBossEntry {
 }
 
 export const WORLD_BOSSES: WorldBossEntry[] = [
-  { id: 'kraken', kind: 'naval', status: 'live', spawnPerDay: 3, imageFile: 'kraken.png', accent: '#4a7ad0' },
-  { id: 'titanseal', kind: 'land-melee', status: 'live', spawnPerDay: 1, imageFile: 'titanseal.png', accent: '#c9a14a' },
-  { id: 'aeroForge', kind: 'land-aerial', status: 'live', spawnPerDay: 1, imageFile: 'aero-forge.png', accent: '#6cb3e0' },
-  { id: 'draconarch', kind: 'land-dragon', status: 'live', spawnPerDay: 1, imageFile: 'draconarch.png', accent: '#c0392b' },
-  { id: 'doomcaller', kind: 'land-caster', status: 'live', spawnPerDay: 1, imageFile: 'doomcaller.png', accent: '#7a48b0' },
-  { id: 'velkhurath', kind: 'land-fiend', status: 'live', spawnPerDay: 1, imageFile: 'velkhurath.png', accent: '#5d8a3a' },
-  { id: 'seraphiel', kind: 'land-celestial', status: 'live', spawnPerDay: 1, imageFile: 'seraphiel.png', accent: '#e8d9a0' },
-  { id: 'vorgath', kind: 'land-ogre', status: 'live', spawnPerDay: 1, imageFile: 'vorgath.png', accent: '#5a4a6a' },
-  { id: 'sealedSlot', kind: 'locked', status: 'locked', spawnPerDay: 0, imageFile: 'sealed.png', accent: '#3a3a4a' },
+  { id: 'kraken',     kind: 'naval',          status: 'live',   spawnPerDay: 3, imageFile: 'kraken.jpg',     accent: '#4a7ad0' },
+  { id: 'titanseal',  kind: 'land-melee',     status: 'live',   spawnPerDay: 1, imageFile: 'titanseal.jpg',  accent: '#c9a14a' },
+  { id: 'aeroForge',  kind: 'land-aerial',    status: 'live',   spawnPerDay: 1, imageFile: 'aero-forge.jpg', accent: '#6cb3e0' },
+  { id: 'draconarch', kind: 'land-dragon',    status: 'live',   spawnPerDay: 1, imageFile: 'draconarch.jpg', accent: '#c0392b' },
+  { id: 'doomcaller', kind: 'land-caster',    status: 'live',   spawnPerDay: 1, imageFile: 'doomcaller.jpg', accent: '#7a48b0' },
+  { id: 'velkhurath', kind: 'land-fiend',     status: 'live',   spawnPerDay: 1, imageFile: 'velkhurath.jpg', accent: '#5d8a3a' },
+  { id: 'seraphiel',  kind: 'land-celestial', status: 'live',   spawnPerDay: 1, imageFile: 'seraphiel.jpg',  accent: '#e8d9a0' },
+  { id: 'vorgath',    kind: 'land-ogre',      status: 'live',   spawnPerDay: 1, imageFile: 'vorgath.jpg',    accent: '#5a4a6a' },
+  { id: 'sealedSlot', kind: 'locked',         status: 'locked', spawnPerDay: 0, imageFile: 'sealed.png',     accent: '#3a3a4a' },
 ];
 
 export const ENDGAME_LEVEL_CAP = 100;

@@ -9,9 +9,11 @@
     "title": "4 Dungeons, 8 Bosse, 4 Schwierigkeiten.",
     "body": "Levelobergrenze ist 100. Tägliche Dungeon-Punkte stapeln bis 1.000; jeder Eintritt zieht aus diesem Pool. Gruppen sind auf 8 begrenzt und das Dungeon-Level orientiert sich am Spieler mit dem höchsten Level. Alle Bilder unten stammen direkt aus dem Live-Spiel.",
     "stats": {
-      "cap": "Levelobergrenze",
-      "points": "Tägl. Dungeon-Punkte",
-      "party": "Gruppen-Limit"
+      "dungeons": "Aktive Dungeons",
+      "bosses":   "Aktive Bosse",
+      "party":    "Gruppen-Limit",
+      "cap":      "Levelobergrenze",
+      "points":   "Tägl. Punkte"
     }
   },
   "worldBossRoster": {
@@ -79,6 +81,8 @@
     "title": "4 Aktiv + 1 Gesperrt",
     "subtitle": "Jeder Dungeon öffnet im Solo- oder Gruppen-Modus und unterstützt 4 Schwierigkeitsstufen (Leicht → Sehr Schwer). Sehr Schwer hat den größten Boss-Loot-Pool.",
     "itemBadge": "Items · Sehr Schwer",
+    "statusLive":  "LIVE",
+    "dropPerRun": "DROPS PRO LAUF",
     "lockedTitle": "Gesperrter Dungeon",
     "lockedTag": "5. Slot · Bald",
     "lockedBody": "Der fünfte Dungeon-Slot ist gesperrt. Inhalt soll mit einem späteren Update freigeschaltet werden.",
@@ -118,7 +122,8 @@
       "easy": { "name": "🟢 Leicht", "description": "Einstiegsstufe." },
       "normal": { "name": "🟡 Mittel", "description": "Standardstufe." },
       "hard": { "name": "🟠 Schwer", "description": "Hohe Stufe; Mechanikkenntnis erforderlich." },
-      "veryHard": { "name": "🔴 Sehr Schwer", "description": "Endgame-Stufe. Hier fällt der größte und hochwertigste Boss-Loot." }
+      "veryHard": { "name": "🔴 Sehr Schwer", "description": "Endgame-Stufe. Hier fällt der größte und hochwertigste Boss-Loot." },
+      "party":    { "name": "🟣 Gruppe",      "description": "Gruppenmodus — bis zu 8 Spieler." }
     },
     "notes": {
       "solo": {
@@ -184,6 +189,26 @@
         "title": "Schiffe für Kraken",
         "body": "Kraken steigt dreimal täglich herab und fällt nur einer Schiffsmannschaft. Ohne Schiffe, Crew und Kanonenkoordination ist der Versuch verlorene Zeit."
       }
+    }
+  },
+  "arena": {
+    "kicker":   "NEU — v1.0.0.27",
+    "title":    "Trio Arena 3v3",
+    "subtitle": "Quinfalls erstes strukturiertes PvP-Turniersystem aus dem Mai-2026-Großupdate",
+    "badge":    "PvP-EVENT",
+    "headline": "3er-Squads, Ranglistenmatches",
+    "body":     "Mit Major Update v1.0.0.27 eingeführt. Trio Arena ist ein 3-gegen-3 Ranglistenturnier für kleine PvP-Squads. Stell ein Team auf, geh in die Queue, zeig dein Können — Sieger ziehen Arena-Materialien aus der Belohnungskiste.",
+    "features": {
+      "team":         "Festes 3-Spieler-Team — beliebige Klassenkombination möglich",
+      "matchmaking":  "Auto-Matchmaking — schnelle Queue ohne Wartezeit",
+      "rewards":      "Sieger-Team erhält Arena-Materialien und Belohnungskiste",
+      "season":       "Saisonale Wertung — Endsaison-Ranglistenpreise"
+    },
+    "stats": {
+      "teamSize": "Team",
+      "mode":     "Modus",
+      "queue":    "Queue offen",
+      "season":   "Eingeführt in"
     }
   }
 }
