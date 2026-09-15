@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T08:51:14.128315+00:00",
+  "fetchedAt": "2026-09-15T08:36:48.504082+00:00",
   "appId": "2294660",
   "count": 10,
   "entries": [
@@ -66,7 +66,7 @@
         "en": "Hello Adventurers, We are thrilled to announce that after a highly successful testing phase on our beta branch, Major Update 1.2.0.1 has officially transitioned to the live servers. Our development team has been working tirelessly to bring…",
         "tr": "Merhaba Maceracılar, Beta şubemizdeki oldukça başarılı bir test aşamasından sonra Büyük Güncelleme 1.2.0.1'in resmi olarak canlı sunuculara geçtiğini duyurmaktan büyük heyecan duyuyoruz. Geliştirme ekibimiz yorulmadan çalışıyor…",
         "de": "Hallo Abenteurer, wir freuen uns, Ihnen mitteilen zu können, dass das Hauptupdate 1.2.0.1 nach einer äußerst erfolgreichen Testphase in unserem Beta-Zweig offiziell auf die Live-Server übertragen wurde. Unser Entwicklungsteam hat unermüdlich daran gearbeitet,…",
-        "ru": "Hello Adventurers, We are thrilled to announce that after a highly successful testing phase on our beta branch, Major Update 1.2.0.1 has officially transitioned to the live servers. Наша команда разработчиков неустанно работает над тем, чтобы…"
+        "ru": "Привет, искатели приключений! Мы рады сообщить, что после весьма успешного этапа тестирования в нашей бета-ветке основное обновление 1.2.0.1 официально перешло на основные серверы. Наша команда разработчиков неустанно работает над тем, чтобы…"
       },
       "bodies": {
         "en": "Hello Adventurers, We are thrilled to announce that after a highly successful testing phase on our beta branch, Major Update 1.2.0.1 has officially transitioned to the live servers. Our development team has been working tirelessly to bring you massive performance upgrades and groundbreaking new mechanics. This update not only delivers a much smoother and optimized gameplay experience but also introduces our brand new dynamic terrain shaping system. These additions lay a solid foundation for the exciting Siege and Worker updates we have planned for the near future. Here are the detailed notes for this major update: 🛠️ Performance & Optimization • Based on intensive CPU-focused testing, a comprehensive optimization pass has been implemented. Players will experience 50% to 100% FPS improvements in tested scenarios. • With the completion of our new graphics engine, a strong technical foundation has been established for even more detailed and extensive optimization work in future updates. 🌑 Visual & Lighting Improvements • Several critical improvements have been made to the shadow system. • Adjustments have been applied to the game's overall visual lighting to enhance the atmosphere. •…",
