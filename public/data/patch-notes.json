@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T08:04:26.810139+00:00",
+  "fetchedAt": "2026-10-25T08:20:13.618300+00:00",
   "appId": "2294660",
   "count": 10,
   "entries": [
@@ -96,7 +96,7 @@
         "en": "Our new hotfix patch is now live. We have fixed various bugs and issues to make your Quinfall experience smoother. You can find the details of this update below. Fixed several UI typos. Removed the trade lock on merged Blueprint materials. Altar zones now have cylindrical boundaries instead of spherical ones, providing a wider area of access. Fixed terrain tearing issues in certain areas. Fixed disconnections occurring in areas with heavy digging activity.",
         "tr": "Yeni düzeltme yamamız artık yayında. Quinfall deneyiminizi daha sorunsuz hale getirmek için çeşitli hataları ve sorunları düzelttik. Bu güncellemenin ayrıntılarını aşağıda bulabilirsiniz. Birkaç kullanıcı arayüzü yazım hatası düzeltildi. Birleştirilen Blueprint materyalleri üzerindeki ticaret kilidi kaldırıldı. Sunak bölgeleri artık küresel sınırlar yerine silindirik sınırlara sahip ve bu da daha geniş bir erişim alanı sağlıyor. Belirli bölgelerdeki arazi yırtılma sorunları düzeltildi. Yoğun kazı faaliyetlerinin olduğu bölgelerde meydana gelen bağlantı kesintileri düzeltildi.",
         "de": "Unser neuer Hotfix-Patch ist jetzt live. Wir haben verschiedene Fehler und Probleme behoben, um Ihr Quinfall-Erlebnis reibungsloser zu gestalten. Die Details zu diesem Update finden Sie weiter unten. Mehrere Tippfehler in der Benutzeroberfläche behoben. Die Handelssperre für zusammengeführte Blueprint-Materialien wurde entfernt. Altarzonen haben jetzt zylindrische statt kugelförmige Grenzen, was einen größeren Zugangsbereich ermöglicht. Probleme mit dem Terrain-Tearing in bestimmten Bereichen wurden behoben. Es wurden Unterbrechungen behoben, die in Gebieten mit starker Grabaktivität auftraten.",
-        "ru": "Наше новое исправление уже доступно. Мы исправили различные ошибки и проблемы, чтобы сделать работу с Quinfall более плавной. Подробности об этом обновлении вы можете найти ниже. Исправлено несколько опечаток пользовательского интерфейса. Убрана торговая блокировка для объединенных материалов чертежей. Зоны алтаря теперь имеют цилиндрические границы вместо сферических, что обеспечивает более широкую зону доступа. Fixed terrain tearing issues in certain areas. Исправлены отключения, возникающие в местах с интенсивной работой по раскопкам."
+        "ru": "Наше новое исправление уже доступно. Мы исправили различные ошибки и проблемы, чтобы сделать работу с Quinfall более плавной. Подробности об этом обновлении вы можете найти ниже. Исправлено несколько опечаток пользовательского интерфейса. Убрана торговая блокировка для объединенных материалов чертежей. Зоны алтаря теперь имеют цилиндрические границы вместо сферических, что обеспечивает более широкую зону доступа. Исправлены проблемы с разрывом ландшафта в определенных областях. Исправлены отключения, возникающие в местах с интенсивной работой по раскопкам."
       }
     },
     {
